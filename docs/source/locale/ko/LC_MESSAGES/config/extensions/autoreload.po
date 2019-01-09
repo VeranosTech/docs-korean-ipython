@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/extensions/autoreload.rst:5
+msgid "autoreload"
+msgstr ""
+
+#: IPython.extensions.autoreload:1 of
+msgid "IPython extension to reload modules before executing user code."
+msgstr ""
+
+#: IPython.extensions.autoreload:3 of
+msgid ""
+"``autoreload`` reloads modules automatically before entering the "
+"execution of code typed at the IPython prompt."
+msgstr ""
+
+#: IPython.extensions.autoreload:6 of
+msgid "This makes for example the following workflow possible:"
+msgstr ""
+
+#: IPython.extensions.autoreload:24 of
+msgid ""
+"The module was reloaded without reloading it explicitly, and the object "
+"imported with ``from foo import ...`` was also updated."
+msgstr ""
+
+#: IPython.extensions.autoreload:28 of
+msgid "Usage"
+msgstr ""
+
+#: IPython.extensions.autoreload:30 of
+msgid "The following magic commands are provided:"
+msgstr ""
+
+#: IPython.extensions.autoreload:32 of
+msgid "``%autoreload``"
+msgstr ""
+
+#: IPython.extensions.autoreload:34 of
+msgid ""
+"Reload all modules (except those excluded by ``%aimport``) automatically "
+"now."
+msgstr ""
+
+#: IPython.extensions.autoreload:37 of
+msgid "``%autoreload 0``"
+msgstr ""
+
+#: IPython.extensions.autoreload:39 of
+msgid "Disable automatic reloading."
+msgstr ""
+
+#: IPython.extensions.autoreload:41 of
+msgid "``%autoreload 1``"
+msgstr ""
+
+#: IPython.extensions.autoreload:43 of
+msgid ""
+"Reload all modules imported with ``%aimport`` every time before executing"
+" the Python code typed."
+msgstr ""
+
+#: IPython.extensions.autoreload:46 of
+msgid "``%autoreload 2``"
+msgstr ""
+
+#: IPython.extensions.autoreload:48 of
+msgid ""
+"Reload all modules (except those excluded by ``%aimport``) every time "
+"before executing the Python code typed."
+msgstr ""
+
+#: IPython.extensions.autoreload:51 of
+msgid "``%aimport``"
+msgstr ""
+
+#: IPython.extensions.autoreload:53 of
+msgid "List modules which are to be automatically imported or not to be imported."
+msgstr ""
+
+#: IPython.extensions.autoreload:55 of
+msgid "``%aimport foo``"
+msgstr ""
+
+#: IPython.extensions.autoreload:57 of
+msgid "Import module 'foo' and mark it to be autoreloaded for ``%autoreload 1``"
+msgstr ""
+
+#: IPython.extensions.autoreload:59 of
+msgid "``%aimport foo, bar``"
+msgstr ""
+
+#: IPython.extensions.autoreload:61 of
+msgid ""
+"Import modules 'foo', 'bar' and mark them to be autoreloaded for "
+"``%autoreload 1``"
+msgstr ""
+
+#: IPython.extensions.autoreload:63 of
+msgid "``%aimport -foo``"
+msgstr ""
+
+#: IPython.extensions.autoreload:65 of
+msgid "Mark module 'foo' to not be autoreloaded."
+msgstr ""
+
+#: IPython.extensions.autoreload:68 of
+msgid "Caveats"
+msgstr ""
+
+#: IPython.extensions.autoreload:70 of
+msgid ""
+"Reloading Python modules in a reliable way is in general difficult, and "
+"unexpected things may occur. ``%autoreload`` tries to work around common "
+"pitfalls by replacing function code objects and parts of classes "
+"previously in the module with new versions. This makes the following "
+"things to work:"
+msgstr ""
+
+#: IPython.extensions.autoreload:76 of
+msgid ""
+"Functions and classes imported via 'from xxx import foo' are upgraded to "
+"new versions when 'xxx' is reloaded."
+msgstr ""
+
+#: IPython.extensions.autoreload:79 of
+msgid ""
+"Methods and properties of classes are upgraded on reload, so that calling"
+" 'c.foo()' on an object 'c' created before the reload causes the new code"
+" for 'foo' to be executed."
+msgstr ""
+
+#: IPython.extensions.autoreload:83 of
+msgid "Some of the known remaining caveats are:"
+msgstr ""
+
+#: IPython.extensions.autoreload:85 of
+msgid ""
+"Replacing code objects does not always succeed: changing a @property in a"
+" class to an ordinary method or a method to a member variable can cause "
+"problems (but in old objects only)."
+msgstr ""
+
+#: IPython.extensions.autoreload:89 of
+msgid ""
+"Functions that are removed (eg. via monkey-patching) from a module before"
+" it is reloaded are not upgraded."
+msgstr ""
+
+#: IPython.extensions.autoreload:92 of
+msgid "C extension modules cannot be reloaded, and so cannot be autoreloaded."
+msgstr ""
+

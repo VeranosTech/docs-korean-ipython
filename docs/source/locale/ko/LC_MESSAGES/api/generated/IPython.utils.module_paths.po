@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.module_paths.rst:4
+msgid "Module: :mod:`utils.module_paths`"
+msgstr ""
+
+#: IPython.utils.module_paths:1 of
+msgid "Utility functions for finding modules"
+msgstr ""
+
+#: IPython.utils.module_paths:3 of
+msgid "Utility functions for finding modules on sys.path."
+msgstr ""
+
+#: IPython.utils.module_paths:5 of
+msgid "`find_module` returns a path to module or None, given certain conditions."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.module_paths.rst:10
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod:1 of
+msgid ""
+"Find module `module_name` on sys.path, and return the path to module "
+"`module_name`."
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod:3 of
+msgid ""
+"If `module_name` refers to a module directory, then return path to "
+"__init__ file. - If `module_name` is a directory without an __init__file,"
+" return None."
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod:5 of
+msgid ""
+"If module is missing or does not have a `.py` or `.pyw` extension, return"
+" None. - Note that we are not interested in running bytecode."
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod:7 of
+msgid "Otherwise, return the fill path of the module."
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod of
+msgid "Returns"
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod:12 of
+msgid ""
+"**module_path** -- Path to module `module_name`, its __init__.py, or "
+"None, depending on above conditions."
+msgstr ""
+
+#: IPython.utils.module_paths.find_mod of
+msgid "Return type"
+msgstr ""
+

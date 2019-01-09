@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.encoding.rst:4
+msgid "Module: :mod:`utils.encoding`"
+msgstr ""
+
+#: IPython.utils.encoding:1 of
+msgid "Utilities for dealing with text encodings"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.encoding.rst:10
+msgid "2 Functions"
+msgstr ""
+
+#: IPython.utils.encoding.get_stream_enc:1 of
+msgid "Return the given stream's encoding or a default."
+msgstr ""
+
+#: IPython.utils.encoding.get_stream_enc:3 of
+msgid ""
+"There are cases where ``sys.std*`` might not actually be a stream, so "
+"check for the encoding attribute prior to returning it, and return a "
+"default if it doesn't exist or evaluates as False. ``default`` is None if"
+" not provided."
+msgstr ""
+
+#: IPython.utils.encoding.getdefaultencoding:1 of
+msgid "Return IPython's guess for the default encoding for bytes as text."
+msgstr ""
+
+#: IPython.utils.encoding.getdefaultencoding:3 of
+msgid ""
+"If prefer_stream is True (default), asks for stdin.encoding first, to "
+"match the calling Terminal, but that is often None for subprocesses."
+msgstr ""
+
+#: IPython.utils.encoding.getdefaultencoding:6 of
+msgid ""
+"Then fall back on locale.getpreferredencoding(), which should be a "
+"sensible platform default (that respects LANG environment), and finally "
+"to sys.getdefaultencoding() which is the most conservative option, and "
+"usually ASCII on Python 2 or UTF8 on Python 3."
+msgstr ""
+

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic_arguments.rst:4
+msgid "Module: :mod:`core.magic_arguments`"
+msgstr ""
+
+#: IPython.core.magic_arguments:1 of
+msgid ""
+"A decorator-based method of constructing IPython magics with `argparse` "
+"option handling."
+msgstr ""
+
+#: IPython.core.magic_arguments:4 of
+msgid "New magic functions can be defined like so::"
+msgstr ""
+
+#: IPython.core.magic_arguments:19 of
+msgid ""
+"The `@magic_arguments` decorator marks the function as having argparse "
+"arguments. The `@argument` decorator adds an argument using the same "
+"syntax as argparse's `add_argument()` method. More sophisticated uses may"
+" also require the `@argument_group` or `@kwds` decorator to customize the"
+" formatting and the parsing."
+msgstr ""
+
+#: IPython.core.magic_arguments:25 of
+msgid ""
+"Help text for the magic is automatically generated from the docstring and"
+" the arguments::"
+msgstr ""
+
+#: IPython.core.magic_arguments:40 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic_arguments.rst:10
+msgid "8 Classes"
+msgstr ""
+
+#: IPython.core.magic_arguments.MagicArgumentParser:1 of
+msgid "Bases: :class:`argparse.ArgumentParser`"
+msgstr ""
+
+#: IPython.core.magic_arguments.MagicArgumentParser:1 of
+msgid "An ArgumentParser tweaked for use by IPython magics."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgMethodWrapper.__init__:1
+#: IPython.core.magic_arguments.MagicArgumentParser.__init__:1
+#: IPython.core.magic_arguments.kwds.__init__:1
+#: IPython.core.magic_arguments.magic_arguments.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.magic_arguments.MagicArgumentParser.error:1 of
+msgid "Raise a catchable error instead of exiting."
+msgstr ""
+
+#: IPython.core.magic_arguments.MagicArgumentParser.parse_argstring:1 of
+msgid "Split a string into an argument list and parse that argument list."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgDecorator:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgDecorator:1 of
+msgid "Base class for decorators to add ArgumentParser information to a method."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgDecorator.add_to_parser:1 of
+msgid "Add this object's information to the parser, if necessary."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgMethodWrapper:1
+#: IPython.core.magic_arguments.kwds:1
+#: IPython.core.magic_arguments.magic_arguments:1 of
+msgid "Bases: :class:`IPython.core.magic_arguments.ArgDecorator`"
+msgstr ""
+
+#: IPython.core.magic_arguments.magic_arguments:1 of
+msgid "Mark the magic as having argparse arguments and possibly adjust the name."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgMethodWrapper:1 of
+msgid "Base class to define a wrapper for ArgumentParser method."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgMethodWrapper:3 of
+msgid "Child class must define either `_method_name` or `add_to_parser`."
+msgstr ""
+
+#: IPython.core.magic_arguments.ArgMethodWrapper.add_to_parser:1
+#: IPython.core.magic_arguments.argument_group.add_to_parser:1 of
+msgid "Add this object's information to the parser."
+msgstr ""
+
+#: IPython.core.magic_arguments.argument:1
+#: IPython.core.magic_arguments.argument_group:1
+#: IPython.core.magic_arguments.defaults:1 of
+msgid "Bases: :class:`IPython.core.magic_arguments.ArgMethodWrapper`"
+msgstr ""
+
+#: IPython.core.magic_arguments.argument:1 of
+msgid "Store arguments and keywords to pass to add_argument()."
+msgstr ""
+
+#: IPython.core.magic_arguments.argument:3
+#: IPython.core.magic_arguments.argument_group:3
+#: IPython.core.magic_arguments.defaults:3 of
+msgid "Instances also serve to decorate command methods."
+msgstr ""
+
+#: IPython.core.magic_arguments.defaults:1 of
+msgid "Store arguments and keywords to pass to set_defaults()."
+msgstr ""
+
+#: IPython.core.magic_arguments.argument_group:1 of
+msgid "Store arguments and keywords to pass to add_argument_group()."
+msgstr ""
+
+#: IPython.core.magic_arguments.kwds:1 of
+msgid "Provide other keywords to the sub-parser constructor."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic_arguments.rst:53
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.core.magic_arguments.construct_parser:1 of
+msgid "Construct an argument parser using the function decorations."
+msgstr ""
+
+#: IPython.core.magic_arguments.parse_argstring:1 of
+msgid "Parse the string of arguments for the given magic function."
+msgstr ""
+
+#: IPython.core.magic_arguments.real_name:1 of
+msgid "Find the real name of the magic."
+msgstr ""
+

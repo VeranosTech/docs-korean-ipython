@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:4
+msgid "Issues closed in the 4.x development cycle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:8
+msgid "Issues closed in 4.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:10
+msgid "GitHub stats for 2015/02/02 - 2016/04/20 (since 4.1)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:12
+#: ../../source/whatsnew/github-stats-4.rst:36
+#: ../../source/whatsnew/github-stats-4.rst:103
+msgid ""
+"These lists are automatically generated, and may be incomplete or contain"
+" duplicates."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:14
+msgid ""
+"We closed 10 issues and merged 22 pull requests. The full list can be "
+"seen `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A4.2+>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:17
+msgid "The following 10 authors contributed 27 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:19
+#: ../../source/whatsnew/github-stats-4.rst:50
+#: ../../source/whatsnew/github-stats-4.rst:115
+msgid "Benjamin Ragan-Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:20
+msgid "Carlos Cordoba"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:21
+msgid "Gökhan Karabulut"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:22
+msgid "Jonas Rauber"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:23
+#: ../../source/whatsnew/github-stats-4.rst:76
+#: ../../source/whatsnew/github-stats-4.rst:148
+msgid "Matthias Bussonnier"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:24
+msgid "Paul Ivanov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:25
+msgid "Sebastian Bank"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:26
+#: ../../source/whatsnew/github-stats-4.rst:87
+#: ../../source/whatsnew/github-stats-4.rst:167
+msgid "Thomas A Caswell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:27
+#: ../../source/whatsnew/github-stats-4.rst:89
+#: ../../source/whatsnew/github-stats-4.rst:169
+msgid "Thomas Kluyver"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:28
+msgid "Vincent Woo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:32
+msgid "Issues closed in 4.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:34
+msgid "GitHub stats for 2015/08/12 - 2016/02/02 (since 4.0.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:38
+msgid ""
+"We closed 60 issues and merged 148 pull requests. The full list can be "
+"seen `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A4.1+>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:41
+msgid "The following 52 authors contributed 468 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:43
+msgid "Aaron Meurer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:44
+msgid "Alexandre Avanian"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:45
+msgid "Anthony Sottile"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:46
+msgid "Antony Lee"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:47
+msgid "Arthur Loder"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:48
+msgid "Ben Kasel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:49
+msgid "Ben Rousch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:51
+msgid "bollwyvl"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:52
+msgid "Carol Willing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:53
+msgid "Christopher Roach"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:54
+msgid "Douglas La Rocca"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:55
+msgid "Fairly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:56
+#: ../../source/whatsnew/github-stats-4.rst:123
+msgid "Fernando Perez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:57
+msgid "Frank Sachsenheim"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:58
+msgid "Guillaume DOUMENC"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:59
+msgid "Gábor Luk"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:60
+msgid "Hoyt Koepke"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:61
+msgid "Ivan Timokhin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:62
+msgid "Jacob Niehus"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:63
+msgid "JamshedVesuna"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:64
+#: ../../source/whatsnew/github-stats-4.rst:132
+msgid "Jan Schulz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:65
+msgid "Jan-Philip Gehrcke"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:66
+msgid "jc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:67
+#: ../../source/whatsnew/github-stats-4.rst:135
+msgid "Jessica B. Hamrick"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:68
+msgid "jferrara"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:69
+msgid "John Bohannon"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:70
+msgid "John Kirkham"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:71
+#: ../../source/whatsnew/github-stats-4.rst:139
+msgid "Jonathan Frederic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:72
+#: ../../source/whatsnew/github-stats-4.rst:142
+msgid "Kyle Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:73
+msgid "Lev Givon"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:74
+msgid "Lilian Besson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:75
+msgid "lingxz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:77
+msgid "memeplex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:78
+msgid "Michael Droettboom"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:79
+msgid "naught101"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:80
+msgid "Peter Waller"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:81
+msgid "Pierre Gerold"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:82
+msgid "Rémy Léone"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:83
+#: ../../source/whatsnew/github-stats-4.rst:163
+msgid "Scott Sanderson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:84
+msgid "Shanzhuo Zhang"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:85
+#: ../../source/whatsnew/github-stats-4.rst:165
+msgid "Sylvain Corlay"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:86
+msgid "Tayfun Sen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:88
+msgid "Thomas Ballinger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:90
+msgid "Vincent Legoll"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:91
+msgid "Wouter Bolsterlee"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:92
+msgid "xconverge"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:93
+msgid "Yuri Numerov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:94
+msgid "Zachary Pincus"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:98
+msgid "Issues closed in 4.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:101
+msgid "GitHub stats for 2015/02/27 - 2015/08/11 (since 3.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:105
+msgid ""
+"We closed 35 issues and merged 125 pull requests. The full list can be "
+"seen `on GitHub <https://github.com/ipython/ipython/milestone/21>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:108
+msgid "The following 69 authors contributed 1186 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:110
+msgid "Abe Guerra"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:111
+msgid "Adal Chiriliuc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:112
+msgid "Alexander Belopolsky"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:113
+msgid "Andrew Murray"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:114
+msgid "Antonio Russo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:116
+msgid "Björn Linse"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:117
+msgid "Brian Drawert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:118
+msgid "chebee7i"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:119
+msgid "Daniel Rocco"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:120
+msgid "Donny Winston"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:121
+msgid "Drekin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:122
+msgid "Erik Hvatum"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:124
+msgid "Francisco de la Peña"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:125
+msgid "Frazer McLean"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:126
+msgid "Gareth Elston"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:127
+msgid "Gert-Ludwig Ingold"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:128
+msgid "Giuseppe Venturini"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:129
+msgid "Ian Barfield"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:130
+msgid "Ivan Pozdeev"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:131
+msgid "Jakob Gager"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:133
+msgid "Jason Grout"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:134
+msgid "Jeff Hussmann"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:136
+msgid "Joe Borg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:137
+msgid "Joel Nothman"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:138
+msgid "Johan Forsberg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:140
+msgid "Justin Tyberg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:141
+msgid "Koen van Besien"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:143
+msgid "Lorena Pantano"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:144
+msgid "Lucretiel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:145
+msgid "Marin Gilles"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:146
+msgid "mashenjun"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:147
+msgid "Mathieu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:149
+msgid "Merlijn van Deen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:150
+msgid "Mikhail Korobov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:151
+msgid "Naveen Nathan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:152
+msgid "Nicholas Bollweg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:153
+msgid "nottaanibot"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:154
+msgid "Omer Katz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:155
+msgid "onesandzeroes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:156
+msgid "Patrick Snape"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:157
+msgid "patter001"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:158
+msgid "Peter Parente"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:159
+msgid "Pietro Battiston"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:160
+msgid "RickWinter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:161
+msgid "Robert Smith"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:162
+msgid "Ryan Nelson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:164
+msgid "Sebastiaan Mathot"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:166
+msgid "thethomask"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:168
+msgid "Thomas Adriaan Hellinger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:170
+msgid "Tianhui Michael Li"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:171
+msgid "tmtabor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:172
+msgid "unknown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:173
+msgid "Victor Ramirez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:174
+msgid "Volker Braun"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:175
+msgid "Wieland Hoffmann"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:176
+msgid "Yuval Langer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:177
+msgid "Zoltán Vörös"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-4.rst:178
+msgid "Élie Michel"
+msgstr ""
+

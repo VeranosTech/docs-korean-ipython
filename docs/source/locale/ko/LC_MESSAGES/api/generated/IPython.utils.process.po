@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.process.rst:4
+msgid "Module: :mod:`utils.process`"
+msgstr ""
+
+#: IPython.utils.process:1 of
+msgid "Utilities for working with external processes."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.process.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.utils.process.FindCmdError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.process.rst:17
+msgid "4 Functions"
+msgstr ""
+
+#: IPython.utils.process.find_cmd:1 of
+msgid "Find absolute path to executable cmd in a cross platform manner."
+msgstr ""
+
+#: IPython.utils.process.find_cmd:3 of
+msgid ""
+"This function tries to determine the full path to a command line program "
+"using `which` on Unix/Linux/OS X and `win32api` on Windows.  Most of the "
+"time it will use the version that is first on the users `PATH`."
+msgstr ""
+
+#: IPython.utils.process.find_cmd:7 of
+msgid ""
+"Warning, don't use this to find IPython command line programs as there is"
+" a risk you will find the wrong one.  Instead find those using the "
+"following code and looking for the application itself::"
+msgstr ""
+
+#: IPython.utils.process.find_cmd of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.process.find_cmd:14 of
+msgid "The command line program to look for."
+msgstr ""
+
+#: IPython.utils.process.abbrev_cwd:1 of
+msgid "Return abbreviated version of cwd, e.g. d:mydir"
+msgstr ""
+

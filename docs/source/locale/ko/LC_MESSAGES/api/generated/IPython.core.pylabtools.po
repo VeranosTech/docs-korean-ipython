@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.pylabtools.rst:4
+msgid "Module: :mod:`core.pylabtools`"
+msgstr ""
+
+#: IPython.core.pylabtools:1 of
+msgid "Pylab (matplotlib) support utilities."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.pylabtools.rst:10
+msgid "10 Functions"
+msgstr ""
+
+#: IPython.core.pylabtools.getfigs:1 of
+msgid "Get a list of matplotlib figures by figure numbers."
+msgstr ""
+
+#: IPython.core.pylabtools.getfigs:3 of
+msgid ""
+"If no arguments are given, all available figures are returned.  If the "
+"argument list contains references to invalid figures, a warning is "
+"printed but the function continues pasting further figures."
+msgstr ""
+
+#: IPython.core.pylabtools.configure_inline_support
+#: IPython.core.pylabtools.find_gui_and_backend IPython.core.pylabtools.getfigs
+#: IPython.core.pylabtools.mpl_runner
+#: IPython.core.pylabtools.select_figure_formats of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.pylabtools.getfigs:7 of
+msgid "A tuple of ints giving the figure numbers of the figures to return."
+msgstr ""
+
+#: IPython.core.pylabtools.figsize:1 of
+msgid "Set the default figure size to be [sizex, sizey]."
+msgstr ""
+
+#: IPython.core.pylabtools.figsize:3 of
+msgid "This is just an easy to remember, convenience wrapper that sets::"
+msgstr ""
+
+#: IPython.core.pylabtools.print_figure:1 of
+msgid "Print a figure to an image, and return the resulting file data"
+msgstr ""
+
+#: IPython.core.pylabtools.print_figure:3 of
+msgid ""
+"Returned data will be bytes unless ``fmt='svg'``, in which case it will "
+"be unicode."
+msgstr ""
+
+#: IPython.core.pylabtools.print_figure:6 of
+msgid ""
+"Any keyword args are passed to fig.canvas.print_figure, such as "
+"``quality`` or ``bbox_inches``."
+msgstr ""
+
+#: IPython.core.pylabtools.retina_figure:1 of
+msgid "format a figure as a pixel-doubled (retina) PNG"
+msgstr ""
+
+#: IPython.core.pylabtools.mpl_runner:1 of
+#, python-format
+msgid "Factory to return a matplotlib-enabled runner for %run."
+msgstr ""
+
+#: IPython.core.pylabtools.mpl_runner:3 of
+msgid ""
+"This must be a function with the same interface as the "
+":meth:`safe_execfile` method of IPython."
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend
+#: IPython.core.pylabtools.mpl_runner of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.pylabtools.mpl_runner:7 of
+#, python-format
+msgid ""
+"* A function suitable for use as the ``runner`` argument of the %run "
+"magic * *function.*"
+msgstr ""
+
+#: IPython.core.pylabtools.mpl_runner:7 of
+#, python-format
+msgid "A function suitable for use as the ``runner`` argument of the %run magic"
+msgstr ""
+
+#: IPython.core.pylabtools.mpl_runner:8 of
+msgid "*function.*"
+msgstr ""
+
+#: IPython.core.pylabtools.select_figure_formats:1 of
+msgid "Select figure formats for the inline backend."
+msgstr ""
+
+#: IPython.core.pylabtools.select_figure_formats:3 of
+msgid "The main IPython instance."
+msgstr ""
+
+#: IPython.core.pylabtools.select_figure_formats:5 of
+msgid ""
+"One or a set of figure formats to enable: 'png', 'retina', 'jpeg', 'svg',"
+" 'pdf'."
+msgstr ""
+
+#: IPython.core.pylabtools.select_figure_formats:7 of
+msgid "Extra keyword arguments to be passed to fig.canvas.print_figure."
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:1 of
+msgid "Given a gui string return the gui and mpl backend."
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:3 of
+msgid "Can be one of ('tk','gtk','wx','qt','qt4','inline','agg')."
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:5 of
+msgid ""
+"Can be one of ('tk','gtk','wx','qt','qt4','inline'). This is any gui "
+"already selected by the shell."
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:9 of
+msgid ""
+"* *A tuple of (gui, backend) where backend is one of ('TkAgg','GTKAgg',* "
+"* **'WXAgg','Qt4Agg','module** "
+"(*//ipykernel.pylab.backend_inline','agg').*)"
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:9 of
+msgid "*A tuple of (gui, backend) where backend is one of ('TkAgg','GTKAgg',*"
+msgstr ""
+
+#: IPython.core.pylabtools.find_gui_and_backend:10 of
+msgid "**'WXAgg','Qt4Agg','module** (*//ipykernel.pylab.backend_inline','agg').*)"
+msgstr ""
+
+#: IPython.core.pylabtools.activate_matplotlib:1 of
+msgid "Activate the given backend and set interactive to True."
+msgstr ""
+
+#: IPython.core.pylabtools.import_pylab:1 of
+msgid "Populate the namespace with pylab-related values."
+msgstr ""
+
+#: IPython.core.pylabtools.import_pylab:3 of
+msgid "Imports matplotlib, pylab, numpy, and everything from pylab and numpy."
+msgstr ""
+
+#: IPython.core.pylabtools.import_pylab:5 of
+msgid "Also imports a few names from IPython (figsize, display, getfigs)"
+msgstr ""
+
+#: IPython.core.pylabtools.configure_inline_support:1 of
+msgid "Configure an IPython shell object for matplotlib use."
+msgstr ""
+

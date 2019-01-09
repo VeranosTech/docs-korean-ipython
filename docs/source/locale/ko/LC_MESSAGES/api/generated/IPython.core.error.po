@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.error.rst:4
+msgid "Module: :mod:`core.error`"
+msgstr ""
+
+#: IPython.core.error:1 of
+msgid "Global exception classes for IPython.core."
+msgstr ""
+
+#: IPython.core.error:3 of
+msgid "Authors:"
+msgstr ""
+
+#: IPython.core.error:5 of
+msgid "Brian Granger"
+msgstr ""
+
+#: IPython.core.error:6 of
+msgid "Fernando Perez"
+msgstr ""
+
+#: IPython.core.error:7 of
+msgid "Min Ragan-Kelley"
+msgstr ""
+
+#: IPython.core.error:10 of
+msgid "Notes"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.error.rst:10
+msgid "5 Classes"
+msgstr ""
+
+#: IPython.core.error.IPythonCoreError:1 IPython.core.error.InputRejected:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: IPython.core.error.TryNext:1 IPython.core.error.UsageError:1 of
+msgid "Bases: :class:`IPython.core.error.IPythonCoreError`"
+msgstr ""
+
+#: IPython.core.error.TryNext:1 of
+msgid "Try next hook exception."
+msgstr ""
+
+#: IPython.core.error.TryNext:3 of
+msgid ""
+"Raise this in your hook function to indicate that the next hook handler "
+"should be used to handle the operation."
+msgstr ""
+
+#: IPython.core.error.UsageError:1 of
+msgid "Error in magic function arguments, etc."
+msgstr ""
+
+#: IPython.core.error.UsageError:3 of
+msgid ""
+"Something that probably won't warrant a full traceback, but should "
+"nevertheless interrupt a macro / batch file."
+msgstr ""
+
+#: IPython.core.error.StdinNotImplementedError:1 of
+msgid ""
+"Bases: :class:`IPython.core.error.IPythonCoreError`, "
+":class:`NotImplementedError`"
+msgstr ""
+
+#: IPython.core.error.StdinNotImplementedError:1 of
+msgid "raw_input was requested in a context where it is not supported"
+msgstr ""
+
+#: IPython.core.error.StdinNotImplementedError:3 of
+msgid ""
+"For use in IPython kernels, where only some frontends may support stdin "
+"requests."
+msgstr ""
+
+#: IPython.core.error.InputRejected:1 of
+msgid "Input rejected by ast transformer."
+msgstr ""
+
+#: IPython.core.error.InputRejected:3 of
+msgid ""
+"Raise this in your NodeTransformer to indicate that InteractiveShell "
+"should not execute the supplied input."
+msgstr ""
+

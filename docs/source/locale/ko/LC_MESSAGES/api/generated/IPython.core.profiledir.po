@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.profiledir.rst:4
+msgid "Module: :mod:`core.profiledir`"
+msgstr ""
+
+#: IPython.core.profiledir:1 of
+msgid "An object for managing IPython profile directories."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.profiledir.rst:10
+msgid "2 Classes"
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDirError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir:1 of
+msgid "Bases: :class:`traitlets.config.configurable.LoggingConfigurable`"
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir:1 of
+msgid "An object to manage the profile directory and its resources."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir:3 of
+msgid ""
+"The profile directory is used by all IPython applications, to manage "
+"configuration, logging and security."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir:6 of
+msgid ""
+"This object knows how to find, create and manage these directories. This "
+"should be used by any code that wants to handle profiles."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.copy_config_file:1 of
+msgid "Copy a default config file into the active profile directory."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.copy_config_file:3 of
+msgid ""
+"Default configuration files are kept in :mod:`IPython.core.profile`. This"
+" function moves these from that location to the working profile "
+"directory."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir:1 of
+msgid "Create a new profile directory given a full path."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir
+#: IPython.core.profiledir.ProfileDir.create_profile_dir_by_name
+#: IPython.core.profiledir.ProfileDir.find_profile_dir
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir:3 of
+msgid ""
+"The full path to the profile directory.  If it does exist, it will be "
+"used.  If not, it will be created."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir_by_name:1 of
+msgid "Create a profile dir by profile name and path."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir_by_name:3 of
+msgid "The path (directory) to put the profile directory in."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.create_profile_dir_by_name:5
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name:12 of
+msgid ""
+"The name of the profile.  The name of the profile directory will be "
+"\"profile_<profile>\"."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir:1 of
+msgid "Find/create a profile dir and return its ProfileDir."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir:3 of
+msgid "This will create the profile directory if it doesn't exist."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir:5 of
+msgid "The path of the profile directory."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name:1 of
+msgid "Find an existing profile dir by profile name, return its ProfileDir."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name:3 of
+msgid ""
+"This searches through a sequence of paths for a profile dir.  If it is "
+"not found, a :class:`ProfileDirError` exception will be raised."
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name:6 of
+msgid "The search path algorithm is: 1. ``os.getcwd()`` 2. ``ipython_dir``"
+msgstr ""
+
+#: IPython.core.profiledir.ProfileDir.find_profile_dir_by_name:10 of
+msgid "The IPython directory to use."
+msgstr ""
+

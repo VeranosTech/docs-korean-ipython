@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.interactiveshell.rst:4
+msgid "Module: :mod:`terminal.interactiveshell`"
+msgstr ""
+
+#: IPython.terminal.interactiveshell:1 of
+msgid "IPython terminal interface using prompt_toolkit"
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.interactiveshell.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell:1 of
+msgid "Bases: :class:`IPython.core.interactiveshell.InteractiveShell`"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.system of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.auto_rewrite_input:1
+#: of
+msgid "Overridden from the parent class to use fancy rewriting prompt"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.debugger_cls:1 of
+msgid "Modified Pdb class, does not load readline."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.debugger_cls:3 of
+msgid ""
+"for a standalone version that uses prompt_toolkit, see "
+"`IPython.terminal.debugger.TerminalPdb` and "
+"`IPython.terminal.debugger.set_trace()`"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.switch_doctest_mode:1
+#: of
+#, python-format
+msgid "Switch prompts to classic for %doctest_mode"
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.system:1 of
+msgid ""
+"Call the given cmd in a subprocess using os.system on Windows or "
+"subprocess.call using the system shell on other platforms."
+msgstr ""
+
+#: IPython.terminal.interactiveshell.TerminalInteractiveShell.system:4 of
+msgid "Command to execute."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.interactiveshell.rst:19
+msgid "1 Function"
+msgstr ""
+

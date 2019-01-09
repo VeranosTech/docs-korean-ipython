@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.completerlib.rst:4
+msgid "Module: :mod:`core.completerlib`"
+msgstr ""
+
+#: IPython.core.completerlib:1 of
+msgid "Implementations for various useful completers."
+msgstr ""
+
+#: IPython.core.completerlib:3 of
+msgid "These are all loaded by default by IPython."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.completerlib.rst:10
+msgid "10 Functions"
+msgstr ""
+
+#: IPython.core.completerlib.module_list:1 of
+msgid ""
+"Return the list containing the names of the modules available in the "
+"given folder."
+msgstr ""
+
+#: IPython.core.completerlib.get_root_modules:1 of
+msgid ""
+"Returns a list containing the names of all the modules available in the "
+"folders of the pythonpath."
+msgstr ""
+
+#: IPython.core.completerlib.get_root_modules:4 of
+msgid "ip.db['rootmodules_cache'] maps sys.path entries to list of modules."
+msgstr ""
+
+#: IPython.core.completerlib.try_import:1 of
+msgid "Try to import given module and return list of potential completions."
+msgstr ""
+
+#: IPython.core.completerlib.quick_completer:1 of
+msgid "Easily create a trivial completer for a command."
+msgstr ""
+
+#: IPython.core.completerlib.quick_completer:3 of
+msgid ""
+"Takes either a list of completions, or all completions in string (that "
+"will be split on whitespace)."
+msgstr ""
+
+#: IPython.core.completerlib.quick_completer:6 of
+msgid "Example::"
+msgstr ""
+
+#: IPython.core.completerlib.module_completion:1 of
+msgid "Returns a list containing the completion possibilities for an import line."
+msgstr ""
+
+#: IPython.core.completerlib.module_completion:3 of
+msgid "The line looks like this : 'import xml.d' 'from xml.dom import'"
+msgstr ""
+
+#: IPython.core.completerlib.module_completer:1 of
+msgid "Give completions after user has typed 'import ...' or 'from ...'"
+msgstr ""
+
+#: IPython.core.completerlib.magic_run_completer:1 of
+#, python-format
+msgid "Complete files that end in .py or .ipy or .ipynb for the %run command."
+msgstr ""
+
+#: IPython.core.completerlib.cd_completer:1 of
+msgid "Completer function for cd, which only returns directories."
+msgstr ""
+
+#: IPython.core.completerlib.reset_completer:1 of
+#, python-format
+msgid "A completer for %reset magic"
+msgstr ""
+

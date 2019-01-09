@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:5
+msgid "IPython extensions"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:7
+msgid ""
+"A level above configuration are IPython extensions, Python modules which "
+"modify the behaviour of the shell. They are referred to by an importable "
+"module name, and can be placed anywhere you'd normally import from, or in"
+" ``.ipython/extensions/``."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:13
+msgid "Getting extensions"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:15
+msgid ""
+"A few important extensions are :ref:`bundled with IPython "
+"<bundled_extensions>`. Others can be found on the `extensions index "
+"<https://github.com/ipython/ipython/wiki/Extensions-Index>`_ on the wiki,"
+" and the `Framework :: IPython tag "
+"<https://pypi.python.org/pypi?:action=browse&c=586>`_ on PyPI."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:21
+msgid ""
+"Extensions on PyPI can be installed using ``pip``, like any other Python "
+"package."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:24
+msgid "Using extensions"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:26
+#, python-format
+msgid ""
+"To load an extension while IPython is running, use the ``%load_ext`` "
+"magic:"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:32
+msgid "To load it each time IPython starts, list it in your configuration file::"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:39
+msgid "Writing extensions"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:41
+msgid ""
+"An IPython extension is an importable Python module that has a couple of "
+"special functions to load and unload it. Here is a template::"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:54
+msgid ""
+"This :func:`load_ipython_extension` function is called after your "
+"extension is imported, and the currently active "
+":class:`~IPython.core.interactiveshell.InteractiveShell` instance is "
+"passed as the only argument. You can do anything you want with IPython at"
+" that point."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:59
+#, python-format
+msgid ""
+":func:`load_ipython_extension` will not be called again if the user use "
+"`%load_extension`.  The user have to explicitly ask the extension to be "
+"reloaded (with `%reload_extension`). In case where the use ask the "
+"extension to be reloaded, , the extension will be unloaded (with "
+"`unload_ipython_extension`), and loaded again."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:65
+msgid ""
+"Useful :class:`InteractiveShell` methods include "
+":meth:`~IPython.core.interactiveshell.InteractiveShell.register_magic_function`,"
+" :meth:`~IPython.core.interactiveshell.InteractiveShell.push` (to add "
+"variables to the user namespace) and "
+":meth:`~IPython.core.interactiveshell.InteractiveShell.drop_by_id` (to "
+"remove variables on unloading)."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:71
+msgid ":ref:`defining_magics`"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:73
+msgid ""
+"You can put your extension modules anywhere you want, as long as they can"
+" be imported by Python's standard import mechanism. However, to make it "
+"easy to write extensions, you can also put your extensions in "
+":file:`extensions/` within the :ref:`IPython directory <ipythondir>`. "
+"This directory is added to :data:`sys.path` automatically."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:79
+msgid ""
+"When your extension is ready for general use, please add it to the "
+"`extensions index <https://github.com/ipython/ipython/wiki/Extensions-"
+"Index>`_. We also encourage you to upload it to PyPI and use the "
+"``Framework :: IPython`` classifier, so that users can install it with "
+"standard packaging tools."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:87
+msgid "Extensions bundled with IPython"
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:95
+#, python-format
+msgid ""
+"``octavemagic`` used to be bundled, but is now part of `oct2py "
+"<https://blink1073.github.io/oct2py/>`_. Use ``%load_ext oct2py.ipython``"
+" to load it."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:97
+#, python-format
+msgid ""
+"``rmagic`` is now part of `rpy2 <http://rpy.sourceforge.net/>`_. Use "
+"``%load_ext rpy2.ipython`` to load it, and see :mod:`rpy2.ipython.rmagic`"
+" for details of how to use it."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:100
+#, python-format
+msgid ""
+"``cythonmagic`` used to be bundled, but is now part of `cython "
+"<https://github.com/cython/cython/>`_ Use ``%load_ext Cython`` to load "
+"it."
+msgstr ""
+
+#: ../../source/config/extensions/index.rst:102
+msgid ""
+"``sympyprinting`` used to be a bundled extension, but you should now use "
+":func:`sympy.init_printing` instead."
+msgstr ""
+

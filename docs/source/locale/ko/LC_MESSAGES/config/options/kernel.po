@@ -1,0 +1,1185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:2
+msgid "IPython kernel options"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:4
+msgid ""
+"These options can be used in :file:`ipython_kernel_config.py`. The kernel"
+" also respects any options in `ipython_config.py`"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:10
+#: ../../source/config/options/kernel.rst:289
+msgid "JSON file in which to store connection info [default: kernel-<pid>.json]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:12
+#: ../../source/config/options/kernel.rst:291
+msgid ""
+"This file will contain the IP, ports, and authentication key needed to "
+"connect clients to this kernel. By default, this file will be created in "
+"the security dir of the current profile, but can be specified by absolute"
+" path."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst
+msgid "trait type"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:16
+#: ../../source/config/options/kernel.rst:46
+#: ../../source/config/options/kernel.rst:73
+#: ../../source/config/options/kernel.rst:106
+#: ../../source/config/options/kernel.rst:113
+#: ../../source/config/options/kernel.rst:142
+#: ../../source/config/options/kernel.rst:175
+#: ../../source/config/options/kernel.rst:182
+#: ../../source/config/options/kernel.rst:216
+#: ../../source/config/options/kernel.rst:226
+#: ../../source/config/options/kernel.rst:233
+#: ../../source/config/options/kernel.rst:240
+#: ../../source/config/options/kernel.rst:261
+#: ../../source/config/options/kernel.rst:285
+#: ../../source/config/options/kernel.rst:295
+#: ../../source/config/options/kernel.rst:355
+#: ../../source/config/options/kernel.rst:361
+#: ../../source/config/options/kernel.rst:367
+#: ../../source/config/options/kernel.rst:414
+#: ../../source/config/options/kernel.rst:424
+#: ../../source/config/options/kernel.rst:440
+#: ../../source/config/options/kernel.rst:447
+#: ../../source/config/options/kernel.rst:468
+#: ../../source/config/options/kernel.rst:512
+#: ../../source/config/options/kernel.rst:686
+#: ../../source/config/options/kernel.rst:693
+#: ../../source/config/options/kernel.rst:792
+#: ../../source/config/options/kernel.rst:799
+#: ../../source/config/options/kernel.rst:806
+#: ../../source/config/options/kernel.rst:836
+#: ../../source/config/options/kernel.rst:843
+#: ../../source/config/options/kernel.rst:850
+#: ../../source/config/options/kernel.rst:953
+#: ../../source/config/options/kernel.rst:960
+#: ../../source/config/options/kernel.rst:1056
+#: ../../source/config/options/kernel.rst:1063
+#: ../../source/config/options/kernel.rst:1069
+#: ../../source/config/options/kernel.rst:1097
+#: ../../source/config/options/kernel.rst:1104
+#: ../../source/config/options/kernel.rst:1111
+#: ../../source/config/options/kernel.rst:1181
+#: ../../source/config/options/kernel.rst:1242
+#: ../../source/config/options/kernel.rst:1272
+#: ../../source/config/options/kernel.rst:1287
+msgid "Unicode"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:20
+#: ../../source/config/options/kernel.rst:300
+msgid "set the control (ROUTER) port [default: random]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:22
+#: ../../source/config/options/kernel.rst:29
+#: ../../source/config/options/kernel.rst:36
+#: ../../source/config/options/kernel.rst:52
+#: ../../source/config/options/kernel.rst:59
+#: ../../source/config/options/kernel.rst:302
+#: ../../source/config/options/kernel.rst:379
+#: ../../source/config/options/kernel.rst:396
+#: ../../source/config/options/kernel.rst:403
+#: ../../source/config/options/kernel.rst:505
+#: ../../source/config/options/kernel.rst:550
+#: ../../source/config/options/kernel.rst:558
+#: ../../source/config/options/kernel.rst:704
+#: ../../source/config/options/kernel.rst:777
+#: ../../source/config/options/kernel.rst:785
+#: ../../source/config/options/kernel.rst:971
+#: ../../source/config/options/kernel.rst:1041
+#: ../../source/config/options/kernel.rst:1049
+#: ../../source/config/options/kernel.rst:1188
+#: ../../source/config/options/kernel.rst:1204
+#: ../../source/config/options/kernel.rst:1220
+#: ../../source/config/options/kernel.rst:1228
+msgid "Int"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst
+msgid "default"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:23
+#: ../../source/config/options/kernel.rst:30
+#: ../../source/config/options/kernel.rst:37
+#: ../../source/config/options/kernel.rst:53
+#: ../../source/config/options/kernel.rst:60
+#: ../../source/config/options/kernel.rst:303
+#: ../../source/config/options/kernel.rst:380
+#: ../../source/config/options/kernel.rst:397
+#: ../../source/config/options/kernel.rst:404
+#: ../../source/config/options/kernel.rst:506
+#: ../../source/config/options/kernel.rst:551
+#: ../../source/config/options/kernel.rst:559
+#: ../../source/config/options/kernel.rst:663
+#: ../../source/config/options/kernel.rst:822
+#: ../../source/config/options/kernel.rst:940
+#: ../../source/config/options/kernel.rst:1084
+msgid "``0``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:27
+#: ../../source/config/options/kernel.rst:377
+msgid "set the heartbeat port [default: random]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:34
+#: ../../source/config/options/kernel.rst:401
+msgid "set the iopub (PUB) port [default: random]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:41
+#: ../../source/config/options/kernel.rst:409
+msgid ""
+"Set the kernel's IP address [default localhost]. If the IP address is "
+"something other than localhost, then Consoles on other machines will be "
+"able to connect to the Kernel, so be careful!"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:50
+#: ../../source/config/options/kernel.rst:548
+msgid "set the shell (ROUTER) port [default: random]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:57
+#: ../../source/config/options/kernel.rst:556
+msgid "set the stdin (ROUTER) port [default: random]"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:64
+#: ../../source/config/options/kernel.rst:564
+#: ../../source/config/options/kernel.rst:590
+#: ../../source/config/options/kernel.rst:597
+#: ../../source/config/options/kernel.rst:613
+#: ../../source/config/options/kernel.rst:620
+#: ../../source/config/options/kernel.rst:627
+#: ../../source/config/options/kernel.rst:728
+#: ../../source/config/options/kernel.rst:790
+#: ../../source/config/options/kernel.rst:819
+#: ../../source/config/options/kernel.rst:862
+#: ../../source/config/options/kernel.rst:869
+#: ../../source/config/options/kernel.rst:876
+#: ../../source/config/options/kernel.rst:882
+#: ../../source/config/options/kernel.rst:903
+#: ../../source/config/options/kernel.rst:910
+#: ../../source/config/options/kernel.rst:992
+#: ../../source/config/options/kernel.rst:1054
+#: ../../source/config/options/kernel.rst:1081
+#: ../../source/config/options/kernel.rst:1123
+#: ../../source/config/options/kernel.rst:1130
+#: ../../source/config/options/kernel.rst:1137
+#: ../../source/config/options/kernel.rst:1143
+#: ../../source/config/options/kernel.rst:1164
+#: ../../source/config/options/kernel.rst:1171
+msgid "No description"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst
+msgid "options"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:66
+#: ../../source/config/options/kernel.rst:566
+msgid "``'tcp'``, ``'ipc'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:67
+#: ../../source/config/options/kernel.rst:567
+msgid "``'tcp'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:71
+#: ../../source/config/options/kernel.rst:283
+msgid "Execute the given command string."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst
+msgid "CLI option"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:74
+msgid "``-c``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:78
+#: ../../source/config/options/kernel.rst:325
+msgid ""
+"Run the file referenced by the PYTHONSTARTUP environment variable at "
+"IPython startup."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:81
+#: ../../source/config/options/kernel.rst:127
+#: ../../source/config/options/kernel.rst:160
+#: ../../source/config/options/kernel.rst:167
+#: ../../source/config/options/kernel.rst:197
+#: ../../source/config/options/kernel.rst:207
+#: ../../source/config/options/kernel.rst:254
+#: ../../source/config/options/kernel.rst:271
+#: ../../source/config/options/kernel.rst:278
+#: ../../source/config/options/kernel.rst:313
+#: ../../source/config/options/kernel.rst:328
+#: ../../source/config/options/kernel.rst:388
+#: ../../source/config/options/kernel.rst:474
+#: ../../source/config/options/kernel.rst:482
+#: ../../source/config/options/kernel.rst:497
+#: ../../source/config/options/kernel.rst:529
+#: ../../source/config/options/kernel.rst:536
+#: ../../source/config/options/kernel.rst:543
+#: ../../source/config/options/kernel.rst:576
+#: ../../source/config/options/kernel.rst:585
+#: ../../source/config/options/kernel.rst:608
+#: ../../source/config/options/kernel.rst:635
+#: ../../source/config/options/kernel.rst:670
+#: ../../source/config/options/kernel.rst:678
+#: ../../source/config/options/kernel.rst:714
+#: ../../source/config/options/kernel.rst:730
+#: ../../source/config/options/kernel.rst:747
+#: ../../source/config/options/kernel.rst:754
+#: ../../source/config/options/kernel.rst:762
+#: ../../source/config/options/kernel.rst:770
+#: ../../source/config/options/kernel.rst:814
+#: ../../source/config/options/kernel.rst:828
+#: ../../source/config/options/kernel.rst:857
+#: ../../source/config/options/kernel.rst:864
+#: ../../source/config/options/kernel.rst:890
+#: ../../source/config/options/kernel.rst:898
+#: ../../source/config/options/kernel.rst:905
+#: ../../source/config/options/kernel.rst:946
+#: ../../source/config/options/kernel.rst:980
+#: ../../source/config/options/kernel.rst:994
+#: ../../source/config/options/kernel.rst:1011
+#: ../../source/config/options/kernel.rst:1018
+#: ../../source/config/options/kernel.rst:1026
+#: ../../source/config/options/kernel.rst:1034
+#: ../../source/config/options/kernel.rst:1076
+#: ../../source/config/options/kernel.rst:1090
+#: ../../source/config/options/kernel.rst:1118
+#: ../../source/config/options/kernel.rst:1125
+#: ../../source/config/options/kernel.rst:1151
+#: ../../source/config/options/kernel.rst:1159
+#: ../../source/config/options/kernel.rst:1166
+#: ../../source/config/options/kernel.rst:1197
+#: ../../source/config/options/kernel.rst:1211
+msgid "Bool"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:82
+#: ../../source/config/options/kernel.rst:128
+#: ../../source/config/options/kernel.rst:161
+#: ../../source/config/options/kernel.rst:329
+#: ../../source/config/options/kernel.rst:389
+#: ../../source/config/options/kernel.rst:530
+#: ../../source/config/options/kernel.rst:537
+#: ../../source/config/options/kernel.rst:586
+#: ../../source/config/options/kernel.rst:609
+#: ../../source/config/options/kernel.rst:636
+#: ../../source/config/options/kernel.rst:671
+#: ../../source/config/options/kernel.rst:679
+#: ../../source/config/options/kernel.rst:715
+#: ../../source/config/options/kernel.rst:858
+#: ../../source/config/options/kernel.rst:891
+#: ../../source/config/options/kernel.rst:906
+#: ../../source/config/options/kernel.rst:947
+#: ../../source/config/options/kernel.rst:981
+#: ../../source/config/options/kernel.rst:1119
+#: ../../source/config/options/kernel.rst:1152
+#: ../../source/config/options/kernel.rst:1167
+#: ../../source/config/options/kernel.rst:1198
+msgid "``True``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:86
+#: ../../source/config/options/kernel.rst:333
+msgid "List of files to run at IPython startup."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:88
+#: ../../source/config/options/kernel.rst:94
+#: ../../source/config/options/kernel.rst:100
+#: ../../source/config/options/kernel.rst:335
+#: ../../source/config/options/kernel.rst:341
+#: ../../source/config/options/kernel.rst:347
+#: ../../source/config/options/kernel.rst:629
+#: ../../source/config/options/kernel.rst:651
+#: ../../source/config/options/kernel.rst:928
+msgid "List"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:92
+#: ../../source/config/options/kernel.rst:339
+msgid "lines of code to run at IPython startup."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:98
+#: ../../source/config/options/kernel.rst:345
+msgid "A list of dotted module names of IPython extensions to load."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:104
+#: ../../source/config/options/kernel.rst:359
+msgid "dotted module name of an IPython extension to load."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:107
+msgid "``--ext``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:111
+#: ../../source/config/options/kernel.rst:365
+msgid "A file to be run"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:117
+#: ../../source/config/options/kernel.rst:371
+msgid ""
+"Enable GUI event loop integration with any of ('glut', 'gtk', 'gtk2', "
+"'gtk3', 'osx', 'pyglet', 'qt', 'qt4', 'qt5', 'tk', 'wx', 'gtk2', 'qt4')."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:119
+#: ../../source/config/options/kernel.rst:373
+msgid ""
+"``'glut'``, ``'gtk'``, ``'gtk2'``, ``'gtk3'``, ``'osx'``, ``'pyglet'``, "
+"``'qt'``, ``'qt4'``, ``'qt5'``, ``'tk'``, ``'wx'``, ``'gtk2'``, ``'qt4'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:120
+msgid "``--gui``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:124
+#: ../../source/config/options/kernel.rst:385
+msgid ""
+"Should variables loaded at startup (by startup files, exec_lines, etc.) "
+"be hidden from tools like %who?"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:132
+#: ../../source/config/options/kernel.rst:459
+msgid ""
+"Configure matplotlib for interactive use with the default matplotlib "
+"backend."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:135
+#: ../../source/config/options/kernel.rst:150
+#: ../../source/config/options/kernel.rst:462
+#: ../../source/config/options/kernel.rst:520
+msgid ""
+"``'auto'``, ``'agg'``, ``'gtk'``, ``'gtk3'``, ``'inline'``, ``'ipympl'``,"
+" ``'nbagg'``, ``'notebook'``, ``'osx'``, ``'pdf'``, ``'ps'``, ``'qt'``, "
+"``'qt4'``, ``'qt5'``, ``'svg'``, ``'tk'``, ``'widget'``, ``'wx'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:136
+msgid "``--matplotlib``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:140
+#: ../../source/config/options/kernel.rst:466
+msgid "Run the module as a script."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:143
+msgid "``-m``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:147
+#: ../../source/config/options/kernel.rst:517
+msgid ""
+"Pre-load matplotlib and numpy for interactive use, selecting a particular"
+" matplotlib backend and loop integration."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:151
+msgid "``--pylab``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:155
+#: ../../source/config/options/kernel.rst:524
+msgid ""
+"If true, IPython will populate the user namespace with numpy, pylab, etc."
+" and an ``import *`` is done from numpy and pylab, when using pylab mode."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:158
+#: ../../source/config/options/kernel.rst:527
+msgid ""
+"When False, pylab mode should not import any names into the user "
+"namespace."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:165
+#: ../../source/config/options/kernel.rst:541
+msgid "Reraise exceptions encountered loading IPython extensions?"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:168
+#: ../../source/config/options/kernel.rst:198
+#: ../../source/config/options/kernel.rst:208
+#: ../../source/config/options/kernel.rst:255
+#: ../../source/config/options/kernel.rst:272
+#: ../../source/config/options/kernel.rst:279
+#: ../../source/config/options/kernel.rst:314
+#: ../../source/config/options/kernel.rst:475
+#: ../../source/config/options/kernel.rst:483
+#: ../../source/config/options/kernel.rst:498
+#: ../../source/config/options/kernel.rst:544
+#: ../../source/config/options/kernel.rst:577
+#: ../../source/config/options/kernel.rst:731
+#: ../../source/config/options/kernel.rst:748
+#: ../../source/config/options/kernel.rst:755
+#: ../../source/config/options/kernel.rst:763
+#: ../../source/config/options/kernel.rst:771
+#: ../../source/config/options/kernel.rst:815
+#: ../../source/config/options/kernel.rst:829
+#: ../../source/config/options/kernel.rst:865
+#: ../../source/config/options/kernel.rst:899
+#: ../../source/config/options/kernel.rst:995
+#: ../../source/config/options/kernel.rst:1012
+#: ../../source/config/options/kernel.rst:1019
+#: ../../source/config/options/kernel.rst:1027
+#: ../../source/config/options/kernel.rst:1035
+#: ../../source/config/options/kernel.rst:1077
+#: ../../source/config/options/kernel.rst:1091
+#: ../../source/config/options/kernel.rst:1126
+#: ../../source/config/options/kernel.rst:1160
+#: ../../source/config/options/kernel.rst:1212
+msgid "``False``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:173
+#: ../../source/config/options/kernel.rst:231
+#: ../../source/config/options/kernel.rst:438
+#, python-format
+msgid "The date format used by logging formatters for %(asctime)s"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:176
+#: ../../source/config/options/kernel.rst:234
+#: ../../source/config/options/kernel.rst:441
+#, python-format
+msgid "``'%Y-%m-%d %H:%M:%S'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:180
+#: ../../source/config/options/kernel.rst:238
+#: ../../source/config/options/kernel.rst:445
+msgid "The Logging format template"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:183
+#: ../../source/config/options/kernel.rst:241
+#: ../../source/config/options/kernel.rst:448
+#, python-format
+msgid "``'[%(name)s]%(highlevel)s %(message)s'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:187
+#: ../../source/config/options/kernel.rst:245
+#: ../../source/config/options/kernel.rst:452
+msgid "Set the log level by value or name."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:189
+#: ../../source/config/options/kernel.rst:247
+#: ../../source/config/options/kernel.rst:454
+msgid ""
+"``0``, ``10``, ``20``, ``30``, ``40``, ``50``, ``'DEBUG'``, ``'INFO'``, "
+"``'WARN'``, ``'ERROR'``, ``'CRITICAL'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:190
+#: ../../source/config/options/kernel.rst:248
+#: ../../source/config/options/kernel.rst:455
+msgid "``30``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:191
+msgid "``--log-level``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:195
+#: ../../source/config/options/kernel.rst:276
+msgid "Whether to create profile dir if it doesn't exist"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:202
+#: ../../source/config/options/kernel.rst:308
+msgid ""
+"Whether to install the default config files into the profile dir. If a "
+"new profile is being created, and IPython contains config files for that "
+"profile, then they will be staged into the new directory.  Otherwise, "
+"default config files will be automatically generated."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:212
+#: ../../source/config/options/kernel.rst:351
+msgid "Path to an extra config file to load."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:214
+#: ../../source/config/options/kernel.rst:353
+msgid ""
+"If specified, load this config file in addition to any other IPython "
+"config."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:217
+msgid "``--config``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:221
+#: ../../source/config/options/kernel.rst:419
+msgid ""
+"The name of the IPython directory. This directory is used for logging "
+"configuration (through profiles), history storage, etc. The default is "
+"usually $HOME/.ipython. This option can also be specified through the "
+"environment variable IPYTHONDIR."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:227
+msgid "``--ipython-dir``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:252
+#: ../../source/config/options/kernel.rst:495
+msgid "Whether to overwrite existing config files when copying"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:259
+#: ../../source/config/options/kernel.rst:510
+msgid "The IPython profile to use."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:262
+#: ../../source/config/options/kernel.rst:513
+msgid "``'default'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:263
+msgid "``--profile``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:267
+#: ../../source/config/options/kernel.rst:572
+msgid ""
+"Create a massive crash report when IPython encounters what may be an "
+"internal error.  The default is to append a short message to the usual "
+"traceback"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:296
+msgid "``-f``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:304
+msgid "``--control``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:318
+msgid "The importstring for the DisplayHook factory"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:320
+#: ../../source/config/options/kernel.rst:490
+#: ../../source/config/options/kernel.rst:1257
+#: ../../source/config/options/kernel.rst:1280
+msgid "DottedObjectName"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:321
+msgid "``'ipykernel.displayhook.ZMQDisplayHook'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:381
+msgid "``--hb``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:393
+msgid "ONLY USED ON WINDOWS Interrupt this process when the parent is signaled."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:405
+msgid "``--iopub``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:415
+msgid "``--ip``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:428
+msgid "The Kernel subclass to be used."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:430
+msgid ""
+"This should allow easy re-use of the IPKernelApp entry point to configure"
+" and launch kernels other than IPython's own."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:433
+msgid "Type"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:434
+msgid "``'ipykernel.ipkernel.IPythonKernel'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:472
+msgid "redirect stderr to the null device"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:476
+msgid "``--no-stderr``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:480
+msgid "redirect stdout to the null device"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:484
+msgid "``--no-stdout``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:488
+msgid "The importstring for the OutStream factory"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:491
+msgid "``'ipykernel.iostream.OutStream'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:502
+msgid ""
+"kill this process if its parent dies.  On Windows, the argument specifies"
+" the HANDLE of the parent process, otherwise it is simply boolean."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:534
+msgid "Only send stdout/stderr to output stream"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:552
+msgid "``--shell``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:560
+msgid "``--stdin``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:568
+msgid "``--transport``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:581
+#: ../../source/config/options/kernel.rst:604
+msgid "Whether to use appnope for compatiblity with OS X App Nap."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:583
+#: ../../source/config/options/kernel.rst:606
+msgid "Only affects OS X >= 10.9."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:592
+#: ../../source/config/options/kernel.rst:599
+#: ../../source/config/options/kernel.rst:615
+#: ../../source/config/options/kernel.rst:622
+msgid "Float"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:593
+#: ../../source/config/options/kernel.rst:616
+msgid "``0.0005``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:600
+#: ../../source/config/options/kernel.rst:623
+msgid "``0.05``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:633
+msgid ""
+"Set this flag to False to deactivate the use of experimental IPython "
+"completion APIs."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:640
+#: ../../source/config/options/kernel.rst:917
+msgid ""
+"'all', 'last', 'last_expr' or 'none', specifying which nodes should be "
+"run interactively (displaying output from expressions)."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:643
+#: ../../source/config/options/kernel.rst:920
+msgid "``'all'``, ``'last'``, ``'last_expr'``, ``'none'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:644
+#: ../../source/config/options/kernel.rst:921
+msgid "``'last_expr'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:648
+#: ../../source/config/options/kernel.rst:925
+msgid ""
+"A list of ast.NodeTransformer subclass instances, which will be applied "
+"to user input before code is run."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:655
+#: ../../source/config/options/kernel.rst:932
+msgid ""
+"Make IPython automatically call any callable object even if you didn't "
+"type explicit parentheses. For example, 'str 43' becomes 'str(43)' "
+"automatically. The value can be '0' to disable the feature, '1' for "
+"'smart' autocall, where it is not applied if there are no more arguments "
+"on the line, and '2' for 'full' autocall, where all callable objects are "
+"automatically called (even if no arguments are present)."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:662
+#: ../../source/config/options/kernel.rst:821
+#: ../../source/config/options/kernel.rst:939
+#: ../../source/config/options/kernel.rst:1083
+msgid "``0``, ``1``, ``2``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:664
+msgid "``--autocall``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:668
+msgid "Autoindent IPython code entered interactively."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:672
+msgid "``--autoindent``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:676
+#: ../../source/config/options/kernel.rst:944
+msgid "Enable magic commands to be called without the leading %."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:680
+msgid "``--automagic``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:684
+#: ../../source/config/options/kernel.rst:951
+msgid "The part of the banner to be printed before the profile"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:687
+#: ../../source/config/options/kernel.rst:954
+msgid "``'Python 3.6.6 |Anaconda custom (64-bit)| (default, Jun 28 201...``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:691
+#: ../../source/config/options/kernel.rst:958
+msgid "The part of the banner to be printed after the profile"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:697
+#: ../../source/config/options/kernel.rst:964
+msgid ""
+"Set the size of the output cache.  The default is 1000, you can change it"
+" permanently in your config file.  Setting it to 0 completely disables "
+"the caching system, and the minimum value accepted is 20 (if you provide "
+"a value less than 20, it is reset to 0 and a warning is issued).  This "
+"limit is defined because otherwise you'll spend more time re-flushing a "
+"too small cache than working"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:705
+#: ../../source/config/options/kernel.rst:786
+#: ../../source/config/options/kernel.rst:972
+#: ../../source/config/options/kernel.rst:1050
+msgid "``1000``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:706
+msgid "``--cache-size``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:710
+#: ../../source/config/options/kernel.rst:976
+msgid ""
+"Use colors for displaying information about objects. Because this "
+"information is passed through a pager (like 'less'), and some pagers get "
+"confused with color codes, this capability can be turned off."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:716
+msgid "``--color-info``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:720
+#: ../../source/config/options/kernel.rst:985
+msgid "Set the color scheme (NoColor, Neutral, Linux, or LightBG)."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:722
+#: ../../source/config/options/kernel.rst:987
+msgid "``'Neutral'``, ``'NoColor'``, ``'LightBG'``, ``'Linux'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:723
+#: ../../source/config/options/kernel.rst:988
+msgid "``'Neutral'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:724
+msgid "``--colors``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:735
+#: ../../source/config/options/kernel.rst:999
+msgid "**Deprecated**"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:737
+#: ../../source/config/options/kernel.rst:1001
+msgid "Will be removed in IPython 6.0"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:739
+#: ../../source/config/options/kernel.rst:1003
+msgid ""
+"Enable deep (recursive) reloading by default. IPython can use the "
+"deep_reload module which reloads changes in modules recursively (it "
+"replaces the reload() function, so you don't need to change anything to "
+"use it). `deep_reload` forces a full reload of modules whose code may "
+"have changed, which the default reload() function does not.  When "
+"deep_reload is off, IPython will use the normal reload(), but deep_reload"
+" will still be available as dreload()."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:752
+#: ../../source/config/options/kernel.rst:1016
+msgid "Don't call post-execute functions that have failed in the past."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:759
+#: ../../source/config/options/kernel.rst:1023
+msgid ""
+"If True, anything that would be passed to the pager will be displayed as "
+"regular output instead."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:767
+#: ../../source/config/options/kernel.rst:1031
+msgid ""
+"(Provisional API) enables html representation in mime bundles sent to "
+"pagers."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:775
+#: ../../source/config/options/kernel.rst:1039
+msgid "Total length of command history"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:778
+#: ../../source/config/options/kernel.rst:1042
+msgid "``10000``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:782
+#: ../../source/config/options/kernel.rst:1046
+msgid ""
+"The number of saved history entries to be loaded into the history buffer "
+"at startup."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:796
+#: ../../source/config/options/kernel.rst:1060
+msgid ""
+"Start logging to the given file in append mode. Use `logfile` to specify "
+"a log file to **overwrite** logs to."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:800
+msgid "``--logappend``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:804
+#: ../../source/config/options/kernel.rst:1067
+msgid "The name of the logfile to use."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:807
+msgid "``--logfile``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:811
+#: ../../source/config/options/kernel.rst:1073
+msgid ""
+"Start logging to the default log file in overwrite mode. Use `logappend` "
+"to specify a log file to **append** logs to."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:826
+#: ../../source/config/options/kernel.rst:1088
+msgid "Automatically call the pdb debugger after every exception."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:830
+msgid "``--pdb``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:834
+#: ../../source/config/options/kernel.rst:841
+#: ../../source/config/options/kernel.rst:848
+#: ../../source/config/options/kernel.rst:855
+#: ../../source/config/options/kernel.rst:1095
+#: ../../source/config/options/kernel.rst:1102
+#: ../../source/config/options/kernel.rst:1109
+#: ../../source/config/options/kernel.rst:1116
+msgid ""
+"Deprecated since IPython 4.0 and ignored since 5.0, set "
+"TerminalInteractiveShell.prompts object directly."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:837
+#: ../../source/config/options/kernel.rst:1098
+msgid "``'In [\\\\#]: '``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:844
+#: ../../source/config/options/kernel.rst:1105
+msgid "``'   .\\\\D.: '``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:851
+#: ../../source/config/options/kernel.rst:1112
+msgid "``'Out[\\\\#]: '``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:871
+#: ../../source/config/options/kernel.rst:878
+#: ../../source/config/options/kernel.rst:884
+#: ../../source/config/options/kernel.rst:1132
+#: ../../source/config/options/kernel.rst:1139
+#: ../../source/config/options/kernel.rst:1145
+msgid "SeparateUnicode"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:872
+#: ../../source/config/options/kernel.rst:1133
+msgid "``'\\\\n'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:888
+#: ../../source/config/options/kernel.rst:1149
+msgid "Show rewritten input, e.g. for autocall."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:895
+#: ../../source/config/options/kernel.rst:1156
+msgid ""
+"Enables rich html representation of docstrings. (This requires the "
+"docrepr module)."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:912
+#: ../../source/config/options/kernel.rst:1173
+msgid "``'Context'``, ``'Plain'``, ``'Verbose'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:913
+#: ../../source/config/options/kernel.rst:1174
+msgid "``'Context'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1178
+msgid ""
+"Set the profile location directly. This overrides the logic used by the "
+"`profile` option."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1182
+msgid "``--profile-dir``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1186
+msgid ""
+"Threshold (in bytes) beyond which an object's buffer should be extracted "
+"to avoid pickling."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1189
+msgid "``1024``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1193
+msgid "Whether to check PID to protect against calls after fork."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1195
+msgid "This check can be disabled if fork-safety is handled elsewhere."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1202
+msgid "Threshold (in bytes) beyond which a buffer should be sent without copying."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1205
+#: ../../source/config/options/kernel.rst:1221
+msgid "``65536``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1209
+msgid "Debug output in the Session"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1216
+msgid "The maximum number of digests to remember."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1218
+msgid "The digest history will be culled when it exceeds this value."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1225
+msgid ""
+"The maximum number of items for a container to be introspected for custom"
+" serialization. Containers larger than this are pickled outright."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1229
+msgid "``64``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1233
+msgid "execution key, for signing messages."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1235
+msgid "CBytes"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1236
+msgid "``b''``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1240
+msgid "path to file containing execution key."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1243
+msgid "``--keyfile``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1247
+msgid ""
+"Metadata dictionary, which serves as the default top-level metadata dict "
+"for each message."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1249
+msgid "Dict"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1253
+msgid ""
+"The name of the packer for serializing messages. Should be one of 'json',"
+" 'pickle', or an import name for a custom callable serializer."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1258
+#: ../../source/config/options/kernel.rst:1281
+msgid "``'json'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1262
+msgid "The UUID identifying this session."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1264
+msgid "CUnicode"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1265
+msgid "``--ident``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1269
+msgid ""
+"The digest scheme used to construct the message signatures. Must have the"
+" form 'hmac-HASH'."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1273
+msgid "``'hmac-sha256'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1277
+msgid ""
+"The name of the unpacker for unserializing messages. Only used with "
+"custom functions for `packer`."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1285
+msgid "Username for the Session. Default is your system username."
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1288
+msgid "``'joelkim'``"
+msgstr ""
+
+#: ../../source/config/options/kernel.rst:1289
+msgid "``--user``"
+msgstr ""
+

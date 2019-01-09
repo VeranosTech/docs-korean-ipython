@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.frame.rst:4
+msgid "Module: :mod:`utils.frame`"
+msgstr ""
+
+#: IPython.utils.frame:1 of
+msgid "Utilities for working with stack frames."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.frame.rst:10
+msgid "4 Functions"
+msgstr ""
+
+#: IPython.utils.frame.extract_vars:1 IPython.utils.frame.extract_vars_above:1
+#: of
+msgid "Extract a set of variables by name from another frame."
+msgstr ""
+
+#: IPython.utils.frame.extract_vars of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.frame.extract_vars:3 of
+msgid ""
+"One or more variable names which will be extracted from the caller's "
+"frame."
+msgstr ""
+
+#: IPython.utils.frame.extract_vars:6 of
+msgid ""
+"How many frames in the stack to walk when looking for your variables. The"
+" default is 0, which will use the frame where the call was made."
+msgstr ""
+
+#: IPython.utils.frame.extract_vars:11 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.utils.frame.extract_vars_above:3 of
+msgid ""
+"Similar to extractVars(), but with a specified depth of 1, so that names "
+"are extracted exactly from above the caller."
+msgstr ""
+
+#: IPython.utils.frame.extract_vars_above:6 of
+msgid ""
+"This is simply a convenience function so that the very common case (for "
+"us) of skipping exactly 1 frame doesn't have to construct a special dict "
+"for keyword passing."
+msgstr ""
+
+#: IPython.utils.frame.debugx:1 of
+msgid "Print the value of an expression from the caller's frame."
+msgstr ""
+
+#: IPython.utils.frame.debugx:3 of
+msgid ""
+"Takes an expression, evaluates it in the caller's frame and prints both "
+"the given expression and the resulting value (as well as a debug mark "
+"indicating the name of the calling function.  The input must be of a form"
+" suitable for eval()."
+msgstr ""
+
+#: IPython.utils.frame.debugx:8 of
+msgid ""
+"An optional message can be passed, which will be prepended to the printed"
+" expr->value pair."
+msgstr ""
+
+#: IPython.utils.frame.extract_module_locals:1 of
+msgid ""
+"Returns (module, locals) of the function `depth` frames away from the "
+"caller"
+msgstr ""
+

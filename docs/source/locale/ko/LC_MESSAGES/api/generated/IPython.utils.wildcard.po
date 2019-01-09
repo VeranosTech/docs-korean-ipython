@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.wildcard.rst:4
+msgid "Module: :mod:`utils.wildcard`"
+msgstr ""
+
+#: IPython.utils.wildcard:1 of
+msgid "Support for wildcard pattern matching in object inspection."
+msgstr ""
+
+#: IPython.utils.wildcard:4 of
+msgid "Authors"
+msgstr ""
+
+#: IPython.utils.wildcard:5 of
+msgid "Jörgen Stenarson <jorgen.stenarson@bostream.nu>"
+msgstr ""
+
+#: IPython.utils.wildcard:6 of
+msgid "Thomas Kluyver"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.wildcard.rst:10
+msgid "6 Functions"
+msgstr ""
+
+#: IPython.utils.wildcard.create_typestr2type_dicts:1 of
+msgid ""
+"Return dictionaries mapping lower case typename (e.g. 'tuple') to type "
+"objects from the types package, and vice versa."
+msgstr ""
+
+#: IPython.utils.wildcard.is_type:1 of
+msgid ""
+"is_type(obj, typestr_or_type) verifies if obj is of a certain type. It "
+"can take strings or actual python types for the second argument, i.e. "
+"'tuple'<->TupleType. 'all' matches all types."
+msgstr ""
+
+#: IPython.utils.wildcard.is_type:5 of
+msgid "TODO: Should be extended for choosing more than one type."
+msgstr ""
+
+#: IPython.utils.wildcard.show_hidden:1 of
+msgid "Return true for strings starting with single _ if show_all is true."
+msgstr ""
+
+#: IPython.utils.wildcard.dict_dir:1 of
+msgid ""
+"Produce a dictionary of an object's attributes. Builds on dir2 by "
+"checking that a getattr() call actually succeeds."
+msgstr ""
+
+#: IPython.utils.wildcard.filter_ns:1 of
+msgid "Filter a namespace dictionary by name pattern and item type."
+msgstr ""
+
+#: IPython.utils.wildcard.list_namespace:1 of
+msgid ""
+"Return dictionary of all objects in a namespace dictionary that match "
+"type_pattern and filter."
+msgstr ""
+

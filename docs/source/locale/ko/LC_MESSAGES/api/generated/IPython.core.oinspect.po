@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.oinspect.rst:4
+msgid "Module: :mod:`core.oinspect`"
+msgstr ""
+
+#: IPython.core.oinspect:1 of
+msgid "Tools for inspecting Python objects."
+msgstr ""
+
+#: IPython.core.oinspect:3 of
+msgid "Uses syntax highlighting for presenting the various information elements."
+msgstr ""
+
+#: IPython.core.oinspect:5 of
+msgid ""
+"Similar in spirit to the inspect module, but all calls take a name "
+"argument to reference the name under which an object is being read."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.oinspect.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector:1 of
+msgid "Bases: :class:`IPython.utils.colorable.Colorable`"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__ IPython.core.oinspect.find_file
+#: IPython.core.oinspect.find_source_lines IPython.core.oinspect.getsource of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.info:1 of
+msgid "DEPRECATED. Compute a dict with detailed information about an object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.noinfo:1 of
+msgid "Generic message when no information is found."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdef:1 of
+msgid "Print the call signature for any callable object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdef:3 of
+msgid "If the object is a class, print the constructor information."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:1 of
+msgid "Print the docstring for any object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:3 of
+msgid ""
+"Optional: -formatter: a function to run the docstring through for "
+"specially formatted docstrings."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:8 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:10 of
+msgid "In [1]: class NoInit:"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:10 of
+msgid "...:     pass"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:14 of
+msgid "In [2]: class NoDoc:"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:13 of
+msgid "...:     def __init__(self): ...:         pass"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:16 of
+msgid "In [3]: %pdoc NoDoc No documentation found for NoDoc"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:19 of
+msgid "In [4]: %pdoc NoInit No documentation found for NoInit"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:22 of
+msgid "In [5]: obj = NoInit()"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:24 of
+msgid "In [6]: %pdoc obj No documentation found for obj"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:27 of
+msgid "In [5]: obj2 = NoDoc()"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pdoc:29 of
+msgid "In [6]: %pdoc obj2 No documentation found for obj2"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pfile:1 of
+msgid "Show the whole file where an object was defined."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:1 of
+msgid "Show detailed information about an object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:3
+#: IPython.core.oinspect.Inspector.psearch:11 of
+msgid "Optional arguments:"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:5 of
+msgid "oname: name of the variable pointing to the object."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:15 of
+msgid "formatter: callable (optional)"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:8 of
+msgid "A special formatter for docstrings."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:10 of
+msgid ""
+"The formatter is a callable that takes a string as an input and returns "
+"either a formatted string or a mime type bundle in the form of a "
+"dictionary."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:14 of
+msgid ""
+"Although the support of custom formatter returning a string instead of a "
+"mime type bundle is deprecated."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:17 of
+msgid ""
+"info: a structure with some information fields which may have been "
+"precomputed already."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.pinfo:20 of
+msgid "detail_level: if set to 1, more information is given."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:1 of
+msgid "Search namespaces with wildcards for objects."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:3 of
+msgid "Arguments:"
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:5 of
+msgid ""
+"pattern: string containing shell-like wildcards to use in namespace "
+"searches and optionally a type specification to narrow the search to "
+"objects of that type."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:9 of
+msgid "ns_table: dict of name->namespaces for search."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:13 of
+msgid "ns_search: list of namespace names to include in search."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:15 of
+msgid "ignore_case(False): make the search case-insensitive."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psearch:17 of
+msgid ""
+"show_all(False): show all names, including those starting with "
+"underscores."
+msgstr ""
+
+#: IPython.core.oinspect.Inspector.psource:1 of
+msgid "Print the source code for an object."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.oinspect.rst:19
+msgid "11 Functions"
+msgstr ""
+
+#: IPython.core.oinspect.object_info:1 of
+msgid "Make an object info dict with all fields present."
+msgstr ""
+
+#: IPython.core.oinspect.get_encoding:1 of
+msgid "Get encoding for python source file defining obj"
+msgstr ""
+
+#: IPython.core.oinspect.get_encoding:3 of
+msgid "Returns None if obj is not defined in a sourcefile."
+msgstr ""
+
+#: IPython.core.oinspect.getdoc:1 of
+msgid "Stable wrapper around inspect.getdoc."
+msgstr ""
+
+#: IPython.core.oinspect.getdoc:3 of
+msgid "This can't crash because of attribute problems."
+msgstr ""
+
+#: IPython.core.oinspect.getdoc:5 of
+msgid ""
+"It also attempts to call a getdoc() method on the given object.  This "
+"allows objects which provide their docstrings via non-standard mechanisms"
+" (like Pyro proxies) to still be inspected by ipython's ? system."
+msgstr ""
+
+#: IPython.core.oinspect.getsource:1 of
+msgid "Wrapper around inspect.getsource."
+msgstr ""
+
+#: IPython.core.oinspect.getsource:3 of
+msgid ""
+"This can be modified by other projects to provide customized source "
+"extraction."
+msgstr ""
+
+#: IPython.core.oinspect.getsource:6 of
+msgid "an object whose source code we will attempt to extract"
+msgstr ""
+
+#: IPython.core.oinspect.getsource:8 of
+msgid "(optional) a name under which the object is known"
+msgstr ""
+
+#: IPython.core.oinspect.find_file IPython.core.oinspect.find_source_lines
+#: IPython.core.oinspect.getsource of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.oinspect.getsource:11 of
+msgid "**src**"
+msgstr ""
+
+#: IPython.core.oinspect.find_file IPython.core.oinspect.find_source_lines
+#: IPython.core.oinspect.getsource of
+msgid "Return type"
+msgstr ""
+
+#: IPython.core.oinspect.is_simple_callable:1 of
+msgid "True if obj is a function ()"
+msgstr ""
+
+#: IPython.core.oinspect.getargspec:1 of
+msgid ""
+"Wrapper around :func:`inspect.getfullargspec` on Python 3, and "
+":func:inspect.getargspec` on Python 2."
+msgstr ""
+
+#: IPython.core.oinspect.getargspec:4 of
+msgid ""
+"In addition to functions and methods, this can also handle objects with a"
+" ``__call__`` attribute."
+msgstr ""
+
+#: IPython.core.oinspect.format_argspec:1 of
+msgid "Format argspect, convenience wrapper around inspect's."
+msgstr ""
+
+#: IPython.core.oinspect.format_argspec:3 of
+msgid ""
+"This takes a dict instead of ordered arguments and calls "
+"inspect.format_argspec with the arguments in the necessary order."
+msgstr ""
+
+#: IPython.core.oinspect.call_tip:1 of
+msgid "DEPRECATED. Extract call tip data from an oinfo dict."
+msgstr ""
+
+#: IPython.core.oinspect.find_file:1 of
+msgid "Find the absolute path to the file where an object was defined."
+msgstr ""
+
+#: IPython.core.oinspect.find_file:3 of
+msgid "This is essentially a robust wrapper around `inspect.getabsfile`."
+msgstr ""
+
+#: IPython.core.oinspect.find_file:5 IPython.core.oinspect.find_source_lines:5
+#: of
+msgid "Returns None if no file can be found."
+msgstr ""
+
+#: IPython.core.oinspect.find_file:10 of
+msgid "**fname** -- The absolute path to the file where the object was defined."
+msgstr ""
+
+#: IPython.core.oinspect.find_source_lines:1 of
+msgid "Find the line number in a file where an object was defined."
+msgstr ""
+
+#: IPython.core.oinspect.find_source_lines:3 of
+msgid "This is essentially a robust wrapper around `inspect.getsourcelines`."
+msgstr ""
+
+#: IPython.core.oinspect.find_source_lines:10 of
+msgid "**lineno** -- The line number where the object definition starts."
+msgstr ""
+

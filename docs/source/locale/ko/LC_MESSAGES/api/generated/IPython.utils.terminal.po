@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.terminal.rst:4
+msgid "Module: :mod:`utils.terminal`"
+msgstr ""
+
+#: IPython.utils.terminal:1 of
+msgid "Utilities for working with terminals."
+msgstr ""
+
+#: IPython.utils.terminal:3 of
+msgid "Authors:"
+msgstr ""
+
+#: IPython.utils.terminal:5 of
+msgid "Brian E. Granger"
+msgstr ""
+
+#: IPython.utils.terminal:6 of
+msgid "Fernando Perez"
+msgstr ""
+
+#: IPython.utils.terminal:7 of
+msgid "Alexander Belchenko (e-mail: bialix AT ukr.net)"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.terminal.rst:10
+msgid "4 Functions"
+msgstr ""
+
+#: IPython.utils.terminal.toggle_set_term_title:1 of
+msgid "Control whether set_term_title is active or not."
+msgstr ""
+
+#: IPython.utils.terminal.toggle_set_term_title:3 of
+msgid ""
+"set_term_title() allows writing to the console titlebar.  In embedded "
+"widgets this can cause problems, so this call can be used to toggle it on"
+" or off as needed."
+msgstr ""
+
+#: IPython.utils.terminal.toggle_set_term_title:7 of
+msgid "The default state of the module is for the function to be disabled."
+msgstr ""
+
+#: IPython.utils.terminal.toggle_set_term_title of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.terminal.toggle_set_term_title:9 of
+msgid ""
+"If True, set_term_title() actually writes to the terminal (using the "
+"appropriate platform-specific module).  If False, it is a no-op."
+msgstr ""
+
+#: IPython.utils.terminal.set_term_title:1 of
+msgid "Set terminal title using the necessary platform-dependent calls."
+msgstr ""
+

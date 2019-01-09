@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.data.rst:4
+msgid "Module: :mod:`utils.data`"
+msgstr ""
+
+#: IPython.utils.data:1 of
+msgid "Utilities for working with data structures like lists, dicts and tuples."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.data.rst:10
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.utils.data.uniq_stable:1 of
+msgid ""
+"Return from an iterable, a list of all the unique elements in the input, "
+"but maintaining the order in which they first appear."
+msgstr ""
+
+#: IPython.utils.data.uniq_stable:4 of
+msgid ""
+"Note: All elements in the input must be hashable for this routine to "
+"work, as it internally uses a set for efficiency reasons."
+msgstr ""
+
+#: IPython.utils.data.chop:1 of
+msgid "Chop a sequence into chunks of the given size."
+msgstr ""
+

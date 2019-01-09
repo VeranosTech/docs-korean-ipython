@@ -1,0 +1,1248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:3
+msgid "0.11 Series"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:6
+msgid "Release 0.11"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:8
+msgid ""
+"IPython 0.11 is a *major* overhaul of IPython, two years in the making.  "
+"Most of the code base has been rewritten or at least reorganized, "
+"breaking backward compatibility with several APIs in previous versions.  "
+"It is the first major release in two years, and probably the most "
+"significant change to IPython since its inception.  We plan to have a "
+"relatively quick succession of releases, as people discover new bugs and "
+"regressions.  Once we iron out any significant bugs in this process and "
+"settle down the new APIs, this series will become IPython 1.0.  We "
+"encourage feedback now on the core APIs, which we hope to maintain stable"
+" during the 1.0 series."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:18
+msgid ""
+"Since the internal APIs have changed so much, projects using IPython as a"
+" library (as opposed to end-users of the application) are the most likely"
+" to encounter regressions or changes that break their existing use "
+"patterns.  We will make every effort to provide updated versions of the "
+"APIs to facilitate the transition, and we encourage you to contact us on "
+"the `development mailing list`__ with questions and feedback."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:27
+msgid ""
+"Chris Fonnesbeck recently wrote an `excellent post`__ that highlights "
+"some of our major new features, with examples and screenshots.  We "
+"encourage you to read it as it provides an illustrated, high-level "
+"overview complementing the detailed feature breakdown in this document."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:34
+msgid "A quick summary of the major changes (see below for details):"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:36
+msgid ""
+"**Standalone Qt console**: a new rich console has been added to IPython, "
+"started with `ipython qtconsole`.  In this application we have tried to "
+"retain the feel of a terminal for fast and efficient workflows, while "
+"adding many features that a line-oriented terminal simply can not "
+"support, such as inline figures, full multiline editing with syntax "
+"highlighting, graphical tooltips for function calls and much more.  This "
+"development was sponsored by `Enthought Inc.`__. See :ref:`below "
+"<qtconsole_011>` for details."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:46
+msgid ""
+"**High-level parallel computing with ZeroMQ**. Using the same "
+"architecture that our Qt console is based on, we have completely "
+"rewritten our high-level parallel computing machinery that in prior "
+"versions used the Twisted networking framework.  While this change will "
+"require users to update their codes, the improvements in performance, "
+"memory control and internal consistency across our codebase convinced us "
+"it was a price worth paying.  We have tried to explain how to best "
+"proceed with this update, and will be happy to answer questions that may "
+"arise.  A full tutorial describing these features `was presented at "
+"SciPy'11`__, more details :ref:`below <parallel_011>`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:59
+#, python-format
+msgid ""
+"**New model for GUI/plotting support in the terminal**.  Now instead of "
+"the various `-Xthread` flags we had before, GUI support is provided "
+"without the use of any threads, by directly integrating GUI event loops "
+"with Python's `PyOS_InputHook` API.  A new command-line flag `--gui` "
+"controls GUI support, and it can also be enabled after IPython startup "
+"via the new `%gui` magic. This requires some changes if you want to "
+"execute GUI-using scripts inside IPython, see :ref:`the GUI support "
+"section <gui_support>` for more details."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:67
+msgid ""
+"**A two-process architecture.** The Qt console is the first use of a new "
+"model that splits IPython between a kernel process where code is executed"
+" and a client that handles user interaction.  We plan on also providing "
+"terminal and web-browser based clients using this infrastructure in "
+"future releases. This model allows multiple clients to interact with an "
+"IPython process through a :ref:`well-documented messaging protocol "
+"<messaging>` using the ZeroMQ networking library."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:75
+msgid ""
+"**Refactoring.** the entire codebase has been refactored, in order to "
+"make it more modular and easier to contribute to.  IPython has "
+"traditionally been a hard project to participate because the old codebase"
+" was very monolithic.  We hope this (ongoing) restructuring will make it "
+"easier for new developers to join us."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:81
+msgid ""
+"**Vim integration**. Vim can be configured to seamlessly control an "
+"IPython kernel, see the files in :file:`docs/examples/vim` for the full "
+"details. This work was done by Paul Ivanov, who prepared a nice `video "
+"demonstration`__ of the features it provides."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:88
+msgid ""
+"**Integration into Microsoft Visual Studio**. Thanks to the work of the "
+"Microsoft `Python Tools for Visual Studio`__ team, this version of "
+"IPython has been integrated into Microsoft Visual Studio's Python tools "
+"open source plug-in.  `Details below`_"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:96
+msgid ""
+"**Improved unicode support**. We closed many bugs related to unicode "
+"input."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:98
+msgid ""
+"**Python 3**. IPython now runs on Python 3.x. See :ref:`python3_011` for "
+"details."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:101
+msgid ""
+"**New profile model**. Profiles are now directories that contain all "
+"relevant information for that session, and thus better isolate IPython "
+"use-cases."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:104
+msgid ""
+"**SQLite storage for history**. All history is now stored in a SQLite "
+"database, providing support for multiple simultaneous sessions that won't"
+" clobber each other as well as the ability to perform queries on all "
+"stored data."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:109
+msgid ""
+"**New configuration system**. All parts of IPython are now configured via"
+" a mechanism inspired by the Enthought Traits library.  Any configurable "
+"element can have its attributes set either via files that now use real "
+"Python syntax or from the command-line."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:114
+msgid ""
+"**Pasting of code with prompts**. IPython now intelligently strips out "
+"input prompts , be they plain Python ones (``>>>`` and ``...``) or "
+"IPython ones (``In [N]:`` and ``...:``).  More details :ref:`here "
+"<pasting_with_prompts>`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:120
+msgid "Authors and support"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:122
+msgid ""
+"Over 60 separate authors have contributed to this release, see "
+":ref:`below <credits_011>` for a full list.  In particular, we want to "
+"highlight the extremely active participation of two new core team "
+"members: Evan Patterson implemented the Qt console, and Thomas Kluyver "
+"started with our Python 3 port and by now has made major contributions to"
+" just about every area of IPython."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:128
+msgid ""
+"We are also grateful for the support we have received during this "
+"development cycle from several institutions:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:131
+msgid ""
+"`Enthought Inc`__ funded the development of our new Qt console, an effort"
+" that required developing major pieces of underlying infrastructure, "
+"which now power not only the Qt console but also our new parallel "
+"machinery.  We'd like to thank Eric Jones and Travis Oliphant for their "
+"support, as well as Ilan Schnell for his tireless work integrating and "
+"testing IPython in the `Enthought Python Distribution`_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:141
+msgid ""
+"Nipy/NIH: funding via the `NiPy project`__ (NIH grant 5R01MH081909-02) "
+"helped us jumpstart the development of this series by restructuring the "
+"entire codebase two years ago in a way that would make modular "
+"development and testing more approachable.  Without this initial "
+"groundwork, all the new features we have added would have been impossible"
+" to develop."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:149
+msgid ""
+"Sage/NSF: funding via the grant `Sage: Unifying Mathematical Software for"
+" Scientists, Engineers, and Mathematicians`__ (NSF grant DMS-1015114) "
+"supported a meeting in spring 2011 of several of the core IPython "
+"developers where major progress was made integrating the last key pieces "
+"leading to this release."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:157
+msgid ""
+"Microsoft's team working on `Python Tools for Visual Studio`__ developed "
+"the integraton of IPython into the Python plugin for Visual Studio 2010."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:162
+msgid ""
+"Google Summer of Code: in 2010, we had two students developing prototypes"
+" of the new machinery that is now maturing in this release: `Omar "
+"Zapata`_ and `Gerardo Gutiérrez`_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:171
+msgid "Development summary: moving to Git and Github"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:173
+msgid ""
+"In April 2010, after `one breakage too many with bzr`__, we decided to "
+"move our entire development process to Git and Github.com.  This has "
+"proven to be one of the best decisions in the project's history, as the "
+"combination of git and github have made us far, far more productive than "
+"we could be with our previous tools.  We first converted our bzr repo to "
+"a git one without losing history, and a few weeks later ported all open "
+"Launchpad bugs to github issues with their comments mostly intact (modulo"
+" some formatting changes).  This ensured a smooth transition where no "
+"development history or submitted bugs were lost. Feel free to use our "
+"little Launchpad to Github issues `porting script`_ if you need to make a"
+" similar transition."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:187
+msgid ""
+"These simple statistics show how much work has been done on the new "
+"release, by comparing the current code to the last point it had in common"
+" with the 0.10 series.  A huge diff and ~2200 commits make up this "
+"cycle::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:197
+msgid ""
+"Since our move to github, 511 issues were closed, 226 of which were pull "
+"requests and 285 regular issues (:ref:`a full list with links "
+"<issues_list_011>` is available for those interested in the details).  "
+"Github's pull requests are a fantastic mechanism for reviewing code and "
+"building a shared ownership of the project, and we are making "
+"enthusiastic use of it."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:205
+msgid ""
+"This undercounts the number of issues closed in this development cycle, "
+"since we only moved to github for issue tracking in May 2010, but we have"
+" no way of collecting statistics on the number of issues closed in the "
+"old Launchpad bug tracker prior to that."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:214
+msgid "Qt Console"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:216
+msgid ""
+"IPython now ships with a Qt application that feels very much like a "
+"terminal, but is in fact a rich GUI that runs an IPython client but "
+"supports inline figures, saving sessions to PDF and HTML, multiline "
+"editing with syntax highlighting, graphical calltips and much more:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:227
+msgid "The Qt console for IPython, using inline matplotlib plots."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:229
+msgid ""
+"We hope that many projects will embed this widget, which we've kept "
+"deliberately very lightweight, into their own environments.  In the "
+"future we may also offer a slightly more featureful application (with "
+"menus and other GUI elements), but we remain committed to always shipping"
+" this easy to embed widget."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:235
+msgid ""
+"See the `Jupyter Qt Console site <https://jupyter.org/qtconsole>`_ for a "
+"detailed description of the console's features and use."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:242
+msgid "High-level parallel computing with ZeroMQ"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:244
+msgid ""
+"We have completely rewritten the Twisted-based code for high-level "
+"parallel computing to work atop our new ZeroMQ architecture.  While we "
+"realize this will break compatibility for a number of users, we hope to "
+"make the transition as easy as possible with our docs, and we are "
+"convinced the change is worth it. ZeroMQ provides us with much tighter "
+"control over memory, higher performance, and its communications are "
+"impervious to the Python Global Interpreter Lock because they take place "
+"in a system-level C++ thread.  The impact of the GIL in our previous code"
+" was something we could simply not work around, given that Twisted is "
+"itself a Python library.  So while Twisted is a very capable framework, "
+"we think ZeroMQ fits our needs much better and we hope you will find the "
+"change to be a significant improvement in the long run."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:256
+msgid ""
+"Our manual contains a full description of how to use IPython for parallel"
+" computing, and the `tutorial`__ presented by Min Ragan-Kelley at the "
+"SciPy 2011 conference provides a hands-on complement to the reference "
+"docs."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:265
+msgid "Refactoring"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:267
+msgid ""
+"As of this release, a signifiant portion of IPython has been refactored."
+"  This refactoring is founded on a number of new abstractions.  The main "
+"new classes that implement these abstractions are:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:271
+msgid ":class:`traitlets.HasTraits`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:272
+msgid ":class:`traitlets.config.configurable.Configurable`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:273
+msgid ":class:`traitlets.config.application.Application`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:274
+msgid ":class:`traitlets.config.loader.ConfigLoader`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:275
+msgid ":class:`traitlets.config.loader.Config`"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:277
+msgid ""
+"We are still in the process of writing developer focused documentation "
+"about these classes, but for now our :ref:`configuration documentation "
+"<config_overview>` contains a high level overview of the concepts that "
+"these classes express."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:282
+msgid ""
+"The biggest user-visible change is likely the move to using the config "
+"system to determine the command-line arguments for IPython applications. "
+"The benefit of this is that *all* configurable values in IPython are "
+"exposed on the command-line, but the syntax for specifying values has "
+"changed. The gist is that assigning values is pure Python assignment.  "
+"Simple flags exist for commonly used options, these are always prefixed "
+"with '--'."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:289
+msgid ""
+"The IPython command-line help has the details of all the options (via "
+"``ipython --help``), but a simple example should clarify things; the "
+"``pylab`` flag can be used to start in pylab mode with the qt4 backend::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:295
+msgid "which is equivalent to using the fully qualified form::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:299
+msgid "The long-form options can be listed via ``ipython --help-all``."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:303
+msgid "ZeroMQ architecture"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:305
+msgid ""
+"There is a new GUI framework for IPython, based on a client-server model "
+"in which multiple clients can communicate with one IPython kernel, using "
+"the ZeroMQ messaging framework. There is already a Qt console client, "
+"which can be started by calling ``ipython qtconsole``. The protocol is "
+":ref:`documented <messaging>`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:311
+msgid ""
+"The parallel computing framework has also been rewritten using ZMQ. The "
+"protocol is described :ref:`here <parallel_messages>`, and the code is in"
+" the new :mod:`IPython.parallel` module."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:318
+msgid "Python 3 support"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:320
+msgid ""
+"A Python 3 version of IPython has been prepared. For the time being, this"
+" is maintained separately and updated from the main codebase. Its code "
+"can be found `here <https://github.com/ipython/ipython-py3k>`_. The "
+"parallel computing components are not perfect on Python3, but most "
+"functionality appears to be working.  As this work is evolving quickly, "
+"the best place to find updated information about it is our `Python 3 wiki"
+" page`__."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:331
+msgid "Unicode"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:333
+msgid ""
+"Entering non-ascii characters in unicode literals (``u\"€ø\"``) now works"
+" properly on all platforms. However, entering these in byte/string "
+"literals (``\"€ø\"``) will not work as expected on Windows (or any "
+"platform where the terminal encoding is not UTF-8, as it typically is for"
+" Linux & Mac OS X). You can use escape sequences (``\"\\xe9\\x82\"``) to "
+"get bytes above 128, or use unicode literals and encode them. This is a "
+"limitation of Python 2 which we cannot easily work around."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:344
+msgid "Integration with Microsoft Visual Studio"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:346
+msgid ""
+"IPython can be used as the interactive shell in the `Python plugin for "
+"Microsoft Visual Studio`__, as seen here:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:355
+msgid "IPython console embedded in Microsoft Visual Studio."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:357
+msgid ""
+"The Microsoft team developing this currently has a release candidate out "
+"using IPython 0.11. We will continue to collaborate with them to ensure "
+"that as they approach their final release date, the integration with "
+"IPython remains smooth. We'd like to thank Dino Viehland and Shahrokh "
+"Mortazavi for the work they have done towards this feature, as well as "
+"Wenming Ye for his support of our WinHPC capabilities."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:368
+msgid "Additional new features"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:370
+msgid ""
+"Added ``Bytes`` traitlet, removing ``Str``.  All 'string' traitlets "
+"should either be ``Unicode`` if a real string, or ``Bytes`` if a "
+"C-string. This removes ambiguity and helps the Python 3 transition."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:374
+#, python-format
+msgid ""
+"New magic ``%loadpy`` loads a python file from disk or web URL into the "
+"current input buffer."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:377
+msgid "New magic ``%pastebin`` for sharing code via the 'Lodge it' pastebin."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:379
+msgid "New magic ``%precision`` for controlling float and numpy pretty printing."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:381
+msgid ""
+"IPython applications initiate logging, so any object can gain access to a"
+" the logger of the currently running Application with:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:389
+msgid ""
+"You can now get help on an object halfway through typing a command. For "
+"instance, typing ``a = zip?`` shows the details of :func:`zip`. It also "
+"leaves the command at the next prompt so you can carry on with it."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:393
+msgid ""
+"The input history is now written to an SQLite database. The API for "
+"retrieving items from the history has also been redesigned."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:396
+msgid ""
+"The :mod:`IPython.extensions.pretty` extension has been moved out of "
+"quarantine and fully updated to the new extension API."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:399
+#, python-format
+msgid ""
+"New magics for loading/unloading/reloading extensions have been added: "
+"``%load_ext``, ``%unload_ext`` and ``%reload_ext``."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:402
+msgid ""
+"The configuration system and configuration files are brand new. See the "
+"configuration system :ref:`documentation <config_index>` for more "
+"details."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:405
+msgid ""
+"The :class:`~IPython.core.interactiveshell.InteractiveShell` class is now"
+" a :class:`~traitlets.config.configurable.Configurable` subclass and has "
+"traitlets that determine the defaults and runtime environment. The "
+"``__init__`` method has also been refactored so this class can be "
+"instantiated and run without the old :mod:`ipmaker` module."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:411
+msgid ""
+"The methods of :class:`~IPython.core.interactiveshell.InteractiveShell` "
+"have been organized into sections to make it easier to turn more sections"
+" of functionality into components."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:415
+msgid ""
+"The embedded shell has been refactored into a truly standalone subclass "
+"of :class:`InteractiveShell` called :class:`InteractiveShellEmbed`.  All "
+"embedding logic has been taken out of the base class and put into the "
+"embedded subclass."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:420
+msgid ""
+"Added methods of :class:`~IPython.core.interactiveshell.InteractiveShell`"
+" to help it cleanup after itself. The :meth:`cleanup` method controls "
+"this. We couldn't do this in :meth:`__del__` because we have cycles in "
+"our object graph that prevent it from being called."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:425
+msgid ""
+"Created a new module :mod:`IPython.utils.importstring` for resolving "
+"strings like ``foo.bar.Bar`` to the actual class."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:428
+msgid ""
+"Completely refactored the :mod:`IPython.core.prefilter` module into "
+":class:`~traitlets.config.configurable.Configurable` subclasses. Added a "
+"new layer into the prefilter system, called \"transformations\" that all "
+"new prefilter logic should use (rather than the older \"checker/handler\""
+" approach)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:434
+msgid "Aliases are now components (:mod:`IPython.core.alias`)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:436
+msgid ""
+"New top level :func:`~IPython.frontend.terminal.embed.embed` function "
+"that can be called to embed IPython at any place in user's code. On the "
+"first call it will create an "
+":class:`~IPython.frontend.terminal.embed.InteractiveShellEmbed` instance "
+"and call it. In later calls, it just calls the previously created "
+":class:`~IPython.frontend.terminal.embed.InteractiveShellEmbed`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:442
+msgid ""
+"Created a configuration system (:mod:`traitlets.config.configurable`) "
+"that is based on :mod:`traitlets`. Configurables are arranged into a "
+"runtime containment tree (not inheritance) that i) automatically "
+"propagates configuration information and ii) allows singletons to "
+"discover each other in a loosely coupled manner. In the future all parts "
+"of IPython will be subclasses of "
+":class:`~traitlets.config.configurable.Configurable`. All IPython "
+"developers should become familiar with the config system."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:450
+msgid ""
+"Created a new :class:`~traitlets.config.loader.Config` for holding "
+"configuration information. This is a dict like class with a few extras: "
+"i) it supports attribute style access, ii) it has a merge function that "
+"merges two :class:`~traitlets.config.loader.Config` instances recursively"
+" and iii) it will automatically create "
+"sub-:class:`~traitlets.config.loader.Config` instances for attributes "
+"that start with an uppercase character."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:457
+msgid ""
+"Created new configuration loaders in :mod:`traitlets.config.loader`. "
+"These loaders provide a unified loading interface for all configuration "
+"information including command line arguments and configuration files. We "
+"have two default implementations based on :mod:`argparse` and plain "
+"python files.  These are used to implement the new configuration system."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:463
+msgid ""
+"Created a top-level :class:`Application` class in "
+":mod:`IPython.core.application` that is designed to encapsulate the "
+"starting of any basic Python program. An application loads and merges all"
+" the configuration objects, constructs the main application, configures "
+"and initiates logging, and creates and configures any "
+":class:`Configurable` instances and then starts the application running. "
+"An extended :class:`BaseIPythonApplication` class adds logic for handling"
+" the IPython directory as well as profiles, and all IPython entry points "
+"extend it."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:473
+msgid ""
+"The :class:`Type` and :class:`Instance` traitlets now handle classes "
+"given as strings, like ``foo.bar.Bar``. This is needed for forward "
+"declarations. But, this was implemented in a careful way so that string "
+"to class resolution is done at a single point, when the parent "
+":class:`~traitlets.HasTraitlets` is instantiated."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:479
+msgid ""
+":mod:`IPython.utils.ipstruct` has been refactored to be a subclass of "
+"dict.  It also now has full docstrings and doctests."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:482
+msgid ""
+"Created a Traits like implementation in :mod:`traitlets`.  This is a pure"
+" Python, lightweight version of a library that is similar to Enthought's "
+"Traits project, but has no dependencies on Enthought's code.  We are "
+"using this for validation, defaults and notification in our new component"
+" system.  Although it is not 100% API compatible with Enthought's Traits,"
+" we plan on moving in this direction so that eventually our "
+"implementation could be replaced by a (yet to exist) pure Python version "
+"of Enthought Traits."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:490
+msgid ""
+"Added a new module :mod:`IPython.lib.inputhook` to manage the integration"
+" with GUI event loops using `PyOS_InputHook`.  See the docstrings in this"
+" module or the main IPython docs for details."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:494
+#, python-format
+msgid ""
+"For users, GUI event loop integration is now handled through the new "
+":command:`%gui` magic command.  Type ``%gui?`` at an IPython prompt for "
+"documentation."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:498
+msgid ""
+"For developers :mod:`IPython.lib.inputhook` provides a simple interface "
+"for managing the event loops in their interactive GUI applications. "
+"Examples can be found in our :file:`examples/lib` directory."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:503
+msgid "Backwards incompatible changes"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:505
+msgid ""
+"The Twisted-based :mod:`IPython.kernel` has been removed, and completely "
+"rewritten as :mod:`IPython.parallel`, using ZeroMQ."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:508
+msgid ""
+"Profiles are now directories. Instead of a profile being a single config "
+"file, profiles are now self-contained directories. By default, profiles "
+"get their own IPython history, log files, and everything. To create a new"
+" profile, do ``ipython profile create <name>``."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:513
+msgid ""
+"All IPython applications have been rewritten to use "
+":class:`~traitlets.config.loader.KeyValueConfigLoader`. This means that "
+"command-line options have changed. Now, all configurable values are "
+"accessible from the command-line with the same syntax as in a "
+"configuration file."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:518
+msgid ""
+"The command line options ``-wthread``, ``-qthread`` and ``-gthread`` have"
+" been removed. Use ``--gui=wx``, ``--gui=qt``, ``--gui=gtk`` instead."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:522
+msgid ""
+"The extension loading functions have been renamed to "
+":func:`load_ipython_extension` and :func:`unload_ipython_extension`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:525
+msgid ""
+":class:`~IPython.core.interactiveshell.InteractiveShell` no longer takes "
+"an ``embedded`` argument. Instead just use the "
+":class:`~IPython.core.interactiveshell.InteractiveShellEmbed` class."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:529
+msgid "``__IPYTHON__`` is no longer injected into ``__builtin__``."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:531
+msgid ""
+":meth:`Struct.__init__` no longer takes `None` as its first argument.  It"
+" must be a :class:`dict` or :class:`Struct`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:534
+msgid ""
+":meth:`~IPython.core.interactiveshell.InteractiveShell.ipmagic` has been "
+"renamed :meth:`~IPython.core.interactiveshell.InteractiveShell.magic.`"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:537
+msgid ""
+"The functions :func:`ipmagic` and :func:`ipalias` have been removed from "
+":mod:`__builtins__`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:540
+msgid ""
+"The references to the global "
+":class:`~IPython.core.interactivehell.InteractiveShell` instance "
+"(``_ip``, and ``__IP``) have been removed from the user's namespace. They"
+" are replaced by a new function called :func:`get_ipython` that returns "
+"the current :class:`~IPython.core.interactiveshell.InteractiveShell` "
+"instance. This function is injected into the user's namespace and is now "
+"the main way of accessing the running IPython."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:548
+msgid ""
+"Old style configuration files :file:`ipythonrc` and "
+":file:`ipy_user_conf.py` are no longer supported. Users should migrate "
+"there configuration files to the new format described :doc:`here "
+"</config/intro>` and :ref:`here <config_overview>`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:553
+msgid ""
+"The old IPython extension API that relied on :func:`ipapi` has been "
+"completely removed. The new extension API is described :ref:`here "
+"<extensions_overview>`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:557
+msgid ""
+"Support for ``qt3`` has been dropped.  Users who need this should use "
+"previous versions of IPython."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:560
+msgid "Removed :mod:`shellglobals` as it was obsolete."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:562
+msgid ""
+"Removed all the threaded shells in :mod:`IPython.core.shell`. These are "
+"no longer needed because of the new capabilities in "
+":mod:`IPython.lib.inputhook`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:566
+msgid ""
+"New top-level sub-packages have been created: :mod:`IPython.core`, "
+":mod:`IPython.lib`, :mod:`IPython.utils`, :mod:`IPython.deathrow`, "
+":mod:`IPython.quarantine`.  All existing top-level modules have been "
+"moved to appropriate sub-packages.  All internal import statements have "
+"been updated and tests have been added.  The build system (setup.py and "
+"friends) have been updated. See :doc:`/api/index` for details of these "
+"new sub-packages."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:574
+msgid ""
+":mod:`IPython.ipapi` has been moved to :mod:`IPython.core.ipapi`. "
+":mod:`IPython.Shell` and :mod:`IPython.iplib` have been split and removed"
+" as part of the refactor."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:578
+msgid ""
+":mod:`Extensions` has been moved to :mod:`extensions` and all existing "
+"extensions have been moved to either :mod:`IPython.quarantine` or "
+":mod:`IPython.deathrow`. :mod:`IPython.quarantine` contains modules that "
+"we plan on keeping but that need to be updated. :mod:`IPython.deathrow` "
+"contains modules that are either dead or that should be maintained as "
+"third party libraries."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:585
+msgid ""
+"Previous IPython GUIs in :mod:`IPython.frontend` and :mod:`IPython.gui` "
+"are likely broken, and have been removed to :mod:`IPython.deathrow` "
+"because of the refactoring in the core. With proper updates, these should"
+" still work."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:591
+msgid "Known Regressions"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:593
+msgid ""
+"We do our best to improve IPython, but there are some known regressions "
+"in 0.11 relative to 0.10.2.  First of all, there are features that have "
+"yet to be ported to the new APIs, and in order to ensure that all of the "
+"installed code runs for our users, we have moved them to two separate "
+"directories in the source distribution, `quarantine` and `deathrow`.  "
+"Finally, we have some other miscellaneous regressions that we hope to fix"
+" as soon as possible.  We now describe all of these in more detail."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:602
+msgid "Quarantine"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:604
+msgid ""
+"These are tools and extensions that we consider relatively easy to update"
+" to the new classes and APIs, but that we simply haven't had time for.  "
+"Any user who is interested in one of these is encouraged to help us by "
+"porting it and submitting a pull request on our `development site`_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:611
+msgid "Currently, the quarantine directory contains::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:625
+msgid "Deathrow"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:627
+msgid ""
+"These packages may be harder to update or make most sense as third-party "
+"libraries.  Some of them are completely obsolete and have been already "
+"replaced by better functionality (we simply haven't had the time to "
+"carefully weed them out so they are kept here for now). Others simply "
+"require fixes to code that the current core team may not be familiar "
+"with.  If a tool you were used to is included here, we encourage you to "
+"contact the dev list and we can discuss whether it makes sense to keep it"
+" in IPython (if it can be maintained)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:635
+msgid "Currently, the deathrow directory contains::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:650
+msgid "Other regressions"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:652
+msgid ""
+"The machinery that adds functionality to the 'sh' profile for using "
+"IPython as your system shell has not been updated to use the new APIs.  "
+"As a result, only the aesthetic (prompt) changes are still implemented. "
+"We intend to fix this by 0.12.  Tracked as issue 547_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:659
+msgid ""
+"The installation of scripts on Windows was broken without setuptools, so "
+"we now depend on setuptools on Windows.  We hope to fix setuptools-less "
+"installation, and then remove the setuptools dependency.  Issue 539_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:665
+msgid "The directory history `_dh` is not saved between sessions.  Issue 634_."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:671
+msgid "Removed Features"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:673
+msgid ""
+"As part of the updating of IPython, we have removed a few features for "
+"the purposes of cleaning up the codebase and interfaces.  These removals "
+"are permanent, but for any item listed below, equivalent functionality is"
+" available."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:678
+msgid ""
+"The magics Exit and Quit have been dropped as ways to exit IPython. "
+"Instead, the lowercase forms of both work either as a bare name "
+"(``exit``) or a function call (``exit()``).  You can assign these to "
+"other names using exec_lines in the config file."
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:687
+msgid "Credits"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:689
+msgid ""
+"Many users and developers contributed code, features, bug reports and "
+"ideas to this release.  Please do not hesitate in contacting us if we've "
+"failed to acknowledge your contribution here.  In particular, for this "
+"release we have contribution from the following people, a mix of new and "
+"regular names (in alphabetical order by first name):"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:695
+msgid "Aenugu Sai Kiran Reddy <saikrn08-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:696
+msgid "andy wilson <wilson.andrew.j+github-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:697
+msgid "Antonio Cuni <antocuni>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:698
+msgid "Barry Wark <barrywark-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:699
+msgid "Beetoju Anuradha <anu.beethoju-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:700
+msgid "Benjamin Ragan-Kelley <minrk-at-Mercury.local>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:701
+msgid "Brad Reisfeld"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:702
+msgid "Brian E. Granger <ellisonbg-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:703
+msgid "Christoph Gohlke <cgohlke-at-uci.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:704
+msgid "Cody Precord"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:705
+msgid "dan.milstein"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:706
+msgid "Darren Dale <dsdale24-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:707
+msgid "Dav Clark <davclark-at-berkeley.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:708
+msgid "David Warde-Farley <wardefar-at-iro.umontreal.ca>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:709
+msgid "epatters <ejpatters-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:710
+msgid "epatters <epatters-at-caltech.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:711
+msgid "epatters <epatters-at-enthought.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:712
+msgid "Eric Firing <efiring-at-hawaii.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:713
+msgid "Erik Tollerud <erik.tollerud-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:714
+msgid "Evan Patterson <epatters-at-enthought.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:715
+msgid "Fernando Perez <Fernando.Perez-at-berkeley.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:716
+msgid "Gael Varoquaux <gael.varoquaux-at-normalesup.org>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:717
+msgid "Gerardo <muzgash-at-Muzpelheim>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:718
+msgid "Jason Grout <jason.grout-at-drake.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:719
+msgid "John Hunter <jdh2358-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:720
+msgid "Jens Hedegaard Nielsen <jenshnielsen-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:721
+msgid "Johann Cohen-Tanugi <johann.cohentanugi-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:722
+msgid "Jörgen Stenarson <jorgen.stenarson-at-bostream.nu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:723
+msgid "Justin Riley <justin.t.riley-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:724
+msgid "Kiorky"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:725
+msgid "Laurent Dufrechou <laurent.dufrechou-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:726
+msgid "Luis Pedro Coelho <lpc-at-cmu.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:727
+msgid "Mani chandra <mchandra-at-iitk.ac.in>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:728
+msgid "Mark E. Smith"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:729
+msgid "Mark Voorhies <mark.voorhies-at-ucsf.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:730
+msgid "Martin Spacek <git-at-mspacek.mm.st>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:731
+msgid "Michael Droettboom <mdroe-at-stsci.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:732
+msgid "MinRK <benjaminrk-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:733
+msgid "muzuiget <muzuiget-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:734
+msgid "Nick Tarleton <nick-at-quixey.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:735
+msgid "Nicolas Rougier <Nicolas.rougier-at-inria.fr>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:736
+msgid "Omar Andres Zapata Mesa <andresete.chaos-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:737
+msgid "Paul Ivanov <pivanov314-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:738
+msgid "Pauli Virtanen <pauli.virtanen-at-iki.fi>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:739
+msgid "Prabhu Ramachandran"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:740
+msgid "Ramana <sramana9-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:741
+msgid "Robert Kern <robert.kern-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:742
+msgid "Sathesh Chandra <satheshchandra88-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:743
+msgid "Satrajit Ghosh <satra-at-mit.edu>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:744
+msgid "Sebastian Busch"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:745
+msgid "Skipper Seabold <jsseabold-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:746
+msgid "Stefan van der Walt <bzr-at-mentat.za.net>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:747
+msgid "Stephan Peijnik <debian-at-sp.or.at>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:748
+msgid "Steven Bethard"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:749
+msgid "Thomas Kluyver <takowl-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:750
+msgid "Thomas Spura <tomspur-at-fedoraproject.org>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:751
+msgid "Tom Fetherston <tfetherston-at-aol.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:752
+msgid "Tom MacWright"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:753
+msgid "tzanko"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:754
+msgid "vankayala sowjanya <hai.sowjanya-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:755
+msgid "Vivian De Smedt <vds2212-at-VIVIAN>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:756
+msgid "Ville M. Vainio <vivainio-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:757
+msgid "Vishal Vatsa <vishal.vatsa-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:758
+msgid "Vishnu S G <sgvishnu777-at-gmail.com>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:759
+msgid "Walter Doerwald <walter-at-livinglogic.de>"
+msgstr ""
+
+#: ../../source/whatsnew/version0.11.rst:763
+msgid ""
+"This list was generated with the output of ``git log dev-0.11 HEAD "
+"--format='* %aN <%aE>' | sed 's/@/\\-at\\-/' | sed 's/<>//' | sort -u`` "
+"after some cleanup.  If you should be on this list, please add yourself."
+msgstr ""
+

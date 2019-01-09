@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.ipstruct.rst:4
+msgid "Module: :mod:`utils.ipstruct`"
+msgstr ""
+
+#: IPython.utils.ipstruct:1 of
+msgid "A dict subclass that supports attribute style access."
+msgstr ""
+
+#: IPython.utils.ipstruct:3 of
+msgid "Authors:"
+msgstr ""
+
+#: IPython.utils.ipstruct:5 of
+msgid "Fernando Perez (original)"
+msgstr ""
+
+#: IPython.utils.ipstruct:6 of
+msgid "Brian Granger (refactoring to a dict subclass)"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.ipstruct.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:1 of
+msgid "Bases: :class:`dict`"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:1 of
+msgid "A dict subclass with attribute style access."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:3 of
+msgid "This dict subclass has a a few extra features:"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:5 of
+msgid "Attribute style access."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:6 of
+msgid ""
+"Protection of class members (like keys, items) when using attribute style"
+" access."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:8 of
+msgid "The ability to restrict assignment to only existing keys."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:9 of
+msgid "Intelligent merging."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct:10 of
+msgid "Overloaded operators."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.__init__:1 of
+msgid "Initialize with a dictionary, another Struct, or data."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.__init__ IPython.utils.ipstruct.Struct.merge
+#: of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.__init__:3 of
+msgid "Initialize with one dict or Struct"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.__init__:5 of
+msgid "Initialize with key, value pairs."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.__init__:9
+#: IPython.utils.ipstruct.Struct.copy:4 IPython.utils.ipstruct.Struct.hasattr:6
+#: IPython.utils.ipstruct.Struct.merge:64 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.allow_new_attr:1 of
+msgid "Set whether new attributes can be created in this Struct."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.allow_new_attr:3 of
+msgid ""
+"This can be used to catch typos by verifying that the attribute user "
+"tries to change already exists in this Struct."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.copy:1 of
+msgid "Return a copy as a Struct."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.hasattr:1 of
+msgid "hasattr function available as a method."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.hasattr:3 of
+msgid "Implemented like has_key."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:1 of
+msgid "Merge two Structs with customizable conflict resolution."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:3 of
+msgid ""
+"This is similar to :meth:`update`, but much more flexible. First, a dict "
+"is made from data+key=value pairs. When merging this dict with the Struct"
+" S, the optional dictionary 'conflict' is used to decide what to do."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:8 of
+msgid ""
+"If conflict is not given, the default behavior is to preserve any keys "
+"with their current value (the opposite of the :meth:`update` method's "
+"behavior)."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:12 of
+msgid "The data to merge into self"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:14 of
+msgid ""
+"The conflict policy dict.  The keys are binary functions used to resolve "
+"the conflict and the values are lists of strings naming the keys the "
+"conflict resolution function applies to.  Instead of a list of strings a "
+"space separated string can be used, like 'a b c'."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:20 of
+msgid "Additional key, value pairs to merge in"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:24 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:25 of
+msgid ""
+"The `__conflict_solve` dict is a dictionary of binary functions which "
+"will be used to solve key conflicts.  Here is an example::"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:33 of
+msgid ""
+"In this case, the function :func:`func1` will be used to resolve keys "
+"'a', 'b' and 'c' and the function :func:`func2` will be used for keys 'd'"
+" and 'e'.  This could also be written as::"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:39 of
+msgid "These functions will be called for each key they apply to with the form::"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:44 of
+msgid "The return value is used as the final merged value."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:46 of
+msgid ""
+"As a convenience, merge() provides five (the most commonly needed) pre-"
+"defined policies: preserve, update, add, add_flip and add_s. The easiest "
+"explanation is their implementation::"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:56 of
+msgid ""
+"You can use those four words (as strings) as keys instead of defining "
+"them as functions, and the merge method will substitute the appropriate "
+"functions for you."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:60 of
+msgid ""
+"For more complicated conflict resolution policies, you still need to "
+"construct your own functions."
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:65 of
+msgid "This show the default policy:"
+msgstr ""
+
+#: IPython.utils.ipstruct.Struct.merge:73 of
+msgid "Now, show how to specify a conflict dict:"
+msgstr ""
+

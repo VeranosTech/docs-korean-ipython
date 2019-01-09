@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.decorators.rst:4
+msgid "Module: :mod:`testing.decorators`"
+msgstr ""
+
+#: IPython.testing.decorators:1 of
+msgid "Decorators for labeling test objects."
+msgstr ""
+
+#: IPython.testing.decorators:3 of
+msgid ""
+"Decorators that merely return a modified version of the original function"
+" object are straightforward.  Decorators that return a new function "
+"object need to use "
+"nose.tools.make_decorator(original_function)(decorator) in returning the "
+"decorator, in order to preserve metadata such as function name, setup and"
+" teardown functions and so on - see nose.tools for more information."
+msgstr ""
+
+#: IPython.testing.decorators:9 of
+msgid ""
+"This module provides a set of useful decorators meant to be ready to use "
+"in your own tests.  See the bottom of the file for the ready-made ones, "
+"and if you find yourself writing a new one that may be of generic use, "
+"add it here."
+msgstr ""
+
+#: IPython.testing.decorators:13 of
+msgid "Included decorators:"
+msgstr ""
+
+#: IPython.testing.decorators:16 of
+msgid "Lightweight testing that remains unittest-compatible."
+msgstr ""
+
+#: IPython.testing.decorators:18 of
+msgid ""
+"An @as_unittest decorator can be used to tag any normal parameter-less "
+"function as a unittest TestCase.  Then, both nose and normal unittest "
+"will recognize it as such.  This will make it easier to migrate away from"
+" Nose if we ever need/want to while maintaining very lightweight tests."
+msgstr ""
+
+#: IPython.testing.decorators:23 of
+msgid ""
+"NOTE: This file contains IPython-specific decorators. Using the machinery"
+" in IPython.external.decorators, we import either "
+"numpy.testing.decorators if numpy is available, OR use equivalent code in"
+" IPython.external._decorators, which we've copied verbatim from numpy."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.decorators.rst:10
+msgid "11 Functions"
+msgstr ""
+
+#: IPython.testing.decorators.as_unittest:1 of
+msgid "Decorator to make a simple function into a normal test via unittest."
+msgstr ""
+
+#: IPython.testing.decorators.apply_wrapper:1 of
+msgid "Apply a wrapper to a function for decoration."
+msgstr ""
+
+#: IPython.testing.decorators.apply_wrapper:3 of
+msgid ""
+"This mixes Michele Simionato's decorator tool with nose's make_decorator,"
+" to apply a wrapper in a decorator so that all nose attributes, as well "
+"as function signature and other properties, survive the decoration "
+"cleanly. This will ensure that wrapped functions can still be well "
+"introspected via IPython, for example."
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:1 of
+msgid "Factory function to create a decorator that applies one or more labels."
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec IPython.testing.decorators.skip
+#: IPython.testing.decorators.skipif of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:7 of
+msgid ""
+"it decorates.  Labels are attributes of the decorated function with their"
+" value set to True."
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:10 of
+msgid ""
+"ds : string An optional docstring for the resulting decorator.  If not "
+"given, a default docstring is auto-generated."
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec IPython.testing.decorators.skip
+#: IPython.testing.decorators.skipif of
+msgid "Returns"
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec IPython.testing.decorators.skip
+#: IPython.testing.decorators.skipif of
+msgid "Return type"
+msgstr ""
+
+#: IPython.testing.decorators.decorated_dummy:4
+#: IPython.testing.decorators.make_label_dec:18 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:19 of
+msgid "A simple labeling decorator:"
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:25 of
+msgid "And one that uses multiple labels and a custom docstring:"
+msgstr ""
+
+#: IPython.testing.decorators.make_label_dec:32 of
+msgid ""
+"Now, let's test using this one: >>> @rare ... def f(): pass ... >>> >>> "
+"f.slow True >>> f.hard True"
+msgstr ""
+
+#: IPython.testing.decorators.skipif:1 of
+msgid "Make function raise SkipTest exception if skip_condition is true"
+msgstr ""
+
+#: IPython.testing.decorators.skipif:3 of
+msgid ""
+"Flag to determine whether to skip test. If the condition is a callable, "
+"it is used at runtime to dynamically make the decision. This is useful "
+"for tests that may require costly imports, to delay the cost until the "
+"test suite is actually executed."
+msgstr ""
+
+#: IPython.testing.decorators.skipif:8 of
+msgid "Message to give on raising a SkipTest exception."
+msgstr ""
+
+#: IPython.testing.decorators.skipif:11 of
+msgid ""
+"**decorator** -- Decorator, which, when applied to a function, causes "
+"SkipTest to be raised when the skip_condition was True, and the function "
+"to be called normally otherwise."
+msgstr ""
+
+#: IPython.testing.decorators.skipif:17 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.testing.decorators.skipif:18 of
+msgid ""
+"You will see from the code that we had to further decorate the decorator "
+"with the nose.tools.make_decorator function in order to transmit function"
+" name, and various other metadata."
+msgstr ""
+
+#: IPython.testing.decorators.skip:1 of
+msgid "Decorator factory - mark a test function for skipping from test suite."
+msgstr ""
+
+#: IPython.testing.decorators.skip:3 of
+msgid "Optional message to be added."
+msgstr ""
+
+#: IPython.testing.decorators.skip:6 of
+msgid ""
+"**decorator** -- Decorator, which, when applied to a function, causes "
+"SkipTest to be raised, with the optional message added."
+msgstr ""
+
+#: IPython.testing.decorators.onlyif:1 of
+msgid "The reverse from skipif, see skipif for details."
+msgstr ""
+
+#: IPython.testing.decorators.module_not_available:1 of
+msgid "Can module be imported?  Returns true if module does NOT import."
+msgstr ""
+
+#: IPython.testing.decorators.module_not_available:3 of
+msgid ""
+"This is used to make a decorator to skip tests that require module to be "
+"available, but delay the 'import numpy' to test execution time."
+msgstr ""
+
+#: IPython.testing.decorators.decorated_dummy:1 of
+msgid "Return a dummy function decorated with dec, with the given name."
+msgstr ""
+
+#: IPython.testing.decorators.decorated_dummy:5 of
+msgid ""
+"import IPython.testing.decorators as dec setup = "
+"dec.decorated_dummy(dec.skip_if_no_x11, __name__)"
+msgstr ""
+
+#: IPython.testing.decorators.onlyif_cmds_exist:1 of
+msgid "Decorator to skip test when at least one of `commands` is not found."
+msgstr ""
+
+#: IPython.testing.decorators.onlyif_any_cmd_exists:1 of
+msgid "Decorator to skip test unless at least one of `commands` is found."
+msgstr ""
+

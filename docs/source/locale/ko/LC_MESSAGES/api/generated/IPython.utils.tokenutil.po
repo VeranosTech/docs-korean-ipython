@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.tokenutil.rst:4
+msgid "Module: :mod:`utils.tokenutil`"
+msgstr ""
+
+#: IPython.utils.tokenutil:1 of
+msgid "Token-related utilities"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.tokenutil.rst:10
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.utils.tokenutil.generate_tokens:1 of
+msgid "wrap generate_tokens to catch EOF errors"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor:1 of
+msgid "Return the line in a cell at a given cursor position"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor:3 of
+msgid "Used for calling line-based APIs that don't support multi-line input, yet."
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor
+#: IPython.utils.tokenutil.token_at_cursor of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor:5 of
+msgid "multiline block of text"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor:7 of
+msgid "the cursor position"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor of
+msgid "Returns"
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor:10 of
+msgid ""
+"**(line, offset)** -- The line with the current cursor, and the character"
+" offset of the start of the line."
+msgstr ""
+
+#: IPython.utils.tokenutil.line_at_cursor of
+msgid "Return type"
+msgstr ""
+
+#: IPython.utils.tokenutil.token_at_cursor:1 of
+msgid "Get the token at a given cursor"
+msgstr ""
+
+#: IPython.utils.tokenutil.token_at_cursor:3 of
+msgid "Used for introspection."
+msgstr ""
+
+#: IPython.utils.tokenutil.token_at_cursor:5 of
+msgid ""
+"Function calls are prioritized, so the token for the callable will be "
+"returned if the cursor is anywhere inside the call."
+msgstr ""
+
+#: IPython.utils.tokenutil.token_at_cursor:8 of
+msgid "A block of Python code"
+msgstr ""
+
+#: IPython.utils.tokenutil.token_at_cursor:10 of
+msgid "The location of the cursor in the block where the token should be found"
+msgstr ""
+

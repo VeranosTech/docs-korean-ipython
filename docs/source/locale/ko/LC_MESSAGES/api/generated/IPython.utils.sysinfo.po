@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.sysinfo.rst:4
+msgid "Module: :mod:`utils.sysinfo`"
+msgstr ""
+
+#: IPython.utils.sysinfo:1 of
+msgid ""
+"Utilities for getting information about IPython and the system it's "
+"running in."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.sysinfo.rst:10
+msgid "5 Functions"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:1 of
+msgid "Get short form of commit hash given directory `pkg_path`"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:3 of
+msgid "We get the commit hash from (in order of preference):"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:5 of
+msgid "IPython.utils._sysinfo.commit"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:6 of
+msgid "git output, if we are in a git repository"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:8 of
+msgid "If these fail, we return a not-found placeholder tuple"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash IPython.utils.sysinfo.pkg_info of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:10 of
+msgid "directory containing package only used for getting commit from active repo"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash IPython.utils.sysinfo.pkg_info of
+msgid "Returns"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:14 of
+msgid ""
+"* **hash_from** (*str*) -- Where we got the hash from - description * "
+"**hash_str** (*str*) -- short form of hash"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:14 of
+msgid "**hash_from** (*str*) -- Where we got the hash from - description"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_commit_hash:15 of
+msgid "**hash_str** (*str*) -- short form of hash"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_info:1 of
+msgid "Return dict describing the context of this package"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_info:3 of
+msgid "path containing __init__.py for package"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_info:6 of
+msgid "**context** -- with named parameters of interest"
+msgstr ""
+
+#: IPython.utils.sysinfo.pkg_info of
+msgid "Return type"
+msgstr ""
+
+#: IPython.utils.sysinfo.get_sys_info:1 of
+msgid "Return useful information about IPython and the system, as a dict."
+msgstr ""
+
+#: IPython.utils.sysinfo.sys_info:1 of
+msgid "Return useful information about IPython and the system, as a string."
+msgstr ""
+
+#: IPython.utils.sysinfo.sys_info:4 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.utils.sysinfo.num_cpus:1 of
+msgid "Return the effective number of CPUs in the system as an integer."
+msgstr ""
+
+#: IPython.utils.sysinfo.num_cpus:3 of
+msgid ""
+"This cross-platform function makes an attempt at finding the total number"
+" of available CPUs in the system, as returned by various underlying "
+"system and python calls."
+msgstr ""
+
+#: IPython.utils.sysinfo.num_cpus:7 of
+msgid ""
+"If it can't find a sensible answer, it returns 1 (though an error *may* "
+"make it return a large positive number that's actually incorrect)."
+msgstr ""
+

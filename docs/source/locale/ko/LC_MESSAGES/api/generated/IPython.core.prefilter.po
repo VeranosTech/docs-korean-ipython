@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.prefilter.rst:4
+msgid "Module: :mod:`core.prefilter`"
+msgstr ""
+
+#: IPython.core.prefilter:1 of
+msgid "Prefiltering components."
+msgstr ""
+
+#: IPython.core.prefilter:3 of
+msgid ""
+"Prefilters transform user input before it is exec'd by Python.  These "
+"transforms are used to implement additional syntax such as !ls and "
+"%magic."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.prefilter.rst:10
+msgid "16 Classes"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker:1
+#: IPython.core.prefilter.PrefilterHandler:1
+#: IPython.core.prefilter.PrefilterManager:1
+#: IPython.core.prefilter.PrefilterTransformer:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:1 of
+msgid "Main prefilter component."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:3 of
+msgid ""
+"The IPython prefilter is run on all user input before it is run.  The "
+"prefilter consumes lines of input and produces transformed lines of "
+"input."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:7 of
+msgid "The implementation consists of two phases:"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:9 of
+msgid "Transformers"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:10 of
+msgid "Checkers and handlers"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:12 of
+msgid ""
+"Over time, we plan on deprecating the checkers and handlers and doing "
+"everything in the transformers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:15 of
+msgid ""
+"The transformers are instances of :class:`PrefilterTransformer` and have "
+"a single method :meth:`transform` that takes a line and returns a "
+"transformed line.  The transformation can be accomplished using any tool,"
+" but our current ones use regular expressions for speed."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:20 of
+msgid ""
+"After all the transformers have been run, the line is fed to the "
+"checkers, which are instances of :class:`PrefilterChecker`.  The line is "
+"passed to the :meth:`check` method, which either returns `None` or a "
+":class:`PrefilterHandler` instance.  If `None` is returned, the other "
+"checkers are tried.  If an :class:`PrefilterHandler` instance is "
+"returned, the line is passed to the :meth:`handle` method of the returned"
+" handler and no further checkers are tried."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:28 of
+msgid ""
+"Both transformers and checkers have a `priority` attribute, that "
+"determines the order in which they are called.  Smaller priorities are "
+"tried first."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:31 of
+msgid ""
+"Both transformers and checkers also have `enabled` attribute, which is a "
+"boolean that determines if the instance is used."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager:34 of
+msgid ""
+"Users or developers can change the priority or enabled attribute of "
+"transformers or checkers, but they must call the :meth:`sort_checkers` or"
+" :meth:`sort_transformers` method after changing the priority."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:1
+#: IPython.core.prefilter.PrefilterHandler.__init__:1
+#: IPython.core.prefilter.PrefilterManager.__init__:1
+#: IPython.core.prefilter.PrefilterTransformer.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__
+#: IPython.core.prefilter.PrefilterHandler.__init__
+#: IPython.core.prefilter.PrefilterManager.__init__
+#: IPython.core.prefilter.PrefilterTransformer.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:3
+#: IPython.core.prefilter.PrefilterHandler.__init__:3
+#: IPython.core.prefilter.PrefilterManager.__init__:3
+#: IPython.core.prefilter.PrefilterTransformer.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:7
+#: IPython.core.prefilter.PrefilterHandler.__init__:7
+#: IPython.core.prefilter.PrefilterManager.__init__:7
+#: IPython.core.prefilter.PrefilterTransformer.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:11
+#: IPython.core.prefilter.PrefilterHandler.__init__:11
+#: IPython.core.prefilter.PrefilterManager.__init__:11
+#: IPython.core.prefilter.PrefilterTransformer.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:12
+#: IPython.core.prefilter.PrefilterHandler.__init__:12
+#: IPython.core.prefilter.PrefilterManager.__init__:12
+#: IPython.core.prefilter.PrefilterTransformer.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker.__init__:21
+#: IPython.core.prefilter.PrefilterHandler.__init__:21
+#: IPython.core.prefilter.PrefilterManager.__init__:21
+#: IPython.core.prefilter.PrefilterTransformer.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.checkers:1
+#: IPython.core.prefilter.PrefilterManager.transformers:1 of
+msgid "Return a list of checkers, sorted by priority."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.find_handler:1 of
+msgid "Find a handler for the line_info by trying checkers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.get_handler_by_esc:1 of
+msgid "Get a handler by its escape string."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.get_handler_by_name:1 of
+msgid "Get a handler by its name."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.handlers:1 of
+msgid "Return a dict of all the handlers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.init_checkers:1 of
+msgid "Create the default checkers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.init_handlers:1 of
+msgid "Create the default handlers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.init_transformers:1 of
+msgid "Create the default transformers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_line:1 of
+msgid "Prefilter a single input line as text."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_line:3 of
+msgid ""
+"This method prefilters a single line of text by calling the transformers "
+"and then the checkers/handlers."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_line_info:1 of
+msgid "Prefilter a line that has been converted to a LineInfo object."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_line_info:3 of
+msgid "This implements the checker/handler part of the prefilter pipe."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_lines:1 of
+msgid "Prefilter multiple input lines of text."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_lines:3 of
+msgid ""
+"This is the main entry point for prefiltering multiple lines of input.  "
+"This simply calls :meth:`prefilter_line` for each line of input."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.prefilter_lines:7 of
+msgid ""
+"This covers cases where there are multiple lines in the user entry, which"
+" is the case when the user goes back to a multiline history entry and "
+"presses enter."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.register_checker:1 of
+msgid "Register a checker instance."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.register_handler:1 of
+msgid "Register a handler instance by name with esc_strings."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.register_transformer:1 of
+msgid "Register a transformer instance."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.sort_checkers:1 of
+msgid "Sort the checkers by priority."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.sort_checkers:3 of
+msgid ""
+"This must be called after the priority of a checker is changed. The "
+":meth:`register_checker` method calls this automatically."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.sort_transformers:1 of
+msgid "Sort the transformers by priority."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.sort_transformers:3 of
+msgid ""
+"This must be called after the priority of a transformer is changed. The "
+":meth:`register_transformer` method calls this automatically."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.transform_line:1 of
+msgid "Calls the enabled transformers in order of increasing priority."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.unregister_checker:1 of
+msgid "Unregister a checker instance."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.unregister_handler:1 of
+msgid "Unregister a handler instance by name with esc_strings."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterManager.unregister_transformer:1 of
+msgid "Unregister a transformer instance."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterTransformer:1 of
+msgid "Transform a line of user input."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterTransformer.transform:1 of
+msgid "Transform a line, returning the new one."
+msgstr ""
+
+#: IPython.core.prefilter.PrefilterChecker:1 of
+msgid "Inspect an input line and return a handler for that line."
+msgstr ""
+
+#: IPython.core.prefilter.MacroChecker.check:1
+#: IPython.core.prefilter.PrefilterChecker.check:1 of
+msgid "Inspect line_info and return a handler instance or None."
+msgstr ""
+
+#: IPython.core.prefilter.AssignmentChecker:1
+#: IPython.core.prefilter.AutoMagicChecker:1
+#: IPython.core.prefilter.AutocallChecker:1
+#: IPython.core.prefilter.EmacsChecker:1
+#: IPython.core.prefilter.IPyAutocallChecker:1
+#: IPython.core.prefilter.MacroChecker:1
+#: IPython.core.prefilter.PythonOpsChecker:1 of
+msgid "Bases: :class:`IPython.core.prefilter.PrefilterChecker`"
+msgstr ""
+
+#: IPython.core.prefilter.EmacsChecker.check:1 of
+msgid "Emacs ipython-mode tags certain input lines."
+msgstr ""
+
+#: IPython.core.prefilter.IPyAutocallChecker.check:1 of
+msgid "Instances of IPyAutocall in user_ns get autocalled immediately"
+msgstr ""
+
+#: IPython.core.prefilter.AssignmentChecker.check:1 of
+msgid ""
+"Check to see if user is assigning to a var for the first time, in which "
+"case we want to avoid any sort of automagic / autocall games."
+msgstr ""
+
+#: IPython.core.prefilter.AssignmentChecker.check:4 of
+msgid ""
+"This allows users to assign to either alias or magic names true python "
+"variables (the magic/alias systems always take second seat to true python"
+" code).  E.g. ls='hi', or ls,that=1,2"
+msgstr ""
+
+#: IPython.core.prefilter.AutoMagicChecker.check:1 of
+msgid ""
+"If the ifun is magic, and automagic is on, run it.  Note: normal, non-"
+"auto magic would already have been triggered via '%' in check_esc_chars. "
+"This just checks for automagic.  Also, before triggering the magic "
+"handler, make sure that there is nothing in the user namespace which "
+"could shadow it."
+msgstr ""
+
+#: IPython.core.prefilter.PythonOpsChecker.check:1 of
+msgid ""
+"If the 'rest' of the line begins with a function call or pretty much any "
+"python operator, we should simply execute the line (regardless of whether"
+" or not there's a possible autocall expansion).  This avoids spurious "
+"(and very confusing) geattr() accesses."
+msgstr ""
+
+#: IPython.core.prefilter.AutocallChecker.check:1 of
+msgid "Check if the initial word/function is callable and autocall is on."
+msgstr ""
+
+#: IPython.core.prefilter.MacroHandler.handle:1
+#: IPython.core.prefilter.PrefilterHandler.handle:1 of
+msgid "Handle normal input lines. Use as a template for handlers."
+msgstr ""
+
+#: IPython.core.prefilter.AutoHandler:1 IPython.core.prefilter.EmacsHandler:1
+#: IPython.core.prefilter.MacroHandler:1 IPython.core.prefilter.MagicHandler:1
+#: of
+msgid "Bases: :class:`IPython.core.prefilter.PrefilterHandler`"
+msgstr ""
+
+#: IPython.core.prefilter.MagicHandler.handle:1 of
+msgid "Execute magic functions."
+msgstr ""
+
+#: IPython.core.prefilter.AutoHandler.handle:1 of
+msgid "Handle lines which can be auto-executed, quoting if requested."
+msgstr ""
+
+#: IPython.core.prefilter.EmacsHandler.handle:1 of
+msgid "Handle input lines marked by python-mode."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.prefilter.rst:85
+msgid "1 Function"
+msgstr ""
+
+#: IPython.core.prefilter.is_shadowed:1 of
+msgid ""
+"Is the given identifier defined in one of the namespaces which shadow the"
+" alias and magic namespaces?  Note that an identifier is different than "
+"ifun, because it can not contain a '.' character."
+msgstr ""
+

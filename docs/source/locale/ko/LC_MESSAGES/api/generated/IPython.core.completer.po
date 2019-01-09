@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.completer.rst:4
+msgid "Module: :mod:`core.completer`"
+msgstr ""
+
+#: IPython.core.completer:1 of
+msgid "Completion for IPython."
+msgstr ""
+
+#: IPython.core.completer:3 of
+msgid ""
+"This module started as fork of the rlcompleter module in the Python "
+"standard library.  The original enhancements made to rlcompleter have "
+"been sent upstream and were accepted as of Python 2.3,"
+msgstr ""
+
+#: IPython.core.completer:7 of
+msgid ""
+"This module now support a wide variety of completion mechanism both "
+"available for normal classic Python code, as well as completer for "
+"IPython specific Syntax like magics."
+msgstr ""
+
+#: IPython.core.completer:12 of
+msgid "Latex and Unicode completion"
+msgstr ""
+
+#: IPython.core.completer:14 of
+msgid ""
+"IPython and compatible frontends not only can complete your code, but can"
+" help you to input a wide range of characters. In particular we allow you"
+" to insert a unicode character using the tab completion mechanism."
+msgstr ""
+
+#: IPython.core.completer:19 of
+msgid "Forward latex/unicode completion"
+msgstr ""
+
+#: IPython.core.completer:21 of
+msgid ""
+"Forward completion allows you to easily type a unicode character using "
+"its latex name, or unicode long description. To do so type a backslash "
+"follow by the relevant name and press tab:"
+msgstr ""
+
+#: IPython.core.completer:26 of
+msgid "Using latex completion:"
+msgstr ""
+
+#: IPython.core.completer:33 of
+msgid "or using unicode completion:"
+msgstr ""
+
+#: IPython.core.completer:42 of
+msgid ""
+"Only valid Python identifiers will complete. Combining characters (like "
+"arrow or dots) are also available, unlike latex they need to be put after"
+" the their counterpart that is to say, `F\\\\vec<tab>` is correct, not "
+"`\\\\vec<tab>F`."
+msgstr ""
+
+#: IPython.core.completer:46 of
+msgid "Some browsers are known to display combining characters incorrectly."
+msgstr ""
+
+#: IPython.core.completer:49 of
+msgid "Backward latex completion"
+msgstr ""
+
+#: IPython.core.completer:51 of
+msgid ""
+"It is sometime challenging to know how to type a character, if you are "
+"using IPython, or any compatible frontend you can prepend backslash to "
+"the character and press `<tab>` to expand it to its latex form."
+msgstr ""
+
+#: IPython.core.completer:61 of
+msgid ""
+"Both forward and backward completions can be deactivated by setting the "
+"``Completer.backslash_combining_completions`` option to ``False``."
+msgstr ""
+
+#: IPython.core.completer:66 of
+msgid "Experimental"
+msgstr ""
+
+#: IPython.core.completer:68 of
+msgid ""
+"Starting with IPython 6.0, this module can make use of the Jedi library "
+"to generate completions both using static analysis of the code, and "
+"dynamically inspecting multiple namespaces. The APIs attached to this new"
+" mechanism is unstable and will raise unless use in an "
+":any:`provisionalcompleter` context manager."
+msgstr ""
+
+#: IPython.core.completer:74 of
+msgid "You will find that the following are experimental:"
+msgstr ""
+
+#: IPython.core.completer:76 of
+msgid ":any:`provisionalcompleter`"
+msgstr ""
+
+#: IPython.core.completer:77 of
+msgid ":any:`IPCompleter.completions`"
+msgstr ""
+
+#: IPython.core.completer:78 of
+msgid ":any:`Completion`"
+msgstr ""
+
+#: IPython.core.completer:79 of
+msgid ":any:`rectify_completions`"
+msgstr ""
+
+#: IPython.core.completer:83 of
+msgid "better name for :any:`rectify_completions` ?"
+msgstr ""
+
+#: IPython.core.completer:85 of
+msgid ""
+"We welcome any feedback on these new API, and we also encourage you to "
+"try this module in debug mode (start IPython with "
+"``--Completer.debug=True``) in order to have extra logging information is"
+" :any:`jedi` is crashing, or if current IPython completer pending "
+"deprecations are returning results not yet handled by :any:`jedi`"
+msgstr ""
+
+#: IPython.core.completer:91 of
+msgid ""
+"Using Jedi for tab completion allow snippets like the following to work "
+"without having to execute any code:"
+msgstr ""
+
+#: IPython.core.completer:97 of
+msgid ""
+"Tab completion will be able to infer that ``myvar[1]`` is a real number "
+"without executing any code unlike the previously available "
+"``IPCompleter.greedy`` option."
+msgstr ""
+
+#: IPython.core.completer:101 of
+msgid ""
+"Be sure to update :any:`jedi` to the latest stable version or to try the "
+"current development version to get better completions."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.completer.rst:10
+msgid "3 Classes"
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter:1 of
+msgid "An object to split an input line in a manner similar to readline."
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter:3 of
+msgid ""
+"By having our own implementation, we can expose readline-like completion "
+"in a uniform manner to all frontends.  This object only needs to be given"
+" the line of text to be split and the cursor position on said line, and "
+"it returns the 'word' to be completed on at the cursor after splitting "
+"the entire line."
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter:9 of
+msgid ""
+"What characters are used as splitting delimiters can be controlled by "
+"setting the ``delims`` attribute (this is a property that internally "
+"automatically builds the necessary regular expression)"
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter.delims:1 of
+msgid "Return the string of delimiter characters."
+msgstr ""
+
+#: IPython.core.completer.CompletionSplitter.split_line:1 of
+msgid "Split a line of text with a cursor at the given position."
+msgstr ""
+
+#: IPython.core.completer.Completer:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.completer.Completer.__init__:1 of
+msgid "Create a new completer for the command line."
+msgstr ""
+
+#: IPython.core.completer.Completer.__init__:3 of
+msgid "Completer(namespace=ns, global_namespace=ns2) -> completer instance."
+msgstr ""
+
+#: IPython.core.completer.Completer.__init__:5 of
+msgid ""
+"If unspecified, the default namespace where completions are performed is "
+"__main__ (technically, __main__.__dict__). Namespaces should be given as "
+"dictionaries."
+msgstr ""
+
+#: IPython.core.completer.Completer.__init__:9 of
+msgid ""
+"An optional second namespace can be given.  This allows the completer to "
+"handle cases where both the local and global scopes need to be "
+"distinguished."
+msgstr ""
+
+#: IPython.core.completer.Completer.attr_matches:1 of
+msgid "Compute matches when text contains a dot."
+msgstr ""
+
+#: IPython.core.completer.Completer.attr_matches:3 of
+msgid ""
+"Assuming the text is of the form NAME.NAME....[NAME], and is evaluatable "
+"in self.namespace or self.global_namespace, it will be evaluated and its "
+"attributes (as revealed by dir()) are used as possible completions.  (For"
+" class instances, class members are also considered.)"
+msgstr ""
+
+#: IPython.core.completer.Completer.attr_matches:9 of
+msgid ""
+"WARNING: this can still invoke arbitrary C code, if an object with a "
+"__getattr__ hook is evaluated."
+msgstr ""
+
+#: IPython.core.completer.Completer.complete:1 of
+msgid "Return the next possible completion for 'text'."
+msgstr ""
+
+#: IPython.core.completer.Completer.complete:3 of
+msgid ""
+"This is called successively with state == 0, 1, 2, ... until it returns "
+"None.  The completion should begin with 'text'."
+msgstr ""
+
+#: IPython.core.completer.Completer.global_matches:1 of
+msgid "Compute matches when text is a simple name."
+msgstr ""
+
+#: IPython.core.completer.Completer.global_matches:3 of
+msgid ""
+"Return a list of all keywords, built-in functions and names currently "
+"defined in self.namespace or self.global_namespace that match."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter:1 of
+msgid "Bases: :class:`IPython.core.completer.Completer`"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter:1 of
+msgid "Extension of the completer class with IPython-specific features"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:1 of
+msgid "IPCompleter() -> completer"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:3 of
+msgid "Return a completer object."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__
+#: IPython.core.completer.IPCompleter.complete
+#: IPython.core.completer.IPCompleter.completions
+#: IPython.core.completer.expand_user IPython.core.completer.match_dict_keys of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:5 of
+msgid ""
+"a pointer to the ipython shell itself.  This is needed because this "
+"completer knows about magic functions, and those can only be accessed via"
+" the ipython instance."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:8 of
+msgid "an optional dict where completions are performed."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:10 of
+msgid ""
+"secondary optional dict for completions, to handle cases (such as IPython"
+" embedded inside functions) where both Python scopes are visible."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.__init__:14 of
+msgid "DEPRECATED, ignored since IPython 6.0, will have no effects"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.all_completions:1 of
+msgid "Wrapper around the complete method for the benefit of emacs."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:1 of
+msgid "Find completions for the given text and line context."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:3 of
+msgid ""
+"Note that both the text and the line_buffer are optional, but at least "
+"one of them must be given."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:6 of
+msgid ""
+"Text to perform the completion on.  If not given, the line buffer is "
+"split using the instance's CompletionSplitter object."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:9 of
+msgid ""
+"If not given, the completer attempts to obtain the current line buffer "
+"via readline.  This keyword allows clients which are requesting for text "
+"completions in non-readline contexts to inform the completer of the "
+"entire text."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:14 of
+msgid ""
+"Index of the cursor in the full line buffer.  Should be provided by "
+"remote frontends where kernel has no access to frontend state."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete
+#: IPython.core.completer.expand_user IPython.core.completer.has_open_quotes
+#: IPython.core.completer.match_dict_keys of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:18 of
+msgid ""
+"* **text** (*str*) -- Text that was actually used in the completion. * "
+"**matches** (*list*) -- A list of completion matches."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:18 of
+msgid "**text** (*str*) -- Text that was actually used in the completion."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:19 of
+msgid "**matches** (*list*) -- A list of completion matches."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.complete:23 of
+msgid ""
+"This API is likely to be deprecated and replaced by "
+":any:`IPCompleter.completions` in the future."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:1 of
+msgid "Returns an iterator over the possible completions"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:3 of
+msgid "Unstable"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:5 of
+msgid ""
+"This function is unstable, API may change without warning. It will also "
+"raise unless use in proper context manager."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:8 of
+msgid "Full text of the current input, multi line string."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:10 of
+msgid ""
+"Integer representing the position of the cursor in ``text``. Offset is "
+"0-based indexed."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions of
+msgid "Yields"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:14 of
+msgid ":any:`Completion` object"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:16 of
+msgid ""
+"The cursor on a text can either be seen as being \"in between\" "
+"characters or \"On\" a character depending on the interface visible to "
+"the user. For consistency the cursor being on \"in between\" characters X"
+" and Y is equivalent to the cursor being \"on\" character Y, that is to "
+"say the character the cursor is on is considered as being after the "
+"cursor."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:22 of
+msgid "Combining characters may span more that one position in the text."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:28 of
+msgid ""
+"If ``IPCompleter.debug`` is :any:`True` will yield a ``--jedi/ipython--``"
+" fake Completion token to distinguish completion returned by Jedi and "
+"usual IPython completion."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.completions:34 of
+msgid ""
+"Completions are not completely deduplicated yet. If identical completions"
+" are coming from different sources this function does not ensure that "
+"each completion object will only be present once."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.dict_key_matches:1 of
+msgid "Match string keys in a dictionary, after e.g. 'foo['"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.file_matches:1 of
+msgid "Match filenames, expanding ~USER type strings."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.file_matches:3 of
+msgid ""
+"Most of the seemingly convoluted logic in this completer is an attempt to"
+" handle filenames with spaces in them.  And yet it's not quite perfect, "
+"because Python's readline doesn't expose all of the GNU readline details "
+"needed for this to be done correctly."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.file_matches:8 of
+msgid ""
+"For a filename with a space in it, the printed completions will be only "
+"the parts after what's already been typed (instead of the full "
+"completions, as is normally done).  I don't think with the current (as of"
+" Python 2.3) Python readline it's possible to do better."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.latex_matches:1 of
+msgid "Match Latex syntax for unicode characters."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.latex_matches:3 of
+msgid "This does both ``\\alp`` -> ``\\alpha`` and ``\\alpha`` -> ``α``"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.latex_matches:5
+#: IPython.core.completer.IPCompleter.unicode_name_matches:9
+#: IPython.core.completer.back_latex_name_matches:5
+#: IPython.core.completer.back_unicode_name_matches:10 of
+msgid "Used on Python 3 only."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.magic_color_matches:1 of
+#, python-format
+msgid "Match color schemes for %colors magic"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.magic_config_matches:1 of
+#, python-format
+msgid "Match class names and attributes for %config magic"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.magic_matches:1 of
+msgid "Match magics"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.matchers:1 of
+msgid "All active matcher routines for completion"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.python_func_kw_matches:1 of
+msgid "Match named parameters (kwargs) of the last open function"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.python_matches:1 of
+msgid "Match attributes or global python names"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.unicode_name_matches:1 of
+msgid ""
+"Match Latex-like syntax for unicode characters base on the name of the "
+"character."
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.unicode_name_matches:4 of
+msgid "This does  ``\\GREEK SMALL LETTER ETA`` -> ``η``"
+msgstr ""
+
+#: IPython.core.completer.IPCompleter.unicode_name_matches:6 of
+msgid ""
+"Works only on valid python 3 identifier, or on combining characters that "
+"will combine to form a valid identifier."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.completer.rst:31
+msgid "9 Functions"
+msgstr ""
+
+#: IPython.core.completer.has_open_quotes:1 of
+msgid "Return whether a string has open quotes."
+msgstr ""
+
+#: IPython.core.completer.has_open_quotes:3 of
+msgid ""
+"This simply counts whether the number of quote characters of either type "
+"in the string is odd."
+msgstr ""
+
+#: IPython.core.completer.has_open_quotes:6 of
+msgid ""
+"* *If there is an open quote, the quote character is returned.  Else, "
+"return* * *False.*"
+msgstr ""
+
+#: IPython.core.completer.has_open_quotes:6 of
+msgid ""
+"*If there is an open quote, the quote character is returned.  Else, "
+"return*"
+msgstr ""
+
+#: IPython.core.completer.has_open_quotes:7 of
+msgid "*False.*"
+msgstr ""
+
+#: IPython.core.completer.protect_filename:1 of
+msgid "Escape a string to protect certain characters."
+msgstr ""
+
+#: IPython.core.completer.expand_user:1 of
+msgid "Expand ``~``-style usernames in strings."
+msgstr ""
+
+#: IPython.core.completer.expand_user:3 of
+msgid ""
+"This is similar to :func:`os.path.expanduser`, but it computes and "
+"returns extra information that will be useful if the input was being used"
+" in computing completions, and you wish to return the completions with "
+"the original '~' instead of its expanded value."
+msgstr ""
+
+#: IPython.core.completer.expand_user:8 of
+msgid ""
+"String to be expanded.  If no ~ is present, the output is the same as the"
+" input."
+msgstr ""
+
+#: IPython.core.completer.expand_user:12 of
+msgid ""
+"* **newpath** (*str*) -- Result of ~ expansion in the input path. * "
+"**tilde_expand** (*bool*) -- Whether any expansion was performed or not. "
+"* **tilde_val** (*str*) -- The value that ~ was replaced with."
+msgstr ""
+
+#: IPython.core.completer.expand_user:12 of
+msgid "**newpath** (*str*) -- Result of ~ expansion in the input path."
+msgstr ""
+
+#: IPython.core.completer.expand_user:13 of
+msgid "**tilde_expand** (*bool*) -- Whether any expansion was performed or not."
+msgstr ""
+
+#: IPython.core.completer.expand_user:14 of
+msgid "**tilde_val** (*str*) -- The value that ~ was replaced with."
+msgstr ""
+
+#: IPython.core.completer.compress_user:1 of
+msgid "Does the opposite of expand_user, with its outputs."
+msgstr ""
+
+#: IPython.core.completer.completions_sorting_key:1 of
+msgid "key for sorting completions"
+msgstr ""
+
+#: IPython.core.completer.completions_sorting_key:3 of
+msgid "This does several things:"
+msgstr ""
+
+#: IPython.core.completer.completions_sorting_key:5 of
+msgid "Demote any completions starting with underscores to the end"
+msgstr ""
+
+#: IPython.core.completer.completions_sorting_key:6 of
+#, python-format
+msgid ""
+"Insert any %magic and %%cellmagic completions in the alphabetical order "
+"by their name"
+msgstr ""
+
+#: IPython.core.completer.get__all__entries:1 of
+msgid "returns the strings in the __all__ attribute"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:1 of
+msgid "Used by dict_key_matches, matching the prefix to a list of keys"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:3 of
+msgid "list of keys in dictionary currently being completed."
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:4 of
+msgid "Part of the text already typed by the user. e.g. `mydict[b'fo`"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:5 of
+msgid "String of delimiters to consider when finding the current key."
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:7 of
+msgid ""
+"* **A tuple of three elements** (``quote``, ``token_start``, ``matched``,"
+" with) * ``quote`` being the quote that need to be used to close current "
+"string. * ``token_start`` the position where the replacement should start"
+" occurring, * ``matches`` a list of replacement/completion"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:7 of
+msgid ""
+"**A tuple of three elements** (``quote``, ``token_start``, ``matched``, "
+"with)"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:8 of
+msgid "``quote`` being the quote that need to be used to close current string."
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:9 of
+msgid "``token_start`` the position where the replacement should start occurring,"
+msgstr ""
+
+#: IPython.core.completer.match_dict_keys:10 of
+msgid "``matches`` a list of replacement/completion"
+msgstr ""
+
+#: IPython.core.completer.back_unicode_name_matches:1 of
+msgid "Match unicode characters back to unicode name"
+msgstr ""
+
+#: IPython.core.completer.back_unicode_name_matches:3 of
+msgid "This does  ``☃`` -> ``\\snowman``"
+msgstr ""
+
+#: IPython.core.completer.back_unicode_name_matches:5 of
+msgid ""
+"Note that snowman is not a valid python3 combining character but will be "
+"expanded. Though it will not recombine back to the snowman character by "
+"the completion machinery."
+msgstr ""
+
+#: IPython.core.completer.back_unicode_name_matches:8 of
+msgid "This will not either back-complete standard sequences like \\n, \\b ..."
+msgstr ""
+
+#: IPython.core.completer.back_latex_name_matches:1 of
+msgid "Match latex characters back to unicode name"
+msgstr ""
+
+#: IPython.core.completer.back_latex_name_matches:3 of
+msgid "This does ``\\ℵ`` -> ``\\aleph``"
+msgstr ""
+

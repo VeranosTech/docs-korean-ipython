@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:2
+msgid "Issues closed in the 7.x development cycle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:5
+msgid "Issues closed in 7.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:6
+msgid "GitHub stats for 2018/10/28 - 2018/11/29 (tag: 7.1.1)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:8
+#: ../../source/whatsnew/github-stats-7.rst:37
+#: ../../source/whatsnew/github-stats-7.rst:84
+msgid ""
+"These lists are automatically generated, and may be incomplete or contain"
+" duplicates."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:10
+msgid ""
+"We closed 2 issues and merged 18 pull requests. The full list can be seen"
+" `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A7.2>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:13
+msgid "The following 16 authors contributed 95 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:15
+msgid "Antony Lee"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:16
+#: ../../source/whatsnew/github-stats-7.rst:47
+#: ../../source/whatsnew/github-stats-7.rst:95
+msgid "Benjamin Ragan-Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:17
+msgid "CarsonGSmith"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:18
+msgid "Chris Mentzel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:19
+msgid "Christopher Brown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:20
+msgid "Dan Allan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:21
+msgid "Elliott Morgan Jobson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:22
+msgid "is-this-valid"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:23
+#: ../../source/whatsnew/github-stats-7.rst:58
+msgid "kd2718"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:24
+msgid "Kevin Hess"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:25
+msgid "Martin Bergtholdt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:26
+#: ../../source/whatsnew/github-stats-7.rst:65
+#: ../../source/whatsnew/github-stats-7.rst:117
+msgid "Matthias Bussonnier"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:27
+msgid "Nicholas Bollweg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:28
+msgid "Pavel Karateev"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:29
+msgid "Philipp A"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:30
+msgid "Reuben Morais"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:33
+msgid "Issues closed in 7.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:35
+msgid "GitHub stats for 2018/09/27 - 2018/10/27 (since tag: 7.0.1)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:39
+msgid ""
+"We closed 31 issues and merged 54 pull requests. The full list can be "
+"seen `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A7.1>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:42
+msgid "The following 33 authors contributed 254 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:44
+msgid "ammarmallik"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:45
+msgid "Audrey Dutcher"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:46
+msgid "Bart Skowron"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:48
+msgid "BinaryCrochet"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:49
+msgid "Chris Barker"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:50
+msgid "Christopher Moura"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:51
+msgid "Dedipyaman Das"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:52
+msgid "Dominic Kuang"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:53
+msgid "Elyashiv"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:54
+msgid "Emil Hessman"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:55
+msgid "felixzhuologist"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:56
+#: ../../source/whatsnew/github-stats-7.rst:107
+msgid "hongshaoyang"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:57
+#: ../../source/whatsnew/github-stats-7.rst:108
+msgid "Hugo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:59
+msgid "kory donati"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:60
+msgid "Kory Donati"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:61
+msgid "koryd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:62
+msgid "luciana"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:63
+#: ../../source/whatsnew/github-stats-7.rst:113
+msgid "luz.paz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:64
+msgid "Massimo Santini"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:66
+msgid "Matthias Geier"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:67
+#: ../../source/whatsnew/github-stats-7.rst:118
+msgid "meeseeksdev[bot]"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:68
+msgid "Michael Penkov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:69
+msgid "Mukesh Bhandarkar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:70
+msgid "Nguyen Duy Hai"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:71
+msgid "Roy Wellington Ⅳ"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:72
+msgid "Sha Liu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:73
+msgid "Shao Yang"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:74
+msgid "Shashank Kumar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:75
+msgid "Tony Fast"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:76
+msgid "wim glenn"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:80
+msgid "Issues closed in 7.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:82
+msgid "GitHub stats for 2018/07/29 - 2018/09/27 (since tag: 6.5.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:86
+msgid ""
+"We closed 20 issues and merged 76 pull requests. The full list can be "
+"seen `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A7.0>`__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:89
+msgid "The following 49 authors contributed 471 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:91
+msgid "alphaCTzo7G"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:92
+msgid "Alyssa Whitwell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:93
+msgid "Anatol Ulrich"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:94
+msgid "apunisal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:96
+msgid "Chaz Reid"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:97
+msgid "Christoph"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:98
+msgid "Dale Jung"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:99
+msgid "Dave Hirschfeld"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:100
+msgid "dhirschf"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:101
+msgid "Doug Latornell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:102
+msgid "Fernando Perez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:103
+msgid "Fred Mitchell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:104
+msgid "Gabriel Potter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:105
+msgid "gpotter2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:106
+msgid "Grant Nestor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:109
+msgid "J Forde"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:110
+msgid "Jonathan Slenders"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:111
+msgid "Jörg Dietrich"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:112
+msgid "Kyle Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:114
+msgid "M Pacer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:115
+msgid "Matthew R. Scott"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:116
+msgid "Matthew Seal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:119
+msgid "Michael Käufl"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:120
+msgid "Olesya Baranova"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:121
+msgid "oscar6echo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:122
+msgid "Paul Ganssle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:123
+msgid "Paul Ivanov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:124
+msgid "Peter Parente"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:125
+msgid "prasanth"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:126
+msgid "Shailyn javier Ortiz jimenez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:127
+msgid "Sourav Singh"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:128
+msgid "Srinivas Reddy Thatiparthy"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:129
+msgid "Steven Silvester"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:130
+msgid "stonebig"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:131
+msgid "Subhendu Ranjan Mishra"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:132
+msgid "Takafumi Arakaki"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:133
+msgid "Thomas A Caswell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:134
+msgid "Thomas Kluyver"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:135
+msgid "Todd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:136
+msgid "Wei Yen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:137
+msgid "Yarko Tymciurak"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:138
+msgid "Yutao Yuan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-7.rst:139
+msgid "Zi Chong Kao"
+msgstr ""
+

@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.builtin_trap.rst:4
+msgid "Module: :mod:`core.builtin_trap`"
+msgstr ""
+
+#: IPython.core.builtin_trap:1 of
+msgid "A context manager for managing things injected into :mod:`builtins`."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.builtin_trap.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.activate:1 of
+msgid "Store ipython references in the __builtin__ namespace."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.add_builtin:1 of
+msgid "Add a builtin and save the original."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.deactivate:1 of
+msgid ""
+"Remove any builtins which might have been added by add_builtins, or "
+"restore overwritten ones to their previous values."
+msgstr ""
+
+#: IPython.core.builtin_trap.BuiltinTrap.remove_builtin:1 of
+msgid "Remove an added builtin and re-set the original."
+msgstr ""
+

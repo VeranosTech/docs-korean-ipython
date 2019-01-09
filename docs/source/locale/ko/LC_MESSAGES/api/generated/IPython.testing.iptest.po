@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptest.rst:4
+msgid "Module: :mod:`testing.iptest`"
+msgstr ""
+
+#: IPython.testing.iptest:1 of
+msgid "IPython Test Suite Runner."
+msgstr ""
+
+#: IPython.testing.iptest:3 of
+msgid ""
+"This module provides a main entry point to a user script to test IPython "
+"itself from the command line. There are two ways of running this script:"
+msgstr ""
+
+#: IPython.testing.iptest:6 of
+msgid ""
+"With the syntax `iptest all`.  This runs our entire test suite by calling"
+" this script (with different arguments) recursively.  This causes modules"
+" and package to be tested in different processes, using nose or trial "
+"where appropriate."
+msgstr ""
+
+#: IPython.testing.iptest:10 of
+msgid ""
+"With the regular nose syntax, like `iptest -vvs IPython`.  In this form "
+"the script simply calls nose, but with special command line flags and "
+"plugins loaded."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptest.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.testing.iptest.TestSection:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.testing.iptest.SubprocessStreamCapturePlugin.__init__:1
+#: IPython.testing.iptest.TestSection.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin:1
+#: IPython.testing.iptest.SubprocessStreamCapturePlugin:1 of
+msgid "Bases: :class:`nose.plugins.base.Plugin`"
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin:1 of
+msgid "A nose plugin to effect our exclusions of files and directories."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.__init__:1 of
+msgid ""
+"Filenames containing these patterns (as raw strings, not as regular "
+"expressions) are excluded from the tests."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.configure:1
+#: IPython.testing.iptest.SubprocessStreamCapturePlugin.configure:1 of
+msgid "Configure the plugin and system, based on selected options."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.configure:3
+#: IPython.testing.iptest.SubprocessStreamCapturePlugin.configure:3 of
+msgid ""
+"The base plugin class sets the plugin to enabled if the enable option for"
+" the plugin (self.enableOpt) is true."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.options:1 of
+msgid "Register commandline options."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.options:3 of
+msgid ""
+"Implement this method for normal options behavior with protection from "
+"OptionConflictErrors. If you override this method and want the default "
+"--with-$name option to be registered, be sure to call super()."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.wantDirectory:1 of
+msgid "Return whether the given directory should be scanned for tests."
+msgstr ""
+
+#: IPython.testing.iptest.ExclusionPlugin.wantFile:1 of
+msgid "Return whether the given filename should be scanned for tests."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer:1 of
+msgid "Bases: :class:`threading.Thread`"
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:1 of
+msgid ""
+"This constructor should always be called with keyword arguments. "
+"Arguments are:"
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:3 of
+msgid ""
+"*group* should be None; reserved for future extension when a ThreadGroup "
+"class is implemented."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:6 of
+msgid ""
+"*target* is the callable object to be invoked by the run() method. "
+"Defaults to None, meaning nothing is called."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:9 of
+msgid ""
+"*name* is the thread name. By default, a unique name is constructed of "
+"the form \"Thread-N\" where N is a small decimal number."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:12 of
+msgid "*args* is the argument tuple for the target invocation. Defaults to ()."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:14 of
+msgid ""
+"*kwargs* is a dictionary of keyword arguments for the target invocation. "
+"Defaults to {}."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.__init__:17 of
+msgid ""
+"If a subclass overrides the constructor, it must make sure to invoke the "
+"base class constructor (Thread.__init__()) before doing anything else to "
+"the thread."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.halt:1 of
+msgid "Safely stop the thread."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.run:1 of
+msgid "Method representing the thread's activity."
+msgstr ""
+
+#: IPython.testing.iptest.StreamCapturer.run:3 of
+msgid ""
+"You may override this method in a subclass. The standard run() method "
+"invokes the callable object passed to the object's constructor as the "
+"target argument, if any, with sequential and keyword arguments taken from"
+" the args and kwargs arguments, respectively."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptest.rst:37
+msgid "5 Functions"
+msgstr ""
+
+#: IPython.testing.iptest.test_for:1 of
+msgid ""
+"Test to see if item is importable, and optionally check against a minimum"
+" version."
+msgstr ""
+
+#: IPython.testing.iptest.test_for:4 of
+msgid ""
+"If min_version is given, the default behavior is to check against the "
+"`__version__` attribute of the item, but specifying `callback` allows you"
+" to extract the value you are interested in. e.g::"
+msgstr ""
+
+#: IPython.testing.iptest.run_iptest:1 of
+msgid "Run the IPython test suite using nose."
+msgstr ""
+
+#: IPython.testing.iptest.run_iptest:3 of
+msgid ""
+"This function is called when this script is **not** called with the form "
+"`iptest all`.  It simply calls nose with appropriate command line flags "
+"and accepts all of the standard nose arguments."
+msgstr ""
+

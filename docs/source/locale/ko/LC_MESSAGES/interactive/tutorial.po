@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:5
+msgid "Introducing IPython"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:7
+msgid ""
+"You don't need to know anything beyond Python to start using IPython – "
+"just type commands as you would at the standard Python prompt. But "
+"IPython can do much more than the standard prompt. Some key features are "
+"described here. For more information, check the :ref:`tips page <tips>`, "
+"or look at examples in the `IPython cookbook "
+"<https://github.com/ipython/ipython/wiki/Cookbook%3A-Index>`_."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:13
+msgid "If you haven't done that yet see `how to install ipython <install>`_ ."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:15
+msgid ""
+"If you've never used Python before, you might want to look at `the "
+"official tutorial <http://docs.python.org/tutorial/>`_ or an alternative,"
+" `Dive into Python <http://diveintopython.net/toc/index.html>`_."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:19
+msgid ""
+"Start IPython by issuing the ``ipython`` command from your shell, you "
+"should be greeted by the following::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:29
+msgid ""
+"Unlike the Python REPL, you will see that the input prompt is ``In [N]:``"
+" instead of ``>>>``. The number ``N`` in the prompt will be used later in"
+" this tutorial but should usually not impact the computation."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:33
+msgid ""
+"You should be able to type single line expressions and press enter to "
+"evaluate them. If an expression is incomplete, IPython will automatically"
+" detect this and add a new line when you press :kbd:`Enter` instead of "
+"executing right away."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:37
+msgid ""
+"Feel free to explore multi-line text input. Unlike many other REPLs, with"
+" IPython you can use the up and down arrow keys when editing multi-line "
+"code blocks."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:41
+msgid ""
+"Here is an example of a longer interaction with the IPython REPL, which "
+"we often refer to as an IPython *session* ::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:54
+msgid ""
+"We won't get into details right now, but you may notice a few differences"
+" to the standard Python REPL. First, your code should be syntax-"
+"highlighted as you type. Second, you will see that some results will have"
+" an ``Out[N]:`` prompt, while some other do not. We'll come to this "
+"later."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:59
+msgid ""
+"Depending on the exact command you are typing you might realize that "
+"sometimes :kbd:`Enter` will add a new line, and sometimes it will execute"
+" the current statement. IPython tries to guess what you are doing, so "
+"most of the time you should not have to care. Though if by any chance "
+"IPython does not the right thing you can force execution of the current "
+"code block by pressing in sequence :kbd:`Esc` and :kbd:`Enter`. You can "
+"also force the insertion of a new line at the position of the cursor by "
+"using :kbd:`Ctrl-o`."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:68
+msgid "The four most helpful commands"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:70
+msgid ""
+"The four most helpful commands, as well as their brief description, is "
+"shown to you in a banner, every time you start IPython:"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:74
+msgid "command"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:74
+msgid "description"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:76
+msgid "?"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:76
+msgid "Introduction and overview of IPython's features."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:77
+msgid "%quickref"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:77
+msgid "Quick reference."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:78
+msgid "help"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:78
+msgid "Python's own help system."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:79
+msgid "object?"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:79
+msgid "Details about 'object', use 'object??' for extra details."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:83
+msgid "Tab completion"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:85
+msgid ""
+"Tab completion, especially for attributes, is a convenient way to explore"
+" the structure of any object you're dealing with. Simply type "
+"``object_name.<TAB>`` to view the object's attributes. Besides Python "
+"objects and keywords, tab completion also works on file and directory "
+"names."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:90
+msgid ""
+"Starting with IPython 6.0, if ``jedi`` is installed, IPython will try to "
+"pull completions from Jedi as well. This allows to not only inspect "
+"currently existing objects, but also to infer completion statically "
+"without executing code. There is nothing particular need to get this to "
+"work, simply use tab completion on more complex expressions like the "
+"following::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:99
+msgid ""
+"IPython and Jedi will be able to infer that ``data[0]`` is actually a "
+"string and should show relevant completions like ``upper()``, ``lower()``"
+" and other string methods. You can use the :kbd:`Tab` key to cycle "
+"through completions, and while a completion is highlighted, its type will"
+" be shown as well. When the type of the completion is a function, the "
+"completer will also show the signature of the function when highlighted."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:107
+msgid "Exploring your objects"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:109
+msgid ""
+"Typing ``object_name?`` will print all sorts of details about any object,"
+" including docstrings, function definition lines (for call arguments) and"
+" constructor details for classes. To get specific information on an "
+"object, you can use the magic commands ``%pdoc``, ``%pdef``, ``%psource``"
+" and ``%pfile``"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:117
+msgid "Magic functions"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:119
+#, python-format
+msgid ""
+"IPython has a set of predefined 'magic functions' that you can call with "
+"a command line style syntax.  There are two kinds of magics, line-"
+"oriented and cell-oriented.  **Line magics** are prefixed with the ``%`` "
+"character and work much like OS command-line calls: they get as an "
+"argument the rest of the line, where arguments are passed without "
+"parentheses or quotes. **Lines magics** can return results and can be "
+"used in the right hand side of an assignment.  **Cell magics** are "
+"prefixed with a double ``%%``, and they are functions that get as an "
+"argument not only the rest of the line, but also the lines below it in a "
+"separate argument."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:129
+msgid ""
+"Magics are useful as convenient functions where Python syntax is not the "
+"most natural one, or when one want to embed invalid python syntax in "
+"their work flow."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:132
+msgid ""
+"The following examples show how to call the built-in :magic:`timeit` "
+"magic, both in line and cell mode::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:143
+msgid "The built-in magics include:"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:145
+msgid ""
+"Functions that work with code: :magic:`run`, :magic:`edit`, "
+":magic:`save`, :magic:`macro`, :magic:`recall`, etc."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:148
+msgid ""
+"Functions which affect the shell: :magic:`colors`, :magic:`xmode`, "
+":magic:`automagic`, etc."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:151
+msgid ""
+"Other functions such as :magic:`reset`, :magic:`timeit`, "
+":cellmagic:`writefile`, :magic:`load`, or :magic:`paste`."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:154
+msgid ""
+"You can always call magics using the ``%`` prefix, and if you're calling "
+"a line magic on a line by itself, as long as the identifier is not "
+"defined in your namespace, you can omit even that::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:160
+#, python-format
+msgid ""
+"You can toggle this behavior by running the :magic:`automagic` magic.  "
+"Cell magics must always have the ``%%`` prefix."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:163
+#, python-format
+msgid ""
+"A more detailed explanation of the magic system can be obtained by "
+"calling ``%magic``, and for more details on any magic function, call "
+"``%somemagic?`` to read its docstring. To see all the available magic "
+"functions, call ``%lsmagic``."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:170
+msgid ""
+"The :ref:`magic` section of the documentation goes more in depth into how"
+" the magics works and how to define your own, and :doc:`magics` for a "
+"list of built-in magics."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:174
+msgid "`Cell magics`_ example notebook"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:177
+msgid "Running and Editing"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:179
+msgid ""
+"The :magic:`run` magic command allows you to run any python script and "
+"load all of its data directly into the interactive namespace. Since the "
+"file is re-read from disk each time, changes you make to it are reflected"
+" immediately (unlike imported modules, which have to be specifically "
+"reloaded). IPython also includes :ref:`dreload <dreload>`, a recursive "
+"reload function."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:185
+#, python-format
+msgid ""
+"``%run`` has special flags for timing the execution of your scripts (-t),"
+" or for running them under the control of either Python's pdb debugger "
+"(-d) or profiler (-p)."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:189
+msgid ""
+"The :magic:`edit` command gives a reasonable approximation of multi-line "
+"editing, by invoking your favorite editor on the spot. IPython will "
+"execute the code you type in there as if it were typed interactively. "
+"Note that for :magic:`edit` to work, the call to startup your editor has "
+"to be a blocking call. In a GUI environment, your editor likely will have"
+" such an option."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:196
+msgid "Debugging"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:198
+msgid ""
+"After an exception occurs, you can call :magic:`debug` to jump into the "
+"Python debugger (pdb) and examine the problem. Alternatively, if you call"
+" :magic:`pdb`, IPython will automatically start the debugger on any "
+"uncaught exception. You can print variables, see code, execute statements"
+" and even walk up and down the call stack to track down the true source "
+"of the problem. This can be an efficient way to develop and debug code, "
+"in many cases eliminating the need for print statements or external "
+"debugging tools."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:206
+#, python-format
+msgid ""
+"You can also step through a program from the beginning by calling ``%run "
+"-d theprogram.py``."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:210
+msgid "History"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:212
+msgid ""
+"IPython stores both the commands you enter, and the results it produces. "
+"You can easily go through previous commands with the up- and down-arrow "
+"keys, or access your history in more sophisticated ways."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:216
+msgid ""
+"Input and output history are kept in variables called ``In`` and ``Out``,"
+" keyed by the prompt numbers, e.g. ``In[4]``. The last three objects in "
+"output history are also kept in variables named ``_``, ``__`` and "
+"``___``."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:220
+#, python-format
+msgid ""
+"You can use the ``%history`` magic function to examine past input and "
+"output. Input history from previous sessions is saved in a database, and "
+"IPython can be configured to save output history."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:224
+#, python-format
+msgid ""
+"Several other magic functions can use your input history, including "
+"``%edit``, ``%rerun``, ``%recall``, ``%macro``, ``%save`` and "
+"``%pastebin``. You can use a standard format to refer to lines::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:230
+msgid ""
+"This will take line 3 and lines 18 to 20 from the current session, and "
+"lines 1-5 from the previous session."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:234
+msgid "System shell commands"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:236
+msgid ""
+"To run any command at the system shell, simply prefix it with ``!``, "
+"e.g.::"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:240
+msgid ""
+"You can capture the output into a Python list, e.g.: ``files = !ls``. To "
+"pass the values of Python variables or expressions to system commands, "
+"prefix them with $: ``!grep -rF $pattern ipython/*`` or wrap in "
+"`{braces}`. See :ref:`our shell section <system_shell_access>` for more "
+"details."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:246
+msgid "Define your own system aliases"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:248
+msgid ""
+"It's convenient to have aliases to the system commands you use most "
+"often. This allows you to work seamlessly from inside IPython with the "
+"same commands you are used to in your system shell. IPython comes with "
+"some pre-defined aliases and a complete system for changing directories, "
+"both via a stack (see :magic:`pushd`, :magic:`popd` and :magic:`dhist`) "
+"and via direct :magic:`cd`. The latter keeps a history of visited "
+"directories and allows you to go to any previously visited one."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:258
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:260
+msgid ""
+"Much of IPython can be tweaked through :doc:`configuration "
+"</config/intro>`. To get started, use the command ``ipython profile "
+"create`` to produce the default config files. These will be placed in "
+":file:`~/.ipython/profile_default`, and contain comments explaining what "
+"the various options do."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:266
+msgid ""
+"Profiles allow you to use IPython for different tasks, keeping separate "
+"config files and history for each one. More details in :ref:`the profiles"
+" section <profiles>`."
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:273
+msgid "Startup Files"
+msgstr ""
+
+#: ../../source/interactive/tutorial.rst:275
+msgid ""
+"If you want some code to be run at the beginning of every IPython "
+"session, the easiest way is to add Python (.py) or IPython (.ipy) scripts"
+" to your :file:`profile_default/startup/` directory. Files here will be "
+"executed as soon as the IPython shell is constructed, before any other "
+"code or scripts you have specified. The files will be run in order of "
+"their names, so you can control the ordering with prefixes, like "
+"``10-myimports.py``."
+msgstr ""
+

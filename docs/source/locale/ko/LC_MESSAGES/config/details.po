@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/details.rst:3
+msgid "Specific config details"
+msgstr ""
+
+#: ../../source/config/details.rst:8
+msgid "Custom Prompts"
+msgstr ""
+
+#: ../../source/config/details.rst:12
+msgid ""
+"From IPython 5, prompts are produced as a list of Pygments tokens, which "
+"are tuples of (token_type, text). You can customise prompts by writing a "
+"method which generates a list of tokens."
+msgstr ""
+
+#: ../../source/config/details.rst:16
+msgid "There are four kinds of prompt:"
+msgstr ""
+
+#: ../../source/config/details.rst:18
+msgid ""
+"The **in** prompt is shown before the first line of input (default like "
+"``In [1]:``)."
+msgstr ""
+
+#: ../../source/config/details.rst:20
+msgid ""
+"The **continuation** prompt is shown before further lines of input "
+"(default like ``...:``)."
+msgstr ""
+
+#: ../../source/config/details.rst:22
+msgid ""
+"The **rewrite** prompt is shown to highlight how special syntax has been "
+"interpreted (default like ``----->``)."
+msgstr ""
+
+#: ../../source/config/details.rst:24
+msgid ""
+"The **out** prompt is shown before the result from evaluating the input "
+"(default like ``Out[1]:``)."
+msgstr ""
+
+#: ../../source/config/details.rst:27
+msgid ""
+"Custom prompts are supplied together as a class. If you want to customise"
+" only some of the prompts, inherit from "
+":class:`IPython.terminal.prompts.Prompts`, which defines the defaults. "
+"The required interface is like this:"
+msgstr ""
+
+#: ../../source/config/details.rst:33
+msgid ""
+"Prompt style definition. *shell* is a reference to the "
+":class:`~.TerminalInteractiveShell` instance."
+msgstr ""
+
+#: ../../source/config/details.rst:41
+msgid "Return the respective prompts as lists of ``(token_type, text)`` tuples."
+msgstr ""
+
+#: ../../source/config/details.rst:43
+msgid ""
+"For continuation prompts, *width* is an integer representing the width of"
+" the prompt area in terminal columns."
+msgstr ""
+
+#: ../../source/config/details.rst:46
+msgid ""
+"*cli*, where used, is the prompt_toolkit ``CommandLineInterface`` "
+"instance. This is mainly for compatibility with the API prompt_toolkit "
+"expects."
+msgstr ""
+
+#: ../../source/config/details.rst:49
+msgid ""
+"Here is an example Prompt class that will show the current working "
+"directory in the input prompt:"
+msgstr ""
+
+#: ../../source/config/details.rst:62
+msgid ""
+"To set the new prompt, assign it to the ``prompts`` attribute of the "
+"IPython shell:"
+msgstr ""
+
+#: ../../source/config/details.rst:72
+msgid ""
+"See ``IPython/example/utils/cwd_prompt.py`` for an example of how to "
+"write an extensions to customise prompts."
+msgstr ""
+
+#: ../../source/config/details.rst:75
+msgid ""
+"Inside IPython or in a startup script, you can use a custom prompts class"
+" by setting ``get_ipython().prompts`` to an *instance* of the class. In "
+"configuration, ``TerminalInteractiveShell.prompts_class`` may be set to "
+"either the class object, or a string of its full importable name."
+msgstr ""
+
+#: ../../source/config/details.rst:80
+msgid ""
+"To include invisible terminal control sequences in a prompt, use "
+"``Token.ZeroWidthEscape`` as the token type. Tokens with this type are "
+"ignored when calculating the width."
+msgstr ""
+
+#: ../../source/config/details.rst:84
+msgid ""
+"Colours in the prompt are determined by the token types and the "
+"highlighting style; see below for more details. The tokens used in the "
+"default prompts are ``Prompt``, ``PromptNum``, ``OutPrompt`` and "
+"``OutPromptNum``."
+msgstr ""
+
+#: ../../source/config/details.rst:91
+msgid "Terminal Colors"
+msgstr ""
+
+#: ../../source/config/details.rst:95
+msgid "There are two main configuration options controlling colours."
+msgstr ""
+
+#: ../../source/config/details.rst:97
+msgid ""
+"``InteractiveShell.colors`` sets the colour of tracebacks and object info"
+" (the output from e.g. ``zip?``). It may also affect other things if the "
+"option below is set to ``'legacy'``. It has four case-insensitive values:"
+" ``'nocolor', 'neutral', 'linux', 'lightbg'``. The default is *neutral*, "
+"which should be legible on either dark or light terminal backgrounds. "
+"*linux* is optimised for dark backgrounds and *lightbg* for light ones."
+msgstr ""
+
+#: ../../source/config/details.rst:104
+msgid ""
+"``TerminalInteractiveShell.highlighting_style`` determines prompt colours"
+" and syntax highlighting. It takes the name (as a string) or class (as a "
+"subclass of ``pygments.style.Style``) of a Pygments style, or the special"
+" value ``'legacy'`` to pick a style in accordance with "
+"``InteractiveShell.colors``."
+msgstr ""
+
+#: ../../source/config/details.rst:109
+msgid "You can see the Pygments styles available on your system by running::"
+msgstr ""
+
+#: ../../source/config/details.rst:114
+msgid ""
+"Additionally, ``TerminalInteractiveShell.highlighting_style_overrides`` "
+"can override specific styles in the highlighting. It should be a "
+"dictionary mapping Pygments token types to strings defining the style. "
+"See `Pygments' documentation <http://pygments.org/docs/styles/#creating-"
+"own-styles>`__ for the language used to define styles."
+msgstr ""
+
+#: ../../source/config/details.rst:121
+msgid "Colors in the pager"
+msgstr ""
+
+#: ../../source/config/details.rst:123
+msgid ""
+"On some systems, the default pager has problems with ANSI colour codes. "
+"To configure your default pager to allow these:"
+msgstr ""
+
+#: ../../source/config/details.rst:126
+msgid "Set the environment PAGER variable to ``less``."
+msgstr ""
+
+#: ../../source/config/details.rst:127
+msgid ""
+"Set the environment LESS variable to ``-r`` (plus any other options you "
+"always want to pass to less by default). This tells less to properly "
+"interpret control sequences, which is how color information is given to "
+"your terminal."
+msgstr ""
+
+#: ../../source/config/details.rst:135
+msgid "Editor configuration"
+msgstr ""
+
+#: ../../source/config/details.rst:137
+msgid "IPython can integrate with text editors in a number of different ways:"
+msgstr ""
+
+#: ../../source/config/details.rst:139
+msgid ""
+"Editors (such as `(X)Emacs`_, vim_ and TextMate_) can send code to "
+"IPython for execution."
+msgstr ""
+
+#: ../../source/config/details.rst:142
+#, python-format
+msgid ""
+"IPython's ``%edit`` magic command can open an editor of choice to edit a "
+"code block."
+msgstr ""
+
+#: ../../source/config/details.rst:145
+#, python-format
+msgid ""
+"The %edit command (and its alias %ed) will invoke the editor set in your "
+"environment as :envvar:`EDITOR`. If this variable is not set, it will "
+"default to vi under Linux/Unix and to notepad under Windows. You may want"
+" to set this variable properly and to a lightweight editor which doesn't "
+"take too long to start (that is, something other than a new instance of "
+"Emacs). This way you can edit multi-line code quickly and with the power "
+"of a real editor right inside IPython."
+msgstr ""
+
+#: ../../source/config/details.rst:153
+msgid ""
+"You can also control the editor by setting "
+":attr:`TerminalInteractiveShell.editor` in :file:`ipython_config.py`."
+msgstr ""
+
+#: ../../source/config/details.rst:157
+msgid "Vim"
+msgstr ""
+
+#: ../../source/config/details.rst:159
+msgid ""
+"Paul Ivanov's `vim-ipython <https://github.com/ivanov/vim-ipython>`_ "
+"provides powerful IPython integration for vim."
+msgstr ""
+
+#: ../../source/config/details.rst:165
+msgid "(X)Emacs"
+msgstr ""
+
+#: ../../source/config/details.rst:167
+#, python-format
+msgid ""
+"If you are a dedicated Emacs user, and want to use Emacs when IPython's "
+"``%edit`` magic command is called you should set up the Emacs server so "
+"that new requests are handled by the original process. This means that "
+"almost no time is spent in handling the request (assuming an Emacs "
+"process is already running). For this to work, you need to set your "
+"EDITOR environment variable to 'emacsclient'. The code below, supplied by"
+" Francois Pinard, can then be used in your :file:`.emacs` file to enable "
+"the server:"
+msgstr ""
+
+#: ../../source/config/details.rst:184
+msgid ""
+"Thanks to the work of Alexander Schmolck and Prabhu Ramachandran, "
+"currently (X)Emacs and IPython get along very well in other ways."
+msgstr ""
+
+#: ../../source/config/details.rst:187
+msgid "With (X)EMacs >= 24, You can enable IPython in python-mode with:"
+msgstr ""
+
+#: ../../source/config/details.rst:201
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ../../source/config/details.rst:205
+msgid ""
+"You can customise keyboard shortcuts for terminal IPython. Put code like "
+"this in a :ref:`startup file <startup_files>`::"
+msgstr ""
+
+#: ../../source/config/details.rst:228
+msgid ""
+"Here is a second example that bind the key sequence ``j``, ``k`` to "
+"switch to VI input mode to ``Normal`` when in insert mode::"
+msgstr ""
+
+#: ../../source/config/details.rst:248
+msgid ""
+"For more information on filters and what you can do with the ``event`` "
+"object, `see the prompt_toolkit docs <http://python-prompt-"
+"toolkit.readthedocs.io/en/latest/pages/building_prompts.html#adding-"
+"custom-key-bindings>`__."
+msgstr ""
+
+#: ../../source/config/details.rst:254
+msgid "Enter to execute"
+msgstr ""
+
+#: ../../source/config/details.rst:256
+msgid ""
+"In the Terminal IPython shell – which by default uses the "
+"``prompt_toolkit`` interface, the semantic meaning of pressing the "
+":kbd:`Enter` key can be ambiguous. In some case :kbd:`Enter` should "
+"execute code, and in others it should add a new line. IPython uses "
+"heuristics to decide whether to execute or insert a new line at cursor "
+"position. For example, if we detect that the current code is not valid "
+"Python, then the user is likely editing code and the right behavior is to"
+" likely to insert a new line. If the current code is a simple statement "
+"like `ord('*')`, then the right behavior is likely to execute. Though the"
+" exact desired semantics often varies from users to users."
+msgstr ""
+
+#: ../../source/config/details.rst:266
+msgid ""
+"As the exact behavior of :kbd:`Enter` is ambiguous, it has been special "
+"cased to allow users to completely configure the behavior they like. "
+"Hence you can have enter always execute code. If you prefer fancier "
+"behavior, you need to get your hands dirty and read the "
+"``prompt_toolkit`` and IPython documentation though. See :ghpull:`10500`,"
+" set the ``c.TerminalInteractiveShell.handle_return`` option and get "
+"inspiration from the following example that only auto-executes the input "
+"if it begins with a bang or a modulo character (``!`` or ``%``). To use "
+"the following code, add it to your IPython configuration::"
+msgstr ""
+

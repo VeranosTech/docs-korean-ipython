@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:3
+msgid "IPython shortcuts"
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:5
+msgid "Available shortcuts in an IPython terminal."
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:9
+msgid ""
+"This list is automatically generated, and may not hold all available "
+"shortcuts. In particular, it may depend on the version of "
+"``prompt_toolkit`` installed during the generation of this page."
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:15
+msgid "Single Filtered shortcuts"
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:1
+msgid "Shortcut"
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:1
+msgid "Filter"
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/config/shortcuts/single_filtered.csv:1
+msgid ":kbd:`c-\\\\`"
+msgstr ""
+
+#: ../../source/config/shortcuts/single_filtered.csv:1
+msgid "Always"
+msgstr ""
+
+#: ../../source/config/shortcuts/single_filtered.csv:1
+msgid "Force exit (with a non-zero return value)"
+msgstr ""
+
+#: ../../source/config/shortcuts/index.rst:25
+msgid "Multi Filtered shortcuts"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ":kbd:`c-m`"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid "(And: Condition, (Not: Condition), (Or: Condition, Condition))"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid "When the user presses return, insert a newline or execute the code"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ":kbd:`c-n`"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid "(And: Condition, Condition)"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ""
+"Control-N in vi edit mode on readline is history previous, unlike default"
+" prompt toolkit"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ":kbd:`c-o`"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid "insert a newline after the cursor indented appropriately"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ":kbd:`c-p`"
+msgstr ""
+
+#: ../../source/config/shortcuts/multi_filtered.csv:1
+msgid ""
+"Control-P in vi edit mode on readline is history next, unlike default "
+"prompt toolkit"
+msgstr ""
+

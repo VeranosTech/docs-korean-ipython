@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.path.rst:4
+msgid "Module: :mod:`utils.path`"
+msgstr ""
+
+#: IPython.utils.path:1 of
+msgid "Utilities for path handling."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.path.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.utils.path.HomeDirError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.path.rst:17
+msgid "16 Functions"
+msgstr ""
+
+#: IPython.utils.path.get_long_path_name:1 of
+msgid "Expand a path into its long form."
+msgstr ""
+
+#: IPython.utils.path.get_long_path_name:3 of
+msgid ""
+"On Windows this expands any ~ in the paths. On other platforms, it is a "
+"null operation."
+msgstr ""
+
+#: IPython.utils.path.unquote_filename:1 of
+msgid "On Windows, remove leading and trailing quotes from filenames."
+msgstr ""
+
+#: IPython.utils.path.unquote_filename:3 of
+msgid ""
+"This function has been deprecated and should not be used any more: "
+"unquoting is now taken care of by "
+":func:`IPython.utils.process.arg_split`."
+msgstr ""
+
+#: IPython.utils.path.compress_user:1 of
+msgid "Reverse of :func:`os.path.expanduser`"
+msgstr ""
+
+#: IPython.utils.path.get_py_filename:1 of
+msgid "Return a valid python filename in the current directory."
+msgstr ""
+
+#: IPython.utils.path.get_py_filename:3 of
+msgid ""
+"If the given name is not a file, it adds '.py' and searches again. Raises"
+" IOError with an informative message if the file isn't found."
+msgstr ""
+
+#: IPython.utils.path.filefind:1 of
+msgid "Find a file by looking through a sequence of paths."
+msgstr ""
+
+#: IPython.utils.path.filefind:3 of
+msgid ""
+"This iterates through a sequence of paths looking for a file and returns "
+"the full, absolute path of the first occurrence of the file.  If no set "
+"of path dirs is given, the filename is tested as is, after running "
+"through :func:`expandvars` and :func:`expanduser`.  Thus a simple call::"
+msgstr ""
+
+#: IPython.utils.path.filefind:10 of
+msgid "will find the file in the current working dir, but::"
+msgstr ""
+
+#: IPython.utils.path.filefind:14 of
+msgid ""
+"Will find the file in the users home directory.  This function does not "
+"automatically try any paths, such as the cwd or the user's home "
+"directory."
+msgstr ""
+
+#: IPython.utils.path.filefind IPython.utils.path.get_home_dir of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.path.filefind:17 of
+msgid "The filename to look for."
+msgstr ""
+
+#: IPython.utils.path.filefind:19 of
+msgid ""
+"The sequence of paths to look for the file in.  If None, the filename "
+"need to be absolute or be in the cwd.  If a string, the string is put "
+"into a sequence and the searched.  If a sequence, walk through each "
+"element and join with ``filename``, calling :func:`expandvars` and "
+":func:`expanduser` before testing for existence."
+msgstr ""
+
+#: IPython.utils.path.filefind of
+msgid "Returns"
+msgstr ""
+
+#: IPython.utils.path.filefind of
+msgid "Return type"
+msgstr ""
+
+#: IPython.utils.path.filefind:27 of
+msgid "Raises :exc:`IOError` or returns absolute path to file."
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:1 of
+msgid "Return the 'home' directory, as a unicode string."
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:3 of
+msgid "Uses os.path.expanduser('~'), and checks for writability."
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:5 of
+msgid ""
+"See stdlib docs for how this is determined. $HOME is first priority on "
+"*ALL* platforms."
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:8 of
+msgid ""
+"if True:     guarantees the return value is a writable directory, "
+"otherwise     raises HomeDirError if False:     The path is resolved, but"
+" it is not guaranteed to exist or be writable."
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:10 of
+msgid "if True:"
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:10 of
+msgid ""
+"guarantees the return value is a writable directory, otherwise raises "
+"HomeDirError"
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:12 of
+msgid "if False:"
+msgstr ""
+
+#: IPython.utils.path.get_home_dir:13 of
+msgid "The path is resolved, but it is not guaranteed to exist or be writable."
+msgstr ""
+
+#: IPython.utils.path.get_xdg_dir:1 of
+msgid "Return the XDG_CONFIG_HOME, if it is defined and exists, else None."
+msgstr ""
+
+#: IPython.utils.path.get_xdg_cache_dir:3 IPython.utils.path.get_xdg_dir:3 of
+msgid "This is only for non-OS X posix (Linux,Unix,etc.) systems."
+msgstr ""
+
+#: IPython.utils.path.get_xdg_cache_dir:1 of
+msgid "Return the XDG_CACHE_HOME, if it is defined and exists, else None."
+msgstr ""
+
+#: IPython.utils.path.expand_path:1 of
+msgid "Expand $VARS and ~names in a string, like a shell"
+msgstr ""
+
+#: IPython.utils.path.expand_path of
+msgid "Examples"
+msgstr ""
+
+#: IPython.utils.path.expand_path:5 of
+msgid "In [2]: os.environ['FOO']='test'"
+msgstr ""
+
+#: IPython.utils.path.expand_path:7 of
+msgid "In [3]: expand_path('variable FOO is $FOO') Out[3]: 'variable FOO is test'"
+msgstr ""
+
+#: IPython.utils.path.unescape_glob:1 of
+msgid "Unescape glob pattern in `string`."
+msgstr ""
+
+#: IPython.utils.path.shellglob:1 of
+msgid "Do glob expansion for each element in `args` and return a flattened list."
+msgstr ""
+
+#: IPython.utils.path.shellglob:3 of
+msgid "Unmatched glob pattern will remain as-is in the returned list."
+msgstr ""
+
+#: IPython.utils.path.target_outdated:1 of
+msgid "Determine whether a target is out of date."
+msgstr ""
+
+#: IPython.utils.path.target_outdated:3 of
+msgid "target_outdated(target,deps) -> 1/0"
+msgstr ""
+
+#: IPython.utils.path.target_outdated:5 of
+msgid ""
+"deps: list of filenames which MUST exist. target: single filename which "
+"may or may not exist."
+msgstr ""
+
+#: IPython.utils.path.target_outdated:8 of
+msgid ""
+"If target doesn't exist or is older than any file listed in deps, return "
+"true, otherwise return false."
+msgstr ""
+
+#: IPython.utils.path.target_update:1 of
+msgid "Update a target with a given command given a list of dependencies."
+msgstr ""
+
+#: IPython.utils.path.target_update:3 of
+msgid "target_update(target,deps,cmd) -> runs cmd if target is outdated."
+msgstr ""
+
+#: IPython.utils.path.target_update:5 of
+msgid ""
+"This is just a wrapper around target_outdated() which calls the given "
+"command if target is outdated."
+msgstr ""
+
+#: IPython.utils.path.link:1 of
+msgid "Hard links ``src`` to ``dst``, returning 0 or errno."
+msgstr ""
+
+#: IPython.utils.path.link:3 of
+msgid ""
+"Note that the special errno ``ENOLINK`` will be returned if ``os.link`` "
+"isn't supported by the operating system."
+msgstr ""
+
+#: IPython.utils.path.link_or_copy:1 of
+msgid "Attempts to hardlink ``src`` to ``dst``, copying if the link fails."
+msgstr ""
+
+#: IPython.utils.path.link_or_copy:3 of
+msgid "Attempts to maintain the semantics of ``shutil.copy``."
+msgstr ""
+
+#: IPython.utils.path.link_or_copy:5 of
+msgid ""
+"Because ``os.link`` does not overwrite files, a unique temporary file "
+"will be used if the target already exists, then that file will be moved "
+"into place."
+msgstr ""
+
+#: IPython.utils.path.ensure_dir_exists:1 of
+msgid "ensure that a directory exists"
+msgstr ""
+
+#: IPython.utils.path.ensure_dir_exists:3 of
+msgid ""
+"If it doesn't exist, try to create it and protect against a race "
+"condition if another process is doing the same."
+msgstr ""
+
+#: IPython.utils.path.ensure_dir_exists:6 of
+msgid ""
+"The default permissions are 755, which differ from os.makedirs default of"
+" 777."
+msgstr ""
+

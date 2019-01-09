@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.tools.rst:4
+msgid "Module: :mod:`testing.tools`"
+msgstr ""
+
+#: IPython.testing.tools:1 of
+msgid "Generic testing tools."
+msgstr ""
+
+#: IPython.testing.tools:4 of
+msgid "Authors"
+msgstr ""
+
+#: IPython.testing.tools:5 of
+msgid "Fernando Perez <Fernando.Perez@berkeley.edu>"
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.tools.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.testing.tools.AssertPrints:1 IPython.testing.tools.TempFileMixin:1
+#: of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.testing.tools.TempFileMixin:1 of
+msgid "Utility class to create temporary Python/IPython files."
+msgstr ""
+
+#: IPython.testing.tools.TempFileMixin:3 of
+msgid "Meant as a mixin class for test cases."
+msgstr ""
+
+#: IPython.testing.tools.TempFileMixin.mktmp:1 of
+msgid "Make a valid python temp file."
+msgstr ""
+
+#: IPython.testing.tools.AssertPrints:1 of
+msgid "Context manager for testing that code prints certain text."
+msgstr ""
+
+#: IPython.testing.tools.AssertPrints:4 IPython.testing.tools.full_path:14 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.testing.tools.AssertPrints.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.testing.tools.AssertNotPrints:1 of
+msgid "Bases: :class:`IPython.testing.tools.AssertPrints`"
+msgstr ""
+
+#: IPython.testing.tools.AssertNotPrints:1 of
+msgid "Context manager for checking that certain output *isn't* produced."
+msgstr ""
+
+#: IPython.testing.tools.AssertNotPrints:3 of
+msgid "Counterpart of AssertPrints"
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.tools.rst:31
+msgid "13 Functions"
+msgstr ""
+
+#: IPython.testing.tools.full_path:1 of
+msgid "Make full paths for all the listed files, based on startPath."
+msgstr ""
+
+#: IPython.testing.tools.full_path:3 of
+msgid ""
+"Only the base part of startPath is kept, since this routine is typically "
+"used with a script's ``__file__`` variable as startPath. The base of "
+"startPath is then prepended to all the listed files, forming the output "
+"list."
+msgstr ""
+
+#: IPython.testing.tools.check_pairs IPython.testing.tools.full_path
+#: IPython.testing.tools.get_ipython_cmd IPython.testing.tools.ipexec
+#: IPython.testing.tools.ipexec_validate
+#: IPython.testing.tools.parse_test_output of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.testing.tools.full_path:7 of
+msgid ""
+"Initial path to use as the base for the results.  This path is split "
+"using os.path.split() and only its first component is kept."
+msgstr ""
+
+#: IPython.testing.tools.full_path:10 of
+msgid "One or more files."
+msgstr ""
+
+#: IPython.testing.tools.full_path:21 of
+msgid "If a single file is given, the output is still a list::"
+msgstr ""
+
+#: IPython.testing.tools.parse_test_output:1 of
+msgid "Parse the output of a test run and return errors, failures."
+msgstr ""
+
+#: IPython.testing.tools.parse_test_output:3 of
+msgid ""
+"Text output of a test run, assumed to contain a line of one of the "
+"following forms::    'FAILED (errors=1)'   'FAILED (failures=1)'   "
+"'FAILED (errors=1, failures=1)'"
+msgstr ""
+
+#: IPython.testing.tools.parse_test_output:3 of
+msgid ""
+"Text output of a test run, assumed to contain a line of one of the "
+"following forms::"
+msgstr ""
+
+#: IPython.testing.tools.check_pairs IPython.testing.tools.ipexec
+#: IPython.testing.tools.ipexec_validate
+#: IPython.testing.tools.parse_test_output of
+msgid "Returns"
+msgstr ""
+
+#: IPython.testing.tools.parse_test_output:11 of
+msgid "number of errors and failures."
+msgstr ""
+
+#: IPython.testing.tools.ipexec IPython.testing.tools.ipexec_validate
+#: IPython.testing.tools.parse_test_output of
+msgid "Return type"
+msgstr ""
+
+#: IPython.testing.tools.default_argv:1 of
+msgid "Return a valid default argv for creating testing instances of ipython"
+msgstr ""
+
+#: IPython.testing.tools.default_config:1 of
+msgid "Return a config object with good defaults for testing."
+msgstr ""
+
+#: IPython.testing.tools.get_ipython_cmd:1 of
+msgid ""
+"Return appropriate IPython command line name. By default, this will "
+"return a list that can be used with subprocess.Popen, for example, but "
+"passing `as_string=True` allows for returning the IPython command as a "
+"string."
+msgstr ""
+
+#: IPython.testing.tools.get_ipython_cmd:5 of
+msgid "Flag to allow to return the command as a string."
+msgstr ""
+
+#: IPython.testing.tools.ipexec:1 of
+msgid "Utility to call 'ipython filename'."
+msgstr ""
+
+#: IPython.testing.tools.ipexec:3 of
+msgid ""
+"Starts IPython with a minimal and safe configuration to make startup as "
+"fast as possible."
+msgstr ""
+
+#: IPython.testing.tools.ipexec:6 IPython.testing.tools.ipexec_validate:5 of
+msgid "Note that this starts IPython in a subprocess!"
+msgstr ""
+
+#: IPython.testing.tools.ipexec:8 of
+msgid "Name of file to be executed (should have .py or .ipy extension)."
+msgstr ""
+
+#: IPython.testing.tools.ipexec:10 IPython.testing.tools.ipexec_validate:13 of
+msgid "Extra command-line flags to be passed to IPython."
+msgstr ""
+
+#: IPython.testing.tools.ipexec:12 of
+msgid "Commands to send in on stdin"
+msgstr ""
+
+#: IPython.testing.tools.ipexec:16 of
+msgid "``(stdout, stderr)`` of ipython subprocess."
+msgstr ""
+
+#: IPython.testing.tools.ipexec_validate:1 of
+msgid "Utility to call 'ipython filename' and validate output/error."
+msgstr ""
+
+#: IPython.testing.tools.ipexec_validate:3 of
+msgid "This function raises an AssertionError if the validation fails."
+msgstr ""
+
+#: IPython.testing.tools.ipexec_validate:7 of
+msgid "Name of the file to be executed (should have .py or .ipy extension)."
+msgstr ""
+
+#: IPython.testing.tools.ipexec_validate:9 of
+msgid "Expected stdout of the process."
+msgstr ""
+
+#: IPython.testing.tools.ipexec_validate:11 of
+msgid "Expected stderr of the process."
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:1 of
+msgid ""
+"Utility function for the common case of checking a function with a "
+"sequence of input/output pairs."
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:4 of
+msgid "The function to be tested. Should accept a single argument."
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:6 of
+msgid "A list of (input, expected_output) tuples."
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:9 of
+msgid ""
+"* *None. Raises an AssertionError if any output does not match the "
+"expected* * *value.*"
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:9 of
+msgid "*None. Raises an AssertionError if any output does not match the expected*"
+msgstr ""
+
+#: IPython.testing.tools.check_pairs:10 of
+msgid "*value.*"
+msgstr ""
+
+#: IPython.testing.tools.make_tempfile:1 of
+msgid "Create an empty, named, temporary file for the duration of the context."
+msgstr ""
+
+#: IPython.testing.tools.fake_input:1 of
+msgid "Temporarily replace the input() function to return the given values"
+msgstr ""
+
+#: IPython.testing.tools.fake_input:3 of
+msgid "Use as a context manager:"
+msgstr ""
+
+#: IPython.testing.tools.fake_input:6 of
+msgid "with fake_input(['result1', 'result2']):"
+msgstr ""
+
+#: IPython.testing.tools.fake_input:6 of
+msgid "..."
+msgstr ""
+
+#: IPython.testing.tools.fake_input:8 of
+msgid ""
+"Values are returned in order. If input() is called again after the last "
+"value was used, EOFError is raised."
+msgstr ""
+
+#: IPython.testing.tools.help_output_test:1 of
+msgid "test that `ipython [subcommand] -h` works"
+msgstr ""
+
+#: IPython.testing.tools.help_all_output_test:1 of
+msgid "test that `ipython [subcommand] --help-all` works"
+msgstr ""
+

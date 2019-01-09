@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.lexers.rst:4
+msgid "Module: :mod:`lib.lexers`"
+msgstr ""
+
+#: IPython.lib.lexers:1 of
+msgid "Defines a variety of Pygments lexers for highlighting IPython code."
+msgstr ""
+
+#: IPython.lib.lexers:3 of
+msgid "This includes:"
+msgstr ""
+
+#: IPython.lib.lexers:6 of
+msgid "IPythonLexer, IPython3Lexer"
+msgstr ""
+
+#: IPython.lib.lexers:6 of
+msgid "Lexers for pure IPython (python + magic/shell commands)"
+msgstr ""
+
+#: IPython.lib.lexers:11 of
+msgid "IPythonPartialTracebackLexer, IPythonTracebackLexer"
+msgstr ""
+
+#: IPython.lib.lexers:9 of
+msgid ""
+"Supports 2.x and 3.x via keyword `python3`.  The partial traceback lexer "
+"reads everything but the Python code appearing in a traceback. The full "
+"lexer combines the partial lexer with an IPython lexer."
+msgstr ""
+
+#: IPython.lib.lexers:14 of
+msgid "IPythonConsoleLexer"
+msgstr ""
+
+#: IPython.lib.lexers:14 of
+msgid "A lexer for IPython console sessions, with support for tracebacks."
+msgstr ""
+
+#: IPython.lib.lexers:20 of
+msgid "IPyLexer"
+msgstr ""
+
+#: IPython.lib.lexers:17 of
+msgid ""
+"A friendly lexer which examines the first line of text and from it, "
+"decides whether to use an IPython lexer or an IPython console lexer. This"
+" is probably the only lexer that needs to be explicitly added to "
+"Pygments."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.lexers.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonPartialTracebackLexer:1 of
+msgid "Bases: :class:`pygments.lexer.RegexLexer`"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonPartialTracebackLexer:1 of
+msgid "Partial lexer for IPython tracebacks."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonPartialTracebackLexer:3 of
+msgid "Handles all the non-python output. This works for both Python 2.x and 3.x."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonTracebackLexer:1 of
+msgid "Bases: :class:`pygments.lexer.DelegatingLexer`"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonTracebackLexer:1 of
+msgid "IPython traceback lexer."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonTracebackLexer:3 of
+msgid ""
+"For doctests, the tracebacks can be snipped as much as desired with the "
+"exception to the lines that designate a traceback. For non-syntax error "
+"tracebacks, this is the line of hyphens. For syntax error tracebacks, "
+"this is the line which lists the File and line number."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer.__init__:1
+#: IPython.lib.lexers.IPythonTracebackLexer.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer:1 IPython.lib.lexers.IPythonConsoleLexer:1 of
+msgid "Bases: :class:`pygments.lexer.Lexer`"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer:1 of
+msgid "An IPython console lexer for IPython code-blocks and doctests, such as:"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer:18 of
+msgid "Support is also provided for IPython exceptions:"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__:1 of
+msgid "Initialize the IPython console lexer."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__
+#: IPython.lib.lexers.build_ipy_lexer of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__:3 of
+msgid ""
+"If `True`, then the console inputs are parsed using a Python 3 lexer. "
+"Otherwise, they are parsed using a Python 2 lexer."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__:6 of
+msgid ""
+"The compiled regular expression used to detect the start of inputs. "
+"Although the IPython configuration setting may have a trailing "
+"whitespace, do not include it in the regex. If `None`, then the default "
+"input prompt is assumed."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__:11 of
+msgid ""
+"The compiled regular expression used to detect the continuation of "
+"inputs. Although the IPython configuration setting may have a trailing "
+"whitespace, do not include it in the regex. If `None`, then the default "
+"input prompt is assumed."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.__init__:16 of
+msgid ""
+"The compiled regular expression used to detect outputs. If `None`, then "
+"the default output prompt is assumed."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.buffered_tokens:1 of
+msgid ""
+"Generator of unprocessed tokens after doing insertions and before "
+"changing to a new state."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.get_mci:1 of
+msgid "Parses the line and returns a 3-tuple: (mode, code, insertion)."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.get_mci:3 of
+msgid ""
+"`mode` is the next mode (or state) of the lexer, and is always equal to "
+"'input', 'output', or 'tb'."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.get_mci:6 of
+msgid ""
+"`code` is a portion of the line that should be added to the buffer "
+"corresponding to the next mode and eventually lexed by another lexer. For"
+" example, `code` could be Python code if `mode` were 'input'."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.get_mci:10 of
+msgid ""
+"`insertion` is a 3-tuple (index, token, text) representing an unprocessed"
+" \"token\" that will be inserted into the stream of tokens that are "
+"created from the buffer once we change modes. This is usually the input "
+"or output prompt."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.get_mci:15 of
+msgid ""
+"In general, the next mode depends on current mode and on the contents of "
+"`line`."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer.get_tokens_unprocessed:1
+#: IPython.lib.lexers.IPythonConsoleLexer.get_tokens_unprocessed:1 of
+msgid ""
+"Return an iterable of (index, tokentype, value) pairs where \"index\" is "
+"the starting position of the token within the input text."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer.get_tokens_unprocessed:4
+#: IPython.lib.lexers.IPythonConsoleLexer.get_tokens_unprocessed:4 of
+msgid ""
+"In subclasses, implement this method as a generator to maximize "
+"effectiveness."
+msgstr ""
+
+#: IPython.lib.lexers.IPythonConsoleLexer.ipytb_start:1 of
+msgid "The regex to determine when a traceback starts."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer:1 of
+msgid "Primary lexer for all IPython-like code."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer:3 of
+msgid ""
+"This is a simple helper lexer.  If the first line of the text begins with"
+" \"In \\[[0-9]+\\]:\", then the entire text is parsed with an IPython "
+"console lexer. If not, then the entire text is parsed with an IPython "
+"lexer."
+msgstr ""
+
+#: IPython.lib.lexers.IPyLexer:7 of
+msgid ""
+"The goal is to reduce the number of lexers that are registered with "
+"Pygments."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.lexers.rst:35
+msgid "1 Function"
+msgstr ""
+
+#: IPython.lib.lexers.build_ipy_lexer:1 of
+msgid "Builds IPython lexers depending on the value of `python3`."
+msgstr ""
+
+#: IPython.lib.lexers.build_ipy_lexer:3 of
+msgid ""
+"The lexer inherits from an appropriate Python lexer and then adds "
+"information about IPython specific keywords (i.e. magic commands, shell "
+"commands, etc.)"
+msgstr ""
+
+#: IPython.lib.lexers.build_ipy_lexer:7 of
+msgid "If `True`, then build an IPython lexer from a Python 3 lexer."
+msgstr ""
+

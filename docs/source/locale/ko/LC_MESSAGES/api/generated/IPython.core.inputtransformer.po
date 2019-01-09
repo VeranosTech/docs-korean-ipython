@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.inputtransformer.rst:4
+msgid "Module: :mod:`core.inputtransformer`"
+msgstr ""
+
+#: IPython.core.inputtransformer:1 of
+msgid "DEPRECATED: Input transformer classes to support IPython special syntax."
+msgstr ""
+
+#: IPython.core.inputtransformer:3 of
+msgid "This module was deprecated in IPython 7.0, in favour of inputtransformer2."
+msgstr ""
+
+#: IPython.core.inputtransformer:5 of
+msgid ""
+"This includes the machinery to recognise and transform ``%magic`` "
+"commands, ``!system`` commands, ``help?`` querying, prompt stripping, and"
+" so forth."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.inputtransformer.rst:10
+msgid "5 Classes"
+msgstr ""
+
+#: IPython.core.inputtransformer.InputTransformer:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.inputtransformer.InputTransformer:1 of
+msgid "Abstract base class for line-based input transformers."
+msgstr ""
+
+#: IPython.core.inputtransformer.CoroutineInputTransformer.push:1
+#: IPython.core.inputtransformer.InputTransformer.push:1
+#: IPython.core.inputtransformer.TokenInputTransformer.push:1 of
+msgid ""
+"Send a line of input to the transformer, returning the transformed input "
+"or None if the transformer is waiting for more input."
+msgstr ""
+
+#: IPython.core.inputtransformer.InputTransformer.push:4
+#: IPython.core.inputtransformer.InputTransformer.reset:4
+#: IPython.core.inputtransformer.TokenInputTransformer.push:4
+#: IPython.core.inputtransformer.TokenInputTransformer.reset:4 of
+msgid "Must be overridden by subclasses."
+msgstr ""
+
+#: IPython.core.inputtransformer.InputTransformer.push:6
+#: IPython.core.inputtransformer.TokenInputTransformer.push:6 of
+msgid ""
+"Implementations may raise ``SyntaxError`` if the input is invalid. No "
+"other exceptions may be raised."
+msgstr ""
+
+#: IPython.core.inputtransformer.CoroutineInputTransformer.reset:1
+#: IPython.core.inputtransformer.InputTransformer.reset:1
+#: IPython.core.inputtransformer.TokenInputTransformer.reset:1 of
+msgid ""
+"Return, transformed any lines that the transformer has accumulated, and "
+"reset its internal state."
+msgstr ""
+
+#: IPython.core.inputtransformer.InputTransformer.wrap:1 of
+msgid ""
+"Can be used by subclasses as a decorator, to return a factory that will "
+"allow instantiation with the decorated object."
+msgstr ""
+
+#: IPython.core.inputtransformer.CoroutineInputTransformer:1
+#: IPython.core.inputtransformer.StatelessInputTransformer:1
+#: IPython.core.inputtransformer.TokenInputTransformer:1 of
+msgid "Bases: :class:`IPython.core.inputtransformer.InputTransformer`"
+msgstr ""
+
+#: IPython.core.inputtransformer.StatelessInputTransformer:1 of
+msgid "Wrapper for a stateless input transformer implemented as a function."
+msgstr ""
+
+#: IPython.core.inputtransformer.CoroutineInputTransformer.__init__:1
+#: IPython.core.inputtransformer.StatelessInputTransformer.__init__:1
+#: IPython.core.inputtransformer.TokenInputTransformer.__init__:1
+#: IPython.core.inputtransformer.assemble_python_lines.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.inputtransformer.StatelessInputTransformer.push:1 of
+msgid "Send a line of input to the transformer, returning the transformed input."
+msgstr ""
+
+#: IPython.core.inputtransformer.StatelessInputTransformer.reset:1 of
+msgid "No-op - exists for compatibility."
+msgstr ""
+
+#: IPython.core.inputtransformer.CoroutineInputTransformer:1 of
+msgid "Wrapper for an input transformer implemented as a coroutine."
+msgstr ""
+
+#: IPython.core.inputtransformer.TokenInputTransformer:1 of
+msgid "Wrapper for a token-based input transformer."
+msgstr ""
+
+#: IPython.core.inputtransformer.TokenInputTransformer:3 of
+msgid ""
+"func should accept a list of tokens (5-tuples, see tokenize docs), and "
+"return an iterable which can be passed to tokenize.untokenize()."
+msgstr ""
+
+#: IPython.core.inputtransformer.assemble_python_lines:1 of
+msgid "Bases: :class:`IPython.core.inputtransformer.TokenInputTransformer`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.inputtransformer.rst:41
+msgid "12 Functions"
+msgstr ""
+
+#: IPython.core.inputtransformer.assemble_logical_lines:1 of
+msgid "Join lines following explicit line continuations (\\)"
+msgstr ""
+
+#: IPython.core.inputtransformer.escaped_commands:1 of
+msgid "Transform escaped commands - %magic, !system, ?help + various autocalls."
+msgstr ""
+
+#: IPython.core.inputtransformer.has_comment:1 of
+msgid "Indicate whether an input line has (i.e. ends in, or is) a comment."
+msgstr ""
+
+#: IPython.core.inputtransformer.has_comment:3 of
+msgid "This uses tokenize, so it can distinguish comments from # inside strings."
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string
+#: IPython.core.inputtransformer.has_comment of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string:4
+#: IPython.core.inputtransformer.has_comment:5 of
+msgid "A single line input string."
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string
+#: IPython.core.inputtransformer.has_comment of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.inputtransformer.has_comment:8 of
+msgid "**comment** -- True if source has a comment."
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string
+#: IPython.core.inputtransformer.has_comment of
+msgid "Return type"
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string:1 of
+msgid ""
+"Indicates whether or not an input line ends in a comment or within a "
+"multiline string."
+msgstr ""
+
+#: IPython.core.inputtransformer.ends_in_comment_or_string:7 of
+msgid "**comment** -- True if source ends in a comment or multiline string."
+msgstr ""
+
+#: IPython.core.inputtransformer.help_end:1 of
+msgid "Translate lines with ?/?? at the end"
+msgstr ""
+
+#: IPython.core.inputtransformer.cellmagic:1 of
+msgid "Captures & transforms cell magics."
+msgstr ""
+
+#: IPython.core.inputtransformer.cellmagic:3 of
+msgid ""
+"After a cell magic is started, this stores up any lines it gets until it "
+"is reset (sent None)."
+msgstr ""
+
+#: IPython.core.inputtransformer.classic_prompt:1 of
+msgid "Strip the >>>/... prompts of the Python interactive shell."
+msgstr ""
+
+#: IPython.core.inputtransformer.ipy_prompt:1 of
+msgid "Strip IPython's In [1]:/...: prompts."
+msgstr ""
+
+#: IPython.core.inputtransformer.leading_indent:1 of
+msgid "Remove leading indentation."
+msgstr ""
+
+#: IPython.core.inputtransformer.leading_indent:3 of
+msgid ""
+"If the first line starts with a spaces or tabs, the same whitespace will "
+"be removed from each following line until it is reset."
+msgstr ""
+
+#: IPython.core.inputtransformer.assign_from_system:1 of
+msgid "Transform assignment from system commands (e.g. files = !ls)"
+msgstr ""
+
+#: IPython.core.inputtransformer.assign_from_magic:1 of
+msgid "Transform assignment from magic commands (e.g. a = %who_ls)"
+msgstr ""
+

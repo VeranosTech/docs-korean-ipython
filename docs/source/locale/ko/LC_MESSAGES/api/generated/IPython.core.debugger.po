@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.debugger.rst:4
+msgid "Module: :mod:`core.debugger`"
+msgstr ""
+
+#: IPython.core.debugger:1 of
+msgid "Pdb debugger class."
+msgstr ""
+
+#: IPython.core.debugger:3 of
+msgid ""
+"Modified from the standard pdb.Pdb class to avoid including readline, so "
+"that the command line completion of other programs which include this "
+"isn't damaged."
+msgstr ""
+
+#: IPython.core.debugger:7 of
+msgid ""
+"In the future, this class will be expanded with improvements over the "
+"standard pdb."
+msgstr ""
+
+#: IPython.core.debugger:10 of
+msgid ""
+"The code in this file is mainly lifted out of cmd.py in Python 2.2, with "
+"minor changes. Licensing should therefore be under the standard Python "
+"terms.  For details on the PSF (Python Software Foundation) standard "
+"license, see:"
+msgstr ""
+
+#: IPython.core.debugger:14 of
+msgid "https://docs.python.org/2/license.html"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.debugger.rst:10
+msgid "2 Classes"
+msgstr ""
+
+#: IPython.core.debugger.Tracer:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.debugger.Tracer:1 IPython.core.debugger.Tracer.__init__:1 of
+msgid "DEPRECATED"
+msgstr ""
+
+#: IPython.core.debugger.Tracer:3 of
+msgid "Class for local debugging, similar to pdb.set_trace."
+msgstr ""
+
+#: IPython.core.debugger.Tracer:5 of
+msgid ""
+"Instances of this class, when called, behave like pdb.set_trace, but "
+"providing IPython's enhanced capabilities."
+msgstr ""
+
+#: IPython.core.debugger.Tracer:8 of
+msgid ""
+"This is implemented as a class which must be initialized in your own code"
+" and not as a standalone function because we need to detect at runtime "
+"whether IPython is already active or not.  That detection is done in the "
+"constructor, ensuring that this code plays nicely with a running IPython,"
+" while functioning acceptably (though with limitations) if outside of it."
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__:3 of
+msgid "Create a local debugger instance."
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__:5 of
+msgid ""
+"The name of the color scheme to use, it must be one of IPython's valid "
+"color schemes.  If not given, the function will default to the current "
+"IPython scheme when running inside IPython, and to 'NoColor' otherwise."
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__:12 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__:17 of
+msgid "Later in your code::"
+msgstr ""
+
+#: IPython.core.debugger.Tracer.__init__:21 of
+msgid ""
+"Once the debugger activates, you can use all of its regular commands to "
+"step through code, set breakpoints, etc.  See the pdb documentation from "
+"the Python standard library for usage details."
+msgstr ""
+
+#: IPython.core.debugger.Pdb:1 of
+msgid "Bases: :class:`pdb.Pdb`"
+msgstr ""
+
+#: IPython.core.debugger.Pdb:1 of
+msgid "Modified Pdb class, does not load readline."
+msgstr ""
+
+#: IPython.core.debugger.Pdb:3 of
+msgid ""
+"for a standalone version that uses prompt_toolkit, see "
+"`IPython.terminal.debugger.TerminalPdb` and "
+"`IPython.terminal.debugger.set_trace()`"
+msgstr ""
+
+#: IPython.core.debugger.Pdb.__init__:1 of
+msgid "Instantiate a line-oriented interpreter framework."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.__init__:3 of
+msgid ""
+"The optional argument 'completekey' is the readline name of a completion "
+"key; it defaults to the Tab key. If completekey is not None and the "
+"readline module is available, command completion is done automatically. "
+"The optional arguments stdin and stdout specify alternate input and "
+"output file objects; if not specified, sys.stdin and sys.stdout are used."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_d:1 IPython.core.debugger.Pdb.do_down:1 of
+msgid ""
+"d(own) [count] Move the current frame count (default one) levels down in "
+"the stack trace (to a newer frame)."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_debug:1 of
+msgid ""
+"debug code Enter a recursive debugger that steps through the code "
+"argument (which is an arbitrary expression or statement to be executed in"
+" the current environment)."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_l:1 IPython.core.debugger.Pdb.do_list:1 of
+msgid "Print lines of code from the current stack frame"
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_ll:1 IPython.core.debugger.Pdb.do_longlist:1 of
+msgid "Print lines of code from the current stack frame."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_ll:3 IPython.core.debugger.Pdb.do_longlist:3 of
+msgid "Shows more lines than 'list' does."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pdef:1 of
+msgid "Print the call signature for any callable object."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pdef:3 of
+msgid "The debugger interface to %pdef"
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pdoc:1 of
+msgid "Print the docstring for an object."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pdoc:3 of
+msgid "The debugger interface to %pdoc."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pfile:1 of
+msgid "Print (or run through pager) the file where an object is defined."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pfile:3 of
+msgid "The debugger interface to %pfile."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pinfo:1 of
+msgid "Provide detailed information about an object."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pinfo:3 of
+msgid "The debugger interface to %pinfo, i.e., obj?."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pinfo2:1 of
+msgid "Provide extra detailed information about an object."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_pinfo2:3 of
+msgid "The debugger interface to %pinfo2, i.e., obj??."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_psource:1 of
+msgid "Print (or run through pager) the source code for an object."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_q:1 IPython.core.debugger.Pdb.do_quit:1 of
+msgid "q(uit) exit Quit from the debugger. The program being executed is aborted."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_u:1 IPython.core.debugger.Pdb.do_up:1 of
+msgid ""
+"u(p) [count] Move the current frame count (default one) levels up in the "
+"stack trace (to an older frame)."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_w:1 IPython.core.debugger.Pdb.do_where:1 of
+msgid ""
+"w(here) Print a stack trace, with the most recent frame at the bottom. An"
+" arrow indicates the \"current frame\", which determines the context of "
+"most commands. 'bt' is an alias for this command."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.do_w:6 IPython.core.debugger.Pdb.do_where:6 of
+msgid "Take a number as argument as an (optional) number of context line to print"
+msgstr ""
+
+#: IPython.core.debugger.Pdb.new_do_restart:1 of
+msgid ""
+"Restart command. In the context of ipython this is exactly the same thing"
+" as 'quit'."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.print_list_lines:1 of
+msgid "The printing (as opposed to the parsing part of a 'list' command."
+msgstr ""
+
+#: IPython.core.debugger.Pdb.set_colors:1 of
+msgid "Shorthand access to the color table scheme selector method."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.debugger.rst:25
+msgid "5 Functions"
+msgstr ""
+
+#: IPython.core.debugger.make_arrow:1 of
+msgid "generate the leading arrow in front of traceback or debugger"
+msgstr ""
+
+#: IPython.core.debugger.BdbQuit_excepthook:1 of
+msgid "Exception hook which handles `BdbQuit` exceptions."
+msgstr ""
+
+#: IPython.core.debugger.BdbQuit_excepthook:3 of
+msgid "All other exceptions are processed using the `excepthook` parameter."
+msgstr ""
+
+#: IPython.core.debugger.decorate_fn_with_doc:1 of
+msgid ""
+"Make new_fn have old_fn's doc string. This is particularly useful for the"
+" ``do_...`` commands that hook into the help system. Adapted from from a "
+"comp.lang.python posting by Duncan Booth."
+msgstr ""
+
+#: IPython.core.debugger.set_trace:1 of
+msgid "Start debugging from `frame`."
+msgstr ""
+
+#: IPython.core.debugger.set_trace:3 of
+msgid "If frame is not specified, debugging starts from caller's frame."
+msgstr ""
+

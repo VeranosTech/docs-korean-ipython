@@ -1,0 +1,479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.text.rst:4
+msgid "Module: :mod:`utils.text`"
+msgstr ""
+
+#: IPython.utils.text:1 of
+msgid "Utilities for working with strings and text."
+msgstr ""
+
+#: IPython.utils.text:3 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.text.rst:10
+msgid "5 Classes"
+msgstr ""
+
+#: IPython.utils.text.LSString:1 of
+msgid "Bases: :class:`str`"
+msgstr ""
+
+#: IPython.utils.text.LSString:1 of
+msgid "String derivative with a special access attributes."
+msgstr ""
+
+#: IPython.utils.text.LSString:3 of
+msgid "These are normal strings, but with the special attributes:"
+msgstr ""
+
+#: IPython.utils.text.LSString:5 of
+msgid ""
+".l (or .list) : value as list (split on newlines). .n (or .nlstr): "
+"original value (the string itself). .s (or .spstr): value as whitespace-"
+"separated string. .p (or .paths): list of path objects (requires path.py "
+"package)"
+msgstr ""
+
+#: IPython.utils.text.LSString:10 IPython.utils.text.SList:10 of
+msgid ""
+"Any values which require transformations are computed only once and "
+"cached."
+msgstr ""
+
+#: IPython.utils.text.LSString:13 of
+msgid ""
+"Such strings are very useful to efficiently interact with the shell, "
+"which typically only understands whitespace-separated options for "
+"commands."
+msgstr ""
+
+#: IPython.utils.text.SList:1 of
+msgid "Bases: :class:`list`"
+msgstr ""
+
+#: IPython.utils.text.SList:1 of
+msgid "List derivative with a special access attributes."
+msgstr ""
+
+#: IPython.utils.text.SList:3 of
+msgid "These are normal lists, but with the special attributes:"
+msgstr ""
+
+#: IPython.utils.text.SList:5 of
+msgid ".l (or .list) : value as list (the list itself)."
+msgstr ""
+
+#: IPython.utils.text.SList:6 of
+msgid ".n (or .nlstr): value as a string, joined on newlines."
+msgstr ""
+
+#: IPython.utils.text.SList:7 of
+msgid ".s (or .spstr): value as a string, joined on spaces."
+msgstr ""
+
+#: IPython.utils.text.SList:8 of
+msgid ".p (or .paths): list of path objects (requires path.py package)"
+msgstr ""
+
+#: IPython.utils.text.SList.fields:1 of
+msgid "Collect whitespace-separated fields from string list"
+msgstr ""
+
+#: IPython.utils.text.SList.fields:3 of
+msgid "Allows quick awk-like usage of string lists."
+msgstr ""
+
+#: IPython.utils.text.SList.fields:5 of
+msgid "Example data (in var a, created by 'a = !ls -l')::"
+msgstr ""
+
+#: IPython.utils.text.SList.fields:10 of
+msgid "``a.fields(0)`` is ``['-rwxrwxrwx', 'drwxrwxrwx+']``"
+msgstr ""
+
+#: IPython.utils.text.SList.fields:11 of
+msgid ""
+"``a.fields(1,0)`` is ``['1 -rwxrwxrwx', '6 drwxrwxrwx+']`` (note the "
+"joining by space)."
+msgstr ""
+
+#: IPython.utils.text.SList.fields:13 of
+msgid "``a.fields(-1)`` is ``['ChangeLog', 'IPython']``"
+msgstr ""
+
+#: IPython.utils.text.SList.fields:15 of
+msgid "IndexErrors are ignored."
+msgstr ""
+
+#: IPython.utils.text.SList.fields:17 of
+msgid "Without args, fields() just split()'s the strings."
+msgstr ""
+
+#: IPython.utils.text.SList.grep:1 of
+msgid "Return all strings matching 'pattern' (a regex or callable)"
+msgstr ""
+
+#: IPython.utils.text.SList.grep:3 of
+msgid ""
+"This is case-insensitive. If prune is true, return all items NOT matching"
+" the pattern."
+msgstr ""
+
+#: IPython.utils.text.SList.grep:6 of
+msgid ""
+"If field is specified, the match must occur in the specified whitespace-"
+"separated field."
+msgstr ""
+
+#: IPython.utils.text.SList.grep:9 of
+msgid "Examples::"
+msgstr ""
+
+#: IPython.utils.text.SList.sort:1 of
+msgid "sort by specified fields (see fields())"
+msgstr ""
+
+#: IPython.utils.text.SList.sort:3 of
+msgid "Example::"
+msgstr ""
+
+#: IPython.utils.text.SList.sort:7 of
+msgid "Sorts a by second field, in numerical order (so that 21 > 3)"
+msgstr ""
+
+#: IPython.utils.text.EvalFormatter:1 IPython.utils.text.FullEvalFormatter:1 of
+msgid "Bases: :class:`string.Formatter`"
+msgstr ""
+
+#: IPython.utils.text.EvalFormatter:1 IPython.utils.text.FullEvalFormatter:1 of
+msgid "A String Formatter that allows evaluation of simple expressions."
+msgstr ""
+
+#: IPython.utils.text.EvalFormatter:3 of
+msgid ""
+"Note that this version interprets a : as specifying a format string (as "
+"per standard string formatting), so if slicing is required, you must "
+"explicitly create a slice."
+msgstr ""
+
+#: IPython.utils.text.EvalFormatter:7 of
+msgid ""
+"This is to be used in templating cases, such as the parallel batch script"
+" templates, where simple arithmetic on arguments is useful."
+msgstr ""
+
+#: IPython.utils.text.DollarFormatter:6 IPython.utils.text.EvalFormatter:11
+#: IPython.utils.text.FullEvalFormatter:10
+#: IPython.utils.text.compute_item_matrix:30 IPython.utils.text.list_strings:5
+#: IPython.utils.text.marquee:4 IPython.utils.text.strip_email_quotes:10 of
+msgid "Examples"
+msgstr ""
+
+#: IPython.utils.text.FullEvalFormatter:3 of
+msgid ""
+"Any time a format key is not found in the kwargs, it will be tried as an "
+"expression in the kwargs namespace."
+msgstr ""
+
+#: IPython.utils.text.FullEvalFormatter:6 of
+msgid ""
+"Note that this version allows slicing using [1:2], so you cannot specify "
+"a format string. Use :class:`EvalFormatter` to permit format strings."
+msgstr ""
+
+#: IPython.utils.text.DollarFormatter:1 of
+msgid "Bases: :class:`IPython.utils.text.FullEvalFormatter`"
+msgstr ""
+
+#: IPython.utils.text.DollarFormatter:1 of
+msgid ""
+"Formatter allowing Itpl style $foo replacement, for names and attribute "
+"access only. Standard {foo} replacement also works, and allows full "
+"evaluation of its arguments."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.text.rst:33
+msgid "13 Functions"
+msgstr ""
+
+#: IPython.utils.text.indent:1 of
+msgid "Indent a string a given number of spaces or tabstops."
+msgstr ""
+
+#: IPython.utils.text.indent:3 of
+msgid "indent(str,nspaces=4,ntabs=0) -> indent str by ntabs+nspaces."
+msgstr ""
+
+#: IPython.utils.text.columnize IPython.utils.text.compute_item_matrix
+#: IPython.utils.text.indent IPython.utils.text.strip_ansi
+#: IPython.utils.text.strip_email_quotes of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.utils.text.indent:5 of
+msgid "The string to be indented."
+msgstr ""
+
+#: IPython.utils.text.indent:7 of
+msgid "The number of spaces to be indented."
+msgstr ""
+
+#: IPython.utils.text.indent:9 of
+msgid "The number of tabs to be indented."
+msgstr ""
+
+#: IPython.utils.text.indent:11 of
+msgid ""
+"Whether to scrub existing indentation.  If True, all lines will be "
+"aligned to the same indentation.  If False, existing indentation will be "
+"strictly increased."
+msgstr ""
+
+#: IPython.utils.text.columnize IPython.utils.text.compute_item_matrix
+#: IPython.utils.text.indent IPython.utils.text.wrap_paragraphs of
+msgid "Returns"
+msgstr ""
+
+#: IPython.utils.text.indent:16 of
+msgid "**str|unicode**"
+msgstr ""
+
+#: IPython.utils.text.columnize IPython.utils.text.indent
+#: IPython.utils.text.wrap_paragraphs of
+msgid "Return type"
+msgstr ""
+
+#: IPython.utils.text.list_strings:1 of
+msgid ""
+"Always return a list of strings, given a string or list of strings as "
+"input."
+msgstr ""
+
+#: IPython.utils.text.marquee:1 of
+msgid "Return the input string centered in a 'marquee'."
+msgstr ""
+
+#: IPython.utils.text.num_ini_spaces:1 of
+msgid "Return the number of initial spaces in a string"
+msgstr ""
+
+#: IPython.utils.text.format_screen:1 of
+msgid "Format a string for screen printing."
+msgstr ""
+
+#: IPython.utils.text.format_screen:3 of
+msgid "This removes some latex-type format codes."
+msgstr ""
+
+#: IPython.utils.text.dedent:1 of
+msgid "Equivalent of textwrap.dedent that ignores unindented first line."
+msgstr ""
+
+#: IPython.utils.text.dedent:3 of
+msgid "This means it will still dedent strings like: '''foo is a bar '''"
+msgstr ""
+
+#: IPython.utils.text.dedent:8 of
+msgid "For use in wrap_paragraphs."
+msgstr ""
+
+#: IPython.utils.text.wrap_paragraphs:1 of
+msgid "Wrap multiple paragraphs to fit a specified width."
+msgstr ""
+
+#: IPython.utils.text.wrap_paragraphs:3 of
+msgid ""
+"This is equivalent to textwrap.wrap, but with support for multiple "
+"paragraphs, as separated by empty lines."
+msgstr ""
+
+#: IPython.utils.text.wrap_paragraphs:7 of
+msgid "list of complete paragraphs, wrapped to fill `ncols` columns."
+msgstr ""
+
+#: IPython.utils.text.long_substr:1 of
+msgid "Return the longest common substring in a list of strings."
+msgstr ""
+
+#: IPython.utils.text.long_substr:3 of
+msgid ""
+"Credit: http://stackoverflow.com/questions/2892931/longest-common-"
+"substring-from-more-than-two-strings-python"
+msgstr ""
+
+#: IPython.utils.text.strip_email_quotes:1 of
+msgid "Strip leading email quotation characters ('>')."
+msgstr ""
+
+#: IPython.utils.text.strip_email_quotes:3 of
+msgid ""
+"Removes any combination of leading '>' interspersed with whitespace that "
+"appears *identically* in all lines of the input text."
+msgstr ""
+
+#: IPython.utils.text.strip_email_quotes:11 of
+msgid "Simple uses::"
+msgstr ""
+
+#: IPython.utils.text.strip_email_quotes:19 of
+msgid "Note how only the common prefix that appears in all lines is stripped::"
+msgstr ""
+
+#: IPython.utils.text.strip_email_quotes:24 of
+msgid ""
+"So if any line has no quote marks ('>') , then none are stripped from any"
+" of them ::"
+msgstr ""
+
+#: IPython.utils.text.strip_ansi:1 of
+msgid "Remove ansi escape codes from text."
+msgstr ""
+
+#: IPython.utils.text.strip_ansi:3 of
+msgid "Source to remove the ansi from"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:1 of
+msgid "Returns a nested list, and info to columnize items"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:3 of
+msgid "list of strings to columize"
+msgstr ""
+
+#: IPython.utils.text.columnize:5 IPython.utils.text.compute_item_matrix:4 of
+msgid ""
+"Whether to compute columns for a row-first matrix instead of column-first"
+" (default)."
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:7 of
+msgid "default value to fill list if needed"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:9 of
+msgid "How much characters will be used as a separation between each columns."
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:11 of
+msgid "The width of the area onto which the columns should enter"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:14 of
+msgid ""
+"* *strings_matrix* -- nested list of string, the outer most list contains"
+" as many list as   rows, the innermost lists have each as many element as"
+" columns. If the   total number of elements in `items` does not equal the"
+" product of   rows*columns, the last element of some lists are filled "
+"with `None`. * *dict_info* -- some info to make columnize easier:    "
+"num_columns     number of columns   max_rows     maximum number of rows "
+"(final number may be less)   column_widths     list of with of each "
+"columns   optimal_separator_width     best separator width between "
+"columns"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:14 of
+msgid ""
+"*strings_matrix* -- nested list of string, the outer most list contains "
+"as many list as rows, the innermost lists have each as many element as "
+"columns. If the total number of elements in `items` does not equal the "
+"product of rows*columns, the last element of some lists are filled with "
+"`None`."
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:18 of
+msgid "*dict_info* -- some info to make columnize easier:"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:20 of
+msgid "num_columns"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:21 of
+msgid "number of columns"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:22 of
+msgid "max_rows"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:23 of
+msgid "maximum number of rows (final number may be less)"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:24 of
+msgid "column_widths"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:25 of
+msgid "list of with of each columns"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:27 of
+msgid "optimal_separator_width"
+msgstr ""
+
+#: IPython.utils.text.compute_item_matrix:27 of
+msgid "best separator width between columns"
+msgstr ""
+
+#: IPython.utils.text.columnize:1 of
+msgid "Transform a list of strings into a single string with columns."
+msgstr ""
+
+#: IPython.utils.text.columnize:3 of
+msgid "The strings to process."
+msgstr ""
+
+#: IPython.utils.text.columnize:8 of
+msgid "The string that separates columns."
+msgstr ""
+
+#: IPython.utils.text.columnize:10 of
+msgid "Width of the display in number of characters."
+msgstr ""
+
+#: IPython.utils.text.get_text_list:1 of
+msgid "Return a string with a natural enumeration of items"
+msgstr ""
+

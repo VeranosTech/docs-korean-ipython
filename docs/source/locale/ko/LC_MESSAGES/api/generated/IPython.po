@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.rst:4
+msgid ":mod:`IPython`"
+msgstr ""
+
+#: IPython:1 of
+msgid "IPython: tools for interactive and parallel computing in Python."
+msgstr ""
+
+#: IPython:3 of
+msgid "https://ipython.org"
+msgstr ""
+
+#: ../../source/api/generated/IPython.rst:10
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.embed_kernel:1 of
+msgid "Embed and start an IPython kernel in a given scope."
+msgstr ""
+
+#: IPython.embed_kernel:3 of
+msgid ""
+"If you don't want the kernel to initialize the namespace from the scope "
+"of the surrounding function, and/or you want to load full IPython "
+"configuration, you probably want `IPython.start_kernel()` instead."
+msgstr ""
+
+#: IPython.embed_kernel IPython.start_ipython IPython.start_kernel of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.embed_kernel:8 of
+msgid "The module to load into IPython globals (default: caller)"
+msgstr ""
+
+#: IPython.embed_kernel:10 of
+msgid "The namespace to load into IPython user namespace (default: caller)"
+msgstr ""
+
+#: IPython.embed_kernel:12 of
+msgid ""
+"Further keyword args are relayed to the IPKernelApp constructor, allowing"
+" configuration of the Kernel.  Will only have an effect on the first "
+"embed_kernel call for a given process."
+msgstr ""
+
+#: IPython.start_ipython:1 of
+msgid "Launch a normal IPython instance (as opposed to embedded)"
+msgstr ""
+
+#: IPython.start_ipython:3 of
+msgid ""
+"`IPython.embed()` puts a shell in a particular calling scope, such as a "
+"function or method for debugging purposes, which is often not desirable."
+msgstr ""
+
+#: IPython.start_ipython:7 of
+msgid ""
+"`start_ipython()` does full, regular IPython initialization, including "
+"loading startup files, configuration, etc. much of which is skipped by "
+"`embed()`."
+msgstr ""
+
+#: IPython.start_ipython:11 of
+msgid "This is a public API method, and will survive implementation changes."
+msgstr ""
+
+#: IPython.start_ipython:13 IPython.start_kernel:11 of
+msgid ""
+"If unspecified or None, IPython will parse command-line options from "
+"sys.argv. To prevent any command-line parsing, pass an empty list: "
+"`argv=[]`."
+msgstr ""
+
+#: IPython.start_ipython:16 IPython.start_kernel:14 of
+msgid ""
+"specify this dictionary to initialize the IPython user namespace with "
+"particular values."
+msgstr ""
+
+#: IPython.start_ipython:18 IPython.start_kernel:16 of
+msgid ""
+"Any other kwargs will be passed to the Application constructor, such as "
+"`config`."
+msgstr ""
+
+#: IPython.start_kernel:1 of
+msgid "Launch a normal IPython kernel instance (as opposed to embedded)"
+msgstr ""
+
+#: IPython.start_kernel:3 of
+msgid ""
+"`IPython.embed_kernel()` puts a shell in a particular calling scope, such"
+" as a function or method for debugging purposes, which is often not "
+"desirable."
+msgstr ""
+
+#: IPython.start_kernel:7 of
+msgid ""
+"`start_kernel()` does full, regular IPython initialization, including "
+"loading startup files, configuration, etc. much of which is skipped by "
+"`embed()`."
+msgstr ""
+

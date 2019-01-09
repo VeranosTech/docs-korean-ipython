@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:3
+msgid "7.x Series"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:8
+msgid "IPython 7.2.0"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:10
+msgid ""
+"IPython 7.2.0 brings minor bugfixes, improvements, and new configuration "
+"options:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:12
+msgid "Fix a bug preventing PySide2 GUI integration from working :ghpull:`11464`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:13
+msgid "Run CI on Mac OS ! :ghpull:`11471`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:14
+msgid "Fix IPython \"Demo\" mode. :ghpull:`11498`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:15
+#, python-format
+msgid "Fix ``%run`` magic  with path in name :ghpull:`11499`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:16
+msgid "Fix: add CWD to sys.path *after* stdlib :ghpull:`11502`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:17
+msgid "Better rendering of signatures, especially long ones. :ghpull:`11505`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:18
+msgid "Re-enable jedi by default if it's installed :ghpull:`11506`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:19
+msgid ""
+"Add New ``minimal`` exception reporting mode (useful for educational "
+"purpose). See :ghpull:`11509`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:23
+msgid "Added ability to show subclasses when using pinfo and other utilities"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:25
+msgid ""
+"When using ``?``/``??`` on a class, IPython will now list the first 10 "
+"subclasses."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:27
+msgid ""
+"Special Thanks to Chris Mentzel of the Moore Foundation for this feature."
+" Chris is one of the people who played a critical role in IPython/Jupyter"
+" getting funding."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:31
+msgid ""
+"We are grateful for all the help Chris has given us over the years, and "
+"we're now proud to have code contributed by Chris in IPython."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:35
+msgid "OSMagics.cd_force_quiet configuration option"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:37
+#, python-format
+msgid ""
+"You can set this option to force the %cd magic to behave as if ``-q`` was"
+" passed: ::"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:49
+msgid "See :ghpull:`11491`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:52
+msgid ""
+"In vi editing mode, whether the prompt includes the current vi mode can "
+"now be configured"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:54
+msgid ""
+"Set the ``TerminalInteractiveShell.prompt_includes_vi_mode`` to a boolean"
+" value (default: True) to control this feature. See :ghpull:`11492`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:60
+msgid "IPython 7.1.0"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:62
+msgid ""
+"IPython 7.1.0 is the first minor release after 7.0.0 and mostly brings "
+"fixes to new features, internal refactoring, and fixes for regressions "
+"that happened during the 6.x->7.x transition. It also brings "
+"**Compatibility with Python 3.7.1**, as we're unwillingly relying on a "
+"bug in CPython."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:67
+msgid "New Core Dev:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:69
+msgid ""
+"We welcome Jonathan Slenders to the commiters. Jonathan has done a "
+"fantastic work on prompt_toolkit, and we'd like to recognise his impact "
+"by giving him commit rights. :ghissue:`11397`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:73
+msgid "Notable Changes"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:75
+msgid "Major update of \"latex to unicode\" tab completion map (see below)"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:77
+msgid "Notable New Features:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:79
+msgid ""
+"Restore functionality and documentation of the **sphinx directive**, "
+"which is now stricter (fail on error by daefault), has new configuration "
+"options, has a brand new documentation page :ref:`ipython_directive` "
+"(which needs some cleanup). It is also now *tested* so we hope to have "
+"less regressions. :ghpull:`11402`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:85
+msgid ""
+"``IPython.display.Video`` now supports ``width`` and ``height`` "
+"arguments, allowing a custom width and height to be set instead of using "
+"the video's width and height. :ghpull:`11353`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:89
+msgid "Warn when using ``HTML('<iframe>')`` instead of ``IFrame`` :ghpull:`11350`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:91
+#, python-format
+msgid ""
+"Allow Dynamic switching of editing mode between vi/emacs and show "
+"normal/input mode in prompt when using vi. :ghpull:`11390`. Use ``%config"
+" TerminalInteractiveShell.editing_mode = 'vi'`` or ``%config "
+"TerminalInteractiveShell.editing_mode = 'emacs'`` to dynamically switch "
+"between modes."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:98
+msgid "Notable Fixes:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:100
+msgid ""
+"Fix entering of **multi-line blocks in terminal** IPython, and various "
+"crashes in the new input transformation machinery :ghpull:`11354`, "
+":ghpull:`11356`, :ghpull:`11358`. These also fix a **Compatibility bug "
+"with Python 3.7.1**."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:105
+msgid "Fix moving through generator stack in ipdb :ghpull:`11266`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:107
+msgid "%Magic command arguments now support quoting. :ghpull:`11330`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:109
+msgid "Re-add ``rprint`` and ``rprinte`` aliases. :ghpull:`11331`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:111
+msgid "Remove implicit dependency on ``ipython_genutils`` :ghpull:`11317`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:113
+msgid ""
+"Make ``nonlocal`` raise ``SyntaxError`` instead of silently failing in "
+"async mode. :ghpull:`11382`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:116
+msgid ""
+"Fix mishandling of magics and ``= !`` assignment just after a dedent in "
+"nested code blocks :ghpull:`11418`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:119
+msgid "Fix instructions for custom shortcuts :ghpull:`11426`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:122
+msgid "Notable Internals improvements:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:124
+msgid ""
+"Use of ``os.scandir`` (Python 3 only) to speed up some file system "
+"operations. :ghpull:`11365`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:127
+msgid ""
+"use ``perf_counter`` instead of ``clock`` for more precise timing results"
+" with ``%time`` :ghpull:`11376`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:130
+msgid ""
+"Many thanks to all the contributors and in particular to ``bartskowron`` "
+"and ``tonyfast`` who handled some pretty complicated bugs in the input "
+"machinery. We had a number of first time contributors and maybe "
+"hacktoberfest participants that made significant contributions and helped"
+" us free some time to focus on more complicated bugs."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:136
+#, python-format
+msgid ""
+"You can see all the closed issues and Merged PR, new features and fixes "
+"`here "
+"<https://github.com/ipython/ipython/issues?utf8=%E2%9C%93&q=+is%3Aclosed+milestone%3A7.1+>`_."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:141
+msgid "Unicode Completion update"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:143
+msgid ""
+"In IPython 7.1 the Unicode completion map has been updated and "
+"synchronized with the Julia language."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:146
+msgid "Added and removed character characters:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:148
+msgid ""
+"``\\jmath`` (``ȷ``), ``\\\\underleftrightarrow`` (U+034D, combining) have"
+" been added, while ``\\\\textasciicaron`` have been removed"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:151
+msgid "Some sequences have seen their prefix removed:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:153
+msgid ""
+"6 characters ``\\text...<tab>`` should now be inputed with ``\\...<tab>``"
+" directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:154
+msgid ""
+"45 characters ``\\Elz...<tab>`` should now be inputed with ``\\...<tab>``"
+" directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:155
+msgid ""
+"65 characters ``\\B...<tab>`` should now be inputed with ``\\...<tab>`` "
+"directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:156
+msgid ""
+"450 characters ``\\m...<tab>`` should now be inputed with ``\\...<tab>`` "
+"directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:158
+msgid "Some sequences have seen their prefix shortened:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:160
+msgid ""
+"5 characters ``\\mitBbb...<tab>`` should now be inputed with "
+"``\\bbi...<tab>`` directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:161
+msgid ""
+"52 characters ``\\mit...<tab>`` should now be inputed with "
+"``\\i...<tab>`` directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:162
+msgid ""
+"216 characters ``\\mbfit...<tab>`` should now be inputed with "
+"``\\bi...<tab>`` directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:163
+msgid ""
+"222 characters ``\\mbf...<tab>`` should now be inputed with "
+"``\\b...<tab>`` directly,"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:165
+msgid "A couple of characters had their sequence simplified:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:167
+msgid "``ð``, type ``\\dh<tab>``, instead of ``\\eth<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:168
+msgid "``ħ``, type ``\\hbar<tab>``, instead of ``\\Elzxh<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:169
+msgid "``ɸ``, type ``\\ltphi<tab>``, instead of ``\\textphi<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:170
+msgid "``ϴ``, type ``\\varTheta<tab>``, instead of ``\\textTheta<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:171
+msgid "``ℇ``, type ``\\eulermascheroni<tab>``, instead of ``\\Eulerconst<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:172
+msgid "``ℎ``, type ``\\planck<tab>``, instead of ``\\Planckconst<tab>``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:174
+msgid ""
+"U+0336 (COMBINING LONG STROKE OVERLAY), type ``\\strike<tab>``, instead "
+"of ``\\Elzbar<tab>``."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:176
+msgid "A couple of sequences have been updated:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:178
+msgid ""
+"``\\varepsilon`` now gives ``ɛ`` (GREEK SMALL LETTER EPSILON) instead of "
+"``ε`` (GREEK LUNATE EPSILON SYMBOL),"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:179
+msgid ""
+"``\\underbar`` now gives U+0331 (COMBINING MACRON BELOW) instead of "
+"U+0332 (COMBINING LOW LINE)."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:185
+msgid "IPython 7.0.0"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:187
+msgid "Released Thursday September 27th, 2018"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:189
+msgid ""
+"IPython 7 includes major feature improvements. This is also the second "
+"major version of IPython to support only Python 3 – starting at Python "
+"3.4. Python 2 is still community-supported on the bugfix only 5.x branch,"
+" but we remind you that Python 2 \"end of life\" is on Jan 1st 2020."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:195
+#, python-format
+msgid ""
+"We were able to backport bug fixes to the 5.x branch thanks to our "
+"backport bot which backported more than `70 Pull-Requests "
+"<https://github.com/ipython/ipython/pulls?page=3&q=is%3Apr+sort"
+"%3Aupdated-desc+author%3Aapp%2Fmeeseeksdev++5.x&utf8=%E2%9C%93>`_, but "
+"there are still many PRs that required manual work. This is an area of "
+"the project where you can easily contribute by looking for `PRs that "
+"still need manual backport "
+"<https://github.com/ipython/ipython/issues?q=label%3A%22Still+Needs+Manual+Backport%22+is%3Aclosed+sort"
+"%3Aupdated-desc>`_"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:199
+msgid ""
+"The IPython 6.x branch will likely not see any further release unless "
+"critical bugs are found."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:202
+msgid ""
+"Make sure you have pip > 9.0 before upgrading. You should be able to "
+"update by running:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:210
+msgid ""
+"If you are trying to install or update an ``alpha``, ``beta``, or ``rc`` "
+"version, use pip ``--pre`` flag."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:218
+msgid "Or, if you have conda installed:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:227
+msgid "Prompt Toolkit 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:229
+msgid ""
+"IPython 7.0+ now uses ``prompt_toolkit 2.0``. If you still need to use an"
+" earlier ``prompt_toolkit`` version, you may need to pin IPython to "
+"``<7.0``."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:233
+msgid "Autowait: Asynchronous REPL"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:235
+msgid ""
+"Staring with IPython 7.0 on Python 3.6+, IPython can automatically "
+"``await`` top level code. You should not need to access an event loop or "
+"runner yourself. To learn more, read the :ref:`autoawait` section of our "
+"docs, see :ghpull:`11265`, or try the following code::"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:259
+msgid ""
+"Async integration is experimental code, behavior may change or be removed"
+" between Python and IPython versions without warnings."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:262
+msgid ""
+"Integration is by default with `asyncio`, but other libraries can be "
+"configured -- like ``curio`` or ``trio`` -- to improve concurrency in the"
+" REPL::"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:289
+msgid "See :ref:`autoawait` for more information."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:292
+msgid ""
+"Asynchronous code in a Notebook interface or any other frontend using the"
+" Jupyter Protocol will require further updates to the IPykernel package."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:296
+msgid "Non-Asynchronous code"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:298
+#, python-format
+msgid ""
+"As the internal API of IPython is now asynchronous, IPython needs to run "
+"under an event loop. In order to allow many workflows, (like using the "
+":magic:`%run` magic, or copy-pasting code that explicitly starts/stop "
+"event loop), when top-level code is detected as not being asynchronous, "
+"IPython code is advanced via a pseudo-synchronous runner, and may not "
+"advance pending tasks."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:305
+msgid "Change to Nested Embed"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:307
+msgid ""
+"The introduction of the ability to run async code had some effect on the "
+"``IPython.embed()`` API. By default, embed will not allow you to run "
+"asynchronous code unless an event loop is specified."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:312
+msgid "Effects on Magics"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:314
+msgid ""
+"Some magics will not work with async until they're updated. Contributions"
+" welcome."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:318
+msgid "Expected Future changes"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:320
+msgid ""
+"We expect more internal but public IPython functions to become ``async``,"
+" and will likely end up having a persistent event loop while IPython is "
+"running."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:324
+msgid "Thanks"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:326
+msgid ""
+"This release took more than a year in the making. The code was rebased a "
+"number of times; leading to commit authorship that may have been lost in "
+"the final Pull-Request. Huge thanks to many people for contribution, "
+"discussion, code, documentation, use-cases: dalejung, danielballan, "
+"ellisonbg, fperez, gnestor, minrk, njsmith, pganssle, tacaswell, "
+"takluyver , vidartf ... And many others."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:335
+msgid "Autoreload Improvement"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:337
+msgid ""
+"The magic :magic:`%autoreload 2 <autoreload>` now captures new methods "
+"added to classes. Earlier, only methods existing as of the initial import"
+" were being tracked and updated."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:341
+msgid ""
+"This new feature helps dual environment development - Jupyter+IDE - where"
+" the code gradually moves from notebook cells to package files as it gets"
+" structured."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:345
+msgid ""
+"**Example**: An instance of the class ``MyClass`` will be able to access "
+"the method ``cube()`` after it is uncommented and the file ``file1.py`` "
+"is saved on disk."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:378
+msgid "Misc"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:380
+msgid ""
+"The autoindent feature that was deprecated in 5.x was re-enabled and un-"
+"deprecated in :ghpull:`11257`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:383
+#, python-format
+msgid ""
+"Make :magic:`%run -n -i ... <run>` work correctly. Earlier, if "
+":magic:`%run` was passed both arguments, ``-n`` would be silently "
+"ignored. See :ghpull:`10308`"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:387
+#, python-format
+msgid ""
+"The :cellmagic:`%%script` (as well as :cellmagic:`%%bash`, "
+":cellmagic:`%%ruby`... ) cell magics now raise by default if the return "
+"code of the given code is non-zero (thus halting execution of further "
+"cells in a notebook). The behavior can be disable by passing the ``--no-"
+"raise-error`` flag."
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:394
+msgid "Deprecations"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:396
+msgid ""
+"A couple of unused functions and methods have been deprecated and will be"
+" removed in future versions:"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:399
+msgid "``IPython.utils.io.raw_print_err``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:400
+msgid "``IPython.utils.io.raw_print``"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:404
+msgid "Backwards incompatible changes"
+msgstr ""
+
+#: ../../source/whatsnew/version7.rst:406
+msgid ""
+"The API for transforming input before it is parsed as Python code has "
+"been completely redesigned: any custom input transformations will need to"
+" be rewritten. See :doc:`/config/inputtransforms` for details of the new "
+"API."
+msgstr ""
+

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/integrating.rst:5
+msgid "Integrating your objects with IPython"
+msgstr ""
+
+#: ../../source/config/integrating.rst:8
+msgid "Tab completion"
+msgstr ""
+
+#: ../../source/config/integrating.rst:10
+msgid ""
+"To change the attributes displayed by tab-completing your object, define "
+"a ``__dir__(self)`` method for it. For more details, see the "
+"documentation of the built-in `dir() function "
+"<http://docs.python.org/library/functions.html#dir>`_."
+msgstr ""
+
+#: ../../source/config/integrating.rst:14
+msgid ""
+"You can also customise key completions for your objects, e.g. pressing "
+"tab after ``obj[\"a``. To do so, define a method "
+"``_ipython_key_completions_()``, which returns a list of objects which "
+"are possible keys in a subscript expression ``obj[key]``."
+msgstr ""
+
+#: ../../source/config/integrating.rst:19
+msgid "Custom key completions"
+msgstr ""
+
+#: ../../source/config/integrating.rst:25
+msgid "Rich display"
+msgstr ""
+
+#: ../../source/config/integrating.rst:27
+msgid ""
+"The notebook and the Qt console can display richer representations of "
+"objects. To use this, you can define any of a number of ``_repr_*_()`` "
+"methods. Note that these are surrounded by single, not double "
+"underscores."
+msgstr ""
+
+#: ../../source/config/integrating.rst:31
+msgid ""
+"Both the notebook and the Qt console can display ``svg``, ``png`` and "
+"``jpeg`` representations. The notebook can also display ``html``, "
+"``javascript``, ``markdown`` and ``latex``. If the methods don't exist, "
+"or return ``None``, it falls back to a standard ``repr()``."
+msgstr ""
+
+#: ../../source/config/integrating.rst:36
+msgid "For example::"
+msgstr ""
+
+#: ../../source/config/integrating.rst:45
+msgid ""
+"We often want to provide frontends with guidance on how to display the "
+"data. To support this, ``_repr_*_()`` methods can also return a ``(data, "
+"metadata)`` tuple where ``metadata`` is a dictionary containing arbitrary"
+" key-value pairs for the frontend to interpret. An example use case is "
+"``_repr_jpeg_()``, which can be set to return a jpeg image and a "
+"``{'height': 400, 'width': 600}`` dictionary to inform the frontend how "
+"to size the image."
+msgstr ""
+
+#: ../../source/config/integrating.rst:52
+msgid "There are also two more powerful display methods:"
+msgstr ""
+
+#: ../../source/config/integrating.rst:58
+msgid ""
+"Should return a dictionary of multiple formats, keyed by mimetype, or a "
+"tuple of two dictionaries: *data, metadata*. If this returns something, "
+"other ``_repr_*_`` methods are ignored. The method should take keyword "
+"arguments ``include`` and ``exclude``, though it is not required to "
+"respect them."
+msgstr ""
+
+#: ../../source/config/integrating.rst:65
+msgid ""
+"Displays the object as a side effect; the return value is ignored. If "
+"this is defined, all other display methods are ignored."
+msgstr ""
+
+#: ../../source/config/integrating.rst:68
+msgid ""
+"To customize how the REPL pretty-prints your object, add a "
+"`_repr_pretty_` method to the class.  The method should accept a pretty "
+"printer, and a boolean that indicates whether the printer detected a "
+"cycle.  The method should act on the printer to produce your customized "
+"pretty output.  Here is an example::"
+msgstr ""
+
+#: ../../source/config/integrating.rst:81
+msgid "For details, see :py:mod:`IPython.lib.pretty`."
+msgstr ""
+
+#: ../../source/config/integrating.rst:84
+msgid "Formatters for third-party types"
+msgstr ""
+
+#: ../../source/config/integrating.rst:86
+msgid ""
+"The user can also register formatters for types without modifying the "
+"class::"
+msgstr ""
+
+#: ../../source/config/integrating.rst:100
+msgid "Custom exception tracebacks"
+msgstr ""
+
+#: ../../source/config/integrating.rst:102
+msgid ""
+"Rarely, you might want to display a custom traceback when reporting an "
+"exception. To do this, define the custom traceback using "
+"`_render_traceback_(self)` method which returns a list of strings, one "
+"string for each line of the traceback. For example, the `ipyparallel "
+"<http://ipyparallel.readthedocs.io/>`__ a parallel computing framework "
+"for IPython, does this to display errors from multiple engines."
+msgstr ""
+
+#: ../../source/config/integrating.rst:109
+msgid ""
+"Please be conservative in using this feature; by replacing the default "
+"traceback you may hide important information from the user."
+msgstr ""
+

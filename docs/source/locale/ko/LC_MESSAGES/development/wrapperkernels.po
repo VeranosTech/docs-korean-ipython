@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:2
+msgid "Making simple Python wrapper kernels"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:6
+msgid ""
+"You can now re-use the kernel machinery in IPython to easily make new "
+"kernels. This is useful for languages that have Python bindings, such as "
+"`Octave <http://www.gnu.org/software/octave/>`_ (via `Oct2Py "
+"<http://blink1073.github.io/oct2py/>`_), or languages where the REPL can "
+"be controlled in a tty using `pexpect "
+"<http://pexpect.readthedocs.io/en/latest/>`_, such as bash."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:15
+msgid "`bash_kernel <https://github.com/takluyver/bash_kernel>`_"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:16
+msgid "A simple kernel for bash, written using this machinery"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:19
+msgid "Required steps"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:21
+msgid ""
+"Subclass :class:`ipykernel.kernelbase.Kernel`, and implement the "
+"following methods and attributes:"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:32
+msgid ""
+"Information for :ref:`msging_kernel_info` replies. 'Implementation' "
+"refers to the kernel (e.g. IPython), and 'language' refers to the "
+"language it interprets (e.g. Python). The 'banner' is displayed to the "
+"user in console UIs before the first prompt. All of these values are "
+"strings."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:39
+msgid ""
+"Language information for :ref:`msging_kernel_info` replies, in a "
+"dictionary. This should contain the key ``mimetype`` with the mimetype of"
+" code in the target language (e.g. ``'text/x-python'``), and "
+"``file_extension`` (e.g. ``'py'``). It may also contain keys "
+"``codemirror_mode`` and ``pygments_lexer`` if they need to differ from "
+":attr:`language`."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:46
+msgid "Other keys may be added to this later."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:50
+msgid "Execute user code."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:52
+msgid "The code to be executed."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:53
+msgid "Whether to display output."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:54
+msgid ""
+"Whether to record this code in history and increase the execution count. "
+"If silent is True, this is implicitly False."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:57
+msgid ""
+"Mapping of names to expressions to evaluate after the code has run. You "
+"can ignore this if you need to."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:59
+msgid ""
+"Whether the frontend can provide input on request (e.g. for Python's "
+":func:`raw_input`)."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:62
+msgid ""
+"Your method should return a dict containing the fields described in "
+":ref:`execution_results`. To display output, it can send messages using "
+":meth:`~ipykernel.kernelbase.Kernel.send_response`. See :doc:`messaging` "
+"for details of the different message types."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:67
+msgid "To launch your kernel, add this at the end of your module::"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:74
+msgid "Example"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:76
+msgid "``echokernel.py`` will simply echo any input it's given to stdout::"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:105
+msgid "Here's the Kernel spec ``kernel.json`` file for this::"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:113
+msgid "Optional steps"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:115
+msgid ""
+"You can override a number of other methods to improve the functionality "
+"of your kernel. All of these methods should return a dictionary as "
+"described in the relevant section of the :doc:`messaging spec "
+"<messaging>`."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:123
+msgid "Code completion"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:125
+msgid "The code already present"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:126
+msgid "The position in the code where completion is requested"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:130
+msgid ":ref:`msging_completion` messages"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:134
+msgid "Object introspection"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:136
+msgid "The code"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:137
+msgid "The position in the code where introspection is requested"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:138
+msgid "0 or 1 for more or less detail. In IPython, 1 gets the source code."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:143
+msgid ":ref:`msging_inspection` messages"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:147
+msgid ""
+"History access. Only the relevant parameters for the type of history "
+"request concerned will be passed, so your method definition must have "
+"defaults for all the arguments shown with defaults here."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:153
+msgid ":ref:`msging_history` messages"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:157
+msgid ""
+"Is code entered in a console-like interface complete and ready to "
+"execute, or should a continuation prompt be shown?"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:160
+msgid "The code entered so far - possibly multiple lines"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:164
+msgid ":ref:`msging_is_complete` messages"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:168
+msgid ""
+"Shutdown the kernel. You only need to handle your own clean up - the "
+"kernel machinery will take care of cleaning up its own things before "
+"stopping."
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:171
+msgid "Whether the kernel will be started again afterwards"
+msgstr ""
+
+#: ../../source/development/wrapperkernels.rst:175
+msgid ":ref:`msging_shutdown` messages"
+msgstr ""
+

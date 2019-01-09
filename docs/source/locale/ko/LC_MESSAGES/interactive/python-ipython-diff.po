@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:3
+msgid "Python vs IPython"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:5
+msgid ""
+"This document is meant to highlight the main differences between the "
+"Python language and what are the specific construct you can do only in "
+"IPython."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:8
+msgid ""
+"Unless expressed otherwise all of the construct you will see here will "
+"raise a ``SyntaxError`` if run in a pure Python shell, or if executing in"
+" a Python script."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:12
+msgid ""
+"Each of these features are describe more in details in further part of "
+"the documentation."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:16
+msgid "Quick overview:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:19
+msgid "All the following construct are valid IPython syntax:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:61
+msgid ""
+"Each of these construct is compile by IPython into valid python code and "
+"will do most of the time what you expect it will do. Let see each of "
+"these example in more detail."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:67
+msgid "Accessing help"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:69
+msgid ""
+"As IPython is mostly an interactive shell, the question mark is a simple "
+"shortcut to get help. A question mark alone will bring up the IPython "
+"help:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:92
+msgid ""
+"A single question mark before, or after an object available in current "
+"namespace will show help relative to this object:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:102
+msgid ""
+"A double question mark will try to pull out more information about the "
+"object, and if possible display the python source code of this object."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:129
+msgid ""
+"If you are looking for an object, the use of wildcards ``*`` in "
+"conjunction with question mark will allow you to search current namespace"
+" for object with matching names:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:142
+msgid "Shell Assignment"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:145
+msgid ""
+"When doing interactive computing it is common to need to access the "
+"underlying shell. This is doable through the use of the exclamation mark "
+"``!`` (or bang)."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:148
+msgid "This allow to execute simple command when present in beginning of line:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:155
+msgid "Change directory:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:161
+msgid "Or edit file:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:168
+msgid ""
+"The line after the bang can call any program installed in the underlying "
+"shell, and support variable expansion in the form of ``$variable`` or "
+"``{variable}``. The later form of expansion supports arbitrary python "
+"expression:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:179
+msgid ""
+"The bang can also be present in the right hand side of an assignment, "
+"just after the equal sign, or separated from it by a white space. In "
+"which case the standard output of the command after the bang ``!`` will "
+"be split out into lines in a list-like object and assign to the left hand"
+" side."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:184
+msgid ""
+"This allow you for example to put the list of files of the current "
+"working directory in a variable:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:191
+msgid ""
+"You can combine the different possibilities in for loops, condition, "
+"functions...:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:203
+msgid "Magics"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:205
+#, python-format
+msgid ""
+"Magics function are often present in the form of shell-like syntax, but "
+"are under the hood python function. The syntax and assignment possibility"
+" are similar to the one with the bang (``!``) syntax, but with more "
+"flexibility and power. Magic function start with a percent sign (``%``) "
+"or double percent (``%%``)."
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:210
+msgid "A magic call with a sign percent will act only one line:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:217
+msgid "And support assignment:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:227
+msgid ""
+"Magic with two percent sign can spread over multiple lines, but do not "
+"support assignment:"
+msgstr ""
+
+#: ../../source/interactive/python-ipython-diff.rst:245
+msgid "Combining it all"
+msgstr ""
+

@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.backgroundjobs.rst:4
+msgid "Module: :mod:`lib.backgroundjobs`"
+msgstr ""
+
+#: IPython.lib.backgroundjobs:1 of
+msgid "Manage background (threaded) jobs conveniently from an interactive shell."
+msgstr ""
+
+#: IPython.lib.backgroundjobs:3 of
+msgid ""
+"This module provides a BackgroundJobManager class.  This is the main "
+"class meant for public usage, it implements an object which can create "
+"and manage new background jobs."
+msgstr ""
+
+#: IPython.lib.backgroundjobs:7 of
+msgid ""
+"It also provides the actual job classes managed by these "
+"BackgroundJobManager objects, see their docstrings below."
+msgstr ""
+
+#: IPython.lib.backgroundjobs:11 of
+msgid ""
+"This system was inspired by discussions with B. Granger and the "
+"BackgroundCommand class described in the book Python Scripting for "
+"Computational Science, by H. P. Langtangen:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs:15 of
+msgid "http://folk.uio.no/hpl/scripting"
+msgstr ""
+
+#: IPython.lib.backgroundjobs:17 of
+msgid ""
+"(although ultimately no code from this text was used, as IPython's system"
+" is a separate implementation)."
+msgstr ""
+
+#: IPython.lib.backgroundjobs:20 of
+msgid ""
+"An example notebook is provided in our documentation illustrating "
+"interactive use of the system."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.backgroundjobs.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:1 of
+msgid "Class to manage a pool of backgrounded threaded jobs."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:3 of
+msgid "Below, we assume that 'jobs' is a BackgroundJobManager instance."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:5 of
+msgid "Usage summary (see the method docstrings for details):"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:7 of
+msgid "jobs.new(...) -> start a new job"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:9 of
+msgid "jobs() or jobs.status() -> print status summary of all jobs"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:11 of
+msgid "jobs[N] -> returns job number N."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:13 of
+msgid "foo = jobs[N].result -> assign to variable foo the result of job N"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:15 of
+msgid "jobs[N].traceback() -> print the traceback of dead job N"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:17 of
+msgid "jobs.remove(N) -> remove (finished) job N"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:19 of
+msgid "jobs.flush() -> remove all finished jobs"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:21 of
+msgid ""
+"As a convenience feature, BackgroundJobManager instances provide the "
+"utility result and traceback methods which retrieve the corresponding "
+"information from the jobs list:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:25 of
+msgid ""
+"jobs.result(N) <--> jobs[N].result jobs.traceback(N) <--> "
+"jobs[N].traceback()"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager:28 of
+msgid ""
+"While this appears minor, it allows you to use tab completion "
+"interactively on the job manager instance."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.flush:1 of
+msgid "Flush all finished jobs (completed and dead) from lists."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.flush:3 of
+msgid "Running jobs are never flushed."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.flush:5 of
+msgid ""
+"It first calls _status_new(), to update info. If any jobs have completed "
+"since the last _status_new() call, the flush operation aborts."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:1 of
+msgid "Add a new background job and start it in a separate thread."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:3 of
+msgid "There are two types of jobs which can be created:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:5 of
+msgid ""
+"1. Jobs based on expressions which can be passed to an eval() call. The "
+"expression must be given as a string.  For example:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:8 of
+msgid "job_manager.new('myfunc(x,y,z=1)'[,glob[,loc]])"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:10 of
+msgid ""
+"The given expression is passed to eval(), along with the optional "
+"global/local dicts provided.  If no dicts are given, they are extracted "
+"automatically from the caller's frame."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:14 of
+msgid ""
+"A Python statement is NOT a valid eval() expression.  Basically, you can "
+"only use as an eval() argument something which can go on the right of an "
+"'=' sign and be assigned to a variable."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:18 of
+msgid "For example,\"print 'hello'\" is not valid, but '2+3' is."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:20 of
+msgid ""
+"2. Jobs given a function object, optionally passing additional positional"
+" arguments:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:23 of
+msgid "job_manager.new(myfunc, x, y)"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:25 of
+msgid "The function is called with the given arguments."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:27 of
+msgid ""
+"If you need to pass keyword arguments to your function, you must supply "
+"them as a dict named kw:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:30 of
+msgid "job_manager.new(myfunc, x, y, kw=dict(z=1))"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:32 of
+msgid ""
+"The reason for this assymmetry is that the new() method needs to maintain"
+" access to its own keywords, and this prevents name collisions between "
+"arguments to new() and arguments to your own functions."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:36 of
+msgid ""
+"In both cases, the result is stored in the job.result field of the "
+"background job object."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:39 of
+msgid ""
+"You can set `daemon` attribute of the thread by giving the keyword "
+"argument `daemon`."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:42 of
+msgid "Notes and caveats:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:44 of
+msgid ""
+"1. All threads running share the same standard output.  Thus, if your "
+"background jobs generate output, it will come out on top of whatever you "
+"are currently writing.  For this reason, background jobs are best used "
+"with silent functions which simply return their output."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:49 of
+msgid ""
+"2. Threads also all work within the same global namespace, and this "
+"system does not lock interactive variables.  So if you send job to the "
+"background which operates on a mutable object for a long time, and start "
+"modifying that same mutable object interactively (or in another "
+"backgrounded job), all sorts of bizarre behaviour will occur."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:55 of
+msgid ""
+"3. If a background job is spending a lot of time inside a C extension "
+"module which does not release the Python Global Interpreter Lock (GIL), "
+"this will block the IPython prompt.  This is simply because the Python "
+"interpreter can only switch between threads at Python bytecodes.  While "
+"the execution is inside C code, the interpreter must simply wait unless "
+"the extension module releases the GIL."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.new:62 of
+msgid ""
+"4. There is no way, due to limitations in the Python threads library, to "
+"kill a thread once it has started."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.remove:1 of
+msgid "Remove a finished (completed or dead) job."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobManager.status:1 of
+msgid "Print a status of all jobs currently being managed."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:1 of
+msgid "Bases: :class:`threading.Thread`"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:1 of
+msgid "Base class to build BackgroundJob classes."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:3 of
+msgid "The derived classes must implement:"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:5 of
+msgid ""
+"Their own __init__, since the one here raises NotImplementedError.  The "
+"derived constructor must call self._init() at the end, to provide common "
+"initialization."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:9 of
+msgid "A strform attribute used in calls to __str__."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase:11 of
+msgid ""
+"A call() method, which will make the actual execution call and must "
+"return a value to be held in the 'result' field of the job object."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase.__init__:1 of
+msgid "Must be implemented in subclasses."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase.__init__:3 of
+msgid "Subclasses must call :meth:`_init` for standard initialisation."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase.run:1 of
+msgid "Method representing the thread's activity."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobBase.run:3 of
+msgid ""
+"You may override this method in a subclass. The standard run() method "
+"invokes the callable object passed to the object's constructor as the "
+"target argument, if any, with sequential and keyword arguments taken from"
+" the args and kwargs arguments, respectively."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobExpr:1
+#: IPython.lib.backgroundjobs.BackgroundJobFunc:1 of
+msgid "Bases: :class:`IPython.lib.backgroundjobs.BackgroundJobBase`"
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobExpr:1 of
+msgid "Evaluate an expression as a background job (uses a separate thread)."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobExpr.__init__:1 of
+msgid "Create a new job from a string which can be fed to eval()."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobExpr.__init__:3 of
+msgid ""
+"global/locals dicts can be provided, which will be passed to the eval "
+"call."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobFunc:1 of
+msgid "Run a function call as a background job (uses a separate thread)."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobFunc.__init__:1 of
+msgid "Create a new job from a callable object."
+msgstr ""
+
+#: IPython.lib.backgroundjobs.BackgroundJobFunc.__init__:3 of
+msgid ""
+"Any positional arguments and keyword args given to this constructor after"
+" the initial callable are passed directly to it."
+msgstr ""
+

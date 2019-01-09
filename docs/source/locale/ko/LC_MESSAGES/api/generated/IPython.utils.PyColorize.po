@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.PyColorize.rst:4
+msgid "Module: :mod:`utils.PyColorize`"
+msgstr ""
+
+#: IPython.utils.PyColorize:1 of
+msgid "Class and program to colorize python source code for ANSI terminals."
+msgstr ""
+
+#: IPython.utils.PyColorize:3 of
+msgid ""
+"Based on an HTML code highlighter by Jurgen Hermann found at: "
+"http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52298"
+msgstr ""
+
+#: IPython.utils.PyColorize:6 of
+msgid "Modifications by Fernando Perez (fperez@colorado.edu)."
+msgstr ""
+
+#: IPython.utils.PyColorize:8 of
+msgid "Information on the original HTML highlighter follows:"
+msgstr ""
+
+#: IPython.utils.PyColorize:10 of
+msgid "MoinMoin - Python Source Parser"
+msgstr ""
+
+#: IPython.utils.PyColorize:12 of
+msgid "Title: Colorize Python source using the built-in tokenizer"
+msgstr ""
+
+#: IPython.utils.PyColorize:14 of
+msgid "Submitter: Jurgen Hermann Last Updated:2001/04/06"
+msgstr ""
+
+#: IPython.utils.PyColorize:17 of
+msgid "Version no:1.2"
+msgstr ""
+
+#: IPython.utils.PyColorize:19 of
+msgid "Description:"
+msgstr ""
+
+#: IPython.utils.PyColorize:21 of
+msgid ""
+"This code is part of MoinMoin (http://moin.sourceforge.net/) and converts"
+" Python source code to HTML markup, rendering comments, keywords, "
+"operators, numeric and string literals in different colors."
+msgstr ""
+
+#: IPython.utils.PyColorize:25 of
+msgid ""
+"It shows how to use the built-in keyword, token and tokenize modules to "
+"scan Python source code and re-emit it with no changes to its original "
+"formatting (which is the hard part)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.PyColorize.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser:1 of
+msgid "Bases: :class:`IPython.utils.colorable.Colorable`"
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser:1 of
+msgid "Format colored Python source."
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser.__init__:1 of
+msgid "Create a parser with a specified color table and output channel."
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser.__init__:3 of
+msgid "Call format() to process code."
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser.format2:1 of
+msgid "Parse and send the colored source."
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser.format2:3 of
+msgid ""
+"If out and scheme are not specified, the defaults (given to constructor) "
+"are used."
+msgstr ""
+
+#: IPython.utils.PyColorize.Parser.format2:6 of
+msgid ""
+"out should be a file-type object. Optionally, out can be given as the "
+"string 'str' and the parser will automatically return the output in a "
+"string."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.PyColorize.rst:19
+msgid "1 Function"
+msgstr ""
+

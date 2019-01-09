@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/about/history.rst:5
+msgid "History"
+msgstr ""
+
+#: ../../source/about/history.rst:8
+msgid "Origins"
+msgstr ""
+
+#: ../../source/about/history.rst:10
+msgid ""
+"IPython was starting in 2001 by Fernando Perez while he was a graduate "
+"student at the University of Colorado, Boulder. IPython as we know it "
+"today grew out of the following three projects:"
+msgstr ""
+
+#: ../../source/about/history.rst:14
+#, python-format
+msgid ""
+"ipython by Fernando Pérez. Fernando began using Python and ipython began "
+"as an outgrowth of his desire for things like Mathematica-style prompts, "
+"access to previous output (again like Mathematica's % syntax) and a "
+"flexible configuration system (something better than "
+":envvar:`PYTHONSTARTUP`)."
+msgstr ""
+
+#: ../../source/about/history.rst:18
+msgid ""
+"IPP by Janko Hauser. Very well organized, great usability. Had an old "
+"help system. IPP was used as the \"container\" code into which Fernando "
+"added the functionality from ipython and LazyPython."
+msgstr ""
+
+#: ../../source/about/history.rst:21
+msgid ""
+"LazyPython by Nathan Gray. Simple but very powerful. The quick syntax "
+"(auto parens, auto quotes) and verbose/colored tracebacks were all taken "
+"from here."
+msgstr ""
+
+#: ../../source/about/history.rst:25
+msgid "Here is how Fernando describes the early history of IPython:"
+msgstr ""
+
+#: ../../source/about/history.rst:27
+msgid ""
+"When I found out about IPP and LazyPython I tried to join all three into "
+"a unified system. I thought this could provide a very nice working "
+"environment, both for regular programming and scientific computing: "
+"shell-like features, IDL/Matlab numerics, Mathematica-type prompt history"
+" and great object introspection and help facilities. I think it worked "
+"reasonably well, though it was a lot more work than I had initially "
+"planned."
+msgstr ""
+

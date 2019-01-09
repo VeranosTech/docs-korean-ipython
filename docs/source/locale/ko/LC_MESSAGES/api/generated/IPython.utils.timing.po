@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.timing.rst:4
+msgid "Module: :mod:`utils.timing`"
+msgstr ""
+
+#: IPython.utils.timing:1 of
+msgid "Utilities for timing code execution."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.timing.rst:10
+msgid "7 Functions"
+msgstr ""
+
+#: IPython.utils.timing.clocku:1 of
+msgid ""
+"Return the *USER* CPU time in seconds since the start of the process. "
+"This is done via a call to resource.getrusage, so it avoids the "
+"wraparound problems in time.clock()."
+msgstr ""
+
+#: IPython.utils.timing.clocks:1 of
+msgid ""
+"Return the *SYSTEM* CPU time in seconds since the start of the process. "
+"This is done via a call to resource.getrusage, so it avoids the "
+"wraparound problems in time.clock()."
+msgstr ""
+
+#: IPython.utils.timing.clock:1 of
+msgid ""
+"Return the *TOTAL USER+SYSTEM* CPU time in seconds since the start of the"
+" process.  This is done via a call to resource.getrusage, so it avoids "
+"the wraparound problems in time.clock()."
+msgstr ""
+
+#: IPython.utils.timing.clock2:1 of
+msgid "Similar to clock(), but return a tuple of user/system times."
+msgstr ""
+
+#: IPython.utils.timing.timings_out:1 of
+msgid ""
+"Execute a function reps times, return a tuple with the elapsed total CPU "
+"time in seconds, the time per call and the function's output."
+msgstr ""
+
+#: IPython.utils.timing.timings_out:4 of
+msgid ""
+"Under Unix, the return value is the sum of user+system time consumed by "
+"the process, computed via the resource module.  This prevents problems "
+"related to the wraparound effect which the time.clock() function has."
+msgstr ""
+
+#: IPython.utils.timing.timings_out:8 of
+msgid ""
+"Under Windows the return value is in wall clock seconds. See the "
+"documentation for the time module for more details."
+msgstr ""
+
+#: IPython.utils.timing.timings:1 of
+msgid ""
+"Execute a function reps times, return a tuple with the elapsed total CPU "
+"time in seconds and the time per call. These are just the first two "
+"values in timings_out()."
+msgstr ""
+
+#: IPython.utils.timing.timing:1 of
+msgid ""
+"Execute a function once, return the elapsed total CPU time in seconds. "
+"This is just the first value in timings_out()."
+msgstr ""
+

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.shellapp.rst:4
+msgid "Module: :mod:`core.shellapp`"
+msgstr ""
+
+#: IPython.core.shellapp:1 of
+msgid ""
+"A mixin for :class:`~IPython.core.application.Application` classes that "
+"launch InteractiveShell instances, load extensions, etc."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.shellapp.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:1 of
+msgid "A Mixin for applications that start InteractiveShell instances."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:3 of
+msgid ""
+"Provides configurables for loading extensions and executing files as part"
+" of configuring a Shell environment."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:6 of
+msgid ""
+"The following methods should be called by the :meth:`initialize` method "
+"of the subclass:"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:9 of
+msgid ":meth:`init_path`"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:10 of
+msgid ":meth:`init_shell` (to be implemented by the subclass)"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:11 of
+msgid ":meth:`init_gui_pylab`"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:12 of
+msgid ":meth:`init_extensions`"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp:13 of
+msgid ":meth:`init_code`"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_code:1 of
+msgid "run the pre-flight code, specified via exec_lines"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_extensions:1 of
+msgid "Load all IPython extensions in IPythonApp.extensions."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_extensions:3 of
+msgid ""
+"This uses the :meth:`ExtensionManager.load_extensions` to load all the "
+"extensions listed in ``self.extensions``."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_gui_pylab:1 of
+msgid "Enable GUI event loop integration, taking pylab into account."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_path:1 of
+msgid "Add current working directory, '', to sys.path"
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_path:3 of
+msgid ""
+"Unlike Python's default, we insert before the first `site-packages` or "
+"`dist-packages` directory, so that it is after the standard library."
+msgstr ""
+
+#: IPython.core.shellapp.InteractiveShellApp.init_path:7 of
+msgid "Try to insert after the standard library, instead of first."
+msgstr ""
+

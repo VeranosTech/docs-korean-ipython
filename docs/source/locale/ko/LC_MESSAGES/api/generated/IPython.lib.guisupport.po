@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.guisupport.rst:4
+msgid "Module: :mod:`lib.guisupport`"
+msgstr ""
+
+#: IPython.lib.guisupport:1 of
+msgid "Support for creating GUI apps and starting event loops."
+msgstr ""
+
+#: IPython.lib.guisupport:3 of
+msgid ""
+"IPython's GUI integration allows interactive plotting and GUI usage in "
+"IPython session. IPython has two different types of GUI integration:"
+msgstr ""
+
+#: IPython.lib.guisupport:6 of
+msgid ""
+"The terminal based IPython supports GUI event loops through Python's "
+"PyOS_InputHook. PyOS_InputHook is a hook that Python calls periodically "
+"whenever raw_input is waiting for a user to type code. We implement GUI "
+"support in the terminal by setting PyOS_InputHook to a function that "
+"iterates the event loop for a short while. It is important to note that "
+"in this situation, the real GUI event loop is NOT run in the normal "
+"manner, so you can't use the normal means to detect that it is running."
+msgstr ""
+
+#: IPython.lib.guisupport:13 of
+msgid ""
+"In the two process IPython kernel/frontend, the GUI event loop is run in "
+"the kernel. In this case, the event loop is run in the normal manner by "
+"calling the function or method of the GUI toolkit that starts the event "
+"loop."
+msgstr ""
+
+#: IPython.lib.guisupport:18 of
+msgid ""
+"In addition to starting the GUI event loops in one of these two ways, "
+"IPython will *always* create an appropriate GUI application object when "
+"GUi integration is enabled."
+msgstr ""
+
+#: IPython.lib.guisupport:22 of
+msgid "If you want your GUI apps to run in IPython you need to do two things:"
+msgstr ""
+
+#: IPython.lib.guisupport:24 of
+msgid ""
+"Test to see if there is already an existing main application object. If "
+"there is, you should use it. If there is not an existing application "
+"object you should create one."
+msgstr ""
+
+#: IPython.lib.guisupport:27 of
+msgid ""
+"Test to see if the GUI event loop is running. If it is, you should not "
+"start it. If the event loop is not running you may start it."
+msgstr ""
+
+#: IPython.lib.guisupport:30 of
+msgid ""
+"This module contains functions for each toolkit that perform these things"
+" in a consistent manner. Because of how PyOS_InputHook runs the event "
+"loop you cannot detect if the event loop is running using the traditional"
+" calls (such as ``wx.GetApp.IsMainLoopRunning()`` in wxPython). If "
+"PyOS_InputHook is set These methods will return a false negative. That "
+"is, they will say the event loop is not running, when is actually is. To "
+"work around this limitation we proposed the following informal protocol:"
+msgstr ""
+
+#: IPython.lib.guisupport:38 of
+msgid ""
+"Whenever someone starts the event loop, they *must* set the "
+"``_in_event_loop`` attribute of the main application object to ``True``. "
+"This should be done regardless of how the event loop is actually run."
+msgstr ""
+
+#: IPython.lib.guisupport:41 of
+msgid ""
+"Whenever someone stops the event loop, they *must* set the "
+"``_in_event_loop`` attribute of the main application object to ``False``."
+msgstr ""
+
+#: IPython.lib.guisupport:43 of
+msgid ""
+"If you want to see if the event loop is running, you *must* use "
+"``hasattr`` to see if ``_in_event_loop`` attribute has been set. If it is"
+" set, you *must* use its value. If it has not been set, you can query the"
+" toolkit in the normal manner."
+msgstr ""
+
+#: IPython.lib.guisupport:47 of
+msgid ""
+"If you want GUI support and no one else has created an application or "
+"started the event loop you *must* do this. We don't want projects to "
+"attempt to defer these things to someone else if they themselves need it."
+msgstr ""
+
+#: IPython.lib.guisupport:51 of
+msgid ""
+"The functions below implement this logic for each GUI toolkit. If you "
+"need to create custom application subclasses, you will likely have to "
+"modify this code for your own purposes. This code can be copied into your"
+" own project so you don't have to depend on IPython."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.guisupport.rst:10
+msgid "6 Functions"
+msgstr ""
+
+#: IPython.lib.guisupport.get_app_wx:1 of
+msgid "Create a new wx app or return an exiting one."
+msgstr ""
+
+#: IPython.lib.guisupport.is_event_loop_running_wx:1 of
+msgid "Is the wx event loop running."
+msgstr ""
+
+#: IPython.lib.guisupport.start_event_loop_wx:1 of
+msgid "Start the wx event loop in a consistent manner."
+msgstr ""
+
+#: IPython.lib.guisupport.get_app_qt4:1 of
+msgid "Create a new qt4 app or return an existing one."
+msgstr ""
+
+#: IPython.lib.guisupport.is_event_loop_running_qt4:1 of
+msgid "Is the qt4 event loop running."
+msgstr ""
+
+#: IPython.lib.guisupport.start_event_loop_qt4:1 of
+msgid "Start the qt4 event loop in a consistent manner."
+msgstr ""
+

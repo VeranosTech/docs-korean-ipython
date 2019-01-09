@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.inputhook.rst:4
+msgid "Module: :mod:`lib.inputhook`"
+msgstr ""
+
+#: IPython.lib.inputhook:1 of
+msgid "Deprecated since IPython 5.0"
+msgstr ""
+
+#: IPython.lib.inputhook:3 of
+msgid "Inputhook management for GUI event loop integration."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.inputhook.rst:10
+msgid "11 Classes"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookBase:1
+#: IPython.lib.inputhook.InputHookManager:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.disable:1
+#: IPython.lib.inputhook.GlutInputHook.enable:1
+#: IPython.lib.inputhook.Gtk3InputHook.enable:1
+#: IPython.lib.inputhook.GtkInputHook.enable:1
+#: IPython.lib.inputhook.InputHookBase:1
+#: IPython.lib.inputhook.InputHookManager:1
+#: IPython.lib.inputhook.InputHookManager.clear_app_refs:1
+#: IPython.lib.inputhook.InputHookManager.clear_inputhook:1
+#: IPython.lib.inputhook.InputHookManager.current_gui:1
+#: IPython.lib.inputhook.InputHookManager.disable_gui:1
+#: IPython.lib.inputhook.InputHookManager.enable_gui:1
+#: IPython.lib.inputhook.InputHookManager.get_pyos_inputhook:1
+#: IPython.lib.inputhook.InputHookManager.get_pyos_inputhook_as_func:1
+#: IPython.lib.inputhook.InputHookManager.register:1
+#: IPython.lib.inputhook.InputHookManager.set_inputhook:1
+#: IPython.lib.inputhook.NullInputHook:1
+#: IPython.lib.inputhook.PygletInputHook.enable:1
+#: IPython.lib.inputhook.Qt4InputHook.disable_qt4:1
+#: IPython.lib.inputhook.Qt4InputHook.enable:1
+#: IPython.lib.inputhook.Qt5InputHook.enable:1
+#: IPython.lib.inputhook.TkInputHook.enable:1
+#: IPython.lib.inputhook.WxInputHook.disable:1
+#: IPython.lib.inputhook.WxInputHook.enable:1 of
+msgid "DEPRECATED since IPython 5.0"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager:3 of
+msgid "Manage PyOS_InputHook for different GUI toolkits."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager:5 of
+msgid ""
+"This class installs various hooks under ``PyOSInputHook`` to handle GUI "
+"event loop integration."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookBase.__init__:1
+#: IPython.lib.inputhook.InputHookManager.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.clear_app_refs:3 of
+msgid "Clear IPython's internal reference to an application instance."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.clear_app_refs:5 of
+msgid ""
+"Whenever we create an app for a user on qt4 or wx, we hold a reference to"
+" the app.  This is needed because in some cases bad things can happen if "
+"a user doesn't hold a reference themselves.  This method is provided to "
+"clear the references we are holding."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable
+#: IPython.lib.inputhook.Gtk3InputHook.enable
+#: IPython.lib.inputhook.GtkInputHook.enable
+#: IPython.lib.inputhook.InputHookManager.clear_app_refs
+#: IPython.lib.inputhook.InputHookManager.clear_inputhook
+#: IPython.lib.inputhook.InputHookManager.enable_gui
+#: IPython.lib.inputhook.PygletInputHook.enable
+#: IPython.lib.inputhook.Qt4InputHook.enable
+#: IPython.lib.inputhook.Qt5InputHook.enable
+#: IPython.lib.inputhook.TkInputHook.enable
+#: IPython.lib.inputhook.WxInputHook.enable of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.clear_app_refs:10 of
+msgid ""
+"If None, clear all app references.  If ('wx', 'qt4') clear the app for "
+"that toolkit.  References are not held for gtk or tk as those toolkits "
+"don't have the notion of an app."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.clear_inputhook:3 of
+msgid "Set PyOS_InputHook to NULL and return the previous one."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.clear_inputhook:5 of
+msgid ""
+"This parameter is allowed only so that clear_inputhook() can be called "
+"with a similar interface as all the ``enable_*`` methods.  But the actual"
+" value of the parameter is ignored.  This uniform interface makes it "
+"easier to have user-level entry points in the main IPython app like "
+":meth:`enable_gui`."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.current_gui:3 of
+msgid "Return a string indicating the currently active GUI or None."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.disable_gui:3 of
+msgid "Disable GUI event loop integration."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.disable_gui:5 of
+msgid ""
+"If an application was registered, this sets its ``_in_event_loop`` "
+"attribute to False. It then calls :meth:`clear_inputhook`."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:3 of
+msgid "Switch amongst GUI input hooks by name."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:5 of
+msgid ""
+"This is a higher level method than :meth:`set_inputhook` - it uses the "
+"GUI name to look up a registered object which enables the input hook for "
+"that GUI."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:9 of
+msgid ""
+"If None (or 'none'), clears input hook, otherwise it must be one of the "
+"recognized GUI names (see ``GUI_*`` constants in module)."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:12 of
+msgid ""
+"For toolkits that have the concept of a global app, you can supply an "
+"existing one.  If not given, the toolkit will be probed for one, and if "
+"none is found, a new one will be created.  Note that GTK does not have "
+"this concept, and passing an app if ``gui==\"GTK\"`` will raise an error."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui of
+msgid "Returns"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:18 of
+msgid ""
+"* *The output of the underlying gui switch routine, typically the actual*"
+" * *PyOS_InputHook wrapper object or the GUI toolkit app created, if "
+"there was* * *one.*"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:18 of
+msgid "*The output of the underlying gui switch routine, typically the actual*"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:19 of
+msgid ""
+"*PyOS_InputHook wrapper object or the GUI toolkit app created, if there "
+"was*"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.enable_gui:20 of
+msgid "*one.*"
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.get_pyos_inputhook:3 of
+msgid "Return the current PyOS_InputHook as a ctypes.c_void_p."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.get_pyos_inputhook_as_func:3 of
+msgid "Return the current PyOS_InputHook as a ctypes.PYFUNCYPE."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.register:3 of
+msgid "Register a class to provide the event loop for a given GUI."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.register:5 of
+msgid ""
+"This is intended to be used as a class decorator. It should be passed the"
+" names with which to register this GUI integration. The classes "
+"themselves should subclass :class:`InputHookBase`."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookManager.set_inputhook:3 of
+msgid "Set PyOS_InputHook to callback and return the previous one."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookBase:3 of
+msgid "Base class for input hooks for specific toolkits."
+msgstr ""
+
+#: IPython.lib.inputhook.InputHookBase:5 of
+msgid ""
+"Subclasses should define an :meth:`enable` method with one argument, "
+"``app``, which will either be an instance of the toolkit's application "
+"class, or None. They may also define a :meth:`disable` method with no "
+"arguments."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook:1 IPython.lib.inputhook.Gtk3InputHook:1
+#: IPython.lib.inputhook.GtkInputHook:1 IPython.lib.inputhook.NullInputHook:1
+#: IPython.lib.inputhook.PygletInputHook:1 IPython.lib.inputhook.Qt4InputHook:1
+#: IPython.lib.inputhook.TkInputHook:1 IPython.lib.inputhook.WxInputHook:1 of
+msgid "Bases: :class:`IPython.lib.inputhook.InputHookBase`"
+msgstr ""
+
+#: IPython.lib.inputhook.NullInputHook:3 of
+msgid "A null inputhook that doesn't need to do anything"
+msgstr ""
+
+#: IPython.lib.inputhook.WxInputHook.disable:3 of
+msgid "Disable event loop integration with wxPython."
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.disable_qt4:5
+#: IPython.lib.inputhook.WxInputHook.disable:5 of
+msgid "This restores appnapp on OS X"
+msgstr ""
+
+#: IPython.lib.inputhook.WxInputHook.enable:3 of
+msgid "Enable event loop integration with wxPython."
+msgstr ""
+
+#: IPython.lib.inputhook.WxInputHook.enable:5 of
+msgid ""
+"Running application to use.  If not given, we probe WX for an existing "
+"application object, and create a new one if none is found."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable:11
+#: IPython.lib.inputhook.Gtk3InputHook.enable:11
+#: IPython.lib.inputhook.GtkInputHook.enable:11
+#: IPython.lib.inputhook.PygletInputHook.enable:11
+#: IPython.lib.inputhook.Qt4InputHook.enable:10
+#: IPython.lib.inputhook.Qt5InputHook.enable:10
+#: IPython.lib.inputhook.TkInputHook.enable:10
+#: IPython.lib.inputhook.WxInputHook.enable:10 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.lib.inputhook.WxInputHook.enable:11 of
+msgid ""
+"This methods sets the ``PyOS_InputHook`` for wxPython, which allows the "
+"wxPython to integrate with terminal based applications like IPython."
+msgstr ""
+
+#: IPython.lib.inputhook.WxInputHook.enable:15 of
+msgid ""
+"If ``app`` is not given we probe for an existing one, and return it if "
+"found.  If no existing app is found, we create an :class:`wx.App` as "
+"follows::"
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.disable_qt4:3 of
+msgid "Disable event loop integration with PyQt4."
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.enable:3
+#: IPython.lib.inputhook.Qt5InputHook.enable:3 of
+msgid "Enable event loop integration with PyQt4."
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.enable:5
+#: IPython.lib.inputhook.Qt5InputHook.enable:5 of
+msgid ""
+"Running application to use.  If not given, we probe Qt for an existing "
+"application object, and create a new one if none is found."
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.enable:11
+#: IPython.lib.inputhook.Qt5InputHook.enable:11 of
+msgid ""
+"This methods sets the PyOS_InputHook for PyQt4, which allows the PyQt4 to"
+" integrate with terminal based applications like IPython."
+msgstr ""
+
+#: IPython.lib.inputhook.Qt4InputHook.enable:15
+#: IPython.lib.inputhook.Qt5InputHook.enable:15 of
+msgid ""
+"If ``app`` is not given we probe for an existing one, and return it if "
+"found.  If no existing app is found, we create an :class:`QApplication` "
+"as follows::"
+msgstr ""
+
+#: IPython.lib.inputhook.Qt5InputHook:1 of
+msgid "Bases: :class:`IPython.lib.inputhook.Qt4InputHook`"
+msgstr ""
+
+#: IPython.lib.inputhook.GtkInputHook.enable:3 of
+msgid "Enable event loop integration with PyGTK."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable:5
+#: IPython.lib.inputhook.Gtk3InputHook.enable:5
+#: IPython.lib.inputhook.GtkInputHook.enable:5
+#: IPython.lib.inputhook.PygletInputHook.enable:5 of
+msgid ""
+"Ignored, it's only a placeholder to keep the call signature of all gui "
+"activation methods consistent, which simplifies the logic of supporting "
+"magics."
+msgstr ""
+
+#: IPython.lib.inputhook.GtkInputHook.enable:12 of
+msgid ""
+"This methods sets the PyOS_InputHook for PyGTK, which allows the PyGTK to"
+" integrate with terminal based applications like IPython."
+msgstr ""
+
+#: IPython.lib.inputhook.TkInputHook.enable:3 of
+msgid "Enable event loop integration with Tk."
+msgstr ""
+
+#: IPython.lib.inputhook.TkInputHook.enable:5 of
+msgid ""
+"Running toplevel widget to use.  If not given, we probe Tk for an "
+"existing one, and create a new one if none is found."
+msgstr ""
+
+#: IPython.lib.inputhook.TkInputHook.enable:11 of
+msgid ""
+"If you have already created a :class:`Tkinter.Tk` object, the only thing "
+"done by this method is to register with the :class:`InputHookManager`, "
+"since creating that object automatically sets ``PyOS_InputHook``."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.disable:3 of
+msgid "Disable event loop integration with glut."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.disable:5 of
+msgid ""
+"This sets PyOS_InputHook to NULL and set the display function to a dummy "
+"one and set the timer to a dummy timer that will be triggered very far in"
+" the future."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable:3 of
+msgid "Enable event loop integration with GLUT."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable:12 of
+msgid ""
+"This methods sets the PyOS_InputHook for GLUT, which allows the GLUT to "
+"integrate with terminal based applications like IPython. Due to GLUT "
+"limitations, it is currently not possible to start the event loop without"
+" first creating a window. You should thus not create another window but "
+"use instead the created one. See 'gui-glut.py' in the docs/examples/lib "
+"directory."
+msgstr ""
+
+#: IPython.lib.inputhook.GlutInputHook.enable:19 of
+msgid ""
+"The default screen mode is set to: glut.GLUT_DOUBLE | glut.GLUT_RGBA | "
+"glut.GLUT_DEPTH"
+msgstr ""
+
+#: IPython.lib.inputhook.PygletInputHook.enable:3 of
+msgid "Enable event loop integration with pyglet."
+msgstr ""
+
+#: IPython.lib.inputhook.PygletInputHook.enable:12 of
+msgid ""
+"This methods sets the ``PyOS_InputHook`` for pyglet, which allows pyglet "
+"to integrate with terminal based applications like IPython."
+msgstr ""
+
+#: IPython.lib.inputhook.Gtk3InputHook.enable:3 of
+msgid "Enable event loop integration with Gtk3 (gir bindings)."
+msgstr ""
+
+#: IPython.lib.inputhook.Gtk3InputHook.enable:12 of
+msgid ""
+"This methods sets the PyOS_InputHook for Gtk3, which allows the Gtk3 to "
+"integrate with terminal based applications like IPython."
+msgstr ""
+

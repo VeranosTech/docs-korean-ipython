@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.pretty.rst:4
+msgid "Module: :mod:`lib.pretty`"
+msgstr ""
+
+#: IPython.lib.pretty:1 of
+msgid ""
+"Python advanced pretty printer.  This pretty printer is intended to "
+"replace the old `pprint` python module which does not allow developers to"
+" provide their own pretty print callbacks."
+msgstr ""
+
+#: IPython.lib.pretty:5 of
+msgid "This module is based on ruby's `prettyprint.rb` library by `Tanaka Akira`."
+msgstr ""
+
+#: IPython.lib.pretty:9 of
+msgid "Example Usage"
+msgstr ""
+
+#: IPython.lib.pretty:11 of
+msgid "To directly print the representation of an object use `pprint`::"
+msgstr ""
+
+#: IPython.lib.pretty:16 of
+msgid "To get a string of the output use `pretty`::"
+msgstr ""
+
+#: IPython.lib.pretty:23 of
+msgid "Extending"
+msgstr ""
+
+#: IPython.lib.pretty:25 of
+msgid ""
+"The pretty library allows developers to add pretty printing rules for "
+"their own objects.  This process is straightforward.  All you have to do "
+"is to add a `_repr_pretty_` method to your object and call the methods on"
+" the pretty printer passed::"
+msgstr ""
+
+#: IPython.lib.pretty:35 of
+msgid ""
+"Here is an example implementation of a `_repr_pretty_` method for a list "
+"subclass::"
+msgstr ""
+
+#: IPython.lib.pretty:51 of
+msgid ""
+"The `cycle` parameter is `True` if pretty detected a cycle.  You *have* "
+"to react to that or the result is an infinite loop.  `p.text()` just adds"
+" non breaking text to the output, `p.breakable()` either adds a "
+"whitespace or breaks here.  If you pass it an argument it's used instead "
+"of the default space.  `p.pretty` prettyprints another object using the "
+"pretty print method."
+msgstr ""
+
+#: IPython.lib.pretty:58 of
+msgid ""
+"The first parameter to the `group` function specifies the extra "
+"indentation of the next line.  In this example the next item will either "
+"be on the same line (if the items are short enough) or aligned with the "
+"right edge of the opening bracket of `MyList`."
+msgstr ""
+
+#: IPython.lib.pretty:63 of
+msgid ""
+"If you just want to indent something you can use the group function "
+"without open / close parameters.  You can also use this code::"
+msgstr ""
+
+#: IPython.lib.pretty:69 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: IPython.lib.pretty of
+msgid "copyright"
+msgstr ""
+
+#: IPython.lib.pretty:74 of
+msgid "2007 by Armin Ronacher. Portions (c) 2009 by Robert Kern."
+msgstr ""
+
+#: IPython.lib.pretty of
+msgid "license"
+msgstr ""
+
+#: IPython.lib.pretty:76 of
+msgid "BSD License."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.pretty.rst:10
+msgid "8 Classes"
+msgstr ""
+
+#: IPython.lib.pretty.CUnicodeIO:1 of
+msgid "Bases: :class:`_io.StringIO`"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter:1 of
+msgid "Bases: :class:`IPython.lib.pretty._PrettyPrinterBase`"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter:1 of
+msgid ""
+"Baseclass for the `RepresentationPrinter` prettyprinter that is used to "
+"generate pretty reprs of objects.  Contrary to the "
+"`RepresentationPrinter` this printer knows nothing about the default "
+"pprinters or the `_repr_pretty_` callback method."
+msgstr ""
+
+#: IPython.lib.pretty.Breakable.__init__:1 IPython.lib.pretty.Group.__init__:1
+#: IPython.lib.pretty.GroupQueue.__init__:1
+#: IPython.lib.pretty.PrettyPrinter.__init__:1
+#: IPython.lib.pretty.RepresentationPrinter.__init__:1
+#: IPython.lib.pretty.Text.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:1 of
+msgid ""
+"Begin a group.  If you want support for python < 2.5 which doesn't has "
+"the with statement this is the preferred way:"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:4 of
+msgid "p.begin_group(1, '{') ... p.end_group(1, '}')"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:8 of
+msgid "The python 2.5 expression would be this:"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:11 of
+msgid "with p.group(1, '{', '}'):"
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:11 of
+msgid "..."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.begin_group:13 of
+msgid ""
+"The first parameter specifies the indentation for the next line (usually "
+"the width of the opening text), the second the opening text.  All "
+"parameters are optional."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.break_:1 of
+msgid ""
+"Explicitly insert a newline into the output, maintaining correct "
+"indentation."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.breakable:1 of
+msgid ""
+"Add a breakable separator to the output.  This does not mean that it will"
+" automatically break here.  If no breaking on this position takes place "
+"the `sep` is inserted which default to one space."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.end_group:1 of
+msgid "End a group. See `begin_group` for more details."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.flush:1 of
+msgid "Flush data that is left in the buffer."
+msgstr ""
+
+#: IPython.lib.pretty.PrettyPrinter.text:1 of
+msgid "Add literal text to the output."
+msgstr ""
+
+#: IPython.lib.pretty.RepresentationPrinter:1 of
+msgid "Bases: :class:`IPython.lib.pretty.PrettyPrinter`"
+msgstr ""
+
+#: IPython.lib.pretty.RepresentationPrinter:1 of
+msgid ""
+"Special pretty printer that has a `pretty` method that calls the pretty "
+"printer for a python object."
+msgstr ""
+
+#: IPython.lib.pretty.RepresentationPrinter:4 of
+msgid ""
+"This class stores processing data on `self` so you must *never* use this "
+"class in a threaded environment.  Always lock it or reinstanciate it."
+msgstr ""
+
+#: IPython.lib.pretty.RepresentationPrinter:8 of
+msgid ""
+"Instances also have a verbose flag callbacks can access to control their "
+"output.  For example the default instance repr prints all attributes and "
+"methods that are not prefixed by an underscore if the printer is in "
+"verbose mode."
+msgstr ""
+
+#: IPython.lib.pretty.RepresentationPrinter.pretty:1 of
+msgid "Pretty print the given object."
+msgstr ""
+
+#: IPython.lib.pretty.GroupQueue:1 IPython.lib.pretty.Printable:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.lib.pretty.Breakable:1 IPython.lib.pretty.Group:1
+#: IPython.lib.pretty.Text:1 of
+msgid "Bases: :class:`IPython.lib.pretty.Printable`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.pretty.rst:57
+msgid "4 Functions"
+msgstr ""
+
+#: IPython.lib.pretty.pretty:1 of
+msgid "Pretty print the object's representation."
+msgstr ""
+
+#: IPython.lib.pretty.pprint:1 of
+msgid "Like `pretty` but print to stdout."
+msgstr ""
+
+#: IPython.lib.pretty.for_type:1 of
+msgid "Add a pretty printer for a given type."
+msgstr ""
+
+#: IPython.lib.pretty.for_type_by_name:1 of
+msgid ""
+"Add a pretty printer for a type specified by the module and name of a "
+"type rather than the type object itself."
+msgstr ""
+

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.deepreload.rst:4
+msgid "Module: :mod:`lib.deepreload`"
+msgstr ""
+
+#: IPython.lib.deepreload:1 of
+msgid "Provides a reload() function that acts recursively."
+msgstr ""
+
+#: IPython.lib.deepreload:3 of
+msgid ""
+"Python's normal :func:`python:reload` function only reloads the module "
+"that it's passed. The :func:`reload` function in this module also reloads"
+" everything imported from that module, which is useful when you're "
+"changing files deep inside a package."
+msgstr ""
+
+#: IPython.lib.deepreload:8 of
+msgid "To use this as your default reload function, type this for Python 2::"
+msgstr ""
+
+#: IPython.lib.deepreload:14 of
+msgid "Or this for Python 3::"
+msgstr ""
+
+#: IPython.lib.deepreload:20 of
+msgid ""
+"A reference to the original :func:`python:reload` is stored in this "
+"module as :data:`original_reload`, so you can restore it later."
+msgstr ""
+
+#: IPython.lib.deepreload:23 of
+msgid ""
+"This code is almost entirely based on knee.py, which is a Python re-"
+"implementation of hierarchical module import."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.deepreload.rst:10
+msgid "9 Functions"
+msgstr ""
+
+#: IPython.lib.deepreload.get_parent:1 of
+msgid "parent, name = get_parent(globals, level)"
+msgstr ""
+
+#: IPython.lib.deepreload.get_parent:3 of
+msgid ""
+"Return the package that an import is being performed in.  If globals "
+"comes from the module foo.bar.bat (not itself a package), this returns "
+"the sys.modules entry for foo.bar.  If globals is from a package's "
+"__init__.py, the package's entry in sys.modules is returned."
+msgstr ""
+
+#: IPython.lib.deepreload.get_parent:8 of
+msgid ""
+"If globals doesn't come from a package or a module in a package, or a "
+"corresponding entry is not found in sys.modules, None is returned."
+msgstr ""
+
+#: IPython.lib.deepreload.load_next:1 of
+msgid "mod, name, buf = load_next(mod, altmod, name, buf)"
+msgstr ""
+
+#: IPython.lib.deepreload.load_next:3 of
+msgid "altmod is either None or same as mod"
+msgstr ""
+
+#: IPython.lib.deepreload.import_submodule:1 of
+msgid "m = import_submodule(mod, subname, fullname)"
+msgstr ""
+
+#: IPython.lib.deepreload.add_submodule:1 of
+msgid "mod.{subname} = submod"
+msgstr ""
+
+#: IPython.lib.deepreload.ensure_fromlist:1 of
+msgid "Handle 'from module import a, b, c' imports."
+msgstr ""
+
+#: IPython.lib.deepreload.deep_import_hook:1 of
+msgid "Replacement for __import__()"
+msgstr ""
+
+#: IPython.lib.deepreload.deep_reload_hook:1 of
+msgid "Replacement for reload()."
+msgstr ""
+
+#: IPython.lib.deepreload.reload:1 of
+msgid ""
+"Recursively reload all modules used in the given module.  Optionally "
+"takes a list of modules to exclude from reloading.  The default exclude "
+"list contains sys, __main__, and __builtin__, to prevent, e.g., resetting"
+" display, exception, and io hooks."
+msgstr ""
+

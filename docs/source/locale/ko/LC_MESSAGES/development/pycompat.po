@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/development/pycompat.rst:4
+msgid "Writing code for Python 2 and 3"
+msgstr ""
+
+#: ../../source/development/pycompat.rst:10
+msgid ""
+"IPython 6 requires Python 3, so our compatibility module "
+"``IPython.utils.py3compat`` is deprecated and will be removed in a future"
+" version. In most cases, we recommend you use the `six module "
+"<https://pythonhosted.org/six/>`__ to support compatible code. This is "
+"widely used by other projects, so it is familiar to many developers and "
+"thoroughly battle-tested."
+msgstr ""
+
+#: ../../source/development/pycompat.rst:17
+msgid ""
+"Our ``py3compat`` module provided some more specific unicode conversions "
+"than those offered by ``six``. If you want to use these, copy them into "
+"your own code from IPython 5.x. Do not rely on importing them from "
+"IPython, as the module may be removed in the future."
+msgstr ""
+
+#: ../../source/development/pycompat.rst:25
+msgid ""
+"`Porting Python 2 code to Python 3 "
+"<https://docs.python.org/3/howto/pyporting.html>`_"
+msgstr ""
+
+#: ../../source/development/pycompat.rst:25
+msgid "Official information in the Python docs."
+msgstr ""
+
+#: ../../source/development/pycompat.rst:28
+msgid "`Python-Modernize <http://python-modernize.readthedocs.io/en/latest/>`_"
+msgstr ""
+
+#: ../../source/development/pycompat.rst:28
+msgid "A tool which helps make code compatible with Python 3."
+msgstr ""
+
+#: ../../source/development/pycompat.rst:31
+msgid "`Python-Future <http://python-future.org/>`_"
+msgstr ""
+
+#: ../../source/development/pycompat.rst:31
+msgid ""
+"Another compatibility tool, which focuses on writing code for Python 3 "
+"and making it work on Python 2."
+msgstr ""
+

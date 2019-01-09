@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:3
+msgid "Integrating with GUI event loops"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:5
+#, python-format
+msgid ""
+"When the user types ``%gui qt``, IPython integrates itself with the Qt "
+"event loop, so you can use both a GUI and an interactive prompt together."
+" IPython supports a number of common GUI toolkits, but from IPython 3.0, "
+"it is possible to integrate other event loops without modifying IPython "
+"itself."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:10
+msgid ""
+"Supported event loops include ``qt4``, ``qt5``, ``gtk2``, ``gtk3``, "
+"``wx``, ``osx`` and ``tk``. Make sure the event loop you specify matches "
+"the GUI toolkit used by your own code."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:14
+msgid ""
+"To make IPython GUI event loop integration occur automatically at every "
+"startup, set the ``c.InteractiveShellApp.gui`` configuration key in your "
+"IPython profile (see :ref:`setting_config`)."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:18
+msgid ""
+"If the event loop you use is supported by IPython, turning on event loop "
+"integration follows the steps just described whether you use Terminal "
+"IPython or an IPython kernel."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:22
+msgid ""
+"However, the way Terminal IPython handles event loops is very different "
+"from the way IPython kernel does, so if you need to integrate with a new "
+"kind of event loop, different steps are needed to integrate with each."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:27
+msgid "Integrating with a new event loop in the terminal"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:31
+msgid "There is a new API for event loop integration using prompt_toolkit."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:33
+msgid ""
+"In the terminal, IPython uses prompt_toolkit to prompt the user for "
+"input. prompt_toolkit provides hooks to integrate with an external event "
+"loop."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:36
+msgid ""
+"To integrate an event loop, define a function which runs the GUI event "
+"loop until there is input waiting for prompt_toolkit to process. There "
+"are two ways to detect this condition::"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:53
+msgid "Once you have defined this function, register it with IPython:"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:59
+#, python-format
+msgid ""
+"Register the function *inputhook* as the event loop integration for the "
+"GUI *name*. If ``name='foo'``, then the user can enable this integration "
+"by running ``%gui foo``."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:65
+msgid "Integrating with a new event loop in the kernel"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:67
+msgid ""
+"The kernel runs its own event loop, so it's simpler to integrate with "
+"others. IPython allows the other event loop to take control, but it must "
+"call :meth:`IPython.kernel.zmq.kernelbase.Kernel.do_one_iteration` "
+"periodically."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:71
+msgid ""
+"To integrate with this, write a function that takes a single argument, "
+"the IPython kernel instance, arranges for your event loop to call "
+"``kernel.do_one_iteration()`` at least every ``kernel._poll_interval`` "
+"seconds, and starts the event loop."
+msgstr ""
+
+#: ../../source/config/eventloops.rst:76
+msgid ""
+"Decorate this function with "
+":func:`IPython.kernel.zmq.eventloops.register_integration`, passing in "
+"the names you wish to register it for. Here is a slightly simplified "
+"version of the Tkinter integration already included in IPython::"
+msgstr ""
+
+#: ../../source/config/eventloops.rst:105
+msgid ""
+"Some event loops can go one better, and integrate checking for messages "
+"on the kernel's ZMQ sockets, making the kernel more responsive than plain"
+" polling. How to do this is outside the scope of this document; if you "
+"are interested, look at the integration with Qt in "
+":mod:`IPython.kernel.zmq.eventloops`."
+msgstr ""
+

@@ -1,0 +1,723 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:3
+msgid "2.x Series"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:6
+msgid "Release 2.4"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:8
+msgid "January, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:12
+msgid ""
+"Some of the patches marked for 2.4 were left out of 2.4.0. Please use "
+"2.4.1."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:15
+msgid "backport read support for nbformat v4 from IPython 3"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:16
+msgid "support for PyQt5 in the kernel (not QtConsole)"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:17
+msgid "support for Pygments 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:19
+msgid ""
+"For more information on what fixes have been backported to 2.4, see our "
+":ref:`detailed release info <issues_list_200>`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:24
+msgid "Release 2.3.1"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:26
+msgid "November, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:28
+msgid "Fix CRCRLF line-ending bug in notebooks on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:30
+msgid ""
+"For more information on what fixes have been backported to 2.3.1, see our"
+" :ref:`detailed release info <issues_list_200>`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:34
+msgid "Release 2.3.0"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:36
+msgid "October, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:38
+msgid "improve qt5 support"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:39
+msgid "prevent notebook data loss with atomic writes"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:41
+msgid ""
+"For more information on what fixes have been backported to 2.3, see our "
+":ref:`detailed release info <issues_list_200>`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:45
+msgid "Release 2.2.0"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:47
+msgid "August, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:49
+msgid "Add CORS configuration"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:51
+msgid ""
+"For more information on what fixes have been backported to 2.2, see our "
+":ref:`detailed release info <issues_list_200>`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:55
+msgid "Release 2.1.0"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:57
+msgid "May, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:59
+msgid ""
+"IPython 2.1 is the first bugfix release for 2.0. For more information on "
+"what fixes have been backported to 2.1, see our :ref:`detailed release "
+"info <issues_list_200>`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:66
+msgid "Release 2.0.0"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:68
+msgid "April, 2014"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:70
+msgid ""
+"IPython 2.0 requires Python ≥ 2.7.2 or ≥ 3.3.0. It does not support "
+"Python 3.0, 3.1, 3.2, 2.5, or 2.6."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:73
+msgid "The principal milestones of 2.0 are:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:75
+msgid "interactive widgets for the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:76
+msgid "directory navigation in the notebook dashboard"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:77
+msgid "persistent URLs for notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:78
+msgid "a new modal user interface in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:79
+msgid "a security model for notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:81
+msgid "Contribution summary since IPython 1.0 in August, 2013:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:83
+msgid "~8 months of work"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:84
+msgid "~650 pull requests merged"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:85
+msgid "~400 issues closed (non-pull requests)"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:86
+msgid "contributions from ~100 authors"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:87
+msgid "~4000 commits"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:89
+msgid ""
+"The amount of work included in this release is so large that we can only "
+"cover here the main highlights; please see our :ref:`detailed release "
+"statistics <issues_list_200>` for links to every issue and pull request "
+"closed on GitHub as well as a full list of individual contributors."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:95
+msgid "New stuff in the IPython notebook"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:98
+msgid "Directory navigation"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:105
+msgid ""
+"The IPython notebook dashboard allows navigation into subdirectories. "
+"URLs are persistent based on the notebook's path and name, so no more "
+"random UUID URLs."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:109
+msgid ""
+"Serving local files no longer needs the ``files/`` prefix. Relative links"
+" across notebooks and other files should work just as if notebooks were "
+"regular HTML files."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:113
+msgid "Interactive widgets"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:120
+msgid ""
+"IPython 2.0 adds :mod:`IPython.html.widgets`, for manipulating Python "
+"objects in the kernel with GUI controls in the notebook. IPython comes "
+"with a few built-in widgets for simple data types, and an API designed "
+"for developers to build more complex widgets. See the `widget docs`_ for "
+"more information."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:130
+msgid "Modal user interface"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:132
+msgid ""
+"The notebook has added separate Edit and Command modes, allowing easier "
+"keyboard commands and making keyboard shortcut customization possible. "
+"See the new `User Interface notebook`_ for more information."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:139
+msgid ""
+"You can familiarize yourself with the updated notebook user interface, "
+"including an explanation of Edit and Command modes, by going through the "
+"short guided tour which can be started from the Help menu."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:150
+msgid "Security"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:152
+msgid ""
+"2.0 introduces a security model for notebooks, to prevent untrusted code "
+"from executing on users' behalf when notebooks open. A quick summary of "
+"the model:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:156
+msgid "Trust is determined by signing notebooks."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:157
+msgid "Untrusted HTML output is sanitized."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:158
+msgid "Untrusted Javascript is never executed."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:159
+msgid "HTML and Javascript in Markdown are never trusted."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:162
+msgid "Dashboard \"Running\" tab"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:169
+msgid ""
+"The dashboard now has a \"Running\" tab which shows all of the running "
+"notebooks."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:172
+msgid "Single codebase Python 3 support"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:174
+msgid ""
+"IPython previously supported Python 3 by running 2to3 during setup. We "
+"have now switched to a single codebase which runs natively on Python 2.7 "
+"and 3.3."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:178
+msgid "For notes on how to maintain this, see :doc:`/development/pycompat`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:181
+msgid "Selecting matplotlib figure formats"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:183
+msgid ""
+"Deprecate single-format ``InlineBackend.figure_format`` configurable in "
+"favor of ``InlineBackend.figure_formats``, which is a set, supporting "
+"multiple simultaneous figure formats (e.g. png, pdf)."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:187
+msgid ""
+"This is available at runtime with the new API function "
+":func:`IPython.display.set_matplotlib_formats`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:190
+msgid "clear_output changes"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:192
+msgid "There is no longer a 500ms delay when calling ``clear_output``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:193
+msgid "The ability to clear stderr and stdout individually was removed."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:194
+msgid ""
+"A new ``wait`` flag that prevents ``clear_output`` from being executed "
+"until new output is available.  This eliminates animation flickering by "
+"allowing the user to double buffer the output."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:197
+msgid "The output div height is remembered when the ``wait=True`` flag is used."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:200
+msgid "Extending configurable containers"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:202
+msgid ""
+"Some configurable traits are containers (list, dict, set) Config objects "
+"now support calling ``extend``, ``update``, ``insert``, etc. on traits in"
+" config files, which will ultimately result in calling those methods on "
+"the original object."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:207
+msgid ""
+"The effect being that you can now add to containers without having to "
+"copy/paste the initial value::"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:214
+msgid "Changes to hidden namespace on startup"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:216
+msgid ""
+"Previously, all names declared in code run at startup (startup files, "
+"``ipython -i script.py``, etc.) were added to the hidden namespace, which"
+" hides the names from tools like ``%whos``. There are two changes to this"
+" behavior:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:221
+#, python-format
+msgid ""
+"Scripts run on the command-line ``ipython -i script.py``now behave the "
+"same as if they were passed to ``%run``, so their variables are never "
+"hidden."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:223
+msgid ""
+"A boolean config flag ``InteractiveShellApp.hide_initial_ns`` has been "
+"added to optionally disable the hidden behavior altogether. The default "
+"behavior is unchanged."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:227
+msgid "Using dill to expand serialization support"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:229
+msgid ""
+"The new function :func:`~IPython.utils.pickleutil.use_dill` allows dill "
+"to extend serialization support in :mod:`IPython.parallel` (closures, "
+"etc.). A :meth:`DirectView.use_dill` convenience method was also added, "
+"to enable dill locally and on all engines with one call."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:235
+msgid "New IPython console lexer"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:237
+msgid ""
+"The IPython console lexer has been rewritten and now supports tracebacks "
+"and customized input/output prompts. See the :ref:`new lexer docs "
+"<console_lexer>` for details."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:242
+msgid "DisplayFormatter changes"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:244
+msgid ""
+"There was no official way to query or remove callbacks in the Formatter "
+"API. To remedy this, the following methods are added to "
+":class:`BaseFormatter`:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:247
+msgid "``lookup(instance)`` - return appropriate callback or a given object"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:248
+msgid ""
+"``lookup_by_type(type_or_str)`` - return appropriate callback for a given"
+" type or ``'mod.name'`` type string"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:249
+msgid ""
+"``pop(type_or_str)`` - remove a type (by type or string). Pass a second "
+"argument to avoid KeyError (like dict)."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:252
+msgid "All of the above methods raise a KeyError if no match is found."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:254
+msgid "And the following methods are changed:"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:256
+msgid ""
+"``for_type(type_or_str)`` - behaves the same as before, only adding "
+"support for ``'mod.name'`` type strings in addition to plain types. This "
+"removes the need for ``for_type_by_name()``, but it remains for backward "
+"compatibility."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:260
+msgid ""
+"Formatters can now raise NotImplementedError in addition to returning "
+"None to indicate that they cannot format a given object."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:264
+msgid "Exceptions and Warnings"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:266
+msgid ""
+"Exceptions are no longer silenced when formatters fail. Instead, these "
+"are turned into a :class:`~IPython.core.formatters.FormatterWarning`. A "
+"FormatterWarning will also be issued if a formatter returns data of an "
+"invalid type (e.g. an integer for 'image/png')."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:273
+msgid "Other changes"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:275
+#, python-format
+msgid ""
+"`%%capture` cell magic now captures the rich display output, not just "
+"stdout/stderr"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:278
+msgid ""
+"In notebook, Showing tooltip on tab has been disables to avoid conflict "
+"with completion, Shift-Tab could still be used to invoke tooltip when "
+"inside function signature and/or on selection."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:282
+msgid ""
+"``object_info_request`` has been replaced by ``object_info`` for "
+"consistency in the javascript API. ``object_info`` is a simpler interface"
+" to register callback that is incompatible with ``object_info_request``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:285
+msgid ""
+"Previous versions of IPython on Linux would use the XDG config directory,"
+" creating :file:`~/.config/ipython` by default. We have decided to go "
+"back to :file:`~/.ipython` for consistency among systems. IPython will "
+"issue a warning if it finds the XDG location, and will move it to the new"
+" location if there isn't already a directory there."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:291
+msgid "Equations, images and tables are now centered in Markdown cells."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:292
+msgid ""
+"Multiline equations are now centered in output areas; single line "
+"equations remain left justified."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:295
+msgid ""
+"IPython config objects can be loaded from and serialized to JSON. JSON "
+"config file have the same base name as their ``.py`` counterpart, and "
+"will be loaded with higher priority if found."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:299
+msgid ""
+"bash completion updated with support for all ipython subcommands and "
+"flags, including nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:301
+msgid ""
+"``ipython history trim``: added ``--keep=<N>`` as an alias for the more "
+"verbose ``--HistoryTrim.keep=<N>``"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:303
+msgid ""
+"New ``ipython history clear`` subcommand, which is the same as the newly "
+"supported ``ipython history trim --keep=0``"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:306
+#, python-format
+msgid ""
+"You can now run notebooks in an interactive session via ``%run "
+"notebook.ipynb``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:308
+msgid ""
+"Print preview is back in the notebook menus, along with options to "
+"download the open notebook in various formats. This is powered by "
+"nbconvert."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:312
+msgid ""
+":exc:`~IPython.nbconvert.utils.pandoc.PandocMissing` exceptions will be "
+"raised if Pandoc is unavailable, and warnings will be printed if the "
+"version found is too old. The recommended Pandoc version for use with "
+"nbconvert is 1.12.1."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:317
+msgid ""
+"The InlineBackend.figure_format now supports JPEG output if PIL/Pillow is"
+" available."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:319
+msgid ""
+"Input transformers (see :doc:`/config/inputtransforms`) may now raise "
+":exc:`SyntaxError` if they determine that input is invalid. The input "
+"transformation machinery in IPython will handle displaying the exception "
+"to the user and resetting state."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:324
+msgid ""
+"Calling ``container.show()`` on javascript display is deprecated and will"
+" trigger errors on future IPython notebook versions. ``container`` now "
+"show itself as soon as non-empty"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:328
+msgid ""
+"Added ``InlineBackend.print_figure_kwargs`` to allow passing keyword "
+"arguments to matplotlib's ``Canvas.print_figure``. This can be used to "
+"change the value of ``bbox_inches``, which is 'tight' by default, or set "
+"the quality of JPEG figures."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:332
+msgid ""
+"A new callback system has been introduced. For details, see "
+":doc:`/config/callbacks`."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:334
+msgid ""
+"jQuery and require.js are loaded from CDNs in the default HTML template, "
+"so javascript is available in static HTML export (e.g. nbviewer)."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:338
+msgid "Backwards incompatible changes"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:340
+msgid ""
+"Python 2.6 and 3.2 are no longer supported: the minimum required Python "
+"versions are now 2.7 and 3.3."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:342
+msgid ""
+"The Transformer classes have been renamed to Preprocessor in nbconvert "
+"and their ``call`` methods have been renamed to ``preprocess``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:344
+msgid ""
+"The ``call`` methods of nbconvert post-processsors have been renamed to "
+"``postprocess``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:347
+msgid "The module ``IPython.core.fakemodule`` has been removed."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:349
+msgid ""
+"The alias system has been reimplemented to use magic functions. There "
+"should be little visible difference while automagics are enabled, as they"
+" are by default, but parts of the "
+":class:`~IPython.core.alias.AliasManager` API have been removed."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:353
+msgid ""
+"We fixed an issue with switching between matplotlib inline and GUI "
+"backends, but the fix requires matplotlib 1.1 or newer.  So from now on, "
+"we consider matplotlib 1.1 to be the minimally supported version for "
+"IPython. Older versions for the most part will work, but we make no "
+"guarantees about it."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:358
+msgid ""
+"The :command:`pycolor` command has been removed. We recommend the much "
+"more capable :command:`pygmentize` command from the `Pygments "
+"<http://pygments.org/>`_ project. If you need to keep the exact output of"
+" :command:`pycolor`, you can still use ``python -m "
+"IPython.utils.PyColorize foo.py``."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:363
+msgid ""
+":mod:`IPython.lib.irunner` and its command-line entry point have been "
+"removed. It had fallen out of use long ago."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:366
+msgid ""
+"The ``input_prefilter`` hook has been removed, as it was never actually "
+"used by the code. The input transformer system offers much more powerful "
+"APIs to work with input code. See :doc:`/config/inputtransforms` for "
+"details."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:371
+msgid ""
+":class:`IPython.core.inputsplitter.IPythonInputSplitter` no longer has a "
+"method ``source_raw_reset()``, but gains "
+":meth:`~IPython.core.inputsplitter.IPythonInputSplitter.raw_reset` "
+"instead. Use of ``source_raw_reset`` can be replaced with::"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:378
+msgid ""
+"The Azure notebook manager was removed as it was no longer compatible "
+"with the notebook storage scheme."
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:380
+msgid "Simplifying configurable URLs"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:382
+msgid ""
+"base_project_url is renamed to base_url (base_project_url is kept as a "
+"deprecated alias, for now)"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:383
+msgid "base_kernel_url configurable is removed (use base_url)"
+msgstr ""
+
+#: ../../source/whatsnew/version2.0.rst:384
+msgid "websocket_url configurable is removed (use base_url)"
+msgstr ""
+

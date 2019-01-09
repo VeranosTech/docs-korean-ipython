@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:3
+msgid "IPython GUI Support Notes"
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:5
+msgid ""
+"IPython allows GUI event loops to be run in an interactive IPython "
+"session. This is done using Python's PyOS_InputHook hook which Python "
+"calls when the :func:`raw_input` function is called and waiting for user "
+"input. IPython has versions of this hook for wx, pyqt4 and pygtk."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:10
+msgid ""
+"When a GUI program is used interactively within IPython, the event loop "
+"of the GUI should *not* be started. This is because, the PyOS_Inputhook "
+"itself is responsible for iterating the GUI event loop."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:14
+msgid ""
+"IPython has facilities for installing the needed input hook for each GUI "
+"toolkit and for creating the needed main GUI application object. Usually,"
+" these main application objects should be created only once and for some "
+"GUI toolkits, special options have to be passed to the application object"
+" to enable it to function properly in IPython."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:20
+msgid "We need to answer the following questions:"
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:22
+msgid ""
+"Who is responsible for creating the main GUI application object, IPython "
+"or third parties (matplotlib, enthought.traits, etc.)?"
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:25
+msgid ""
+"What is the proper way for third party code to detect if a GUI "
+"application object has already been created?  If one has been created, "
+"how should the existing instance be retrieved?"
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:29
+msgid ""
+"In a GUI application object has been created, how should third party code"
+" detect if the GUI event loop is running. It is not sufficient to call "
+"the relevant function methods in the GUI toolkits (like "
+"``IsMainLoopRunning``) because those don't know if the GUI event loop is "
+"running through the input hook."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:35
+msgid ""
+"We might need a way for third party code to determine if it is running in"
+" IPython or not.  Currently, the only way of running GUI code in IPython "
+"is by using the input hook, but eventually, GUI based versions of IPython"
+" will allow the GUI event loop in the more traditional manner. We will "
+"need a way for third party code to distinguish between these two cases."
+msgstr ""
+
+#: ../../source/development/inputhook_app.rst:41
+msgid "Here is some sample code I have been using to debug this issue::"
+msgstr ""
+

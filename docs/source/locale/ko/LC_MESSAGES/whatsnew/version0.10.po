@@ -1,0 +1,721 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:3
+msgid "0.10 series"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:6
+msgid "Release 0.10.2"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:8
+msgid ""
+"IPython 0.10.2 was released April 9, 2011.  This is a minor bugfix "
+"release that preserves backward compatibility.  At this point, all "
+"IPython development resources are focused on the 0.11 series that "
+"includes a complete architectural restructuring of the project as well as"
+" many new capabilities, so this is likely to be the last release of the "
+"0.10.x series.  We have tried to fix all major bugs in this series so "
+"that it remains a viable platform for those not ready yet to transition "
+"to the 0.11 and newer codebase (since that will require some porting "
+"effort, as a number of APIs have changed)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:17
+msgid ""
+"Thus, we are not opening a 0.10.3 active development branch yet, but if "
+"the user community requires new patches and is willing to "
+"maintain/release such a branch, we'll be happy to host it on the IPython "
+"github repositories."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:21
+#: ../../source/whatsnew/version0.10.rst:71
+msgid "Highlights of this release:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:23
+msgid ""
+"The main one is the closing of github ticket #185, a major regression we "
+"had in 0.10.1 where pylab mode with GTK (or gthread) was not working "
+"correctly, hence plots were blocking with GTK.  Since this is the default"
+" matplotlib backend on Unix systems, this was a major annoyance for many "
+"users.  Many thanks to Paul Ivanov for helping resolve this issue."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:29
+msgid "Fix IOError bug on Windows when used with -gthread."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:30
+msgid "Work robustly if $HOME is missing from environment."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:31
+msgid "Better POSIX support in ssh scripts (remove bash-specific idioms)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:32
+msgid "Improved support for non-ascii characters in log files."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:33
+msgid ""
+"Work correctly in environments where GTK can be imported but not started "
+"(such as a linux text console without X11)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:36
+msgid ""
+"For this release we merged 24 commits, contributed by the following "
+"people (please let us know if we omitted your name and we'll gladly fix "
+"this in the notes for the future):"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:40
+#: ../../source/whatsnew/version0.10.rst:130
+msgid "Fernando Perez"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:41
+msgid "MinRK"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:42
+msgid "Paul Ivanov"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:43
+msgid "Pieter Cristiaan de Groot"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:44
+msgid "TvrtkoM"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:47
+msgid "Release 0.10.1"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:49
+msgid ""
+"IPython 0.10.1 was released October 11, 2010, over a year after version "
+"0.10. This is mostly a bugfix release, since after version 0.10 was "
+"released, the development team's energy has been focused on the 0.11 "
+"series.  We have nonetheless tried to backport what fixes we could into "
+"0.10.1, as it remains the stable series that many users have in "
+"production systems they rely on."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:55
+msgid ""
+"Since the 0.11 series changes many APIs in backwards-incompatible ways, "
+"we are willing to continue maintaining the 0.10.x series.  We don't "
+"really have time to actively write new code for 0.10.x, but we are happy "
+"to accept patches and pull requests on the IPython `github site`_.  If "
+"sufficient contributions are made that improve 0.10.1, we will roll them "
+"into future releases.  For this purpose, we will have a branch called "
+"0.10.2 on github, on which you can base your contributions."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:65
+msgid ""
+"For this release, we applied approximately 60 commits totaling a diff of "
+"over 7000 lines::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:73
+msgid ""
+"The only significant new feature is that IPython's parallel computing "
+"machinery now supports natively the Sun Grid Engine and LSF schedulers.  "
+"This work was a joint contribution from Justin Riley, Satra Ghosh and "
+"Matthieu Brucher, who put a lot of work into it.  We also improved "
+"traceback handling in remote tasks, as well as providing better control "
+"for remote task IDs."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:79
+msgid ""
+"New IPython Sphinx directive contributed by John Hunter.  You can use "
+"this directive to mark blocks in reSructuredText documents as containing "
+"IPython syntax (including figures) and the will be executed during the "
+"build:"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:91
+msgid "Various fixes to the standalone ipython-wx application."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:93
+msgid ""
+"We now ship internally the excellent argparse library, graciously "
+"licensed under BSD terms by Steven Bethard.  Now (2010) that argparse has"
+" become part of Python 2.7 this will be less of an issue, but Steven's "
+"relicensing allowed us to start updating IPython to using argparse well "
+"before Python 2.7.  Many thanks!"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:99
+msgid ""
+"Robustness improvements so that IPython doesn't crash if the readline "
+"library is absent (though obviously a lot of functionality that requires "
+"readline will not be available)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:103
+msgid "Improvements to tab completion in Emacs with Python 2.6."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:105
+#, python-format
+msgid "Logging now supports timestamps (see ``%logstart?`` for full details)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:107
+msgid ""
+"A long-standing and quite annoying bug where parentheses would be added "
+"to ``print`` statements, under Python 2.5 and 2.6, was finally fixed."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:110
+msgid "Improved handling of libreadline on Apple OSX."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:112
+msgid "Fix ``reload`` method of IPython demos, which was broken."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:114
+msgid "Fixes for the ipipe/ibrowse system on OSX."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:116
+msgid "Fixes for Zope profile."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:118
+msgid "Fix %timeit reporting when the time is longer than 1000s."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:120
+msgid "Avoid lockups with ? or ?? in SunOS, due to a bug in termios."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:122
+msgid "The usual assortment of miscellaneous bug fixes and small improvements."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:124
+msgid ""
+"The following people contributed to this release (please let us know if "
+"we omitted your name and we'll gladly fix this in the notes for the "
+"future):"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:127
+msgid "Beni Cherniavsky"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:128
+msgid "Boyd Waters."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:129
+msgid "David Warde-Farley"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:131
+msgid "Gökhan Sever"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:132
+msgid "John Hunter"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:133
+msgid "Justin Riley"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:134
+msgid "Kiorky"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:135
+msgid "Laurent Dufrechou"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:136
+msgid "Mark E. Smith"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:137
+msgid "Matthieu Brucher"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:138
+msgid "Satrajit Ghosh"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:139
+msgid "Sebastian Busch"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:140
+msgid "Václav Šmilauer"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:143
+msgid "Release 0.10"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:145
+msgid ""
+"This release brings months of slow but steady development, and will be "
+"the last before a major restructuring and cleanup of IPython's internals "
+"that is already under way.  For this reason, we hope that 0.10 will be a "
+"stable and robust release so that while users adapt to some of the API "
+"changes that will come with the refactoring that will become IPython "
+"0.11, they can safely use 0.10 in all existing projects with minimal "
+"changes (if any)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:152
+msgid ""
+"IPython 0.10 is now a medium-sized project, with roughly (as reported by "
+"David Wheeler's :command:`sloccount` utility) 40750 lines of Python code,"
+" and a diff between 0.9.1 and this release that contains almost 28000 "
+"lines of code and documentation.  Our documentation, in PDF format, is a "
+"495-page long PDF document (also available in HTML format, both generated"
+" from the same sources)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:158
+msgid ""
+"Many users and developers contributed code, features, bug reports and "
+"ideas to this release.  Please do not hesitate in contacting us if we've "
+"failed to acknowledge your contribution here.  In particular, for this "
+"release we have contribution from the following people, a mix of new and "
+"regular names (in alphabetical order by first name):"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:164
+msgid "Alexander Clausen: fix #341726."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:165
+msgid "Brian Granger: lots of work everywhere (features, bug fixes, etc)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:166
+msgid "Daniel Ashbrook: bug report on MemoryError during compilation, now fixed."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:167
+msgid ""
+"Darren Dale: improvements to documentation build system, feedback, design"
+" ideas."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:169
+msgid "Fernando Perez: various places."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:170
+msgid "Gaël Varoquaux: core code, ipythonx GUI, design discussions, etc. Lots..."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:171
+msgid "John Hunter: suggestions, bug fixes, feedback."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:172
+msgid "Jorgen Stenarson: work on many fronts, tests, fixes, win32 support, etc."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:173
+msgid "Laurent Dufréchou: many improvements to ipython-wx standalone app."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:174
+#, python-format
+msgid "Lukasz Pankowski: prefilter, `%edit`, demo improvements."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:175
+#, python-format
+msgid "Matt Foster: TextMate support in `%edit`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:176
+msgid "Nathaniel Smith: fix #237073."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:177
+msgid "Pauli Virtanen: fixes and improvements to extensions, documentation."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:178
+msgid "Prabhu Ramachandran: improvements to `%timeit`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:179
+msgid "Robert Kern: several extensions."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:180
+msgid "Sameer D'Costa: help on critical bug #269966."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:181
+msgid "Stephan Peijnik: feedback on Debian compliance and many man pages."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:182
+msgid "Steven Bethard: we are now shipping his :mod:`argparse` module."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:183
+msgid "Tom Fetherston: many improvements to :mod:`IPython.demo` module."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:184
+msgid "Ville Vainio: lots of work everywhere (features, bug fixes, etc)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:185
+msgid "Vishal Vasta: ssh support in ipcluster."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:186
+msgid "Walter Doerwald: work on the :mod:`IPython.ipipe` system."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:188
+msgid ""
+"Below we give an overview of new features, bug fixes and backwards-"
+"incompatible changes.  For a detailed account of every change made, feel "
+"free to view the project log with :command:`bzr log`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:193
+msgid "New features"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:195
+msgid ""
+"New `%paste` magic automatically extracts current contents of clipboard "
+"and pastes it directly, while correctly handling code that is indented or"
+" prepended with `>>>` or `...` python prompt markers.  A very useful new "
+"feature contributed by Robert Kern."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:200
+msgid ""
+"IPython 'demos', created with the :mod:`IPython.demo` module, can now be "
+"created from files on disk or strings in memory.  Other fixes and "
+"improvements to the demo system, by Tom Fetherston."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:204
+msgid ""
+"Added :func:`find_cmd` function to :mod:`IPython.platutils` module, to "
+"find commands in a cross-platform manner."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:207
+msgid ""
+"Many improvements and fixes to Gaël Varoquaux's :command:`ipythonx`, a "
+"WX-based lightweight IPython instance that can be easily embedded in "
+"other WX applications.  These improvements have made it possible to now "
+"have an embedded IPython in Mayavi and other tools."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:212
+msgid ":class:`MultiengineClient` objects now have a :meth:`benchmark` method."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:214
+msgid ""
+"The manual now includes a full set of auto-generated API documents from "
+"the code sources, using Sphinx and some of our own support code.  We are "
+"now using the `Numpy Documentation Standard`_  for all docstrings, and we"
+" have tried to update as many existing ones as possible to this format."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:219
+msgid ""
+"The new :mod:`IPython.Extensions.ipy_pretty` extension by Robert Kern "
+"provides configurable pretty-printing."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:222
+msgid ""
+"Many improvements to the :command:`ipython-wx` standalone WX-based "
+"IPython application by Laurent Dufréchou.  It can optionally run in a "
+"thread, and this can be toggled at runtime (allowing the loading of "
+"Matplotlib in a running session without ill effects)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:227
+msgid ""
+"IPython includes a copy of Steven Bethard's argparse_ in the "
+":mod:`IPython.external` package, so we can use it internally and it is "
+"also available to any IPython user.  By installing it in this manner, we "
+"ensure zero conflicts with any system-wide installation you may already "
+"have while minimizing external dependencies for new users.  In IPython "
+"0.10, We ship argparse version 1.0."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:234
+msgid ""
+"An improved and much more robust test suite, that runs groups of tests in"
+" separate subprocesses using either Nose or Twisted's :command:`trial` "
+"runner to ensure proper management of Twisted-using code.  The test suite"
+" degrades gracefully if optional dependencies are not available, so that "
+"the :command:`iptest` command can be run with only Nose installed and "
+"nothing else.  We also have more and cleaner test decorators to better "
+"select tests depending on runtime conditions, do setup/teardown, etc."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:242
+msgid ""
+"The new ipcluster now has a fully working ssh mode that should work on "
+"Linux, Unix and OS X.  Thanks to Vishal Vatsa for implementing this!"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:245
+#, python-format
+msgid ""
+"The wonderful TextMate editor can now be used with %edit on OS X.  Thanks"
+" to Matt Foster for this patch."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:248
+msgid ""
+"The documentation regarding parallel uses of IPython, including MPI and "
+"PBS, has been significantly updated and improved."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:251
+msgid ""
+"The developer guidelines in the documentation have been updated to "
+"explain our workflow using :command:`bzr` and Launchpad."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:254
+msgid ""
+"Fully refactored :command:`ipcluster` command line program for starting "
+"IPython clusters.  This new version is a complete rewrite and 1) is fully"
+" cross platform (we now use Twisted's process management), 2) has much "
+"improved performance, 3) uses subcommands for different types of "
+"clusters, 4) uses argparse for parsing command line options, 5) has "
+"better support for starting clusters using :command:`mpirun`, 6) has "
+"experimental support for starting engines using PBS.  It can also reuse "
+"FURL files, by appropriately passing options to its subcommands.  "
+"However, this new version of ipcluster should be considered a technology "
+"preview.  We plan on changing the API in significant ways before it is "
+"final."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:265
+msgid "Full description of the security model added to the docs."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:267
+msgid "cd completer: show bookmarks if no other completions are available."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:269
+msgid ""
+"sh profile: easy way to give 'title' to prompt: assign to variable "
+"'_prompt_title'. It looks like this::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:275
+#, python-format
+msgid ""
+"%edit: If you do '%edit pasted_block', pasted_block variable gets updated"
+" with new data (so repeated editing makes sense)"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:283
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:285
+msgid ""
+"Fix #368719, removed top-level debian/ directory to make the job of "
+"Debian packagers easier."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:288
+msgid ""
+"Fix #291143 by including man pages contributed by Stephan Peijnik from "
+"the Debian project."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:291
+msgid ""
+"Fix #358202, effectively a race condition, by properly synchronizing file"
+" creation at cluster startup time."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:294
+msgid ""
+"`%timeit` now handles correctly functions that take a long time to "
+"execute even the first time, by not repeating them."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:297
+msgid "Fix #239054, releasing of references after exiting."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:299
+msgid "Fix #341726, thanks to Alexander Clausen."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:301
+#, python-format
+msgid ""
+"Fix #269966.  This long-standing and very difficult bug (which is "
+"actually a problem in Python itself) meant long-running sessions would "
+"inevitably grow in memory size, often with catastrophic consequences if "
+"users had large objects in their scripts.  Now, using `%run` repeatedly "
+"should not cause any memory leaks.  Special thanks to John Hunter and "
+"Sameer D'Costa for their help with this bug."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:308
+#, python-format
+msgid "Fix #295371, bug in `%history`."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:310
+msgid "Improved support for py2exe."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:312
+msgid "Fix #270856: IPython hangs with PyGTK"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:314
+msgid "Fix #270998: A magic with no docstring breaks the '%magic magic'"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:316
+msgid "fix #271684: -c startup commands screw up raw vs. native history"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:318
+msgid "Numerous bugs on Windows with the new ipcluster have been fixed."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:320
+msgid ""
+"The ipengine and ipcontroller scripts now handle missing furl files more "
+"gracefully by giving better error messages."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:323
+#, python-format
+msgid ""
+"%rehashx: Aliases no longer contain dots. python3.0 binary will create "
+"alias python30. Fixes: #259716 \"commands with dots in them don't work\""
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:327
+#, python-format
+msgid ""
+"%cpaste: %cpaste -r repeats the last pasted block. The block is assigned "
+"to pasted_block even if code raises exception."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:331
+msgid "Bug #274067 'The code in get_home_dir is broken for py2exe' was fixed."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:334
+msgid ""
+"Many other small bug fixes not listed here by number (see the bzr log for"
+" more info)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:338
+msgid "Backwards incompatible changes"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:340
+msgid "`ipykit` and related files were unmaintained and have been removed."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:342
+msgid ""
+"The :func:`IPython.genutils.doctest_reload` does not actually call "
+"`reload(doctest)` anymore, as this was causing many problems with the "
+"test suite.  It still resets `doctest.master` to None."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:346
+msgid ""
+"While we have not deliberately broken Python 2.4 compatibility, only "
+"minor testing was done with Python 2.4, while 2.5 and 2.6 were fully "
+"tested.  But if you encounter problems with 2.4, please do report them as"
+" bugs."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:350
+msgid ""
+"The :command:`ipcluster` now requires a mode argument; for example to "
+"start a cluster on the local machine with 4 engines, you must now type::"
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:355
+msgid ""
+"The controller now has a ``-r`` flag that needs to be used if you want to"
+" reuse existing furl files.  Otherwise they are deleted (the default)."
+msgstr ""
+
+#: ../../source/whatsnew/version0.10.rst:358
+msgid ""
+"Remove ipy_leo.py. You can use :command:`easy_install ipython-extension` "
+"to get it.  (done to decouple it from ipython release cycle)"
+msgstr ""
+

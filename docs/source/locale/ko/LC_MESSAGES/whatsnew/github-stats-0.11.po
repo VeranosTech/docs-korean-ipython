@@ -1,0 +1,2975 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:4
+msgid "Issues closed in the 0.11 development cycle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:6
+msgid ""
+"In this cycle, we closed a total of 511 issues, 226 pull requests and 285"
+" regular issues; this is the full list (generated with the script "
+"`tools/github_stats.py`). We should note that a few of these were made on"
+" the 0.10.x series, but we have no automatic way of filtering the issues "
+"by branch, so this reflects all of our development over the last two "
+"years, including work already released in 0.10.2:"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:13
+msgid "Pull requests (226):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:15
+msgid ""
+"`620 <https://github.com/ipython/ipython/issues/620>`_: Release notes and"
+" updates to GUI support docs for 0.11"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:16
+msgid ""
+"`642 <https://github.com/ipython/ipython/issues/642>`_: fix typo in "
+"docs/examples/vim/README.rst"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:17
+msgid ""
+"`631 <https://github.com/ipython/ipython/issues/631>`_: two-way vim-"
+"ipython integration"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:18
+msgid ""
+"`637 <https://github.com/ipython/ipython/issues/637>`_: print is a "
+"function, this allows to properly exit ipython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:19
+msgid ""
+"`635 <https://github.com/ipython/ipython/issues/635>`_: support html "
+"representations in the notebook frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:20
+msgid ""
+"`639 <https://github.com/ipython/ipython/issues/639>`_: Updating the "
+"credits file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:21
+msgid ""
+"`628 <https://github.com/ipython/ipython/issues/628>`_: import pexpect "
+"from IPython.external in irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:22
+msgid "`596 <https://github.com/ipython/ipython/issues/596>`_: Irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:23
+msgid ""
+"`598 <https://github.com/ipython/ipython/issues/598>`_: Fix templates for"
+" CrashHandler"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:24
+msgid "`590 <https://github.com/ipython/ipython/issues/590>`_: Desktop"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:25
+msgid ""
+"`600 <https://github.com/ipython/ipython/issues/600>`_: Fix bug with non-"
+"ascii reprs inside pretty-printed lists."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:26
+msgid "`618 <https://github.com/ipython/ipython/issues/618>`_: I617"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:27
+msgid ""
+"`599 <https://github.com/ipython/ipython/issues/599>`_: Gui Qt example "
+"and docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:28
+msgid "`619 <https://github.com/ipython/ipython/issues/619>`_: manpage update"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:29
+msgid ""
+"`582 <https://github.com/ipython/ipython/issues/582>`_: Updating sympy "
+"profile to match the exec_lines of isympy."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:30
+msgid ""
+"`578 <https://github.com/ipython/ipython/issues/578>`_: Check to see if "
+"correct source for decorated functions can be displayed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:31
+msgid "`589 <https://github.com/ipython/ipython/issues/589>`_: issue 588"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:32
+#, python-format
+msgid ""
+"`591 <https://github.com/ipython/ipython/issues/591>`_: simulate shell "
+"expansion on %run arguments, at least tilde expansion"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:33
+msgid ""
+"`576 <https://github.com/ipython/ipython/issues/576>`_: Show message "
+"about %paste magic on an IndentationError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:34
+msgid "`574 <https://github.com/ipython/ipython/issues/574>`_: Getcwdu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:35
+msgid ""
+"`565 <https://github.com/ipython/ipython/issues/565>`_: don't move old "
+"config files, keep nagging the user"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:36
+msgid ""
+"`575 <https://github.com/ipython/ipython/issues/575>`_: Added more "
+"docstrings to IPython.zmq.session."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:37
+msgid ""
+"`567 <https://github.com/ipython/ipython/issues/567>`_: fix trailing "
+"whitespace from resetting indentation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:38
+msgid ""
+"`564 <https://github.com/ipython/ipython/issues/564>`_: Command line args"
+" in docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:39
+msgid ""
+"`560 <https://github.com/ipython/ipython/issues/560>`_: reorder qt "
+"support in kernel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:40
+msgid ""
+"`561 <https://github.com/ipython/ipython/issues/561>`_: command-line "
+"suggestions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:41
+msgid ""
+"`556 <https://github.com/ipython/ipython/issues/556>`_: qt_for_kernel: "
+"use matplotlib rcParams to decide between PyQt4 and PySide"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:42
+msgid ""
+"`557 <https://github.com/ipython/ipython/issues/557>`_: Update usage.py "
+"to newapp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:43
+msgid ""
+"`555 <https://github.com/ipython/ipython/issues/555>`_: Rm default old "
+"config"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:44
+msgid ""
+"`552 <https://github.com/ipython/ipython/issues/552>`_: update parallel "
+"code for py3k"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:45
+msgid ""
+"`504 <https://github.com/ipython/ipython/issues/504>`_: Updating string "
+"formatting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:46
+msgid ""
+"`551 <https://github.com/ipython/ipython/issues/551>`_: Make pylab import"
+" all configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:47
+msgid ""
+"`496 <https://github.com/ipython/ipython/issues/496>`_: Qt editing "
+"keybindings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:48
+msgid ""
+"`550 <https://github.com/ipython/ipython/issues/550>`_: Support v2 PyQt4 "
+"APIs and PySide in kernel's GUI support"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:49
+msgid "`546 <https://github.com/ipython/ipython/issues/546>`_: doc update"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:50
+msgid ""
+"`548 <https://github.com/ipython/ipython/issues/548>`_: Fix sympy profile"
+" to work with sympy 0.7."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:51
+msgid "`542 <https://github.com/ipython/ipython/issues/542>`_: issue 440"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:52
+msgid ""
+"`533 <https://github.com/ipython/ipython/issues/533>`_: Remove unused "
+"configobj and validate libraries from externals."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:53
+msgid ""
+"`538 <https://github.com/ipython/ipython/issues/538>`_: fix various tests"
+" on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:54
+msgid ""
+"`540 <https://github.com/ipython/ipython/issues/540>`_: support `-pylab` "
+"flag with deprecation warning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:55
+msgid "`537 <https://github.com/ipython/ipython/issues/537>`_: Docs update"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:56
+msgid ""
+"`536 <https://github.com/ipython/ipython/issues/536>`_: `setup.py "
+"install` depends on setuptools on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:57
+msgid ""
+"`480 <https://github.com/ipython/ipython/issues/480>`_: Get help mid-"
+"command"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:58
+msgid ""
+"`462 <https://github.com/ipython/ipython/issues/462>`_: Str and Bytes "
+"traitlets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:59
+msgid ""
+"`534 <https://github.com/ipython/ipython/issues/534>`_: Handle unicode "
+"properly in IPython.zmq.iostream"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:60
+msgid "`527 <https://github.com/ipython/ipython/issues/527>`_: ZMQ displayhook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:61
+msgid ""
+"`526 <https://github.com/ipython/ipython/issues/526>`_: Handle "
+"asynchronous output in Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:62
+msgid ""
+"`528 <https://github.com/ipython/ipython/issues/528>`_: Do not import "
+"deprecated functions from external decorators library."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:63
+msgid ""
+"`454 <https://github.com/ipython/ipython/issues/454>`_: New "
+"BaseIPythonApplication"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:64
+msgid "`532 <https://github.com/ipython/ipython/issues/532>`_: Zmq unicode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:65
+msgid "`531 <https://github.com/ipython/ipython/issues/531>`_: Fix Parallel test"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:66
+msgid ""
+"`525 <https://github.com/ipython/ipython/issues/525>`_: fallback on lsof "
+"if otool not found in libedit detection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:67
+msgid ""
+"`517 <https://github.com/ipython/ipython/issues/517>`_: Merge "
+"IPython.parallel.streamsession into IPython.zmq.session"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:68
+msgid ""
+"`521 <https://github.com/ipython/ipython/issues/521>`_: use dict.get(key)"
+" instead of dict[key] for safety from KeyErrors"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:69
+msgid ""
+"`492 <https://github.com/ipython/ipython/issues/492>`_: add QtConsoleApp "
+"using newapplication"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:70
+msgid ""
+"`485 <https://github.com/ipython/ipython/issues/485>`_: terminal IPython "
+"with newapp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:71
+msgid ""
+"`486 <https://github.com/ipython/ipython/issues/486>`_: Use newapp in "
+"parallel code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:72
+msgid ""
+"`511 <https://github.com/ipython/ipython/issues/511>`_: Add a new line "
+"before displaying multiline strings in the Qt console."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:73
+msgid "`509 <https://github.com/ipython/ipython/issues/509>`_: i508"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:74
+msgid ""
+"`501 <https://github.com/ipython/ipython/issues/501>`_: ignore EINTR in "
+"channel loops"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:75
+msgid ""
+"`495 <https://github.com/ipython/ipython/issues/495>`_: Better selection "
+"of Qt bindings when QT_API is not specified"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:76
+msgid ""
+"`498 <https://github.com/ipython/ipython/issues/498>`_: Check for .pyd as"
+" extension for binary files."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:77
+msgid ""
+"`494 <https://github.com/ipython/ipython/issues/494>`_: QtConsole zoom "
+"adjustments"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:78
+msgid ""
+"`490 <https://github.com/ipython/ipython/issues/490>`_: fix "
+"UnicodeEncodeError writing SVG string to .svg file, fixes #489"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:79
+msgid ""
+"`491 <https://github.com/ipython/ipython/issues/491>`_: add QtConsoleApp "
+"using newapplication"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:80
+msgid ""
+"`479 <https://github.com/ipython/ipython/issues/479>`_: embed() doesn't "
+"load default config"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:81
+msgid ""
+"`483 <https://github.com/ipython/ipython/issues/483>`_: Links launchpad "
+"-> github"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:82
+#, python-format
+msgid "`419 <https://github.com/ipython/ipython/issues/419>`_: %xdel magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:83
+msgid ""
+"`477 <https://github.com/ipython/ipython/issues/477>`_: Add \\n to lines "
+"in the log"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:84
+msgid ""
+"`459 <https://github.com/ipython/ipython/issues/459>`_: use os.system for"
+" shell.system in Terminal frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:85
+msgid "`475 <https://github.com/ipython/ipython/issues/475>`_: i473"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:86
+msgid ""
+"`471 <https://github.com/ipython/ipython/issues/471>`_: Add test "
+"decorator onlyif_unicode_paths."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:87
+msgid ""
+"`474 <https://github.com/ipython/ipython/issues/474>`_: Fix support for "
+"raw GTK and WX matplotlib backends."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:88
+msgid ""
+"`472 <https://github.com/ipython/ipython/issues/472>`_: Kernel event loop"
+" is robust against random SIGINT."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:89
+msgid ""
+"`460 <https://github.com/ipython/ipython/issues/460>`_: Share code for "
+"magic_edit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:90
+msgid ""
+"`469 <https://github.com/ipython/ipython/issues/469>`_: Add exit code "
+"when running all tests with iptest."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:91
+msgid ""
+"`464 <https://github.com/ipython/ipython/issues/464>`_: Add home "
+"directory expansion to IPYTHON_DIR environment variables."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:92
+msgid "`455 <https://github.com/ipython/ipython/issues/455>`_: Bugfix with logger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:93
+msgid ""
+"`448 <https://github.com/ipython/ipython/issues/448>`_: Separate out "
+"skip_doctest decorator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:94
+msgid ""
+"`453 <https://github.com/ipython/ipython/issues/453>`_: Draft of new main"
+" BaseIPythonApplication."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:95
+msgid ""
+"`452 <https://github.com/ipython/ipython/issues/452>`_: Use "
+"list/tuple/dict/set subclass's overridden __repr__ instead of the pretty"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:96
+msgid ""
+"`398 <https://github.com/ipython/ipython/issues/398>`_: allow toggle of "
+"svg/png inline figure format"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:97
+msgid ""
+"`381 <https://github.com/ipython/ipython/issues/381>`_: Support inline "
+"PNGs of matplotlib plots"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:98
+msgid ""
+"`413 <https://github.com/ipython/ipython/issues/413>`_: Retries and "
+"Resubmit (#411 and #412)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:99
+msgid ""
+"`370 <https://github.com/ipython/ipython/issues/370>`_: Fixes to the "
+"display system"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:100
+msgid ""
+"`449 <https://github.com/ipython/ipython/issues/449>`_: Fix issue 447 - "
+"inspecting old-style classes."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:101
+msgid ""
+"`423 <https://github.com/ipython/ipython/issues/423>`_: Allow type "
+"checking on elements of List,Tuple,Set traits"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:102
+msgid "`400 <https://github.com/ipython/ipython/issues/400>`_: Config5"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:103
+msgid ""
+"`421 <https://github.com/ipython/ipython/issues/421>`_: Generalise "
+"mechanism to put text at the next prompt in the Qt console."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:104
+msgid ""
+"`443 <https://github.com/ipython/ipython/issues/443>`_: pinfo code "
+"duplication"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:105
+msgid ""
+"`429 <https://github.com/ipython/ipython/issues/429>`_: add check_pid, "
+"and handle stale PID info in ipcluster."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:106
+msgid ""
+"`431 <https://github.com/ipython/ipython/issues/431>`_: Fix error message"
+" in test_irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:107
+msgid ""
+"`427 <https://github.com/ipython/ipython/issues/427>`_: handle different "
+"SyntaxError messages in test_irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:108
+msgid ""
+"`424 <https://github.com/ipython/ipython/issues/424>`_: Irunner test "
+"failure"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:109
+msgid ""
+"`430 <https://github.com/ipython/ipython/issues/430>`_: Small parallel "
+"doc typo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:110
+msgid ""
+"`422 <https://github.com/ipython/ipython/issues/422>`_: Make ipython-"
+"qtconsole a GUI script"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:111
+msgid ""
+"`420 <https://github.com/ipython/ipython/issues/420>`_: Permit kernel "
+"std* to be redirected"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:112
+msgid "`408 <https://github.com/ipython/ipython/issues/408>`_: History request"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:113
+msgid ""
+"`388 <https://github.com/ipython/ipython/issues/388>`_: Add Emacs-style "
+"kill ring to Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:114
+msgid ""
+"`414 <https://github.com/ipython/ipython/issues/414>`_: Warn on old "
+"config files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:115
+msgid ""
+"`415 <https://github.com/ipython/ipython/issues/415>`_: Prevent prefilter"
+" from crashing IPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:116
+msgid ""
+"`418 <https://github.com/ipython/ipython/issues/418>`_: Minor "
+"configuration doc fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:117
+msgid ""
+"`407 <https://github.com/ipython/ipython/issues/407>`_: Update What's new"
+" documentation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:118
+msgid ""
+"`410 <https://github.com/ipython/ipython/issues/410>`_: Install notebook "
+"frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:119
+msgid ""
+"`406 <https://github.com/ipython/ipython/issues/406>`_: install "
+"IPython.zmq.gui"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:120
+msgid "`393 <https://github.com/ipython/ipython/issues/393>`_: ipdir unicode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:121
+msgid ""
+"`397 <https://github.com/ipython/ipython/issues/397>`_: "
+"utils.io.Term.cin/out/err -> utils.io.stdin/out/err"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:122
+msgid ""
+"`389 <https://github.com/ipython/ipython/issues/389>`_: DB fixes and "
+"Scheduler HWM"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:123
+msgid ""
+"`374 <https://github.com/ipython/ipython/issues/374>`_: Various Windows-"
+"related fixes to IPython.parallel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:124
+msgid ""
+"`362 <https://github.com/ipython/ipython/issues/362>`_: fallback on "
+"defaultencoding if filesystemencoding is None"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:125
+#, python-format
+msgid ""
+"`382 <https://github.com/ipython/ipython/issues/382>`_: Shell's reset "
+"method clears namespace from last %run command."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:126
+msgid ""
+"`385 <https://github.com/ipython/ipython/issues/385>`_: Update iptest "
+"exclusions (fix #375)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:127
+msgid ""
+"`383 <https://github.com/ipython/ipython/issues/383>`_: Catch errors in "
+"querying readline which occur with pyreadline."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:128
+msgid ""
+"`373 <https://github.com/ipython/ipython/issues/373>`_: Remove runlines "
+"etc."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:129
+msgid "`364 <https://github.com/ipython/ipython/issues/364>`_: Single output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:130
+msgid ""
+"`372 <https://github.com/ipython/ipython/issues/372>`_: Multiline input "
+"push"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:131
+msgid "`363 <https://github.com/ipython/ipython/issues/363>`_: Issue 125"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:132
+msgid ""
+"`361 <https://github.com/ipython/ipython/issues/361>`_: don't rely on "
+"setuptools for readline dependency check"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:133
+msgid "`349 <https://github.com/ipython/ipython/issues/349>`_: Fix %autopx magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:134
+msgid ""
+"`355 <https://github.com/ipython/ipython/issues/355>`_: History save "
+"thread"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:135
+msgid ""
+"`356 <https://github.com/ipython/ipython/issues/356>`_: Usability "
+"improvements to history in Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:136
+msgid "`357 <https://github.com/ipython/ipython/issues/357>`_: Exit autocall"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:137
+msgid ""
+"`353 <https://github.com/ipython/ipython/issues/353>`_: Rewrite "
+"quit()/exit()/Quit()/Exit() calls as magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:138
+msgid "`354 <https://github.com/ipython/ipython/issues/354>`_: Cell tweaks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:139
+msgid ""
+"`345 <https://github.com/ipython/ipython/issues/345>`_: Attempt to "
+"address (partly) issue ipython/#342 by rewriting quit(), exit(), etc."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:140
+msgid ""
+"`352 <https://github.com/ipython/ipython/issues/352>`_: #342: Try to "
+"recover as intelligently as possible if user calls magic()."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:141
+msgid ""
+"`346 <https://github.com/ipython/ipython/issues/346>`_: Dedent prefix "
+"bugfix + tests: #142"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:142
+#, python-format
+msgid ""
+"`348 <https://github.com/ipython/ipython/issues/348>`_: %reset doesn't "
+"reset prompt number."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:143
+msgid ""
+"`347 <https://github.com/ipython/ipython/issues/347>`_: Make ip.reset() "
+"work the same in interactive or non-interactive code."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:144
+msgid ""
+"`343 <https://github.com/ipython/ipython/issues/343>`_: make readline a "
+"dependency on OSX"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:145
+msgid ""
+"`344 <https://github.com/ipython/ipython/issues/344>`_: restore auto "
+"debug behavior"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:146
+msgid ""
+"`339 <https://github.com/ipython/ipython/issues/339>`_: fix for issue "
+"337: incorrect/phantom tooltips for magics"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:147
+msgid ""
+"`254 <https://github.com/ipython/ipython/issues/254>`_: newparallel "
+"branch (add zmq.parallel submodule)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:148
+msgid "`334 <https://github.com/ipython/ipython/issues/334>`_: Hard reset"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:149
+msgid ""
+"`316 <https://github.com/ipython/ipython/issues/316>`_: Unicode win "
+"process"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:150
+msgid "`332 <https://github.com/ipython/ipython/issues/332>`_: AST splitter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:151
+msgid "`325 <https://github.com/ipython/ipython/issues/325>`_: Removetwisted"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:152
+msgid "`330 <https://github.com/ipython/ipython/issues/330>`_: Magic pastebin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:153
+msgid ""
+"`309 <https://github.com/ipython/ipython/issues/309>`_: Bug tests for GH "
+"Issues 238, 284, 306, 307. Skip module machinery if not installed. Known "
+"failures reported as 'K'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:154
+msgid ""
+"`331 <https://github.com/ipython/ipython/issues/331>`_: Tweak config "
+"loader for PyPy compatibility."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:155
+msgid ""
+"`319 <https://github.com/ipython/ipython/issues/319>`_: Rewrite code to "
+"restore readline history after an action"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:156
+msgid ""
+"`329 <https://github.com/ipython/ipython/issues/329>`_: Do not store file"
+" contents in history when running a .ipy file."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:157
+msgid "`179 <https://github.com/ipython/ipython/issues/179>`_: Html notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:158
+msgid ""
+"`323 <https://github.com/ipython/ipython/issues/323>`_: Add missing "
+"external.pexpect to packages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:159
+msgid "`295 <https://github.com/ipython/ipython/issues/295>`_: Magic local scope"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:160
+msgid "`315 <https://github.com/ipython/ipython/issues/315>`_: Unicode magic args"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:161
+msgid ""
+"`310 <https://github.com/ipython/ipython/issues/310>`_: allow Unicode "
+"Command-Line options"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:162
+msgid "`313 <https://github.com/ipython/ipython/issues/313>`_: Readline shortcuts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:163
+msgid "`311 <https://github.com/ipython/ipython/issues/311>`_: Qtconsole exit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:164
+msgid "`312 <https://github.com/ipython/ipython/issues/312>`_: History memory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:165
+msgid "`294 <https://github.com/ipython/ipython/issues/294>`_: Issue 290"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:166
+msgid "`292 <https://github.com/ipython/ipython/issues/292>`_: Issue 31"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:167
+msgid "`252 <https://github.com/ipython/ipython/issues/252>`_: Unicode issues"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:168
+msgid ""
+"`235 <https://github.com/ipython/ipython/issues/235>`_: Fix history magic"
+" command's bugs wrt to full history and add -O option to display full "
+"history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:169
+msgid ""
+"`236 <https://github.com/ipython/ipython/issues/236>`_: History minus p "
+"flag"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:170
+msgid ""
+"`261 <https://github.com/ipython/ipython/issues/261>`_: Adapt magic "
+"commands to new history system."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:171
+msgid "`282 <https://github.com/ipython/ipython/issues/282>`_: SQLite history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:172
+msgid ""
+"`191 <https://github.com/ipython/ipython/issues/191>`_: Unbundle external"
+" libraries"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:173
+msgid "`199 <https://github.com/ipython/ipython/issues/199>`_: Magic arguments"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:174
+msgid ""
+"`204 <https://github.com/ipython/ipython/issues/204>`_: Emacs completion "
+"bugfix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:175
+msgid "`293 <https://github.com/ipython/ipython/issues/293>`_: Issue 133"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:176
+msgid ""
+"`249 <https://github.com/ipython/ipython/issues/249>`_: Writing unicode "
+"characters to a log file. (IPython 0.10.2.git)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:177
+msgid ""
+"`283 <https://github.com/ipython/ipython/issues/283>`_: Support for "
+"256-color escape sequences in Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:178
+msgid ""
+"`281 <https://github.com/ipython/ipython/issues/281>`_: Refactored and "
+"improved Qt console's HTML export facility"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:179
+msgid "`237 <https://github.com/ipython/ipython/issues/237>`_: Fix185 (take two)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:180
+msgid "`251 <https://github.com/ipython/ipython/issues/251>`_: Issue 129"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:181
+msgid ""
+"`278 <https://github.com/ipython/ipython/issues/278>`_: add basic "
+"XDG_CONFIG_HOME support"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:182
+msgid ""
+"`275 <https://github.com/ipython/ipython/issues/275>`_: inline pylab cuts"
+" off labels on log plots"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:183
+msgid ""
+"`280 <https://github.com/ipython/ipython/issues/280>`_: Add %precision "
+"magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:184
+msgid "`259 <https://github.com/ipython/ipython/issues/259>`_: Pyside support"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:185
+msgid ""
+"`193 <https://github.com/ipython/ipython/issues/193>`_: Make ipython "
+"cProfile-able"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:186
+msgid "`272 <https://github.com/ipython/ipython/issues/272>`_: Magic examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:187
+msgid "`219 <https://github.com/ipython/ipython/issues/219>`_: Doc magic pycat"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:188
+msgid "`221 <https://github.com/ipython/ipython/issues/221>`_: Doc magic alias"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:189
+msgid "`230 <https://github.com/ipython/ipython/issues/230>`_: Doc magic edit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:190
+msgid "`224 <https://github.com/ipython/ipython/issues/224>`_: Doc magic cpaste"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:191
+msgid "`229 <https://github.com/ipython/ipython/issues/229>`_: Doc magic pdef"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:192
+msgid "`273 <https://github.com/ipython/ipython/issues/273>`_: Docs build"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:193
+msgid "`228 <https://github.com/ipython/ipython/issues/228>`_: Doc magic who"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:194
+msgid "`233 <https://github.com/ipython/ipython/issues/233>`_: Doc magic cd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:195
+msgid "`226 <https://github.com/ipython/ipython/issues/226>`_: Doc magic pwd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:196
+msgid "`218 <https://github.com/ipython/ipython/issues/218>`_: Doc magic history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:197
+msgid "`231 <https://github.com/ipython/ipython/issues/231>`_: Doc magic reset"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:198
+msgid "`225 <https://github.com/ipython/ipython/issues/225>`_: Doc magic save"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:199
+msgid "`222 <https://github.com/ipython/ipython/issues/222>`_: Doc magic timeit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:200
+msgid "`223 <https://github.com/ipython/ipython/issues/223>`_: Doc magic colors"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:201
+msgid ""
+"`203 <https://github.com/ipython/ipython/issues/203>`_: Small typos in "
+"zmq/blockingkernelmanager.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:202
+msgid "`227 <https://github.com/ipython/ipython/issues/227>`_: Doc magic logon"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:203
+msgid "`232 <https://github.com/ipython/ipython/issues/232>`_: Doc magic profile"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:204
+msgid "`264 <https://github.com/ipython/ipython/issues/264>`_: Kernel logging"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:205
+msgid "`220 <https://github.com/ipython/ipython/issues/220>`_: Doc magic edit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:206
+msgid "`268 <https://github.com/ipython/ipython/issues/268>`_: PyZMQ >= 2.0.10"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:207
+msgid ""
+"`267 <https://github.com/ipython/ipython/issues/267>`_: GitHub Pages "
+"(again)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:208
+msgid ""
+"`266 <https://github.com/ipython/ipython/issues/266>`_: OSX-specific "
+"fixes to the Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:209
+msgid "`255 <https://github.com/ipython/ipython/issues/255>`_: Gitwash typo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:210
+msgid "`265 <https://github.com/ipython/ipython/issues/265>`_: Fix string input2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:211
+msgid ""
+"`260 <https://github.com/ipython/ipython/issues/260>`_: Kernel crash with"
+" empty history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:212
+msgid "`243 <https://github.com/ipython/ipython/issues/243>`_: New display system"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:213
+msgid "`242 <https://github.com/ipython/ipython/issues/242>`_: Fix terminal exit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:214
+msgid ""
+"`250 <https://github.com/ipython/ipython/issues/250>`_: always use "
+"Session.send"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:215
+msgid ""
+"`239 <https://github.com/ipython/ipython/issues/239>`_: Makefile command "
+"& script for GitHub Pages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:216
+msgid "`244 <https://github.com/ipython/ipython/issues/244>`_: My exit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:217
+msgid "`234 <https://github.com/ipython/ipython/issues/234>`_: Timed history save"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:218
+msgid "`217 <https://github.com/ipython/ipython/issues/217>`_: Doc magic lsmagic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:219
+msgid "`215 <https://github.com/ipython/ipython/issues/215>`_: History fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:220
+msgid "`195 <https://github.com/ipython/ipython/issues/195>`_: Formatters"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:221
+msgid "`192 <https://github.com/ipython/ipython/issues/192>`_: Ready colorize bug"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:222
+msgid "`198 <https://github.com/ipython/ipython/issues/198>`_: Windows workdir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:223
+msgid "`174 <https://github.com/ipython/ipython/issues/174>`_: Whitespace cleanup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:224
+msgid ""
+"`188 <https://github.com/ipython/ipython/issues/188>`_: Version info: "
+"update our version management system to use git."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:225
+msgid "`158 <https://github.com/ipython/ipython/issues/158>`_: Ready for merge"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:226
+msgid ""
+"`187 <https://github.com/ipython/ipython/issues/187>`_: Resolved Print "
+"shortcut collision with ctrl-P emacs binding"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:227
+msgid ""
+"`183 <https://github.com/ipython/ipython/issues/183>`_: cleanup of "
+"exit/quit commands for qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:228
+msgid ""
+"`184 <https://github.com/ipython/ipython/issues/184>`_: Logo added to "
+"sphinx docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:229
+msgid "`180 <https://github.com/ipython/ipython/issues/180>`_: Cleanup old code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:230
+msgid ""
+"`171 <https://github.com/ipython/ipython/issues/171>`_: Expose Pygments "
+"styles as options"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:231
+msgid "`170 <https://github.com/ipython/ipython/issues/170>`_: HTML Fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:232
+msgid ""
+"`172 <https://github.com/ipython/ipython/issues/172>`_: Fix del method "
+"exit test"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:233
+msgid ""
+"`164 <https://github.com/ipython/ipython/issues/164>`_: Qt frontend "
+"shutdown behavior fixes and enhancements"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:234
+msgid "`167 <https://github.com/ipython/ipython/issues/167>`_: Added HTML export"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:235
+msgid "`163 <https://github.com/ipython/ipython/issues/163>`_: Execution refactor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:236
+msgid "`159 <https://github.com/ipython/ipython/issues/159>`_: Ipy3 preparation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:237
+msgid "`155 <https://github.com/ipython/ipython/issues/155>`_: Ready startup fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:238
+msgid "`152 <https://github.com/ipython/ipython/issues/152>`_: 0.10.1 sge"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:239
+msgid ""
+"`151 <https://github.com/ipython/ipython/issues/151>`_: mk_object_info ->"
+" object_info"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:240
+msgid "`149 <https://github.com/ipython/ipython/issues/149>`_: Simple bug-fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:242
+msgid "Regular issues (285):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:244
+msgid ""
+"`630 <https://github.com/ipython/ipython/issues/630>`_: new.py in pwd "
+"prevents ipython from starting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:245
+msgid ""
+"`623 <https://github.com/ipython/ipython/issues/623>`_: Execute "
+"DirectView commands while running LoadBalancedView tasks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:246
+msgid ""
+"`437 <https://github.com/ipython/ipython/issues/437>`_: Users should have"
+" autocompletion in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:247
+msgid "`583 <https://github.com/ipython/ipython/issues/583>`_: update manpages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:248
+msgid ""
+"`594 <https://github.com/ipython/ipython/issues/594>`_: irunner command "
+"line options defer to file extensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:249
+msgid ""
+"`603 <https://github.com/ipython/ipython/issues/603>`_: Users should see "
+"colored text in tracebacks and the pager"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:250
+msgid ""
+"`597 <https://github.com/ipython/ipython/issues/597>`_: "
+"UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:251
+msgid ""
+"`608 <https://github.com/ipython/ipython/issues/608>`_: Organize and "
+"layout buttons in the notebook panel sections"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:252
+msgid ""
+"`609 <https://github.com/ipython/ipython/issues/609>`_: Implement "
+"controls in the Kernel panel section"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:253
+msgid ""
+"`611 <https://github.com/ipython/ipython/issues/611>`_: Add kernel status"
+" widget back to notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:254
+msgid ""
+"`610 <https://github.com/ipython/ipython/issues/610>`_: Implement "
+"controls in the Cell section panel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:255
+msgid ""
+"`612 <https://github.com/ipython/ipython/issues/612>`_: Implement Help "
+"panel section"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:256
+msgid ""
+"`621 <https://github.com/ipython/ipython/issues/621>`_: [qtconsole] on "
+"windows xp, cannot  PageUp more than once"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:257
+msgid ""
+"`616 <https://github.com/ipython/ipython/issues/616>`_: Store exit status"
+" of last command"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:258
+msgid ""
+"`605 <https://github.com/ipython/ipython/issues/605>`_: Users should be "
+"able to open different notebooks in the cwd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:259
+msgid ""
+"`302 <https://github.com/ipython/ipython/issues/302>`_: Users should see "
+"a consistent behavior in the Out prompt in the html  notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:260
+msgid ""
+"`435 <https://github.com/ipython/ipython/issues/435>`_: Notebook should "
+"not import anything by default"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:261
+msgid ""
+"`595 <https://github.com/ipython/ipython/issues/595>`_: qtconsole command"
+" issue"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:262
+msgid ""
+"`588 <https://github.com/ipython/ipython/issues/588>`_: ipython-qtconsole"
+" uses 100% CPU"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:263
+msgid ""
+"`586 <https://github.com/ipython/ipython/issues/586>`_: ? + plot() "
+"Command B0rks QTConsole Strangely"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:264
+msgid ""
+"`585 <https://github.com/ipython/ipython/issues/585>`_: %pdoc throws "
+"Errors for classes without __init__ or docstring"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:265
+msgid ""
+"`584 <https://github.com/ipython/ipython/issues/584>`_:  %pdoc throws "
+"TypeError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:266
+msgid ""
+"`580 <https://github.com/ipython/ipython/issues/580>`_: Client "
+"instantiation AssertionError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:267
+msgid ""
+"`569 <https://github.com/ipython/ipython/issues/569>`_: "
+"UnicodeDecodeError during startup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:268
+msgid ""
+"`572 <https://github.com/ipython/ipython/issues/572>`_: Indented command "
+"hits error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:269
+msgid ""
+"`573 <https://github.com/ipython/ipython/issues/573>`_: -wthread breaks "
+"indented top-level statements"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:270
+msgid ""
+"`570 <https://github.com/ipython/ipython/issues/570>`_: \"--pylab "
+"inline\" vs. \"--pylab=inline\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:271
+msgid ""
+"`566 <https://github.com/ipython/ipython/issues/566>`_: Can't use "
+"exec_file in config file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:272
+msgid ""
+"`562 <https://github.com/ipython/ipython/issues/562>`_: update docs to "
+"reflect '--args=values'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:273
+#, python-format
+msgid ""
+"`558 <https://github.com/ipython/ipython/issues/558>`_: triple quote and "
+"%s at beginning of line"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:274
+msgid ""
+"`554 <https://github.com/ipython/ipython/issues/554>`_: Update 0.11 docs "
+"to explain Qt console and how to do a clean install"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:275
+msgid ""
+"`553 <https://github.com/ipython/ipython/issues/553>`_: embed() fails if "
+"config files not installed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:276
+#, python-format
+msgid ""
+"`8 <https://github.com/ipython/ipython/issues/8>`_: Ensure %gui qt works "
+"with new Mayavi and pylab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:277
+msgid ""
+"`269 <https://github.com/ipython/ipython/issues/269>`_: Provide "
+"compatibility api for IPython.Shell().start().mainloop()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:278
+msgid ""
+"`66 <https://github.com/ipython/ipython/issues/66>`_: Update the main "
+"What's New document to reflect work on 0.11"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:279
+msgid ""
+"`549 <https://github.com/ipython/ipython/issues/549>`_: Don't check for "
+"'linux2' value in sys.platform"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:280
+msgid ""
+"`505 <https://github.com/ipython/ipython/issues/505>`_: Qt windows "
+"created within imported functions won't show()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:281
+msgid ""
+"`545 <https://github.com/ipython/ipython/issues/545>`_: qtconsole ignores"
+" exec_lines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:282
+msgid ""
+"`371 <https://github.com/ipython/ipython/issues/371>`_: segfault in "
+"qtconsole when kernel quits"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:283
+msgid ""
+"`377 <https://github.com/ipython/ipython/issues/377>`_: Failure: error "
+"(nothing to repeat)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:284
+msgid ""
+"`544 <https://github.com/ipython/ipython/issues/544>`_: Ipython qtconsole"
+" pylab config issue."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:285
+msgid ""
+"`543 <https://github.com/ipython/ipython/issues/543>`_: RuntimeError in "
+"completer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:286
+#, python-format
+msgid ""
+"`440 <https://github.com/ipython/ipython/issues/440>`_: %run filename "
+"autocompletion \"The kernel heartbeat has been inactive ... \" error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:287
+msgid ""
+"`541 <https://github.com/ipython/ipython/issues/541>`_: log_level is "
+"broken in the  ipython Application"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:288
+msgid ""
+"`369 <https://github.com/ipython/ipython/issues/369>`_: windows source "
+"install doesn't create scripts correctly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:289
+msgid ""
+"`351 <https://github.com/ipython/ipython/issues/351>`_: Make sure that "
+"the Windows installer handles the top-level IPython scripts."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:290
+msgid ""
+"`512 <https://github.com/ipython/ipython/issues/512>`_: Two displayhooks "
+"in zmq"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:291
+msgid ""
+"`340 <https://github.com/ipython/ipython/issues/340>`_: Make sure that "
+"the Windows HPC scheduler support is working for 0.11"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:292
+msgid ""
+"`98 <https://github.com/ipython/ipython/issues/98>`_: Should be able to "
+"get help on an object mid-command"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:293
+msgid ""
+"`529 <https://github.com/ipython/ipython/issues/529>`_: unicode problem "
+"in qtconsole for windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:294
+msgid ""
+"`476 <https://github.com/ipython/ipython/issues/476>`_: Separate input "
+"area in Qt Console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:295
+msgid ""
+"`175 <https://github.com/ipython/ipython/issues/175>`_: Qt console needs "
+"configuration support"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:296
+msgid ""
+"`156 <https://github.com/ipython/ipython/issues/156>`_: Key history lost "
+"when debugging program crash"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:297
+msgid ""
+"`470 <https://github.com/ipython/ipython/issues/470>`_: decorator: uses "
+"deprecated features"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:298
+msgid ""
+"`30 <https://github.com/ipython/ipython/issues/30>`_: readline in OS X "
+"does not have correct key bindings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:299
+msgid ""
+"`503 <https://github.com/ipython/ipython/issues/503>`_: merge "
+"IPython.parallel.streamsession and IPython.zmq.session"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:300
+msgid ""
+"`456 <https://github.com/ipython/ipython/issues/456>`_: pathname in "
+"document punctuated by dots not slashes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:301
+msgid ""
+"`451 <https://github.com/ipython/ipython/issues/451>`_: Allow switching "
+"the default image format for inline mpl backend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:302
+msgid ""
+"`79 <https://github.com/ipython/ipython/issues/79>`_: Implement more "
+"robust handling of config stages in Application"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:303
+msgid "`522 <https://github.com/ipython/ipython/issues/522>`_: Encoding problems"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:304
+msgid ""
+"`524 <https://github.com/ipython/ipython/issues/524>`_: otool should not "
+"be unconditionally called on osx"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:305
+msgid ""
+"`523 <https://github.com/ipython/ipython/issues/523>`_: Get profile and "
+"config file inheritance working"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:306
+msgid ""
+"`519 <https://github.com/ipython/ipython/issues/519>`_: qtconsole --pure:"
+" \"TypeError: string indices must be integers, not str\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:307
+msgid ""
+"`516 <https://github.com/ipython/ipython/issues/516>`_: qtconsole --pure:"
+" \"KeyError: 'ismagic'\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:308
+msgid ""
+"`520 <https://github.com/ipython/ipython/issues/520>`_: qtconsole --pure:"
+" \"TypeError: string indices must be integers, not str\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:309
+msgid ""
+"`450 <https://github.com/ipython/ipython/issues/450>`_: resubmitted tasks"
+" sometimes stuck as pending"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:310
+msgid ""
+"`518 <https://github.com/ipython/ipython/issues/518>`_: JSON "
+"serialization problems with ObjectId type (MongoDB)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:311
+msgid ""
+"`178 <https://github.com/ipython/ipython/issues/178>`_: Channels should "
+"be named for their function, not their socket type"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:312
+msgid ""
+"`515 <https://github.com/ipython/ipython/issues/515>`_: [ipcluster] "
+"termination on os x"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:313
+msgid ""
+"`510 <https://github.com/ipython/ipython/issues/510>`_: qtconsole: "
+"indentation problem printing numpy arrays"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:314
+msgid ""
+"`508 <https://github.com/ipython/ipython/issues/508>`_: \"AssertionError:"
+" Missing message part.\" in ipython-qtconsole --pure"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:315
+msgid ""
+"`499 <https://github.com/ipython/ipython/issues/499>`_: \"ZMQError: "
+"Interrupted system call\" when saving inline figure"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:316
+#, python-format
+msgid ""
+"`426 <https://github.com/ipython/ipython/issues/426>`_: %edit magic fails"
+" in qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:317
+msgid ""
+"`497 <https://github.com/ipython/ipython/issues/497>`_: Don't show info "
+"from .pyd files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:318
+msgid ""
+"`493 <https://github.com/ipython/ipython/issues/493>`_: "
+"QFont::setPointSize: Point size <= 0 (0), must be greater than 0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:319
+msgid ""
+"`489 <https://github.com/ipython/ipython/issues/489>`_: "
+"UnicodeEncodeError in qt.svg.save_svg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:320
+msgid ""
+"`458 <https://github.com/ipython/ipython/issues/458>`_: embed() doesn't "
+"load default config"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:321
+msgid ""
+"`488 <https://github.com/ipython/ipython/issues/488>`_: Using IPython "
+"with RubyPython leads to problems with "
+"IPython.parallel.client.client.Client.__init()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:322
+msgid ""
+"`401 <https://github.com/ipython/ipython/issues/401>`_: Race condition "
+"when running lbview.apply() fast multiple times in loop"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:323
+msgid ""
+"`168 <https://github.com/ipython/ipython/issues/168>`_: Scrub Launchpad "
+"links from code, docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:324
+msgid ""
+"`141 <https://github.com/ipython/ipython/issues/141>`_: garbage "
+"collection problem (revisited)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:325
+msgid ""
+"`59 <https://github.com/ipython/ipython/issues/59>`_: "
+"test_magic.test_obj_del fails on win32"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:326
+msgid ""
+"`457 <https://github.com/ipython/ipython/issues/457>`_: Backgrounded "
+"Tasks not Allowed?  (but easy to slip by . . .)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:327
+msgid ""
+"`297 <https://github.com/ipython/ipython/issues/297>`_: Shouldn't use "
+"pexpect for subprocesses in in-process terminal frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:328
+msgid ""
+"`110 <https://github.com/ipython/ipython/issues/110>`_: magic to return "
+"exit status"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:329
+msgid ""
+"`473 <https://github.com/ipython/ipython/issues/473>`_: OSX readline "
+"detection fails in the debugger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:330
+msgid ""
+"`466 <https://github.com/ipython/ipython/issues/466>`_: tests fail "
+"without unicode filename support"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:331
+msgid ""
+"`468 <https://github.com/ipython/ipython/issues/468>`_: iptest script has"
+" 0 exit code even when tests fail"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:332
+msgid ""
+"`465 <https://github.com/ipython/ipython/issues/465>`_: client.db_query()"
+" behaves different with SQLite and MongoDB"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:333
+msgid ""
+"`467 <https://github.com/ipython/ipython/issues/467>`_: "
+"magic_install_default_config test fails when there is no .ipython "
+"directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:334
+msgid ""
+"`463 <https://github.com/ipython/ipython/issues/463>`_: IPYTHON_DIR (and "
+"IPYTHONDIR) don't expand tilde to '~' directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:335
+msgid ""
+"`446 <https://github.com/ipython/ipython/issues/446>`_: Test machinery is"
+" imported at normal runtime"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:336
+msgid ""
+"`438 <https://github.com/ipython/ipython/issues/438>`_: Users should be "
+"able to use Up/Down for cell navigation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:337
+msgid ""
+"`439 <https://github.com/ipython/ipython/issues/439>`_: Users should be "
+"able to copy notebook input and output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:338
+msgid ""
+"`291 <https://github.com/ipython/ipython/issues/291>`_: Rename special "
+"display methods and put them lower in priority than display functions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:339
+msgid ""
+"`447 <https://github.com/ipython/ipython/issues/447>`_: Instantiating "
+"classes without __init__ function causes kernel to crash"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:340
+msgid ""
+"`444 <https://github.com/ipython/ipython/issues/444>`_: Ctrl + t in "
+"WxIPython Causes Unexpected Behavior"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:341
+msgid ""
+"`445 <https://github.com/ipython/ipython/issues/445>`_: qt and console "
+"Based Startup Errors"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:342
+msgid ""
+"`428 <https://github.com/ipython/ipython/issues/428>`_: ipcluster doesn't"
+" handle stale pid info well"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:343
+msgid ""
+"`434 <https://github.com/ipython/ipython/issues/434>`_: 10.0.2 seg fault "
+"with rpy2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:344
+msgid ""
+"`441 <https://github.com/ipython/ipython/issues/441>`_: Allow running a "
+"block of code in a file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:345
+msgid ""
+"`432 <https://github.com/ipython/ipython/issues/432>`_: Silent request "
+"fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:346
+msgid ""
+"`409 <https://github.com/ipython/ipython/issues/409>`_: Test failure in "
+"IPython.lib"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:347
+msgid ""
+"`402 <https://github.com/ipython/ipython/issues/402>`_: History section "
+"of messaging spec is incorrect"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:348
+msgid ""
+"`88 <https://github.com/ipython/ipython/issues/88>`_: Error when "
+"inputting UTF8 CJK characters"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:349
+msgid ""
+"`366 <https://github.com/ipython/ipython/issues/366>`_: Ctrl-K should "
+"kill line and store it, so that Ctrl-y can yank it back"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:350
+#, python-format
+msgid ""
+"`425 <https://github.com/ipython/ipython/issues/425>`_: typo in %gui "
+"magic help"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:351
+msgid ""
+"`304 <https://github.com/ipython/ipython/issues/304>`_: Persistent "
+"warnings if old configuration files exist"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:352
+#, python-format
+msgid ""
+"`216 <https://github.com/ipython/ipython/issues/216>`_: crash of ipython "
+"when alias is used with %s and echo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:353
+msgid ""
+"`412 <https://github.com/ipython/ipython/issues/412>`_: add support to "
+"automatic retry of tasks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:354
+msgid ""
+"`411 <https://github.com/ipython/ipython/issues/411>`_: add support to "
+"continue tasks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:355
+msgid ""
+"`417 <https://github.com/ipython/ipython/issues/417>`_: IPython should "
+"display things unsorted if it can't sort them"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:356
+msgid ""
+"`416 <https://github.com/ipython/ipython/issues/416>`_: wrong encode when"
+" printing unicode string"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:357
+msgid ""
+"`376 <https://github.com/ipython/ipython/issues/376>`_: Failing "
+"InputsplitterTest"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:358
+msgid ""
+"`405 <https://github.com/ipython/ipython/issues/405>`_: TraitError in "
+"traitlets.py(332) on any input"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:359
+msgid ""
+"`392 <https://github.com/ipython/ipython/issues/392>`_: "
+"UnicodeEncodeError on start"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:360
+msgid ""
+"`137 <https://github.com/ipython/ipython/issues/137>`_: "
+"sys.getfilesystemencoding return value not checked"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:361
+msgid ""
+"`300 <https://github.com/ipython/ipython/issues/300>`_: Users should be "
+"able to manage kernels and kernel sessions from the notebook UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:362
+msgid ""
+"`301 <https://github.com/ipython/ipython/issues/301>`_: Users should have"
+" access to working Kernel, Tabs, Edit, Help menus in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:363
+msgid ""
+"`396 <https://github.com/ipython/ipython/issues/396>`_: cursor move "
+"triggers a lot of IO access"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:364
+msgid ""
+"`379 <https://github.com/ipython/ipython/issues/379>`_: Minor doc nit: "
+"--paging argument"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:365
+msgid ""
+"`399 <https://github.com/ipython/ipython/issues/399>`_: Add task queue "
+"limit in engine when load-balancing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:366
+msgid ""
+"`78 <https://github.com/ipython/ipython/issues/78>`_: StringTask won't "
+"take unicode code strings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:367
+msgid ""
+"`391 <https://github.com/ipython/ipython/issues/391>`_: "
+"MongoDB.add_record() does not work in 0.11dev"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:368
+msgid ""
+"`365 <https://github.com/ipython/ipython/issues/365>`_: newparallel on "
+"Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:369
+msgid ""
+"`386 <https://github.com/ipython/ipython/issues/386>`_: FAIL: test that "
+"pushed functions have access to globals"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:370
+msgid ""
+"`387 <https://github.com/ipython/ipython/issues/387>`_: Interactively "
+"defined functions can't access user namespace"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:371
+msgid ""
+"`118 <https://github.com/ipython/ipython/issues/118>`_: Snow Leopard "
+"ipy_vimserver POLL error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:372
+msgid ""
+"`394 <https://github.com/ipython/ipython/issues/394>`_: System escape "
+"interpreted in multi-line string"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:373
+msgid ""
+"`26 <https://github.com/ipython/ipython/issues/26>`_: find_job_cmd is too"
+" hasty to fail on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:374
+msgid ""
+"`368 <https://github.com/ipython/ipython/issues/368>`_: Installation "
+"instructions in dev docs are completely wrong"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:375
+msgid ""
+"`380 <https://github.com/ipython/ipython/issues/380>`_: qtconsole pager "
+"RST - HTML not happening consistently"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:376
+msgid ""
+"`367 <https://github.com/ipython/ipython/issues/367>`_: Qt console "
+"doesn't support ibus input method"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:377
+msgid ""
+"`375 <https://github.com/ipython/ipython/issues/375>`_: Missing libraries"
+" cause ImportError in tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:378
+msgid ""
+"`71 <https://github.com/ipython/ipython/issues/71>`_: temp file errors in"
+" iptest IPython.core"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:379
+msgid ""
+"`350 <https://github.com/ipython/ipython/issues/350>`_: Decide how to "
+"handle displayhook being triggered multiple times"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:380
+msgid ""
+"`360 <https://github.com/ipython/ipython/issues/360>`_: Remove `runlines`"
+" method"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:381
+msgid ""
+"`125 <https://github.com/ipython/ipython/issues/125>`_: Exec lines in "
+"config should not contribute to line numbering or history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:382
+msgid ""
+"`20 <https://github.com/ipython/ipython/issues/20>`_: Robust readline "
+"support on OS X's builtin Python"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:383
+msgid ""
+"`147 <https://github.com/ipython/ipython/issues/147>`_: On Windows, %page"
+" is being too restrictive to split line by \\r\\n only"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:384
+msgid ""
+"`326 <https://github.com/ipython/ipython/issues/326>`_: Update docs and "
+"examples for parallel stuff to reflect movement away from Twisted"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:385
+msgid ""
+"`341 <https://github.com/ipython/ipython/issues/341>`_: FIx Parallel "
+"Magics for newparallel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:386
+msgid ""
+"`338 <https://github.com/ipython/ipython/issues/338>`_: Usability "
+"improvements to Qt console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:387
+msgid ""
+"`142 <https://github.com/ipython/ipython/issues/142>`_: unexpected auto-"
+"indenting when variables names that start with 'pass'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:388
+msgid ""
+"`296 <https://github.com/ipython/ipython/issues/296>`_: Automatic PDB via"
+" %pdb doesn't work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:389
+msgid ""
+"`337 <https://github.com/ipython/ipython/issues/337>`_: exit( and quit( "
+"in Qt console produces phantom signature/docstring popup, even though "
+"quit() or exit() raises NameError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:390
+#, python-format
+msgid ""
+"`318 <https://github.com/ipython/ipython/issues/318>`_: %debug broken in "
+"master: invokes missing save_history() method"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:391
+msgid ""
+"`307 <https://github.com/ipython/ipython/issues/307>`_: lines ending with"
+" semicolon should not go to cache"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:392
+msgid ""
+"`104 <https://github.com/ipython/ipython/issues/104>`_: have ipengine run"
+" start-up scripts before registering with the controller"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:393
+msgid ""
+"`33 <https://github.com/ipython/ipython/issues/33>`_: The skip_doctest "
+"decorator is failing to work on Shell.MatplotlibShellBase.magic_run"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:394
+msgid ""
+"`336 <https://github.com/ipython/ipython/issues/336>`_: Missing figure "
+"development/figs/iopubfade.png for docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:395
+#, python-format
+msgid ""
+"`49 <https://github.com/ipython/ipython/issues/49>`_: %clear should also "
+"delete _NN references and Out[NN] ones"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:396
+msgid ""
+"`335 <https://github.com/ipython/ipython/issues/335>`_: using setuptools "
+"installs every script twice"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:397
+msgid ""
+"`306 <https://github.com/ipython/ipython/issues/306>`_: multiline strings"
+" at end of input cause noop"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:398
+msgid "`327 <https://github.com/ipython/ipython/issues/327>`_: PyPy compatibility"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:399
+#, python-format
+msgid ""
+"`328 <https://github.com/ipython/ipython/issues/328>`_: %run script.ipy "
+"raises \"ERROR! Session/line number was not unique in database.\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:400
+msgid ""
+"`7 <https://github.com/ipython/ipython/issues/7>`_: Update the changes "
+"doc to reflect the kernel config work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:401
+msgid ""
+"`303 <https://github.com/ipython/ipython/issues/303>`_: Users should be "
+"able to scroll a notebook w/o moving the menu/buttons"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:402
+msgid ""
+"`322 <https://github.com/ipython/ipython/issues/322>`_: Embedding an "
+"interactive IPython shell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:403
+#, python-format
+msgid ""
+"`321 <https://github.com/ipython/ipython/issues/321>`_: %debug broken in "
+"master"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:404
+msgid ""
+"`287 <https://github.com/ipython/ipython/issues/287>`_: Crash when using "
+"%macros in sqlite-history branch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:405
+msgid ""
+"`55 <https://github.com/ipython/ipython/issues/55>`_: Can't edit files "
+"whose names begin with numbers"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:406
+msgid ""
+"`284 <https://github.com/ipython/ipython/issues/284>`_: In variable no "
+"longer works in 0.11"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:407
+msgid ""
+"`92 <https://github.com/ipython/ipython/issues/92>`_: Using "
+"multiprocessing module crashes parallel IPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:408
+msgid ""
+"`262 <https://github.com/ipython/ipython/issues/262>`_: Fail to recover "
+"history after force-kill."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:409
+msgid ""
+"`320 <https://github.com/ipython/ipython/issues/320>`_: Tab completing "
+"re.search objects crashes IPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:410
+msgid ""
+"`317 <https://github.com/ipython/ipython/issues/317>`_: IPython.kernel: "
+"parallel map issues"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:411
+msgid ""
+"`197 <https://github.com/ipython/ipython/issues/197>`_: ipython-qtconsole"
+" unicode problem in magic ls"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:412
+msgid ""
+"`305 <https://github.com/ipython/ipython/issues/305>`_: more readline "
+"shortcuts in qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:413
+msgid ""
+"`314 <https://github.com/ipython/ipython/issues/314>`_: Multi-line, "
+"multi-block cells can't be executed."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:414
+msgid ""
+"`308 <https://github.com/ipython/ipython/issues/308>`_: Test suite should"
+" set sqlite history to work in :memory:"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:415
+msgid ""
+"`202 <https://github.com/ipython/ipython/issues/202>`_: Matplotlib native"
+" 'MacOSX' backend broken in '-pylab' mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:416
+msgid ""
+"`196 <https://github.com/ipython/ipython/issues/196>`_: IPython can't "
+"deal with unicode file name."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:417
+msgid ""
+"`25 <https://github.com/ipython/ipython/issues/25>`_: unicode bug - "
+"encoding input"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:418
+msgid ""
+"`290 <https://github.com/ipython/ipython/issues/290>`_: try/except/else "
+"clauses can't be typed, code input stops too early."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:419
+msgid ""
+"`43 <https://github.com/ipython/ipython/issues/43>`_: Implement SSH "
+"support in ipcluster"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:420
+msgid ""
+"`6 <https://github.com/ipython/ipython/issues/6>`_: Update the Sphinx "
+"docs for the new ipcluster"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:421
+msgid ""
+"`9 <https://github.com/ipython/ipython/issues/9>`_: Getting "
+"\"DeadReferenceError: Calling Stale Broker\" after ipcontroller restart"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:422
+msgid ""
+"`132 <https://github.com/ipython/ipython/issues/132>`_: Ipython prevent "
+"south from working"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:423
+msgid ""
+"`27 <https://github.com/ipython/ipython/issues/27>`_: "
+"generics.complete_object broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:424
+msgid ""
+"`60 <https://github.com/ipython/ipython/issues/60>`_: Improve absolute "
+"import management for iptest.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:425
+msgid ""
+"`31 <https://github.com/ipython/ipython/issues/31>`_: Issues in "
+"magic_whos code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:426
+msgid ""
+"`52 <https://github.com/ipython/ipython/issues/52>`_: Document testing "
+"process better"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:427
+msgid ""
+"`44 <https://github.com/ipython/ipython/issues/44>`_: Merge history from "
+"multiple sessions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:428
+msgid ""
+"`182 <https://github.com/ipython/ipython/issues/182>`_: ipython q4thread "
+"in version 10.1 not starting properly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:429
+msgid ""
+"`143 <https://github.com/ipython/ipython/issues/143>`_: "
+"Ipython.gui.wx.ipython_view.IPShellWidget: ignores user*_ns arguments"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:430
+#, python-format
+msgid ""
+"`127 <https://github.com/ipython/ipython/issues/127>`_: %edit does not "
+"work on filenames consisted of pure numbers"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:431
+msgid ""
+"`126 <https://github.com/ipython/ipython/issues/126>`_: Can't transfer "
+"command line argument to script"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:432
+msgid ""
+"`28 <https://github.com/ipython/ipython/issues/28>`_: Offer finer control"
+" for initialization of input streams"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:433
+msgid ""
+"`58 <https://github.com/ipython/ipython/issues/58>`_: ipython change char"
+" '0xe9' to 4 spaces"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:434
+msgid ""
+"`68 <https://github.com/ipython/ipython/issues/68>`_: Problems with "
+"Control-C stopping ipcluster on Windows/Python2.6"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:435
+msgid ""
+"`24 <https://github.com/ipython/ipython/issues/24>`_: ipcluster does not "
+"start all the engines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:436
+msgid ""
+"`240 <https://github.com/ipython/ipython/issues/240>`_: Incorrect method "
+"displayed in %psource"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:437
+msgid ""
+"`120 <https://github.com/ipython/ipython/issues/120>`_: inspect.getsource"
+" fails for functions defined on command line"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:438
+msgid ""
+"`212 <https://github.com/ipython/ipython/issues/212>`_: IPython ignores "
+"exceptions in the first evaulation of class attrs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:439
+msgid ""
+"`108 <https://github.com/ipython/ipython/issues/108>`_: ipython disables "
+"python logger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:440
+msgid ""
+"`100 <https://github.com/ipython/ipython/issues/100>`_: Overzealous "
+"introspection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:441
+#, python-format
+msgid ""
+"`18 <https://github.com/ipython/ipython/issues/18>`_: %cpaste freeze sync"
+" frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:442
+msgid ""
+"`200 <https://github.com/ipython/ipython/issues/200>`_: Unicode error "
+"when starting ipython in a folder with non-ascii path"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:443
+msgid ""
+"`130 <https://github.com/ipython/ipython/issues/130>`_: Deadlock when "
+"importing a module that creates an IPython client"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:444
+msgid ""
+"`134 <https://github.com/ipython/ipython/issues/134>`_: multline block "
+"scrolling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:445
+msgid ""
+"`46 <https://github.com/ipython/ipython/issues/46>`_: Input to %timeit is"
+" not preparsed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:446
+msgid ""
+"`285 <https://github.com/ipython/ipython/issues/285>`_: ipcluster local "
+"-n 4 fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:447
+msgid ""
+"`205 <https://github.com/ipython/ipython/issues/205>`_: In the Qt "
+"console, Tab should insert 4 spaces when not completing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:448
+msgid ""
+"`145 <https://github.com/ipython/ipython/issues/145>`_: Bug on MSW "
+"systems: idle can not be set as default IPython editor. Fix Suggested."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:449
+msgid ""
+"`77 <https://github.com/ipython/ipython/issues/77>`_: ipython oops in "
+"cygwin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:450
+msgid ""
+"`121 <https://github.com/ipython/ipython/issues/121>`_: If plot windows "
+"are closed via window controls, no more plotting is possible."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:451
+msgid ""
+"`111 <https://github.com/ipython/ipython/issues/111>`_: Iterator version "
+"of TaskClient.map() that returns results as they become available"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:452
+msgid ""
+"`109 <https://github.com/ipython/ipython/issues/109>`_: WinHPCLauncher is"
+" a hard dependency that causes errors in the test suite"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:453
+msgid ""
+"`86 <https://github.com/ipython/ipython/issues/86>`_: Make IPython work "
+"with multiprocessing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:454
+msgid ""
+"`15 <https://github.com/ipython/ipython/issues/15>`_: Implement SGE "
+"support in ipcluster"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:455
+msgid ""
+"`3 <https://github.com/ipython/ipython/issues/3>`_: Implement PBS support"
+" in ipcluster"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:456
+msgid ""
+"`53 <https://github.com/ipython/ipython/issues/53>`_: Internal Python "
+"error in the inspect module"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:457
+msgid ""
+"`74 <https://github.com/ipython/ipython/issues/74>`_: Manager() [from "
+"multiprocessing module] hangs ipythonx but not ipython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:458
+msgid ""
+"`51 <https://github.com/ipython/ipython/issues/51>`_: Out not working "
+"with ipythonx"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:459
+msgid ""
+"`201 <https://github.com/ipython/ipython/issues/201>`_: use session.send "
+"throughout zmq code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:460
+msgid ""
+"`115 <https://github.com/ipython/ipython/issues/115>`_: multiline "
+"specials not defined in 0.11 branch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:461
+msgid ""
+"`93 <https://github.com/ipython/ipython/issues/93>`_: when looping, "
+"cursor appears at leftmost point in newline"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:462
+msgid ""
+"`133 <https://github.com/ipython/ipython/issues/133>`_: whitespace after "
+"Source introspection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:463
+msgid ""
+"`50 <https://github.com/ipython/ipython/issues/50>`_: Ctrl-C with "
+"-gthread on Windows, causes uncaught IOError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:464
+msgid ""
+"`65 <https://github.com/ipython/ipython/issues/65>`_: Do not use .message"
+" attributes in exceptions, deprecated in 2.6"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:465
+msgid ""
+"`76 <https://github.com/ipython/ipython/issues/76>`_: syntax error when "
+"raise is inside except process"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:466
+msgid ""
+"`107 <https://github.com/ipython/ipython/issues/107>`_: bdist_rpm causes "
+"traceback looking for a non-existant file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:467
+msgid ""
+"`113 <https://github.com/ipython/ipython/issues/113>`_: initial magic ? "
+"(question mark) fails before wildcard"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:468
+msgid ""
+"`128 <https://github.com/ipython/ipython/issues/128>`_: Pdb instance has "
+"no attribute 'curframe'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:469
+msgid ""
+"`139 <https://github.com/ipython/ipython/issues/139>`_: running with "
+"-pylab pollutes namespace"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:470
+msgid ""
+"`140 <https://github.com/ipython/ipython/issues/140>`_: malloc error "
+"during tab completion of numpy array member functions starting with 'c'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:471
+msgid ""
+"`153 <https://github.com/ipython/ipython/issues/153>`_: ipy_vimserver "
+"traceback on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:472
+msgid ""
+"`154 <https://github.com/ipython/ipython/issues/154>`_: using ipython in "
+"Slicer3 show how os.environ['HOME'] is not defined"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:473
+msgid ""
+"`185 <https://github.com/ipython/ipython/issues/185>`_: show() blocks in "
+"pylab mode with ipython 0.10.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:474
+msgid ""
+"`189 <https://github.com/ipython/ipython/issues/189>`_: Crash on tab "
+"completion"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:475
+msgid "`274 <https://github.com/ipython/ipython/issues/274>`_: bashism in sshx.sh"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:476
+msgid ""
+"`276 <https://github.com/ipython/ipython/issues/276>`_: Calling "
+"`sip.setapi` does not work if app has already imported from PyQt4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:477
+msgid ""
+"`277 <https://github.com/ipython/ipython/issues/277>`_: matplotlib.image "
+"imgshow from 10.1 segfault"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:478
+msgid ""
+"`288 <https://github.com/ipython/ipython/issues/288>`_: Incorrect "
+"docstring in zmq/kernelmanager.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:479
+msgid ""
+"`286 <https://github.com/ipython/ipython/issues/286>`_: Fix IPython.Shell"
+" compatibility layer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:480
+msgid ""
+"`99 <https://github.com/ipython/ipython/issues/99>`_: blank lines in "
+"history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:481
+msgid ""
+"`129 <https://github.com/ipython/ipython/issues/129>`_: psearch: "
+"TypeError: expected string or buffer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:482
+msgid ""
+"`190 <https://github.com/ipython/ipython/issues/190>`_: Add option to "
+"format float point output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:483
+msgid ""
+"`246 <https://github.com/ipython/ipython/issues/246>`_: Application not "
+"conforms XDG Base Directory Specification"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:484
+msgid ""
+"`48 <https://github.com/ipython/ipython/issues/48>`_: IPython should "
+"follow the XDG Base Directory spec for configuration"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:485
+msgid ""
+"`176 <https://github.com/ipython/ipython/issues/176>`_: Make client-side "
+"history persistence readline-independent"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:486
+msgid ""
+"`279 <https://github.com/ipython/ipython/issues/279>`_: Backtraces when "
+"using ipdb do not respect -colour LightBG setting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:487
+msgid ""
+"`119 <https://github.com/ipython/ipython/issues/119>`_: Broken type "
+"filter in magic_who_ls"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:488
+msgid ""
+"`271 <https://github.com/ipython/ipython/issues/271>`_: Intermittent "
+"problem with print output in Qt console."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:489
+msgid ""
+"`270 <https://github.com/ipython/ipython/issues/270>`_: Small typo in "
+"IPython developer’s guide"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:490
+msgid ""
+"`166 <https://github.com/ipython/ipython/issues/166>`_: Add keyboard "
+"accelerators to Qt close dialog"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:491
+msgid ""
+"`173 <https://github.com/ipython/ipython/issues/173>`_: asymmetrical "
+"ctrl-A/ctrl-E behavior in multiline"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:492
+msgid ""
+"`45 <https://github.com/ipython/ipython/issues/45>`_: Autosave history "
+"for robustness"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:493
+msgid ""
+"`162 <https://github.com/ipython/ipython/issues/162>`_: make command "
+"history persist in ipythonqt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:494
+msgid ""
+"`161 <https://github.com/ipython/ipython/issues/161>`_: make ipythonqt "
+"exit without dialog when exit() is called"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:495
+msgid ""
+"`263 <https://github.com/ipython/ipython/issues/263>`_: [ipython + numpy]"
+" Some test errors"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:496
+msgid ""
+"`256 <https://github.com/ipython/ipython/issues/256>`_: reset docstring "
+"ipython 0.10"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:497
+msgid ""
+"`258 <https://github.com/ipython/ipython/issues/258>`_: allow caching to "
+"avoid matplotlib object references"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:498
+msgid ""
+"`248 <https://github.com/ipython/ipython/issues/248>`_: Can't open and "
+"read files after upgrade from 0.10 to 0.10.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:499
+msgid ""
+"`247 <https://github.com/ipython/ipython/issues/247>`_: ipython + "
+"Stackless"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:500
+msgid ""
+"`245 <https://github.com/ipython/ipython/issues/245>`_: Magic save and "
+"macro missing newlines, line ranges don't match prompt numbers."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:501
+msgid ""
+"`241 <https://github.com/ipython/ipython/issues/241>`_: \"exit\" hangs on"
+" terminal version of IPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:502
+msgid ""
+"`213 <https://github.com/ipython/ipython/issues/213>`_: ipython -pylab no"
+" longer plots interactively on 0.10.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:503
+msgid ""
+"`4 <https://github.com/ipython/ipython/issues/4>`_: wx frontend don't "
+"display well commands output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:504
+msgid ""
+"`5 <https://github.com/ipython/ipython/issues/5>`_: ls command not "
+"supported in ipythonx wx frontend"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:505
+msgid ""
+"`1 <https://github.com/ipython/ipython/issues/1>`_: Document winhpcjob.py"
+" and launcher.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:506
+msgid ""
+"`83 <https://github.com/ipython/ipython/issues/83>`_: Usage of "
+"testing.util.DeferredTestCase should be replace with "
+"twisted.trial.unittest.TestCase"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:507
+msgid ""
+"`117 <https://github.com/ipython/ipython/issues/117>`_: Redesign how "
+"Component instances are tracked and queried"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:508
+msgid ""
+"`47 <https://github.com/ipython/ipython/issues/47>`_: "
+"IPython.kernel.client cannot be imported inside an engine"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:509
+msgid ""
+"`105 <https://github.com/ipython/ipython/issues/105>`_: Refactor the task"
+" dependencies system"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:510
+msgid ""
+"`210 <https://github.com/ipython/ipython/issues/210>`_: 0.10.1 doc "
+"mistake - New IPython Sphinx directive error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:511
+msgid ""
+"`209 <https://github.com/ipython/ipython/issues/209>`_: can't activate "
+"IPython parallel magics"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:512
+msgid ""
+"`206 <https://github.com/ipython/ipython/issues/206>`_: Buggy linewrap in"
+" Mac OSX Terminal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:513
+msgid ""
+"`194 <https://github.com/ipython/ipython/issues/194>`_: !sudo <command> "
+"displays password in plain text"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:514
+#, python-format
+msgid ""
+"`186 <https://github.com/ipython/ipython/issues/186>`_: %edit issue under"
+" OS X 10.5 - IPython 0.10.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:515
+msgid ""
+"`11 <https://github.com/ipython/ipython/issues/11>`_: Create a daily "
+"build PPA for ipython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:516
+msgid ""
+"`144 <https://github.com/ipython/ipython/issues/144>`_: logo missing from"
+" sphinx docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:517
+msgid ""
+"`181 <https://github.com/ipython/ipython/issues/181>`_: cls command does "
+"not work on windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:518
+msgid ""
+"`169 <https://github.com/ipython/ipython/issues/169>`_: Kernel can only "
+"be bound to localhost"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:519
+msgid ""
+"`36 <https://github.com/ipython/ipython/issues/36>`_: tab completion does"
+" not escape ()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:520
+msgid ""
+"`177 <https://github.com/ipython/ipython/issues/177>`_: Report tracebacks"
+" of interactively entered input"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:521
+msgid ""
+"`148 <https://github.com/ipython/ipython/issues/148>`_: dictionary having"
+" multiple keys having frozenset fails to print on IPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:522
+msgid ""
+"`160 <https://github.com/ipython/ipython/issues/160>`_: magic_gui throws "
+"TypeError when gui magic is used"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:523
+msgid ""
+"`150 <https://github.com/ipython/ipython/issues/150>`_: History entries "
+"ending with parentheses corrupt command line on OS X 10.6.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:524
+msgid ""
+"`146 <https://github.com/ipython/ipython/issues/146>`_: -ipythondir - "
+"using an alternative .ipython dir for rc type stuff"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:525
+msgid ""
+"`114 <https://github.com/ipython/ipython/issues/114>`_: Interactive "
+"strings get mangled with \"_ip.magic\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:526
+msgid ""
+"`135 <https://github.com/ipython/ipython/issues/135>`_: crash on  invalid"
+" print"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:527
+msgid ""
+"`69 <https://github.com/ipython/ipython/issues/69>`_: Usage of "
+"\"mycluster\" profile in docs and examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-0.11.rst:528
+msgid ""
+"`37 <https://github.com/ipython/ipython/issues/37>`_: Fix colors in "
+"output of ResultList on Windows"
+msgstr ""
+

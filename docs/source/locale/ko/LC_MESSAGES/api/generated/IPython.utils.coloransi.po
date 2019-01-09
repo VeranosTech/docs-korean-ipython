@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.coloransi.rst:4
+msgid "Module: :mod:`utils.coloransi`"
+msgstr ""
+
+#: IPython.utils.coloransi:1 of
+msgid "Tools for coloring text in ANSI terminals."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.coloransi.rst:10
+msgid "5 Classes"
+msgstr ""
+
+#: IPython.utils.coloransi.ColorScheme:1
+#: IPython.utils.coloransi.InputTermColors:1 IPython.utils.coloransi.NoColors:1
+#: IPython.utils.coloransi.TermColors:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.utils.coloransi.TermColors:1 of
+msgid "Color escape sequences."
+msgstr ""
+
+#: IPython.utils.coloransi.InputTermColors:8
+#: IPython.utils.coloransi.TermColors:3 of
+msgid ""
+"This class defines the escape sequences for all the standard (ANSI?) "
+"colors in terminals. Also defines a NoColor escape which is just the null"
+" string, suitable for defining 'dummy' color schemes in terminals which "
+"get confused by color escapes."
+msgstr ""
+
+#: IPython.utils.coloransi.InputTermColors:13
+#: IPython.utils.coloransi.TermColors:8 of
+msgid "This class should be used as a mixin for building color schemes."
+msgstr ""
+
+#: IPython.utils.coloransi.InputTermColors:1 of
+msgid "Color escape sequences for input prompts."
+msgstr ""
+
+#: IPython.utils.coloransi.InputTermColors:3 of
+msgid ""
+"This class is similar to TermColors, but the escapes are wrapped in  and"
+"  so that readline can properly know the length of each line and can "
+"wrap lines accordingly.  Use this class for any colored text which needs "
+"to be used in input prompts, such as in calls to raw_input()."
+msgstr ""
+
+#: IPython.utils.coloransi.NoColors:1 of
+msgid ""
+"This defines all the same names as the colour classes, but maps them to "
+"empty strings, so it can easily be substituted to turn off colours."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorScheme:1 of
+msgid "Generic color scheme class. Just a name and a Struct."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorScheme.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorScheme.copy:1 of
+msgid "Return a full copy of the object, optionally renaming it."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable:1 of
+msgid "Bases: :class:`dict`"
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable:1 of
+msgid "General class to handle tables of color schemes."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable:3 of
+msgid ""
+"It's basically a dict of color schemes with a couple of shorthand "
+"attributes and some convenient methods."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable:6 of
+msgid ""
+"active_scheme_name -> obvious active_colors -> actual color table of the "
+"active scheme"
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.__init__:1 of
+msgid "Create a table of color schemes."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.__init__:3 of
+msgid ""
+"The table can be created empty and manually filled or it can be created "
+"with a list of valid color schemes AND the specification for the default "
+"active scheme."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.add_scheme:1 of
+msgid "Add a new color scheme to the table."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.copy:1 of
+msgid "Return full copy of object"
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.set_active_scheme:1 of
+msgid "Set the currently active scheme."
+msgstr ""
+
+#: IPython.utils.coloransi.ColorSchemeTable.set_active_scheme:3 of
+msgid ""
+"Names are by default compared in a case-insensitive way, but this can be "
+"changed by setting the parameter case_sensitive to true."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.coloransi.rst:37
+msgid "1 Function"
+msgstr ""
+
+#: IPython.utils.coloransi.make_color_table:1 of
+msgid "Build a set of color attributes in a class."
+msgstr ""
+
+#: IPython.utils.coloransi.make_color_table:3 of
+msgid ""
+"Helper function for building the :class:`TermColors` and "
+":class`InputTermColors`."
+msgstr ""
+

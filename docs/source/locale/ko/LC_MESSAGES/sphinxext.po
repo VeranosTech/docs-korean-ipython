@@ -1,0 +1,626 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/sphinxext.rst:6
+msgid "IPython Sphinx Directive"
+msgstr ""
+
+#: ../../source/sphinxext.rst:10
+msgid ""
+"The IPython Sphinx Directive is in 'beta' and currently under active "
+"development. Improvements to the code or documentation are welcome!"
+msgstr ""
+
+#: ../../source/sphinxext.rst:13
+msgid ""
+"The ipython directive is a stateful ipython shell for embedding in sphinx"
+" documents.  It knows about standard ipython prompts, and extracts the "
+"input and output lines.  These prompts will be renumbered starting at "
+"``1``.  The inputs will be fed to an embedded ipython interpreter and the"
+" outputs from that interpreter will be inserted as well.  For example, "
+"code blocks like the following::"
+msgstr ""
+
+#: ../../source/sphinxext.rst:27
+msgid "will be rendered as"
+msgstr ""
+
+#: ../../source/sphinxext.rst:38
+msgid ""
+"This tutorial should be read side-by-side with the Sphinx source for this"
+" document because otherwise you will see only the rendered output and not"
+" the code that generated it.  Excepting the example above, we will not in"
+" general be showing the literal ReST in this document that generates the "
+"rendered output."
+msgstr ""
+
+#: ../../source/sphinxext.rst:46
+msgid "Persisting the Python session across IPython directive blocks"
+msgstr ""
+
+#: ../../source/sphinxext.rst:48
+msgid ""
+"The state from previous sessions is stored, and standard error is "
+"trapped. At doc build time, ipython's output and std err will be "
+"inserted, and prompts will be renumbered. So the prompt below should be "
+"renumbered in the rendered docs, and pick up where the block above left "
+"off."
+msgstr ""
+
+#: ../../source/sphinxext.rst:74
+msgid "Adding documentation tests to your IPython directive"
+msgstr ""
+
+#: ../../source/sphinxext.rst:76
+msgid ""
+"The embedded interpreter supports some limited markup.  For example, you "
+"can put comments in your ipython sessions, which are reported verbatim.  "
+"There are some handy \"pseudo-decorators\" that let you doctest the "
+"output.  The inputs are fed to an embedded ipython session and the "
+"outputs from the ipython session are inserted into your doc.  If the "
+"output in your doc and in the ipython session don't match on a doctest "
+"assertion, an error will occur."
+msgstr ""
+
+#: ../../source/sphinxext.rst:101
+msgid ""
+"For more information on @doctest decorator, please refer to the end of "
+"this page in Pseudo-Decorators section."
+msgstr ""
+
+#: ../../source/sphinxext.rst:104
+msgid "Multi-line input"
+msgstr ""
+
+#: ../../source/sphinxext.rst:106
+msgid "Multi-line input is supported."
+msgstr ""
+
+#: ../../source/sphinxext.rst:118
+msgid "Testing directive outputs"
+msgstr ""
+
+#: ../../source/sphinxext.rst:120
+msgid ""
+"The IPython Sphinx Directive makes it possible to test the outputs that "
+"you provide with your code. To do this, decorate the contents in your "
+"directive block with one of the following:"
+msgstr ""
+
+#: ../../source/sphinxext.rst:123
+msgid "list directives here"
+msgstr ""
+
+#: ../../source/sphinxext.rst:125
+msgid ""
+"If an IPython doctest decorator is found, it will take these steps when "
+"your documentation is built:"
+msgstr ""
+
+#: ../../source/sphinxext.rst:127
+msgid ""
+"1. Run the *input* lines in your IPython directive block against the "
+"current Python kernel (remember that the session persists across IPython "
+"directive blocks);"
+msgstr ""
+
+#: ../../source/sphinxext.rst:130
+msgid ""
+"2. Compare the *output* of this with the output text that you've put in "
+"the IPython directive block 9what comes after `Out[NN]`);"
+msgstr ""
+
+#: ../../source/sphinxext.rst:133
+msgid ""
+"If there is a difference, the directive will raise an error and your "
+"documentation build will fial."
+msgstr ""
+
+#: ../../source/sphinxext.rst:135
+msgid ""
+"You can do doctesting on multi-line output as well.  Just be careful when"
+" using non-deterministic inputs like random numbers in the ipython "
+"directive, because your inputs are run through a live interpreter, so if "
+"you are doctesting random output you will get an error.  Here we \"seed\""
+" the random number generator for deterministic output, and we suppress "
+"the seed line so it doesn't show up in the rendered output"
+msgstr ""
+
+#: ../../source/sphinxext.rst:163
+msgid ""
+"For more information on @supress and @doctest decorators, please refer to"
+" the end of this file in Pseudo-Decorators section."
+msgstr ""
+
+#: ../../source/sphinxext.rst:166
+msgid "Another demonstration of multi-line input and output"
+msgstr ""
+
+#: ../../source/sphinxext.rst:190
+msgid ""
+"Most of the \"pseudo-decorators\" can be used an options to ipython mode."
+"  For example, to setup matplotlib pylab but suppress the output, you can"
+" do.  When using the matplotlib ``use`` directive, it should occur before"
+" any import of pylab.  This will not show up in the rendered docs, but "
+"the commands will be executed in the embedded interpreter and subsequent "
+"line numbers will be incremented to reflect the inputs::"
+msgstr ""
+
+#: ../../source/sphinxext.rst:213
+msgid ""
+"Likewise, you can set ``:doctest:`` or ``:verbatim:`` to apply these "
+"settings to the entire block.  For example,"
+msgstr ""
+
+#: ../../source/sphinxext.rst:248
+msgid ""
+"You can create one or more pyplot plots and insert them with the "
+"``@savefig`` decorator."
+msgstr ""
+
+#: ../../source/sphinxext.rst:251 ../../source/sphinxext.rst:331
+msgid ""
+"For more information on @savefig decorator, please refer to the end of "
+"this page in Pseudo-Decorators section."
+msgstr ""
+
+#: ../../source/sphinxext.rst:262
+msgid ""
+"In a subsequent session, we can update the current figure with some text,"
+" and then resave"
+msgstr ""
+
+#: ../../source/sphinxext.rst:275
+msgid "You can also have function definitions included in the source."
+msgstr ""
+
+#: ../../source/sphinxext.rst:289
+msgid "Then call it from a subsequent section."
+msgstr ""
+
+#: ../../source/sphinxext.rst:301
+msgid "Writing Pure Python Code"
+msgstr ""
+
+#: ../../source/sphinxext.rst:303
+msgid ""
+"Pure python code is supported by the optional argument `python`. In this "
+"pure python syntax you do not include the output from the python "
+"interpreter. The following markup::"
+msgstr ""
+
+#: ../../source/sphinxext.rst:314
+msgid "Renders as"
+msgstr ""
+
+#: ../../source/sphinxext.rst:323
+msgid ""
+"We can even plot from python, using the savefig decorator, as well as, "
+"suppress output with a semicolon"
+msgstr ""
+
+#: ../../source/sphinxext.rst:333
+msgid "Similarly, std err is inserted"
+msgstr ""
+
+#: ../../source/sphinxext.rst:342
+msgid "Handling Comments"
+msgstr ""
+
+#: ../../source/sphinxext.rst:344
+msgid "Comments are handled and state is preserved"
+msgstr ""
+
+#: ../../source/sphinxext.rst:351
+msgid "If you don't see the next code block then the options work."
+msgstr ""
+
+#: ../../source/sphinxext.rst:360
+msgid "Splitting Python statements across lines"
+msgstr ""
+
+#: ../../source/sphinxext.rst:362
+msgid "Multi-line input is handled."
+msgstr ""
+
+#: ../../source/sphinxext.rst:372
+msgid "Functions definitions are correctly parsed"
+msgstr ""
+
+#: ../../source/sphinxext.rst:385
+msgid "And persist across sessions"
+msgstr ""
+
+#: ../../source/sphinxext.rst:392
+msgid ""
+"Pretty much anything you can do with the ipython code, you can do with "
+"with a simple python script. Obviously, though it doesn't make sense to "
+"use the doctest option."
+msgstr ""
+
+#: ../../source/sphinxext.rst:397 IPython.sphinxext.ipython_directive:144 of
+msgid "Pseudo-Decorators"
+msgstr ""
+
+#: ../../source/sphinxext.rst:399
+msgid ""
+"Here are the supported decorators, and any optional arguments they take."
+"  Some of the decorators can be used as options to the entire block (eg "
+"``verbatim`` and ``suppress``), and some only apply to the line just "
+"below them (eg ``savefig``)."
+msgstr ""
+
+#: ../../source/sphinxext.rst:404
+msgid "@suppress"
+msgstr ""
+
+#: ../../source/sphinxext.rst:406
+msgid ""
+"execute the ipython input block, but suppress the input and output block "
+"from the rendered output.  Also, can be applied to the entire ``.. "
+"ipython`` block as a directive option with ``:suppress:``."
+msgstr ""
+
+#: ../../source/sphinxext.rst:410
+msgid "@verbatim"
+msgstr ""
+
+#: ../../source/sphinxext.rst:412
+msgid ""
+"insert the input and output block in verbatim, but auto-increment the "
+"line numbers. Internally, the interpreter will be fed an empty string, so"
+" it is a no-op that keeps line numbering consistent. Also, can be applied"
+" to the entire ``.. ipython`` block as a directive option with "
+"``:verbatim:``."
+msgstr ""
+
+#: ../../source/sphinxext.rst:418
+msgid "@savefig OUTFILE [IMAGE_OPTIONS]"
+msgstr ""
+
+#: ../../source/sphinxext.rst:420
+msgid ""
+"save the figure to the static directory and insert it into the document, "
+"possibly binding it into a minipage and/or putting code/figure "
+"label/references to associate the code and the figure. Takes args to pass"
+" to the image directive (*scale*, *width*, etc can be kwargs); see `image"
+" options "
+"<http://docutils.sourceforge.net/docs/ref/rst/directives.html#image>`_ "
+"for details."
+msgstr ""
+
+#: ../../source/sphinxext.rst:428
+msgid "@doctest"
+msgstr ""
+
+#: ../../source/sphinxext.rst:430
+msgid ""
+"Compare the pasted in output in the ipython block with the output "
+"generated at doc build time, and raise errors if they don't match. Also, "
+"can be applied to the entire ``.. ipython`` block as a directive option "
+"with ``:doctest:``."
+msgstr ""
+
+#: ../../source/sphinxext.rst:436
+msgid "Configuration Options"
+msgstr ""
+
+#: ../../source/sphinxext.rst:438
+msgid "ipython_savefig_dir"
+msgstr ""
+
+#: ../../source/sphinxext.rst:440 IPython.sphinxext.ipython_directive:79 of
+msgid ""
+"The directory in which to save the figures. This is relative to the "
+"Sphinx source directory. The default is `html_static_path`."
+msgstr ""
+
+#: ../../source/sphinxext.rst:443
+msgid "ipython_rgxin"
+msgstr ""
+
+#: ../../source/sphinxext.rst:445
+msgid ""
+"The compiled regular expression to denote the start of IPython input "
+"lines. The default is `re.compile('In \\[(\\d+)\\]:\\s?(.*)\\s*')`. You "
+"shouldn't need to change this."
+msgstr ""
+
+#: ../../source/sphinxext.rst:449
+msgid "ipython_rgxout"
+msgstr ""
+
+#: ../../source/sphinxext.rst:451
+msgid ""
+"The compiled regular expression to denote the start of IPython output "
+"lines. The default is `re.compile('Out\\[(\\d+)\\]:\\s?(.*)\\s*')`. You "
+"shouldn't need to change this."
+msgstr ""
+
+#: ../../source/sphinxext.rst:456
+msgid "ipython_promptin"
+msgstr ""
+
+#: ../../source/sphinxext.rst:458
+#, python-format
+msgid ""
+"The string to represent the IPython input prompt in the generated ReST. "
+"The default is `'In [%d]:'`. This expects that the line numbers are used "
+"in the prompt."
+msgstr ""
+
+#: ../../source/sphinxext.rst:462
+msgid "ipython_promptout"
+msgstr ""
+
+#: ../../source/sphinxext.rst:464
+#, python-format
+msgid ""
+"The string to represent the IPython prompt in the generated ReST. The "
+"default is `'Out [%d]:'`. This expects that the line numbers are used in "
+"the prompt."
+msgstr ""
+
+#: ../../source/sphinxext.rst:470
+msgid "Automatically generated documentation"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:1 of
+msgid "Sphinx directive to support embedded IPython code."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:3 of
+msgid ""
+"IPython provides an extension for `Sphinx <http://www.sphinx-doc.org/>`_ "
+"to highlight and run code."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:6 of
+msgid ""
+"This directive allows pasting of entire interactive IPython sessions, "
+"prompts and all, and their code will actually get re-executed at doc "
+"build time, with all prompts renumbered sequentially. It also allows you "
+"to input code as a pure python input by giving the argument python to the"
+" directive. The output looks like an interactive ipython section."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:12 of
+msgid ""
+"Here is an example of how the IPython directive can **run** python code, "
+"at build time."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:22 of
+msgid ""
+"It supports IPython construct that plain Python does not understand (like"
+" magics):"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:31 of
+msgid "This will also support top-level async when using IPython 7.0+"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:41 of
+msgid ""
+"The namespace will persist across multiple code chucks, Let's define a "
+"variable:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:47 of
+msgid "And now say hello:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:53 of
+msgid ""
+"If the current section raises an exception, you can add the "
+"``:okexcept:`` flag to the current block, otherwise the build will fail."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:62 of
+msgid "IPython Sphinx directive module"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:64 of
+msgid ""
+"To enable this directive, simply list it in your Sphinx ``conf.py`` file "
+"(making sure the directory where you placed it is visible to sphinx, as "
+"is needed for all Sphinx directives). For example, to enable syntax "
+"highlighting and the IPython directive::"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:72 of
+msgid ""
+"The IPython directive outputs code-blocks with the language 'ipython'. So"
+" if you do not have the syntax highlighting extension enabled as well, "
+"then all rendered code-blocks will be uncolored. By default this "
+"directive assumes that your prompts are unchanged IPython ones, but this "
+"can be customized. The configurable options that can be placed in conf.py"
+" are:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:79 of
+msgid "ipython_savefig_dir:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:83 of
+msgid "ipython_rgxin:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:82 of
+msgid ""
+"The compiled regular expression to denote the start of IPython input "
+"lines. The default is ``re.compile('In \\[(\\d+)\\]:\\s?(.*)\\s*')``. You"
+" shouldn't need to change this."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:87 of
+msgid "ipython_warning_is_error: [default to True]"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:86 of
+msgid ""
+"Fail the build if something unexpected happen, for example if a block "
+"raise an exception but does not have the `:okexcept:` flag. The exact "
+"behavior of what is considered strict, may change between the sphinx "
+"directive version."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:91 of
+msgid "ipython_rgxout:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:90 of
+msgid ""
+"The compiled regular expression to denote the start of IPython output "
+"lines. The default is ``re.compile('Out\\[(\\d+)\\]:\\s?(.*)\\s*')``. You"
+" shouldn't need to change this."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:95 of
+msgid "ipython_promptin:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:94 of
+#, python-format
+msgid ""
+"The string to represent the IPython input prompt in the generated ReST. "
+"The default is ``'In [%d]:'``. This expects that the line numbers are "
+"used in the prompt."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:99 of
+msgid "ipython_promptout:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:98 of
+#, python-format
+msgid ""
+"The string to represent the IPython prompt in the generated ReST. The "
+"default is ``'Out [%d]:'``. This expects that the line numbers are used "
+"in the prompt."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:108 of
+msgid "ipython_mplbackend:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:102 of
+msgid ""
+"The string which specifies if the embedded Sphinx shell should import "
+"Matplotlib and set the backend. The value specifies a backend that is "
+"passed to `matplotlib.use()` before any lines in `ipython_execlines` are "
+"executed. If not specified in conf.py, then the default value of 'agg' is"
+" used. To use the IPython directive without matplotlib as a dependency, "
+"set the value to `None`. It may end up that matplotlib is still imported "
+"if the user specifies so in `ipython_execlines` or makes use of the "
+"@savefig pseudo decorator."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:115 of
+msgid "ipython_execlines:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:111 of
+msgid ""
+"A list of strings to be exec'd in the embedded Sphinx shell. Typical "
+"usage is to make certain packages always available. Set this to an empty "
+"list if you wish to have no imports always available. If specified in "
+"``conf.py`` as `None`, then it has the effect of making no imports "
+"available. If omitted from conf.py altogether, then the default value of "
+"['import numpy as np', 'import matplotlib.pyplot as plt'] is used."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:121 of
+msgid "ipython_holdcount"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:118 of
+msgid ""
+"When the @suppress pseudo-decorator is used, the execution count can be "
+"incremented or not. The default behavior is to hold the execution count, "
+"corresponding to a value of `True`. Set this to `False` to increment the "
+"execution count after each suppressed command."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:123 of
+msgid ""
+"As an example, to use the IPython directive when `matplotlib` is not "
+"available, one sets the backend to `None`::"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:128 of
+msgid "An example usage of the directive is:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:140 of
+msgid ""
+"See http://matplotlib.org/sampledoc/ipython_directive.html for additional"
+" documentation."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:146 of
+msgid ""
+"Note: Only one decorator is supported per input. If more than one "
+"decorator is specified, then only the last one is used."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:149 of
+msgid ""
+"In addition to the Pseudo-Decorators/options described at the above link,"
+" several enhancements have been made. The directive will emit a message "
+"to the console at build-time if code-execution resulted in an exception "
+"or warning. You can suppress these on a per-block basis by specifying the"
+" :okexcept: or :okwarning: options:"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:165 of
+msgid "To Do"
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:167 of
+msgid "Turn the ad-hoc test() function into a real test suite."
+msgstr ""
+
+#: IPython.sphinxext.ipython_directive:168 of
+msgid ""
+"Break up ipython-specific functionality from matplotlib stuff into better"
+" separated code."
+msgstr ""
+

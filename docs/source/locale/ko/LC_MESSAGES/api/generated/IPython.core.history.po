@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.history.rst:4
+msgid "Module: :mod:`core.history`"
+msgstr ""
+
+#: IPython.core.history:1 of
+msgid "History related magics and functionality"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.history.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessorBase:1 of
+msgid "Bases: :class:`traitlets.config.configurable.LoggingConfigurable`"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessorBase:1 of
+msgid "An abstract class for History Accessors"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor:1 of
+msgid "Bases: :class:`IPython.core.history.HistoryAccessorBase`"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor:1 of
+msgid "Access the history database without adding to it."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor:3 of
+msgid ""
+"This is intended for use by standalone history tools. IPython shells use "
+"HistoryManager, below, which is a subclass of this."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.__init__:1 of
+msgid "Create a new history accessor."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.__init__
+#: IPython.core.history.HistoryAccessor.get_range
+#: IPython.core.history.HistoryAccessor.get_range_by_str
+#: IPython.core.history.HistoryAccessor.get_session_info
+#: IPython.core.history.HistoryAccessor.get_tail
+#: IPython.core.history.HistoryAccessor.search
+#: IPython.core.history.HistoryManager.get_range
+#: IPython.core.history.HistoryManager.get_session_info
+#: IPython.core.history.HistoryManager.store_inputs
+#: IPython.core.history.HistoryManager.store_output of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.__init__:3 of
+msgid "The name of the profile from which to open history."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.__init__:5 of
+msgid ""
+"Path to an SQLite history database stored by IPython. If specified, "
+"hist_file overrides profile."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.__init__:8 of
+msgid "Config object. hist_file can also be set through this."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_last_session_id:1 of
+msgid "Get the last session ID currently in the database."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_last_session_id:3 of
+msgid ""
+"Within IPython, this should be the same as the value stored in "
+":attr:`HistoryManager.session_number`."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:1
+#: IPython.core.history.HistoryManager.get_range:1 of
+msgid "Retrieve input by session."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:3
+#: IPython.core.history.HistoryAccessor.get_session_info:3 of
+msgid "Session number to retrieve."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:5
+#: IPython.core.history.HistoryManager.get_range:6 of
+msgid "First line to retrieve."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:7
+#: IPython.core.history.HistoryManager.get_range:8 of
+msgid ""
+"End of line range (excluded from output itself). If None, retrieve to the"
+" end of the session."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:10
+#: IPython.core.history.HistoryManager.get_range:11 of
+msgid "If True, return untranslated input"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:12
+#: IPython.core.history.HistoryManager.get_range:13 of
+msgid ""
+"If True, attempt to include output. This will be 'real' Python objects "
+"for the current session, or text reprs from previous sessions if "
+"db_log_output was enabled at the time. Where no output is found, None is "
+"used."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range
+#: IPython.core.history.HistoryAccessor.get_range_by_str
+#: IPython.core.history.HistoryAccessor.get_session_info
+#: IPython.core.history.HistoryAccessor.get_tail
+#: IPython.core.history.HistoryAccessor.search
+#: IPython.core.history.HistoryManager.get_range
+#: IPython.core.history.HistoryManager.get_session_info of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range:18
+#: IPython.core.history.HistoryManager.get_range:19 of
+msgid ""
+"An iterator over the desired lines. Each line is a 3-tuple, either "
+"(session, line, input) if output is False, or (session, line, (input, "
+"output)) if output is True."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range
+#: IPython.core.history.HistoryAccessor.get_range_by_str
+#: IPython.core.history.HistoryAccessor.get_tail
+#: IPython.core.history.HistoryAccessor.search
+#: IPython.core.history.HistoryManager.get_range of
+msgid "Return type"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range_by_str:1 of
+#, python-format
+msgid ""
+"Get lines of history from a string of ranges, as used by magic commands "
+"%hist, %save, %macro, etc."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range_by_str:4 of
+msgid ""
+"A string specifying ranges, e.g. \"5 ~2/1-4\". See :func:`magic_history` "
+"for full details."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range_by_str:7 of
+msgid "As :meth:`get_range`"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_range_by_str:11
+#: IPython.core.history.HistoryAccessor.get_tail:13
+#: IPython.core.history.HistoryAccessor.search:17 of
+msgid "Tuples as :meth:`get_range`"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:1
+#: IPython.core.history.HistoryManager.get_session_info:1 of
+msgid "Get info about a session."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:6
+#: IPython.core.history.HistoryManager.get_session_info:7 of
+msgid ""
+"* **session_id** (*int*) -- Session ID number * **start** (*datetime*) --"
+" Timestamp for the start of the session. * **end** (*datetime*) -- "
+"Timestamp for the end of the session, or None if IPython crashed. * "
+"**num_cmds** (*int*) -- Number of commands run, or None if IPython "
+"crashed. * **remark** (*unicode*) -- A manually set description."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:6
+#: IPython.core.history.HistoryManager.get_session_info:7 of
+msgid "**session_id** (*int*) -- Session ID number"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:7
+#: IPython.core.history.HistoryManager.get_session_info:8 of
+msgid "**start** (*datetime*) -- Timestamp for the start of the session."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:8
+#: IPython.core.history.HistoryManager.get_session_info:9 of
+msgid ""
+"**end** (*datetime*) -- Timestamp for the end of the session, or None if "
+"IPython crashed."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:9
+#: IPython.core.history.HistoryManager.get_session_info:10 of
+msgid ""
+"**num_cmds** (*int*) -- Number of commands run, or None if IPython "
+"crashed."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_session_info:10
+#: IPython.core.history.HistoryManager.get_session_info:11 of
+msgid "**remark** (*unicode*) -- A manually set description."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_tail:1 of
+msgid "Get the last n lines from the history database."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_tail:3 of
+msgid "The number of lines to get"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_tail:5
+#: IPython.core.history.HistoryAccessor.search:8 of
+msgid "See :meth:`get_range`"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.get_tail:7 of
+msgid ""
+"If False (default), n+1 lines are fetched, and the latest one is "
+"discarded. This is intended to be used where the function is called by a "
+"user command, which it should not return."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.init_db:1 of
+msgid "Connect to the database, and create tables if necessary."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.search:1 of
+msgid "Search the database using unix glob-style matching (wildcards * and ?)."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.search:4 of
+msgid "The wildcarded pattern to match when searching"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.search:6 of
+msgid "If True, search the raw input, otherwise, the parsed input"
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.search:10 of
+msgid "If an integer is given, it defines the limit of returned entries."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.search:13 of
+msgid "When it is true, return only unique entries."
+msgstr ""
+
+#: IPython.core.history.HistoryAccessor.writeout_cache:1 of
+msgid ""
+"Overridden by HistoryManager to dump the cache before certain database "
+"lookups."
+msgstr ""
+
+#: IPython.core.history.HistoryManager:1 of
+msgid "Bases: :class:`IPython.core.history.HistoryAccessor`"
+msgstr ""
+
+#: IPython.core.history.HistoryManager:1 of
+msgid "A class to organize all history-related functionality in one place."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.__init__:1 of
+msgid "Create a new history manager associated with a shell instance."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.end_session:1 of
+msgid "Close the database session, filling in the end time and line count."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.get_range:3 of
+msgid ""
+"Session number to retrieve. The current session is 0, and negative "
+"numbers count back from current session, so -1 is previous session."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.get_session_info:3 of
+msgid ""
+"Session number to retrieve. The current session is 0, and negative "
+"numbers count back from current session, so -1 is the previous session."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.name_session:1 of
+msgid "Give the current session a name in the history database."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.new_session:1 of
+msgid "Get a new session number."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.reset:1 of
+msgid ""
+"Clear the session history, releasing all object references, and "
+"optionally open a new session."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_inputs:1 of
+msgid ""
+"Store source and raw input in history and create input cache variables "
+"``_i*``."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_inputs:4 of
+msgid "The prompt number of this input."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_inputs:6 of
+msgid "Python input."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_inputs:8 of
+msgid ""
+"If given, this is the raw input without any IPython transformations "
+"applied to it.  If not given, ``source`` is used."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_output:1 of
+msgid ""
+"If database output logging is enabled, this saves all the outputs from "
+"the indicated prompt number to the database. It's called by run_cell "
+"after code has been executed."
+msgstr ""
+
+#: IPython.core.history.HistoryManager.store_output:5 of
+msgid "The line number from which to save outputs"
+msgstr ""
+
+#: IPython.core.history.HistoryManager.writeout_cache:1 of
+msgid "Write any entries in the cache to the database."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread:1 of
+msgid "Bases: :class:`threading.Thread`"
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread:1 of
+msgid ""
+"This thread takes care of writing history to the database, so that the UI"
+" isn't held up while that happens."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread:4 of
+msgid ""
+"It waits for the HistoryManager's save_flag to be set, then writes out "
+"the history cache. The main thread is responsible for setting the flag "
+"when the cache size reaches a defined threshold."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:1 of
+msgid ""
+"This constructor should always be called with keyword arguments. "
+"Arguments are:"
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:3 of
+msgid ""
+"*group* should be None; reserved for future extension when a ThreadGroup "
+"class is implemented."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:6 of
+msgid ""
+"*target* is the callable object to be invoked by the run() method. "
+"Defaults to None, meaning nothing is called."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:9 of
+msgid ""
+"*name* is the thread name. By default, a unique name is constructed of "
+"the form \"Thread-N\" where N is a small decimal number."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:12 of
+msgid "*args* is the argument tuple for the target invocation. Defaults to ()."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:14 of
+msgid ""
+"*kwargs* is a dictionary of keyword arguments for the target invocation. "
+"Defaults to {}."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.__init__:17 of
+msgid ""
+"If a subclass overrides the constructor, it must make sure to invoke the "
+"base class constructor (Thread.__init__()) before doing anything else to "
+"the thread."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.run:1 of
+msgid "Method representing the thread's activity."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.run:3 of
+msgid ""
+"You may override this method in a subclass. The standard run() method "
+"invokes the callable object passed to the object's constructor as the "
+"target argument, if any, with sequential and keyword arguments taken from"
+" the args and kwargs arguments, respectively."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.stop:1 of
+msgid "This can be called from the main thread to safely stop this thread."
+msgstr ""
+
+#: IPython.core.history.HistorySavingThread.stop:3 of
+msgid ""
+"Note that it does not attempt to write out remaining history before "
+"exiting. That should be done by calling the HistoryManager's end_session "
+"method."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.history.rst:35
+msgid "3 Functions"
+msgstr ""
+
+#: IPython.core.history.needs_sqlite:1 of
+msgid "Decorator: return an empty list in the absence of sqlite."
+msgstr ""
+
+#: IPython.core.history.catch_corrupt_db:1 of
+msgid ""
+"A decorator which wraps HistoryAccessor method calls to catch errors from"
+" a corrupt SQLite database, move the old database out of the way, and "
+"create a new one."
+msgstr ""
+
+#: IPython.core.history.catch_corrupt_db:5 of
+msgid ""
+"We avoid clobbering larger databases because this may be triggered due to"
+" filesystem issues, not just a corrupt file."
+msgstr ""
+
+#: IPython.core.history.extract_hist_ranges:1 of
+msgid "Turn a string of history ranges into 3-tuples of (session, start, stop)."
+msgstr ""
+
+#: IPython.core.history.extract_hist_ranges:4 of
+msgid "Examples"
+msgstr ""
+

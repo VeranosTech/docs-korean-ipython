@@ -295,3 +295,6 @@ modindex_common_prefix = ['IPython.']
 # delete release info to avoid pickling errors from sphinx
 
 del iprelease
+
+locale_dirs = ['locale/']
+gettext_compact = False

@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid "IPython Documentation"
+msgstr ""
+
+#: ../../source/index.rst
+msgid "Release"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "|release|"
+msgstr ""
+
+#: ../../source/index.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "|today|"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid "Welcome to the official IPython documentation"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid ""
+"IPython provides a rich toolkit to help you make the most of using Python"
+" interactively.  Its main components are:"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "A powerful interactive Python shell"
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid ""
+"A `Jupyter <https://jupyter.org/>`_ kernel to work with Python code in "
+"Jupyter notebooks and other interactive frontends."
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid ""
+"The enhanced interactive Python shells and kernel have the following main"
+" features:"
+msgstr ""
+
+#: ../../source/index.rst:31
+msgid "Comprehensive object introspection."
+msgstr ""
+
+#: ../../source/index.rst:33
+msgid "Input history, persistent across sessions."
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid ""
+"Caching of output results during a session with automatically generated "
+"references."
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid ""
+"Extensible tab completion, with support by default for completion of "
+"python variables and keywords, filenames and function keywords."
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid ""
+"Extensible system of 'magic' commands for controlling the environment and"
+" performing many tasks related to IPython or the operating system."
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid ""
+"A rich configuration system with easy switching between different setups "
+"(simpler than changing ``$PYTHONSTARTUP`` environment variables every "
+"time)."
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid "Session logging and reloading."
+msgstr ""
+
+#: ../../source/index.rst:49
+msgid "Extensible syntax processing for special purpose situations."
+msgstr ""
+
+#: ../../source/index.rst:51
+msgid "Access to the system shell with user-extensible alias system."
+msgstr ""
+
+#: ../../source/index.rst:53
+msgid "Easily embeddable in other Python programs and GUIs."
+msgstr ""
+
+#: ../../source/index.rst:55
+msgid "Integrated access to the pdb debugger and the Python profiler."
+msgstr ""
+
+#: ../../source/index.rst:58
+msgid "The Command line interface inherits the above functionality and adds"
+msgstr ""
+
+#: ../../source/index.rst:60
+msgid ""
+"real multi-line editing thanks to `prompt_toolkit <http://python-prompt-"
+"toolkit.readthedocs.io/en/stable/>`_."
+msgstr ""
+
+#: ../../source/index.rst:62
+msgid "syntax highlighting as you type"
+msgstr ""
+
+#: ../../source/index.rst:64
+msgid "integration with command line editor for a better workflow."
+msgstr ""
+
+#: ../../source/index.rst:66
+msgid ""
+"The kernel also has its share of features. When used with a compatible "
+"frontend, it allows:"
+msgstr ""
+
+#: ../../source/index.rst:69
+msgid ""
+"the object to create a rich display of Html, Images, Latex, Sound and "
+"Video."
+msgstr ""
+
+#: ../../source/index.rst:72
+msgid ""
+"interactive widgets with the use of the `ipywidgets "
+"<http://ipywidgets.readthedocs.io/en/stable/>`_ package."
+msgstr ""
+
+#: ../../source/index.rst:75
+msgid ""
+"This documentation will walk you through most of the features of the "
+"IPython command line and kernel, as well as describe the internal "
+"mechanisms in order to improve your Python workflow."
+msgstr ""
+
+#: ../../source/index.rst:79
+msgid ""
+"You can find the table of content for this documentation in the left "
+"sidebar, allowing you to come back to previous sections or skip ahead, if"
+" needed."
+msgstr ""
+
+#: ../../source/index.rst:83
+msgid ""
+"The latest development version is always available from IPython's `GitHub"
+" repository <http://github.com/ipython/ipython>`_."
+msgstr ""
+
+#: ../../source/index.rst:107
+msgid "`Jupyter documentation <http://jupyter.readthedocs.io/en/latest/>`__"
+msgstr ""
+
+#: ../../source/index.rst:108
+msgid ""
+"The Jupyter documentation provides information about the Notebook code "
+"and other Jupyter sub-projects."
+msgstr ""
+
+#: ../../source/index.rst:109
+msgid ""
+"`ipyparallel documentation "
+"<http://ipyparallel.readthedocs.io/en/latest/>`__"
+msgstr ""
+
+#: ../../source/index.rst:110
+msgid "Formerly ``IPython.parallel``."
+msgstr ""
+
+#: ../../source/index.rst:115
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:116
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid ":ref:`search`"
+msgstr ""
+

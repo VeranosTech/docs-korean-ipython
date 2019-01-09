@@ -1,0 +1,1240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:2
+msgid "Terminal IPython options"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:7
+#: ../../source/config/options/terminal.rst:213
+msgid "Execute the given command string."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst
+msgid "trait type"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:9
+#: ../../source/config/options/terminal.rst:42
+#: ../../source/config/options/terminal.rst:49
+#: ../../source/config/options/terminal.rst:78
+#: ../../source/config/options/terminal.rst:112
+#: ../../source/config/options/terminal.rst:119
+#: ../../source/config/options/terminal.rst:153
+#: ../../source/config/options/terminal.rst:163
+#: ../../source/config/options/terminal.rst:170
+#: ../../source/config/options/terminal.rst:177
+#: ../../source/config/options/terminal.rst:198
+#: ../../source/config/options/terminal.rst:215
+#: ../../source/config/options/terminal.rst:267
+#: ../../source/config/options/terminal.rst:273
+#: ../../source/config/options/terminal.rst:279
+#: ../../source/config/options/terminal.rst:319
+#: ../../source/config/options/terminal.rst:325
+#: ../../source/config/options/terminal.rst:332
+#: ../../source/config/options/terminal.rst:353
+#: ../../source/config/options/terminal.rst:366
+#: ../../source/config/options/terminal.rst:458
+#: ../../source/config/options/terminal.rst:465
+#: ../../source/config/options/terminal.rst:564
+#: ../../source/config/options/terminal.rst:571
+#: ../../source/config/options/terminal.rst:578
+#: ../../source/config/options/terminal.rst:608
+#: ../../source/config/options/terminal.rst:615
+#: ../../source/config/options/terminal.rst:622
+#: ../../source/config/options/terminal.rst:732
+#: ../../source/config/options/terminal.rst:739
+#: ../../source/config/options/terminal.rst:829
+#: ../../source/config/options/terminal.rst:836
+#: ../../source/config/options/terminal.rst:893
+#: ../../source/config/options/terminal.rst:900
+#: ../../source/config/options/terminal.rst:906
+#: ../../source/config/options/terminal.rst:941
+#: ../../source/config/options/terminal.rst:948
+#: ../../source/config/options/terminal.rst:955
+#: ../../source/config/options/terminal.rst:1102
+#: ../../source/config/options/terminal.rst:1157
+#: ../../source/config/options/terminal.rst:1164
+#: ../../source/config/options/terminal.rst:1224
+msgid "Unicode"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst
+msgid "CLI option"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:10
+msgid "``-c``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:14
+#: ../../source/config/options/terminal.rst:237
+msgid ""
+"Run the file referenced by the PYTHONSTARTUP environment variable at "
+"IPython startup."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:17
+#: ../../source/config/options/terminal.rst:63
+#: ../../source/config/options/terminal.rst:96
+#: ../../source/config/options/terminal.rst:103
+#: ../../source/config/options/terminal.rst:134
+#: ../../source/config/options/terminal.rst:144
+#: ../../source/config/options/terminal.rst:191
+#: ../../source/config/options/terminal.rst:208
+#: ../../source/config/options/terminal.rst:224
+#: ../../source/config/options/terminal.rst:231
+#: ../../source/config/options/terminal.rst:240
+#: ../../source/config/options/terminal.rst:287
+#: ../../source/config/options/terminal.rst:302
+#: ../../source/config/options/terminal.rst:359
+#: ../../source/config/options/terminal.rst:383
+#: ../../source/config/options/terminal.rst:390
+#: ../../source/config/options/terminal.rst:398
+#: ../../source/config/options/terminal.rst:407
+#: ../../source/config/options/terminal.rst:442
+#: ../../source/config/options/terminal.rst:450
+#: ../../source/config/options/terminal.rst:486
+#: ../../source/config/options/terminal.rst:502
+#: ../../source/config/options/terminal.rst:519
+#: ../../source/config/options/terminal.rst:526
+#: ../../source/config/options/terminal.rst:534
+#: ../../source/config/options/terminal.rst:542
+#: ../../source/config/options/terminal.rst:586
+#: ../../source/config/options/terminal.rst:600
+#: ../../source/config/options/terminal.rst:629
+#: ../../source/config/options/terminal.rst:636
+#: ../../source/config/options/terminal.rst:662
+#: ../../source/config/options/terminal.rst:670
+#: ../../source/config/options/terminal.rst:677
+#: ../../source/config/options/terminal.rst:718
+#: ../../source/config/options/terminal.rst:725
+#: ../../source/config/options/terminal.rst:759
+#: ../../source/config/options/terminal.rst:775
+#: ../../source/config/options/terminal.rst:783
+#: ../../source/config/options/terminal.rst:800
+#: ../../source/config/options/terminal.rst:807
+#: ../../source/config/options/terminal.rst:822
+#: ../../source/config/options/terminal.rst:844
+#: ../../source/config/options/terminal.rst:851
+#: ../../source/config/options/terminal.rst:858
+#: ../../source/config/options/terminal.rst:913
+#: ../../source/config/options/terminal.rst:920
+#: ../../source/config/options/terminal.rst:934
+#: ../../source/config/options/terminal.rst:969
+#: ../../source/config/options/terminal.rst:976
+#: ../../source/config/options/terminal.rst:1002
+#: ../../source/config/options/terminal.rst:1015
+#: ../../source/config/options/terminal.rst:1031
+#: ../../source/config/options/terminal.rst:1038
+#: ../../source/config/options/terminal.rst:1046
+#: ../../source/config/options/terminal.rst:1053
+#: ../../source/config/options/terminal.rst:1082
+#: ../../source/config/options/terminal.rst:1125
+#: ../../source/config/options/terminal.rst:1137
+#: ../../source/config/options/terminal.rst:1177
+#: ../../source/config/options/terminal.rst:1231
+#: ../../source/config/options/terminal.rst:1251
+#: ../../source/config/options/terminal.rst:1258
+#: ../../source/config/options/terminal.rst:1269
+#: ../../source/config/options/terminal.rst:1276
+#: ../../source/config/options/terminal.rst:1287
+#: ../../source/config/options/terminal.rst:1302
+#: ../../source/config/options/terminal.rst:1312
+#: ../../source/config/options/terminal.rst:1356
+msgid "Bool"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst
+msgid "default"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:18
+#: ../../source/config/options/terminal.rst:64
+#: ../../source/config/options/terminal.rst:97
+#: ../../source/config/options/terminal.rst:232
+#: ../../source/config/options/terminal.rst:241
+#: ../../source/config/options/terminal.rst:303
+#: ../../source/config/options/terminal.rst:384
+#: ../../source/config/options/terminal.rst:443
+#: ../../source/config/options/terminal.rst:451
+#: ../../source/config/options/terminal.rst:487
+#: ../../source/config/options/terminal.rst:630
+#: ../../source/config/options/terminal.rst:663
+#: ../../source/config/options/terminal.rst:678
+#: ../../source/config/options/terminal.rst:719
+#: ../../source/config/options/terminal.rst:726
+#: ../../source/config/options/terminal.rst:760
+#: ../../source/config/options/terminal.rst:776
+#: ../../source/config/options/terminal.rst:859
+#: ../../source/config/options/terminal.rst:970
+#: ../../source/config/options/terminal.rst:1003
+#: ../../source/config/options/terminal.rst:1039
+#: ../../source/config/options/terminal.rst:1054
+#: ../../source/config/options/terminal.rst:1083
+#: ../../source/config/options/terminal.rst:1138
+#: ../../source/config/options/terminal.rst:1178
+#: ../../source/config/options/terminal.rst:1232
+#: ../../source/config/options/terminal.rst:1259
+#: ../../source/config/options/terminal.rst:1277
+#: ../../source/config/options/terminal.rst:1313
+msgid "``True``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:22
+#: ../../source/config/options/terminal.rst:245
+msgid "List of files to run at IPython startup."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:24
+#: ../../source/config/options/terminal.rst:30
+#: ../../source/config/options/terminal.rst:36
+#: ../../source/config/options/terminal.rst:247
+#: ../../source/config/options/terminal.rst:253
+#: ../../source/config/options/terminal.rst:259
+#: ../../source/config/options/terminal.rst:423
+#: ../../source/config/options/terminal.rst:700
+#: ../../source/config/options/terminal.rst:1340
+msgid "List"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:28
+#: ../../source/config/options/terminal.rst:251
+msgid "lines of code to run at IPython startup."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:34
+#: ../../source/config/options/terminal.rst:257
+msgid "A list of dotted module names of IPython extensions to load."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:40
+#: ../../source/config/options/terminal.rst:271
+msgid "dotted module name of an IPython extension to load."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:43
+msgid "``--ext``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:47
+#: ../../source/config/options/terminal.rst:277
+msgid "A file to be run"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:53
+#: ../../source/config/options/terminal.rst:293
+msgid ""
+"Enable GUI event loop integration with any of ('glut', 'gtk', 'gtk2', "
+"'gtk3', 'osx', 'pyglet', 'qt', 'qt4', 'qt5', 'tk', 'wx', 'gtk2', 'qt4')."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst
+msgid "options"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:55
+#: ../../source/config/options/terminal.rst:295
+msgid ""
+"``'glut'``, ``'gtk'``, ``'gtk2'``, ``'gtk3'``, ``'osx'``, ``'pyglet'``, "
+"``'qt'``, ``'qt4'``, ``'qt5'``, ``'tk'``, ``'wx'``, ``'gtk2'``, ``'qt4'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:56
+msgid "``--gui``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:60
+#: ../../source/config/options/terminal.rst:299
+msgid ""
+"Should variables loaded at startup (by startup files, exec_lines, etc.) "
+"be hidden from tools like %who?"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:68
+#: ../../source/config/options/terminal.rst:344
+msgid ""
+"Configure matplotlib for interactive use with the default matplotlib "
+"backend."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:71
+#: ../../source/config/options/terminal.rst:86
+#: ../../source/config/options/terminal.rst:347
+#: ../../source/config/options/terminal.rst:374
+msgid ""
+"``'auto'``, ``'agg'``, ``'gtk'``, ``'gtk3'``, ``'inline'``, ``'ipympl'``,"
+" ``'nbagg'``, ``'notebook'``, ``'osx'``, ``'pdf'``, ``'ps'``, ``'qt'``, "
+"``'qt4'``, ``'qt5'``, ``'svg'``, ``'tk'``, ``'widget'``, ``'wx'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:72
+msgid "``--matplotlib``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:76
+#: ../../source/config/options/terminal.rst:351
+msgid "Run the module as a script."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:79
+msgid "``-m``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:83
+#: ../../source/config/options/terminal.rst:371
+msgid ""
+"Pre-load matplotlib and numpy for interactive use, selecting a particular"
+" matplotlib backend and loop integration."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:87
+msgid "``--pylab``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:91
+#: ../../source/config/options/terminal.rst:378
+msgid ""
+"If true, IPython will populate the user namespace with numpy, pylab, etc."
+" and an ``import *`` is done from numpy and pylab, when using pylab mode."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:94
+#: ../../source/config/options/terminal.rst:381
+msgid ""
+"When False, pylab mode should not import any names into the user "
+"namespace."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:101
+#: ../../source/config/options/terminal.rst:396
+msgid "Reraise exceptions encountered loading IPython extensions?"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:104
+#: ../../source/config/options/terminal.rst:135
+#: ../../source/config/options/terminal.rst:145
+#: ../../source/config/options/terminal.rst:192
+#: ../../source/config/options/terminal.rst:209
+#: ../../source/config/options/terminal.rst:225
+#: ../../source/config/options/terminal.rst:288
+#: ../../source/config/options/terminal.rst:360
+#: ../../source/config/options/terminal.rst:391
+#: ../../source/config/options/terminal.rst:399
+#: ../../source/config/options/terminal.rst:408
+#: ../../source/config/options/terminal.rst:503
+#: ../../source/config/options/terminal.rst:520
+#: ../../source/config/options/terminal.rst:527
+#: ../../source/config/options/terminal.rst:535
+#: ../../source/config/options/terminal.rst:543
+#: ../../source/config/options/terminal.rst:587
+#: ../../source/config/options/terminal.rst:601
+#: ../../source/config/options/terminal.rst:637
+#: ../../source/config/options/terminal.rst:671
+#: ../../source/config/options/terminal.rst:784
+#: ../../source/config/options/terminal.rst:801
+#: ../../source/config/options/terminal.rst:808
+#: ../../source/config/options/terminal.rst:823
+#: ../../source/config/options/terminal.rst:845
+#: ../../source/config/options/terminal.rst:852
+#: ../../source/config/options/terminal.rst:914
+#: ../../source/config/options/terminal.rst:921
+#: ../../source/config/options/terminal.rst:935
+#: ../../source/config/options/terminal.rst:977
+#: ../../source/config/options/terminal.rst:1016
+#: ../../source/config/options/terminal.rst:1032
+#: ../../source/config/options/terminal.rst:1047
+#: ../../source/config/options/terminal.rst:1126
+#: ../../source/config/options/terminal.rst:1252
+#: ../../source/config/options/terminal.rst:1270
+#: ../../source/config/options/terminal.rst:1288
+#: ../../source/config/options/terminal.rst:1303
+#: ../../source/config/options/terminal.rst:1357
+msgid "``False``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:110
+#: ../../source/config/options/terminal.rst:168
+#: ../../source/config/options/terminal.rst:323
+#, python-format
+msgid "The date format used by logging formatters for %(asctime)s"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:113
+#: ../../source/config/options/terminal.rst:171
+#: ../../source/config/options/terminal.rst:326
+#, python-format
+msgid "``'%Y-%m-%d %H:%M:%S'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:117
+#: ../../source/config/options/terminal.rst:175
+#: ../../source/config/options/terminal.rst:330
+msgid "The Logging format template"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:120
+#: ../../source/config/options/terminal.rst:178
+#: ../../source/config/options/terminal.rst:333
+#, python-format
+msgid "``'[%(name)s]%(highlevel)s %(message)s'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:124
+#: ../../source/config/options/terminal.rst:182
+#: ../../source/config/options/terminal.rst:337
+msgid "Set the log level by value or name."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:126
+#: ../../source/config/options/terminal.rst:184
+#: ../../source/config/options/terminal.rst:339
+msgid ""
+"``0``, ``10``, ``20``, ``30``, ``40``, ``50``, ``'DEBUG'``, ``'INFO'``, "
+"``'WARN'``, ``'ERROR'``, ``'CRITICAL'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:127
+#: ../../source/config/options/terminal.rst:185
+#: ../../source/config/options/terminal.rst:340
+msgid "``30``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:128
+msgid "``--log-level``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:132
+msgid "Whether to create profile dir if it doesn't exist"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:139
+#: ../../source/config/options/terminal.rst:219
+msgid ""
+"Whether to install the default config files into the profile dir. If a "
+"new profile is being created, and IPython contains config files for that "
+"profile, then they will be staged into the new directory.  Otherwise, "
+"default config files will be automatically generated."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:149
+#: ../../source/config/options/terminal.rst:263
+msgid "Path to an extra config file to load."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:151
+#: ../../source/config/options/terminal.rst:265
+msgid ""
+"If specified, load this config file in addition to any other IPython "
+"config."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:154
+msgid "``--config``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:158
+#: ../../source/config/options/terminal.rst:314
+msgid ""
+"The name of the IPython directory. This directory is used for logging "
+"configuration (through profiles), history storage, etc. The default is "
+"usually $HOME/.ipython. This option can also be specified through the "
+"environment variable IPYTHONDIR."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:164
+msgid "``--ipython-dir``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:189
+#: ../../source/config/options/terminal.rst:357
+msgid "Whether to overwrite existing config files when copying"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:196
+#: ../../source/config/options/terminal.rst:364
+msgid "The IPython profile to use."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:199
+#: ../../source/config/options/terminal.rst:367
+msgid "``'default'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:200
+msgid "``--profile``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:204
+#: ../../source/config/options/terminal.rst:403
+msgid ""
+"Create a massive crash report when IPython encounters what may be an "
+"internal error.  The default is to append a short message to the usual "
+"traceback"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:229
+msgid "Whether to display a banner upon starting IPython."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:233
+msgid "``--banner``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:283
+msgid ""
+"If a command or file is given via the command-line, e.g. 'ipython "
+"foo.py', start an interactive shell after executing the file or command."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:289
+msgid "``-i``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:307
+msgid ""
+"Class to use to instantiate the TerminalInteractiveShell object. Useful "
+"for custom Frontends"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:309
+#: ../../source/config/options/terminal.rst:962
+msgid "Type"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:310
+msgid "``'IPython.terminal.interactiveshell.TerminalInteractiveShell'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:388
+msgid "Start IPython quickly by skipping the loading of config files."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:392
+msgid "``--quick``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:412
+#: ../../source/config/options/terminal.rst:689
+msgid ""
+"'all', 'last', 'last_expr' or 'none', specifying which nodes should be "
+"run interactively (displaying output from expressions)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:415
+#: ../../source/config/options/terminal.rst:692
+msgid "``'all'``, ``'last'``, ``'last_expr'``, ``'none'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:416
+#: ../../source/config/options/terminal.rst:693
+msgid "``'last_expr'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:420
+#: ../../source/config/options/terminal.rst:697
+msgid ""
+"A list of ast.NodeTransformer subclass instances, which will be applied "
+"to user input before code is run."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:427
+#: ../../source/config/options/terminal.rst:704
+msgid ""
+"Make IPython automatically call any callable object even if you didn't "
+"type explicit parentheses. For example, 'str 43' becomes 'str(43)' "
+"automatically. The value can be '0' to disable the feature, '1' for "
+"'smart' autocall, where it is not applied if there are no more arguments "
+"on the line, and '2' for 'full' autocall, where all callable objects are "
+"automatically called (even if no arguments are present)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:434
+#: ../../source/config/options/terminal.rst:593
+#: ../../source/config/options/terminal.rst:711
+#: ../../source/config/options/terminal.rst:927
+#: ../../source/config/options/terminal.rst:1327
+msgid "``0``, ``1``, ``2``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:435
+#: ../../source/config/options/terminal.rst:594
+#: ../../source/config/options/terminal.rst:712
+#: ../../source/config/options/terminal.rst:928
+#: ../../source/config/options/terminal.rst:1119
+msgid "``0``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:436
+msgid "``--autocall``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:440
+#: ../../source/config/options/terminal.rst:716
+msgid "Autoindent IPython code entered interactively."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:444
+msgid "``--autoindent``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:448
+#: ../../source/config/options/terminal.rst:723
+msgid "Enable magic commands to be called without the leading %."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:452
+msgid "``--automagic``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:456
+#: ../../source/config/options/terminal.rst:730
+msgid "The part of the banner to be printed before the profile"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:459
+#: ../../source/config/options/terminal.rst:733
+msgid "``'Python 3.6.6 |Anaconda custom (64-bit)| (default, Jun 28 201...``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:463
+#: ../../source/config/options/terminal.rst:737
+msgid "The part of the banner to be printed after the profile"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:469
+#: ../../source/config/options/terminal.rst:743
+msgid ""
+"Set the size of the output cache.  The default is 1000, you can change it"
+" permanently in your config file.  Setting it to 0 completely disables "
+"the caching system, and the minimum value accepted is 20 (if you provide "
+"a value less than 20, it is reset to 0 and a warning is issued).  This "
+"limit is defined because otherwise you'll spend more time re-flushing a "
+"too small cache than working"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:476
+#: ../../source/config/options/terminal.rst:549
+#: ../../source/config/options/terminal.rst:557
+#: ../../source/config/options/terminal.rst:750
+#: ../../source/config/options/terminal.rst:878
+#: ../../source/config/options/terminal.rst:886
+#: ../../source/config/options/terminal.rst:1023
+#: ../../source/config/options/terminal.rst:1118
+#: ../../source/config/options/terminal.rst:1210
+#: ../../source/config/options/terminal.rst:1217
+msgid "Int"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:477
+#: ../../source/config/options/terminal.rst:558
+#: ../../source/config/options/terminal.rst:751
+#: ../../source/config/options/terminal.rst:887
+#: ../../source/config/options/terminal.rst:1211
+msgid "``1000``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:478
+msgid "``--cache-size``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:482
+#: ../../source/config/options/terminal.rst:755
+msgid ""
+"Use colors for displaying information about objects. Because this "
+"information is passed through a pager (like 'less'), and some pagers get "
+"confused with color codes, this capability can be turned off."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:488
+msgid "``--color-info``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:492
+#: ../../source/config/options/terminal.rst:764
+msgid "Set the color scheme (NoColor, Neutral, Linux, or LightBG)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:494
+#: ../../source/config/options/terminal.rst:766
+msgid "``'Neutral'``, ``'NoColor'``, ``'LightBG'``, ``'Linux'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:495
+#: ../../source/config/options/terminal.rst:767
+msgid "``'Neutral'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:496
+msgid "``--colors``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:500
+#: ../../source/config/options/terminal.rst:562
+#: ../../source/config/options/terminal.rst:591
+#: ../../source/config/options/terminal.rst:634
+#: ../../source/config/options/terminal.rst:641
+#: ../../source/config/options/terminal.rst:648
+#: ../../source/config/options/terminal.rst:654
+#: ../../source/config/options/terminal.rst:675
+#: ../../source/config/options/terminal.rst:682
+#: ../../source/config/options/terminal.rst:781
+#: ../../source/config/options/terminal.rst:891
+#: ../../source/config/options/terminal.rst:925
+#: ../../source/config/options/terminal.rst:974
+#: ../../source/config/options/terminal.rst:981
+#: ../../source/config/options/terminal.rst:988
+#: ../../source/config/options/terminal.rst:994
+#: ../../source/config/options/terminal.rst:1051
+#: ../../source/config/options/terminal.rst:1058
+#: ../../source/config/options/terminal.rst:1169
+#: ../../source/config/options/terminal.rst:1175
+#: ../../source/config/options/terminal.rst:1182
+#: ../../source/config/options/terminal.rst:1188
+#: ../../source/config/options/terminal.rst:1194
+#: ../../source/config/options/terminal.rst:1200
+#: ../../source/config/options/terminal.rst:1215
+#: ../../source/config/options/terminal.rst:1222
+#: ../../source/config/options/terminal.rst:1229
+#: ../../source/config/options/terminal.rst:1237
+#: ../../source/config/options/terminal.rst:1243
+#: ../../source/config/options/terminal.rst:1249
+msgid "No description"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:507
+#: ../../source/config/options/terminal.rst:788
+msgid "**Deprecated**"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:509
+#: ../../source/config/options/terminal.rst:790
+msgid "Will be removed in IPython 6.0"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:511
+#: ../../source/config/options/terminal.rst:792
+msgid ""
+"Enable deep (recursive) reloading by default. IPython can use the "
+"deep_reload module which reloads changes in modules recursively (it "
+"replaces the reload() function, so you don't need to change anything to "
+"use it). `deep_reload` forces a full reload of modules whose code may "
+"have changed, which the default reload() function does not.  When "
+"deep_reload is off, IPython will use the normal reload(), but deep_reload"
+" will still be available as dreload()."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:524
+#: ../../source/config/options/terminal.rst:805
+msgid "Don't call post-execute functions that have failed in the past."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:531
+#: ../../source/config/options/terminal.rst:819
+msgid ""
+"If True, anything that would be passed to the pager will be displayed as "
+"regular output instead."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:539
+#: ../../source/config/options/terminal.rst:841
+msgid ""
+"(Provisional API) enables html representation in mime bundles sent to "
+"pagers."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:547
+#: ../../source/config/options/terminal.rst:876
+msgid "Total length of command history"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:550
+#: ../../source/config/options/terminal.rst:879
+msgid "``10000``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:554
+#: ../../source/config/options/terminal.rst:883
+msgid ""
+"The number of saved history entries to be loaded into the history buffer "
+"at startup."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:568
+#: ../../source/config/options/terminal.rst:897
+msgid ""
+"Start logging to the given file in append mode. Use `logfile` to specify "
+"a log file to **overwrite** logs to."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:572
+msgid "``--logappend``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:576
+#: ../../source/config/options/terminal.rst:904
+msgid "The name of the logfile to use."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:579
+msgid "``--logfile``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:583
+#: ../../source/config/options/terminal.rst:910
+msgid ""
+"Start logging to the default log file in overwrite mode. Use `logappend` "
+"to specify a log file to **append** logs to."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:598
+#: ../../source/config/options/terminal.rst:932
+msgid "Automatically call the pdb debugger after every exception."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:602
+msgid "``--pdb``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:606
+#: ../../source/config/options/terminal.rst:613
+#: ../../source/config/options/terminal.rst:620
+#: ../../source/config/options/terminal.rst:627
+#: ../../source/config/options/terminal.rst:939
+#: ../../source/config/options/terminal.rst:946
+#: ../../source/config/options/terminal.rst:953
+#: ../../source/config/options/terminal.rst:967
+msgid ""
+"Deprecated since IPython 4.0 and ignored since 5.0, set "
+"TerminalInteractiveShell.prompts object directly."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:609
+#: ../../source/config/options/terminal.rst:942
+msgid "``'In [\\\\#]: '``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:616
+#: ../../source/config/options/terminal.rst:949
+msgid "``'   .\\\\D.: '``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:623
+#: ../../source/config/options/terminal.rst:956
+msgid "``'Out[\\\\#]: '``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:643
+#: ../../source/config/options/terminal.rst:650
+#: ../../source/config/options/terminal.rst:656
+#: ../../source/config/options/terminal.rst:983
+#: ../../source/config/options/terminal.rst:990
+#: ../../source/config/options/terminal.rst:996
+msgid "SeparateUnicode"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:644
+#: ../../source/config/options/terminal.rst:984
+#: ../../source/config/options/terminal.rst:1225
+msgid "``'\\\\n'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:660
+#: ../../source/config/options/terminal.rst:1000
+msgid "Show rewritten input, e.g. for autocall."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:667
+#: ../../source/config/options/terminal.rst:1028
+msgid ""
+"Enables rich html representation of docstrings. (This requires the "
+"docrepr module)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:684
+#: ../../source/config/options/terminal.rst:1060
+msgid "``'Context'``, ``'Plain'``, ``'Verbose'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:685
+#: ../../source/config/options/terminal.rst:1061
+msgid "``'Context'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:771
+msgid ""
+"Set to confirm when you try to exit IPython with an EOF (Control-D in "
+"Unix, Control-Z/Enter in Windows). By typing 'exit' or 'quit', you can "
+"force a direct exit without any confirmation."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:777
+msgid "``--confirm-exit``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:812
+msgid ""
+"Options for displaying tab completions, 'column', 'multicolumn', and "
+"'readlinelike'. These options are for `prompt_toolkit`, see "
+"`prompt_toolkit` documentation for more information."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:814
+msgid "``'column'``, ``'multicolumn'``, ``'readlinelike'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:815
+msgid "``'multicolumn'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:827
+msgid "Shortcut style to use at the prompt. 'vi' or 'emacs'."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:830
+msgid "``'emacs'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:834
+msgid "Set the editor used by IPython (default to $EDITOR/vi/notepad)."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:837
+msgid "``'vi'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:849
+msgid ""
+"Enable vi (v) or Emacs (C-X C-E) shortcuts to open an external editor. "
+"This is in addition to the F2 binding, which is always enabled."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:856
+msgid "Highlight matching brackets."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:863
+msgid ""
+"The name or class of a Pygments style to use for syntax highlighting. To "
+"see available styles, run `pygmentize -L styles`."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:866
+msgid "Union"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:870
+msgid "Override highlighting format for specific tokens"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:872
+#: ../../source/config/options/terminal.rst:1071
+#: ../../source/config/options/terminal.rst:1111
+#: ../../source/config/options/terminal.rst:1171
+#: ../../source/config/options/terminal.rst:1184
+#: ../../source/config/options/terminal.rst:1190
+#: ../../source/config/options/terminal.rst:1196
+#: ../../source/config/options/terminal.rst:1239
+#: ../../source/config/options/terminal.rst:1245
+#: ../../source/config/options/terminal.rst:1349
+msgid "Dict"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:918
+msgid "Enable mouse support in the prompt"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:960
+msgid "Class used to generate Prompt token for prompt_toolkit"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:963
+msgid "``'IPython.terminal.prompts.Prompts'``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1007
+msgid "Use `raw_input` for the REPL, without completion and prompt colors."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1009
+msgid ""
+"Useful when controlling IPython as a subprocess, and piping "
+"STDIN/OUT/ERR. Known usage are: IPython own testing machinery, and emacs "
+"inferior-shell integration through elpy."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1012
+msgid ""
+"This mode default to `True` if the `IPY_TEST_SIMPLE_PROMPT` environment "
+"variable is set, or the current terminal is not a tty."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1017
+msgid "``--simple-prompt``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1021
+msgid ""
+"Number of line at the bottom of the screen to reserve for the completion "
+"menu"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1024
+msgid "``6``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1036
+msgid "Automatically set the terminal title"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1040
+msgid "``--term-title``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1044
+msgid ""
+"Use 24bit colors instead of 256 colors in prompt highlighting. If your "
+"terminal supports true color, the following command should print "
+"'TRUECOLOR' in orange: printf "
+"\"\\x1b[38;2;255;100;0mTRUECOLOR\\x1b[0m\\n\""
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1066
+#: ../../source/config/options/terminal.rst:1106
+msgid "Options for configuring the SQLite connection"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1068
+#: ../../source/config/options/terminal.rst:1108
+msgid ""
+"These options are passed as keyword args to sqlite3.connect when "
+"establishing database conenctions."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1075
+#: ../../source/config/options/terminal.rst:1130
+msgid "enable the SQLite history"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1077
+#: ../../source/config/options/terminal.rst:1132
+msgid ""
+"set enabled=False to disable the SQLite history, in which case there will"
+" be no stored history, no SQLite connection, and no background saving "
+"thread.  This may be necessary in some threaded environments where "
+"IPython is embedded."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1087
+#: ../../source/config/options/terminal.rst:1142
+msgid "Path to file to use for SQLite history database."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1089
+#: ../../source/config/options/terminal.rst:1144
+msgid ""
+"By default, IPython will put the history database in the IPython profile "
+"directory.  If you would rather share one history among profiles, you can"
+" set this value in each, so that they are consistent."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1093
+#: ../../source/config/options/terminal.rst:1148
+msgid ""
+"Due to an issue with fcntl, SQLite is known to misbehave on some NFS "
+"mounts.  If you see IPython hanging, try setting this to something on a "
+"local disk, e.g::"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1099
+#: ../../source/config/options/terminal.rst:1154
+msgid ""
+"you can also use the specific value `:memory:` (including the colon at "
+"both end but not the back ticks), to avoid creating an history file."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1115
+msgid ""
+"Write to database every x commands (higher values save disk access & "
+"power). Values of 1 or less effectively disable caching."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1123
+msgid "Should the history database include output? (default: no)"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1161
+msgid ""
+"Set the profile location directly. This overrides the logic used by the "
+"`profile` option."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1165
+msgid "``--profile-dir``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1202
+msgid "CUnicode"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1206
+msgid "Truncate large collections (lists, dicts, tuples, sets) to this size."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1208
+msgid "Set to 0 to disable truncation."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1218
+msgid "``79``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1233
+msgid "``--pprint``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1256
+#: ../../source/config/options/terminal.rst:1274
+msgid ""
+"Enable unicode completions, e.g. \\alpha<tab> . Includes completion of "
+"latex commands, unicode names, and expanding unicode characters back to "
+"latex commands."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1263
+#: ../../source/config/options/terminal.rst:1281
+msgid ""
+"Activate greedy completion PENDING DEPRECTION. this is now mostly taken "
+"care of with Jedi."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1266
+#: ../../source/config/options/terminal.rst:1284
+msgid ""
+"This will enable completion on elements of lists, results of function "
+"calls, etc., but can be unsafe because the code is actually evaluated on "
+"TAB."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1292
+msgid "DEPRECATED as of version 5.0."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1294
+msgid "Instruct the completer to use __all__ for the completion"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1296
+#: ../../source/config/options/terminal.rst:1319
+msgid "Specifically, when completing on ``object.<tab>``."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1298
+msgid "When True: only those names in obj.__all__ will be included."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1300
+msgid "When False [default]: the __all__ attribute is ignored"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1307
+msgid "Whether to merge completion results into a single list"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1309
+msgid ""
+"If False, only the completion results from the first non-empty completer "
+"will be returned."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1317
+msgid "Instruct the completer to omit private method names"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1321
+msgid "When 2 [default]: all names that start with '_' will be excluded."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1323
+msgid "When 1: all 'magic' names (``__foo__``) will be excluded."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1325
+msgid "When 0: nothing will be excluded."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1328
+msgid "``2``"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1333
+msgid "Extra script cell magics to define"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1335
+#, python-format
+msgid "This generates simple wrappers of `%%script foo` as `%%foo`."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1337
+msgid ""
+"If you want to add script magics that aren't on your path, specify them "
+"in script_paths"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1344
+msgid ""
+"Dict mapping short 'ruby' names to full paths, such as "
+"'/opt/secret/bin/ruby'"
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1346
+msgid ""
+"Only necessary for items in script_magics where the default path will not"
+" find the right interpreter."
+msgstr ""
+
+#: ../../source/config/options/terminal.rst:1353
+#, python-format
+msgid ""
+"If True, any %store-d variables will be automatically restored when "
+"IPython starts."
+msgstr ""
+

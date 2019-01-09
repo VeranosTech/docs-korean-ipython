@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:5
+msgid "IPython as a system shell"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:10
+msgid "Overview"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:12
+msgid ""
+"It is possible to adapt IPython for system shell usage. In the past, "
+"IPython shipped a special 'sh' profile for this purpose, but it had been "
+"quarantined since 0.11 release, and in 1.0 it was removed altogether. "
+"Nevertheless, much of this section relies on machinery which does not "
+"require a custom profile."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:17
+msgid ""
+"You can set up your own 'sh' :ref:`profile <Profiles>` to be different "
+"from the default profile such that:"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:20
+msgid "Prompt shows the current directory (see `Prompt customization`_)"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:21
+#, python-format
+msgid ""
+"Make system commands directly available (in alias table) by running the "
+"``%rehashx`` magic. If you install new programs along your PATH, you "
+"might want to run ``%rehashx`` to update the alias table"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:24
+msgid "turn ``%autocall`` to full mode"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:28
+msgid "Environment variables"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:30
+#, python-format
+msgid ""
+"Rather than manipulating os.environ directly, you may like to use the "
+"magic `%env` command.  With no arguments, this displays all environment "
+"variables and values.  To get the value of a specific variable, use `%env"
+" var`.  To set the value of a specific variable, use `%env foo bar`, "
+"`%env foo=bar`.  By default values are considered to be strings so "
+"quoting them is unnecessary. However, Python variables are expanded as "
+"usual in the magic command, so `%env foo=$bar` means \"set the "
+"environment variable foo to the value of the Python variable `bar`\"."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:40
+msgid "Aliases"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:42
+#, python-format
+msgid ""
+"Once you run ``%rehashx``, all of your $PATH has been loaded as IPython "
+"aliases, so you should be able to type any normal system command and have"
+" it executed. See ``%alias?``  and ``%unalias?`` for details on the alias"
+" facilities. See also ``%rehashx?`` for details on the mechanism used to "
+"load $PATH."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:49
+msgid "Directory management"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:51
+msgid ""
+"Since each command passed by IPython to the underlying system is executed"
+" in a subshell which exits immediately, you can NOT use !cd to navigate "
+"the filesystem."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:55
+#, python-format
+msgid ""
+"IPython provides its own builtin ``%cd`` magic command to move in the "
+"filesystem (the % is not required with automagic on). It also maintains a"
+" list of visited directories (use ``%dhist`` to see it) and allows direct"
+" switching to any of them. Type ``cd?`` for more details."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:60
+#, python-format
+msgid ""
+"``%pushd``, ``%popd`` and ``%dirs`` are provided for directory stack "
+"handling."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:64
+msgid "Prompt customization"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:66
+msgid "See :ref:`custom_prompts`."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:72
+msgid "String lists"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:74
+msgid ""
+"String lists (IPython.utils.text.SList) are handy way to process output "
+"from system commands. They are produced by ``var = !cmd`` syntax."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:77
+msgid "First, we acquire the output of 'ls -l'::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:90
+msgid ""
+"Now, let's take a look at the contents of 'lines' (the first number is "
+"the list element number)::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:105
+msgid "Now, let's filter out the 'embed' lines::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:118
+msgid "Now, we want strings having just file names and permissions::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:130
+msgid "Note how the line with 'total' does not raise IndexError."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:132
+msgid ""
+"If you want to split these (yielding lists), call fields() without "
+"arguments::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:144
+msgid ""
+"If you want to pass these separated with spaces to a command (typical for"
+" lists if files), use the .s property::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:154
+msgid ""
+"SLists are inherited from normal Python lists, so every list method is "
+"available::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:161
+msgid "Real world example: remove all files outside version control"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:163
+msgid "First, capture output of \"hg status\"::"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:175
+msgid "(lines starting with ? are not under version control)."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:187
+msgid "Now we can just remove these files by doing 'rm $junk.s'."
+msgstr ""
+
+#: ../../source/interactive/shell.rst:190
+msgid "The .s, .n, .p properties"
+msgstr ""
+
+#: ../../source/interactive/shell.rst:192
+msgid ""
+"The ``.s`` property returns one string where lines are separated by "
+"single space (for convenient passing to system commands). The ``.n`` "
+"property return one string where the lines are separated by a newline "
+"(i.e. the original output of the function). If the items in string list "
+"are file names, ``.p`` can be used to get a list of \"path\" objects for "
+"convenient file manipulation."
+msgstr ""
+

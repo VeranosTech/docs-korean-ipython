@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.latextools.rst:4
+msgid "Module: :mod:`lib.latextools`"
+msgstr ""
+
+#: IPython.lib.latextools:1 of
+msgid "Tools for handling LaTeX."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.latextools.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.lib.latextools.LaTeXTool:1 of
+msgid "Bases: :class:`traitlets.config.configurable.SingletonConfigurable`"
+msgstr ""
+
+#: IPython.lib.latextools.LaTeXTool:1 of
+msgid "An object to store configuration of the LaTeX tool."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.latextools.rst:17
+msgid "6 Functions"
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_png:1 of
+msgid "Render a LaTeX string to PNG."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_html IPython.lib.latextools.latex_to_png of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_png:3 of
+msgid "The raw string containing valid inline LaTeX."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_png:5 of
+msgid "Should the PNG data base64 encoded to make it JSON'able."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_png:7 of
+msgid "Backend for producing PNG data."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_png:9 of
+msgid "If true, Automatically wrap `s` as a LaTeX equation."
+msgstr ""
+
+#: IPython.lib.latextools.kpsewhich:1 of
+msgid "Invoke kpsewhich command with an argument `filename`."
+msgstr ""
+
+#: IPython.lib.latextools.genelatex:1 of
+msgid "Generate LaTeX document for dvipng backend."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_html:1 of
+msgid "Render LaTeX to HTML with embedded PNG data using data URIs."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_html:3 of
+msgid "The raw string containing valid inline LateX."
+msgstr ""
+
+#: IPython.lib.latextools.latex_to_html:5 of
+msgid "The alt text to use for the HTML."
+msgstr ""
+

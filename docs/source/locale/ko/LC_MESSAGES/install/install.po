@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/install/install.rst:4
+msgid "Installing IPython"
+msgstr ""
+
+#: ../../source/install/install.rst:7
+msgid "IPython 6 requires Python ≥ 3.3. IPython 5.x can be installed on Python 2."
+msgstr ""
+
+#: ../../source/install/install.rst:11
+msgid "Quick Install"
+msgstr ""
+
+#: ../../source/install/install.rst:13
+msgid "With ``pip`` already installed :"
+msgstr ""
+
+#: ../../source/install/install.rst:19
+msgid "This installs IPython as well as its dependencies."
+msgstr ""
+
+#: ../../source/install/install.rst:21
+msgid ""
+"If you want to use IPython with notebooks or the Qt console, you should "
+"also install Jupyter ``pip install jupyter``."
+msgstr ""
+
+#: ../../source/install/install.rst:27
+msgid "Overview"
+msgstr ""
+
+#: ../../source/install/install.rst:29
+msgid ""
+"This document describes in detail the steps required to install IPython. "
+"For a few quick ways to get started with package managers or full Python "
+"distributions, see `the install page <https://ipython.org/install.html>`_"
+" of the IPython website."
+msgstr ""
+
+#: ../../source/install/install.rst:34
+msgid ""
+"Please let us know if you have problems installing IPython or any of its "
+"dependencies."
+msgstr ""
+
+#: ../../source/install/install.rst:37
+msgid ""
+"IPython and most dependencies should be installed via :command:`pip`. In "
+"many scenarios, this is the simplest method of installing Python "
+"packages. More information about :mod:`pip` can be found on `its PyPI "
+"page <https://pip.pypa.io>`__."
+msgstr ""
+
+#: ../../source/install/install.rst:43
+msgid ""
+"More general information about installing Python packages can be found in"
+" `Python's documentation <http://docs.python.org>`_."
+msgstr ""
+
+#: ../../source/install/install.rst:49
+msgid "Dependencies"
+msgstr ""
+
+#: ../../source/install/install.rst:51
+msgid ""
+"IPython relies on a number of other Python packages. Installing using a "
+"package manager like pip or conda will ensure the necessary packages are "
+"installed. Manual installation without dependencies is possible, but not "
+"recommended. The dependencies can be viewed with package manager "
+"commands, such as :command:`pip show ipython` or :command:`conda info "
+"ipython`."
+msgstr ""
+
+#: ../../source/install/install.rst:59
+msgid "Installing IPython itself"
+msgstr ""
+
+#: ../../source/install/install.rst:61
+msgid ""
+"IPython requires several dependencies to work correctly, it is not "
+"recommended to install IPython and all its dependencies manually as this "
+"can be quite long and troublesome. You should use the python package "
+"manager ``pip``."
+msgstr ""
+
+#: ../../source/install/install.rst:66
+msgid "Installation using pip"
+msgstr ""
+
+#: ../../source/install/install.rst:68
+msgid ""
+"Make sure you have the latest version of :mod:`pip` (the Python package "
+"manager) installed. If you do not, head to `Pip documentation "
+"<https://pip.pypa.io/en/stable/installing/>`_ and install :mod:`pip` "
+"first."
+msgstr ""
+
+#: ../../source/install/install.rst:72
+msgid ""
+"The quickest way to get up and running with IPython is to install it with"
+" pip:"
+msgstr ""
+
+#: ../../source/install/install.rst:78
+msgid "That's it."
+msgstr ""
+
+#: ../../source/install/install.rst:82
+msgid "Installation from source"
+msgstr ""
+
+#: ../../source/install/install.rst:84
+msgid ""
+"To install IPython from source, grab the latest stable tarball of IPython"
+" `from PyPI <https://pypi.python.org/pypi/ipython>`__.  Then do the "
+"following:"
+msgstr ""
+
+#: ../../source/install/install.rst:95
+msgid ""
+"Do not invoke ``setup.py`` directly as this can have undesirable "
+"consequences for further upgrades. We do not recommend using "
+"``easy_install`` either."
+msgstr ""
+
+#: ../../source/install/install.rst:98
+msgid ""
+"If you are installing to a location (like ``/usr/local``) that requires "
+"higher permissions, you may need to run the last command with "
+":command:`sudo`. You can also install in user specific location by using "
+"the ``--user`` flag in conjunction with pip."
+msgstr ""
+
+#: ../../source/install/install.rst:103
+msgid ""
+"To run IPython's test suite, use the :command:`iptest` command from "
+"outside of the IPython source tree:"
+msgstr ""
+
+#: ../../source/install/install.rst:113
+msgid "Installing the development version"
+msgstr ""
+
+#: ../../source/install/install.rst:115
+msgid ""
+"It is also possible to install the development version of IPython from "
+"our `Git <http://git-scm.com/>`_ source code repository.  To do this you "
+"will need to have Git installed on your system."
+msgstr ""
+
+#: ../../source/install/install.rst:120
+msgid "Then do:"
+msgstr ""
+
+#: ../../source/install/install.rst:128
+msgid ""
+"The :command:`pip install -e .` command allows users and developers to "
+"follow the development branch as it changes by creating links in the "
+"right places and installing the command line scripts to the appropriate "
+"locations."
+msgstr ""
+
+#: ../../source/install/install.rst:132
+msgid "Then, if you want to update your IPython at any time, do:"
+msgstr ""
+
+#: ../../source/install/install.rst:138
+msgid "If the dependencies or entrypoints have changed, you may have to run"
+msgstr ""
+
+#: ../../source/install/install.rst:144
+msgid "again, but this is infrequent."
+msgstr ""
+

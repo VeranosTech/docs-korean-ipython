@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.editorhooks.rst:4
+msgid "Module: :mod:`lib.editorhooks`"
+msgstr ""
+
+#: IPython.lib.editorhooks:1 of
+msgid "'editor' hooks for common editors that work well with ipython"
+msgstr ""
+
+#: IPython.lib.editorhooks:3 of
+msgid "They should honor the line number argument, at least."
+msgstr ""
+
+#: IPython.lib.editorhooks:5 of
+msgid "Contributions are *very* welcome."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.editorhooks.rst:10
+msgid "11 Functions"
+msgstr ""
+
+#: IPython.lib.editorhooks.install_editor:1 of
+#, python-format
+msgid "Installs the editor that is called by IPython for the %edit magic."
+msgstr ""
+
+#: IPython.lib.editorhooks.install_editor:3 of
+msgid ""
+"This overrides the default editor, which is generally set by your EDITOR "
+"environment variable or is notepad (windows) or vi (linux). By supplying "
+"a template string `run_template`, you can control how the editor is "
+"invoked by IPython -- (e.g. the format in which it accepts command line "
+"options)"
+msgstr ""
+
+#: IPython.lib.editorhooks.idle IPython.lib.editorhooks.install_editor of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.lib.editorhooks.install_editor:8 of
+msgid ""
+"run_template acts as a template for how your editor is invoked by the "
+"shell. It should contain '{filename}', which will be replaced on "
+"invocation with the file name, and '{line}', $line by line number (or 0) "
+"to invoke the file with."
+msgstr ""
+
+#: IPython.lib.editorhooks.install_editor:13 of
+msgid ""
+"If `wait` is true, wait until the user presses enter before returning, to"
+" facilitate non-blocking editors that exit immediately after the call."
+msgstr ""
+
+#: IPython.lib.editorhooks.komodo:1 of
+msgid "Activestate Komodo [Edit]"
+msgstr ""
+
+#: IPython.lib.editorhooks.scite:1 of
+msgid "SciTE or Sc1"
+msgstr ""
+
+#: IPython.lib.editorhooks.notepadplusplus:1 of
+msgid "Notepad++ http://notepad-plus.sourceforge.net"
+msgstr ""
+
+#: IPython.lib.editorhooks.jed:1 of
+msgid "JED, the lightweight emacsish editor"
+msgstr ""
+
+#: IPython.lib.editorhooks.idle:1 of
+msgid "Idle, the editor bundled with python"
+msgstr ""
+
+#: IPython.lib.editorhooks.idle:3 of
+msgid "If none, should be pretty smart about finding the executable."
+msgstr ""
+
+#: IPython.lib.editorhooks.mate:1 of
+msgid "TextMate, the missing editor"
+msgstr ""
+

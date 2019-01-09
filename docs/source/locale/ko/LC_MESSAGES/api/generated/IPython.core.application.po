@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.application.rst:4
+msgid "Module: :mod:`core.application`"
+msgstr ""
+
+#: IPython.core.application:1 of
+msgid "An application for IPython."
+msgstr ""
+
+#: IPython.core.application:3 of
+msgid ""
+"All top-level applications should use the classes in this module for "
+"handling configuration and creating configurables."
+msgstr ""
+
+#: IPython.core.application:6 of
+msgid ""
+"The job of an :class:`Application` is to create the master configuration "
+"object and then create the configurable objects, passing the config to "
+"them."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.application.rst:10
+msgid "2 Classes"
+msgstr ""
+
+#: IPython.core.application.ProfileAwareConfigLoader:1 of
+msgid "Bases: :class:`traitlets.config.loader.PyFileConfigLoader`"
+msgstr ""
+
+#: IPython.core.application.ProfileAwareConfigLoader:1 of
+msgid "A Python file config loader that is aware of IPython profiles."
+msgstr ""
+
+#: IPython.core.application.ProfileAwareConfigLoader.load_subconfig:1 of
+msgid "Injected into config file namespace as load_subconfig"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication:1 of
+msgid "Bases: :class:`traitlets.config.application.Application`"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.excepthook:1 of
+msgid "this is sys.excepthook after init_crashhandler"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.excepthook:3 of
+msgid ""
+"set self.verbose_crash=True to use our full crashhandler, instead of a "
+"regular traceback with a short message (crash_handler_lite)"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.init_config_files:1 of
+msgid "[optionally] copy default config files into profile dir."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.init_crash_handler:1 of
+msgid "Create a crash handler, typically setting sys.excepthook to it."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.init_profile_dir:1 of
+msgid "initialize the profile dir"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.initialize:1 of
+msgid "Do the basic steps to configure me."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.initialize:3 of
+msgid "Override in subclasses."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.initialize_subcommand:1 of
+msgid "Initialize a subcommand with argv."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:1 of
+msgid "Load the config file."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:3 of
+msgid ""
+"By default, errors in loading config are handled, and a warning printed "
+"on screen. For testing, the suppress_errors option is set to False, so "
+"errors will make tests fail."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:7 of
+msgid ""
+"`supress_errors` default value is to be `None` in which case the behavior"
+" default to the one of `traitlets.Application`."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:13 of
+msgid "The default value can be set :"
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:11 of
+msgid ""
+"to `False` by setting 'IPYTHON_SUPPRESS_CONFIG_ERRORS' environment "
+"variable to '0', or 'false' (case insensitive)."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:12 of
+msgid ""
+"to `True` by setting 'IPYTHON_SUPPRESS_CONFIG_ERRORS' environment "
+"variable to '1' or 'true' (case insensitive)."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:13 of
+msgid ""
+"to `None` by setting 'IPYTHON_SUPPRESS_CONFIG_ERRORS' environment "
+"variable to '' (empty string) or leaving it unset."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.load_config_file:15 of
+msgid ""
+"Any other value are invalid, and will make IPython exit with a non-zero "
+"return code."
+msgstr ""
+
+#: IPython.core.application.BaseIPythonApplication.stage_default_config_file:1
+#: of
+msgid "auto generate default config file, and stage it into the profile."
+msgstr ""
+

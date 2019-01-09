@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.decorators.rst:4
+msgid "Module: :mod:`utils.decorators`"
+msgstr ""
+
+#: IPython.utils.decorators:1 of
+msgid "Decorators that don't go anywhere else."
+msgstr ""
+
+#: IPython.utils.decorators:3 of
+msgid ""
+"This module contains misc. decorators that don't really go with another "
+"module in :mod:`IPython.utils`. Beore putting something here please see "
+"if it should go into another topical module in :mod:`IPython.utils`."
+msgstr ""
+
+#: ../../source/api/generated/IPython.utils.decorators.rst:10
+msgid "2 Functions"
+msgstr ""
+
+#: IPython.utils.decorators.flag_calls:1 of
+msgid "Wrap a function to detect and flag when it gets called."
+msgstr ""
+
+#: IPython.utils.decorators.flag_calls:3 of
+msgid ""
+"This is a decorator which takes a function and wraps it in a function "
+"with a 'called' attribute. wrapper.called is initialized to False."
+msgstr ""
+
+#: IPython.utils.decorators.flag_calls:6 of
+msgid ""
+"The wrapper.called attribute is set to False right before each call to "
+"the wrapped function, so if the call fails it remains False.  After the "
+"call completes, wrapper.called is set to True and the output is returned."
+msgstr ""
+
+#: IPython.utils.decorators.flag_calls:10 of
+msgid ""
+"Testing for truth in wrapper.called allows you to determine if a call to "
+"func() was attempted and succeeded."
+msgstr ""
+
+#: IPython.utils.decorators.undoc:1 of
+msgid "Mark a function or class as undocumented."
+msgstr ""
+
+#: IPython.utils.decorators.undoc:3 of
+msgid ""
+"This is found by inspecting the AST, so for now it must be used directly "
+"as @undoc, not as e.g. @decorators.undoc"
+msgstr ""
+

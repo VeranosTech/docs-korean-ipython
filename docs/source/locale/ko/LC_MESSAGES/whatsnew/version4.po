@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:3
+msgid "4.x Series"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:6
+msgid "IPython 4.2"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:8
+msgid ""
+"IPython 4.2 (April, 2016) includes various bugfixes and improvements over"
+" 4.1."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:10
+msgid "Fix ``ipython -i`` on errors, which was broken in 4.1."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:11
+msgid ""
+"The delay meant to highlight deprecated commands that have moved to "
+"jupyter has been removed."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:12
+msgid "Improve compatibility with future versions of traitlets and matplotlib."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:13
+msgid ""
+"Use stdlib :func:`python:shutil.get_terminal_size` to measure terminal "
+"width when displaying tracebacks (provided by "
+"``backports.shutil_get_terminal_size`` on Python 2)."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:16
+msgid ""
+"You can see the rest `on GitHub "
+"<https://github.com/ipython/ipython/issues?q=milestone%3A4.2>`__."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:20
+msgid "IPython 4.1"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:22
+msgid ""
+"IPython 4.1.2 (March, 2016) fixes installation issues with some versions "
+"of setuptools."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:24
+msgid ""
+"Released February, 2016. IPython 4.1 contains mostly bug fixes, though "
+"there are a few improvements."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:28
+msgid ""
+"IPython debugger (IPdb) now supports the number of context lines for the "
+"``where`` (and ``w``) commands. The `context` keyword is also available "
+"in various APIs. See PR :ghpull:`9097`"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:31
+msgid ""
+"YouTube video will now show thumbnail when exported to a media that do "
+"not support video. (:ghpull:`9086`)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:33
+msgid ""
+"Add warning when running `ipython <subcommand>` when subcommand is "
+"deprecated. `jupyter` should now be used."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:35
+msgid "Code in `%pinfo` (also known as `??`) are now highlighter (:ghpull:`8947`)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:36
+msgid "`%aimport` now support module completion. (:ghpull:`8884`)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:37
+msgid "`ipdb` output is now colored ! (:ghpull:`8842`)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:38
+msgid "Add ability to transpose columns for completion: (:ghpull:`8748`)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:40
+msgid ""
+"Many many docs improvements and bug fixes, you can see the `list of "
+"changes <https://github.com/ipython/ipython/compare/4.0.0...4.1.0>`_"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:44
+msgid "IPython 4.0"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:46
+msgid "Released August, 2015"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:48
+msgid ""
+"IPython 4.0 is the first major release after the Big Split. IPython no "
+"longer contains the notebook, qtconsole, etc. which have moved to "
+"`jupyter <https://jupyter.readthedocs.io>`_. IPython subprojects, such as"
+" `IPython.parallel <https://ipyparallel.readthedocs.io>`_ and `widgets "
+"<https://ipywidgets.readthedocs.io>`_ have moved to their own repos as "
+"well."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:53
+msgid "The following subpackages are deprecated:"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:55
+msgid "IPython.kernel (now jupyter_client and ipykernel)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:56
+msgid "IPython.consoleapp (now jupyter_client.consoleapp)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:57
+msgid "IPython.nbformat (now nbformat)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:58
+msgid "IPython.nbconvert (now nbconvert)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:59
+msgid "IPython.html (now notebook)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:60
+msgid "IPython.parallel (now ipyparallel)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:61
+msgid "IPython.utils.traitlets (now traitlets)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:62
+msgid "IPython.config (now traitlets.config)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:63
+msgid "IPython.qt (now qtconsole)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:64
+msgid "IPython.terminal.console (now jupyter_console)"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:66
+msgid "and a few other utilities."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:68
+msgid ""
+"Shims for the deprecated subpackages have been added, so existing code "
+"should continue to work with a warning about the new home."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:71
+msgid ""
+"There are few changes to the code beyond the reorganization and some "
+"bugfixes."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:73
+msgid "IPython highlights:"
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:75
+msgid ""
+"Public APIs for discovering IPython paths is moved from "
+":mod:`IPython.utils.path` to :mod:`IPython.paths`. The old function "
+"locations continue to work with deprecation warnings."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:77
+msgid ""
+"Code raising ``DeprecationWarning`` entered by the user in an interactive"
+" session will now display the warning by default. See :ghpull:`8480` an "
+":ghissue:`8478`."
+msgstr ""
+
+#: ../../source/whatsnew/version4.rst:80
+msgid ""
+"The `--deep-reload` flag and the corresponding options to inject "
+"`dreload` or `reload` into the interactive namespace have been "
+"deprecated, and will be removed in future versions. You should now "
+"explicitly import `reload` from `IPython.lib.deepreload` to use it."
+msgstr ""
+

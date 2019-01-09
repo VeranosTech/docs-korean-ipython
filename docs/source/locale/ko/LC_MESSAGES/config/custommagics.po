@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/custommagics.rst:4
+msgid "Defining custom magics"
+msgstr ""
+
+#: ../../source/config/custommagics.rst:6
+msgid ""
+"There are two main ways to define your own magic functions: from "
+"standalone functions and by inheriting from a base class provided by "
+"IPython: :class:`IPython.core.magic.Magics`. Below we show code you can "
+"place in a file that you load from your configuration, such as any file "
+"in the ``startup`` subdirectory of your default IPython profile."
+msgstr ""
+
+#: ../../source/config/custommagics.rst:12
+msgid ""
+"First, let us see the simplest case. The following shows how to create a "
+"line magic, a cell one and one that works in both modes, using just plain"
+" functions:"
+msgstr ""
+
+#: ../../source/config/custommagics.rst:45
+msgid ""
+"You can also create magics of all three kinds by inheriting from the "
+":class:`IPython.core.magic.Magics` class.  This lets you create magics "
+"that can potentially hold state in between calls, and that have full "
+"access to the main IPython object:"
+msgstr ""
+
+#: ../../source/config/custommagics.rst:99
+msgid ""
+"If you want to create a class with a different constructor that holds "
+"additional state, then you should always call the parent constructor and "
+"instantiate the class yourself before registration:"
+msgstr ""
+
+#: ../../source/config/custommagics.rst:130
+msgid ""
+"In early IPython versions 0.12 and before the line magics were created "
+"using a :func:`define_magic` API function.  This API has been replaced "
+"with the above in IPython 0.13 and then completely removed in IPython 5."
+"  Maintainers of IPython extensions that still use the "
+":func:`define_magic` function are advised to adjust their code for the "
+"current API."
+msgstr ""
+
+#: ../../source/config/custommagics.rst:138
+msgid "Complete Example"
+msgstr ""
+
+#: ../../source/config/custommagics.rst:140
+msgid ""
+"Here is a full example of a magic package. You can distribute magics "
+"using setuptools, distutils, or any other distribution tools like `flit "
+"<http://flit.readthedocs.io>`_ for pure Python packages."
+msgstr ""
+

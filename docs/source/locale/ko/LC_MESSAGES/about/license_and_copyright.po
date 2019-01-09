@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:5
+msgid "Licenses and Copyright"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:8
+msgid "Licenses"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:10
+msgid ""
+"IPython source code and examples are licensed under the terms of the new "
+"or revised BSD license, as follows::"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:44
+msgid ""
+"IPython documentation, examples and other materials are licensed under "
+"the terms of the Attribution 4.0 International (CC BY 4.0) license, as "
+"follows::"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:368
+msgid "About the IPython Development Team"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:370
+msgid ""
+"Fernando Perez began IPython in 2001 based on code from Janko Hauser "
+"<jhauser-AT-zscout.de> and Nathaniel Gray <n8gray-AT-caltech.edu>. "
+"Fernando is still the project lead."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:374
+msgid ""
+"The IPython Development Team is the set of all contributors to the "
+"IPython project. This includes all of the IPython subprojects. See the "
+"release notes for a list of people who have contributed to each release."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:379
+msgid "Our Copyright Policy"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:381
+msgid ""
+"IPython uses a shared copyright model. Each contributor maintains "
+"copyright over their contributions to IPython. But, it is important to "
+"note that these contributions are typically only changes (diffs/commits) "
+"to the repositories. Thus, the IPython source code, in its entirety is "
+"not the copyright of any single person or institution. Instead, it is the"
+" collective copyright of the entire IPython Development Team. If "
+"individual contributors want to maintain a record of what "
+"changes/contributions they have specific copyright on, they should "
+"indicate their copyright in the commit message of the change, when they "
+"commit the change to one of the IPython repositories."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:391
+msgid ""
+"Any new code contributed to IPython must be licensed under the BSD "
+"license or a similar (MIT) open source license."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:395
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:397
+msgid ""
+"Some files (DPyGetOpt.py, for example) may be licensed under different "
+"conditions. Ultimately each file indicates clearly the conditions under "
+"which its author/authors have decided to publish the code."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:401
+msgid ""
+"Versions of IPython up to and including 0.6.3 were released under the GNU"
+" Lesser General Public License (LGPL), available at "
+"http://www.gnu.org/copyleft/lesser.html."
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:405
+msgid "Online versions of the Creative Commons licenses can be found at:"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:407
+msgid "http://creativecommons.org/licenses/by/4.0/"
+msgstr ""
+
+#: ../../source/about/license_and_copyright.rst:408
+msgid "http://creativecommons.org/licenses/by/4.0/legalcode.txt"
+msgstr ""
+

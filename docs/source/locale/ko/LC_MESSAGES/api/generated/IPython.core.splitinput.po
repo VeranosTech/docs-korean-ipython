@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.splitinput.rst:4
+msgid "Module: :mod:`core.splitinput`"
+msgstr ""
+
+#: IPython.core.splitinput:1 of
+msgid ""
+"Simple utility for splitting user input. This is used by both "
+"inputsplitter and prefilter."
+msgstr ""
+
+#: IPython.core.splitinput:4 of
+msgid "Authors:"
+msgstr ""
+
+#: IPython.core.splitinput:6 of
+msgid "Brian Granger"
+msgstr ""
+
+#: IPython.core.splitinput:7 of
+msgid "Fernando Perez"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.splitinput.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:1 of
+msgid "A single line of input and associated info."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:3 of
+msgid "Includes the following as properties:"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:6 of
+msgid "line"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:6 of
+msgid "The original, raw line"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:9 of
+msgid "continue_prompt"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:9 of
+msgid "Is this line a continuation in a sequence of multiline input?"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:12 of
+msgid "pre"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:12 of
+msgid "Any leading whitespace."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:17 of
+msgid "esc"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:15 of
+msgid ""
+"The escape character(s) in pre or the empty string if there isn't one. "
+"Note that '!!' and '??' are possible values for esc. Otherwise it will "
+"always be a single character."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:24 of
+msgid "ifun"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:20 of
+msgid ""
+"The 'function part', which is basically the maximal initial sequence of "
+"valid python identifiers and the '.' character. This is what is checked "
+"for alias and magic transformations, used for auto-calling, etc. In "
+"contrast to Python identifiers, it may start with \"%\" and contain "
+"\"*\"."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:27 of
+msgid "the_rest"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo:27 of
+msgid "Everything else on the line."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo.ofind:1 of
+msgid ""
+"Do a full, attribute-walking lookup of the ifun in the various namespaces"
+" for the given IPython InteractiveShell instance."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo.ofind:4 of
+msgid "Return a dict with keys: {found, obj, ospace, ismagic}"
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo.ofind:6 of
+msgid ""
+"Note: can cause state changes because of calling getattr, but should only"
+" be run if autocall is on and if the line hasn't matched any other, less "
+"dangerous handlers."
+msgstr ""
+
+#: IPython.core.splitinput.LineInfo.ofind:10 of
+msgid ""
+"Does cache the results of the call, so can be called multiple times "
+"without worrying about *further* damaging state."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.splitinput.rst:19
+msgid "1 Function"
+msgstr ""
+
+#: IPython.core.splitinput.split_user_input:1 of
+msgid ""
+"Split user input into initial whitespace, escape character, function part"
+" and the rest."
+msgstr ""
+

@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/config/intro.rst:3
+msgid "Introduction to IPython configuration"
+msgstr ""
+
+#: ../../source/config/intro.rst:8
+msgid "Setting configurable options"
+msgstr ""
+
+#: ../../source/config/intro.rst:10
+msgid ""
+"Many of IPython's classes have configurable attributes (see "
+":doc:`options/index` for the list). These can be configured in several "
+"ways."
+msgstr ""
+
+#: ../../source/config/intro.rst:15
+msgid "Python config files"
+msgstr ""
+
+#: ../../source/config/intro.rst:17
+msgid "To create the blank config files, run::"
+msgstr ""
+
+#: ../../source/config/intro.rst:21
+msgid ""
+"If you leave out the profile name, the files will be created for the "
+"``default`` profile (see :ref:`profiles`). These will typically be "
+"located in :file:`~/.ipython/profile_default/`, and will be named "
+":file:`ipython_config.py`, :file:`ipython_notebook_config.py`, etc. The "
+"settings in :file:`ipython_config.py` apply to all IPython commands."
+msgstr ""
+
+#: ../../source/config/intro.rst:27
+msgid "The files typically start by getting the root config object::"
+msgstr ""
+
+#: ../../source/config/intro.rst:31
+msgid "You can then configure class attributes like this::"
+msgstr ""
+
+#: ../../source/config/intro.rst:35
+msgid ""
+"Be careful with spelling--incorrect names will simply be ignored, with no"
+" error."
+msgstr ""
+
+#: ../../source/config/intro.rst:38
+msgid ""
+"To add to a collection which may have already been defined elsewhere, you"
+" can use methods like those found on lists, dicts and sets: append, "
+"extend, :meth:`~traitlets.config.LazyConfigValue.prepend` (like extend, "
+"but at the front), add and update (which works both for dicts and sets)::"
+msgstr ""
+
+#: ../../source/config/intro.rst:46
+msgid "list, dict and set methods for config values"
+msgstr ""
+
+#: ../../source/config/intro.rst:50
+msgid "Example config file"
+msgstr ""
+
+#: ../../source/config/intro.rst:83
+msgid "Command line arguments"
+msgstr ""
+
+#: ../../source/config/intro.rst:85
+msgid ""
+"Every configurable value can be set from the command line, using this "
+"syntax::"
+msgstr ""
+
+#: ../../source/config/intro.rst:90
+msgid ""
+"Many frequently used options have short aliases and flags, such as "
+"``--matplotlib`` (to integrate with a matplotlib GUI event loop) or "
+"``--pdb`` (automatic post-mortem debugging of exceptions)."
+msgstr ""
+
+#: ../../source/config/intro.rst:94
+msgid "To see all of these abbreviated options, run::"
+msgstr ""
+
+#: ../../source/config/intro.rst:100
+msgid ""
+"Options specified at the command line, in either format, override options"
+" set in a configuration file."
+msgstr ""
+
+#: ../../source/config/intro.rst:104
+msgid "The config magic"
+msgstr ""
+
+#: ../../source/config/intro.rst:106
+msgid "You can also modify config from inside IPython, using a magic command::"
+msgstr ""
+
+#: ../../source/config/intro.rst:110
+msgid ""
+"At present, this only affects the current session - changes you make to "
+"config are not saved anywhere. Also, some options are only read when "
+"IPython starts, so they can't be changed like this."
+msgstr ""
+
+#: ../../source/config/intro.rst:117
+msgid "Running IPython from Python"
+msgstr ""
+
+#: ../../source/config/intro.rst:119
+msgid ""
+"If you are using :ref:`embedding` to start IPython from a normal python "
+"file, you can set configuration options the same way as in a config file "
+"by creating a traitlets config object and passing it to start_ipython "
+"like in the example below."
+msgstr ""
+
+#: ../../source/config/intro.rst:130
+msgid "Profiles"
+msgstr ""
+
+#: ../../source/config/intro.rst:132
+msgid ""
+"IPython can use multiple profiles, with separate configuration and "
+"history. By default, if you don't specify a profile, IPython always runs "
+"in the ``default`` profile. To use a new profile::"
+msgstr ""
+
+#: ../../source/config/intro.rst:139
+msgid ""
+"Profiles are typically stored in :ref:`ipythondir`, but you can also keep"
+" a profile in the current working directory, for example to distribute it"
+" with a project. To find a profile directory on the filesystem::"
+msgstr ""
+
+#: ../../source/config/intro.rst:148
+msgid "The IPython directory"
+msgstr ""
+
+#: ../../source/config/intro.rst:150
+msgid ""
+"IPython stores its files---config, command history and extensions---in "
+"the directory :file:`~/.ipython/` by default."
+msgstr ""
+
+#: ../../source/config/intro.rst:155
+msgid ""
+"If set, this environment variable should be the path to a directory, "
+"which IPython will use for user data. IPython will create it if it does "
+"not exist."
+msgstr ""
+
+#: ../../source/config/intro.rst:161
+msgid ""
+"This command line option can also be used to override the default IPython"
+" directory."
+msgstr ""
+
+#: ../../source/config/intro.rst:164
+msgid ""
+"To see where IPython is looking for the IPython directory, use the "
+"command ``ipython locate``, or the Python function "
+":func:`IPython.paths.get_ipython_dir`."
+msgstr ""
+

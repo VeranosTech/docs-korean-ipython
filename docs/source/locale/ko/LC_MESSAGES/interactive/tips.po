@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:5
+msgid "IPython Tips & Tricks"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:7
+msgid ""
+"The `IPython cookbook "
+"<https://github.com/ipython/ipython/wiki?path=Cookbook>`_ details more "
+"things you can do with IPython."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:15
+msgid "Embed IPython in your programs"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:17
+msgid ""
+"A few lines of code are enough to load a complete IPython inside your own"
+" programs, giving you the ability to work with your data interactively "
+"after automatic processing has been completed. See :ref:`the embedding "
+"section <embedding>`."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:22
+msgid "Run doctests"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:24
+#, python-format
+msgid ""
+"Run your doctests from within IPython for development and debugging. The "
+"special %doctest_mode command toggles a mode where the prompt, output and"
+" exceptions display matches as closely as possible that of the default "
+"Python interpreter. In addition, this mode allows you to directly paste "
+"in code that contains leading '>>>' prompts, even if they have extra "
+"leading whitespace (as is common in doctest files). This combined with "
+"the ``%history -t`` call to see your translated history allows for an "
+"easy doctest workflow, where you can go from doctest to interactive "
+"execution to pasting into valid Python code as needed."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:35
+msgid "Use IPython to present interactive demos"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:37
+msgid ""
+"Use the :class:`IPython.lib.demo.Demo` class to load any Python script as"
+" an interactive demo. With a minimal amount of simple markup, you can "
+"control the execution of the script, stopping as needed. See :ref:`here "
+"<interactive_demos>` for more."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:42
+msgid "Suppress output"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:44
+msgid ""
+"Put a ';' at the end of a line to suppress the printing of output. This "
+"is useful when doing calculations which generate long output you are not "
+"interested in seeing. It also keeps the object out of the output cache, "
+"so if you're working with large temporary objects, they'll be released "
+"from memory sooner."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:50
+msgid "Lightweight 'version control'"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:52
+#, python-format
+msgid ""
+"When you call ``%edit`` with no arguments, IPython opens an empty editor "
+"with a temporary file, and it returns the contents of your editing "
+"session as a string variable. Thanks to IPython's output caching "
+"mechanism, this is automatically stored::"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:67
+#, python-format
+msgid ""
+"Now, if you call ``%edit -p``, IPython tries to open an editor with the "
+"same data as the last time you used %edit. So if you haven't used %edit "
+"in the meantime, this same contents will reopen; however, it will be done"
+" in a new file. This means that if you make changes and you later want to"
+" find an old version, you can always retrieve it by using its output "
+"number, via '%edit _NN', where NN is the number of the output prompt."
+msgstr ""
+
+#: ../../source/interactive/tips.rst:75
+msgid "Continuing with the example above, this should illustrate this idea::"
+msgstr ""
+
+#: ../../source/interactive/tips.rst:100
+msgid ""
+"This section was written after a contribution by Alexander Belchenko on "
+"the IPython user list."
+msgstr ""
+

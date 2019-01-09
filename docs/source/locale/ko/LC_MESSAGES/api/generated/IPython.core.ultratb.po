@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.ultratb.rst:4
+msgid "Module: :mod:`core.ultratb`"
+msgstr ""
+
+#: IPython.core.ultratb:1 of
+msgid "Verbose and colourful traceback formatting."
+msgstr ""
+
+#: IPython.core.ultratb:3 of
+msgid "**ColorTB**"
+msgstr ""
+
+#: IPython.core.ultratb:5 of
+msgid ""
+"I've always found it a bit hard to visually parse tracebacks in Python.  "
+"The ColorTB class is a solution to that problem.  It colors the different"
+" parts of a traceback in a manner similar to what you would expect from a"
+" syntax-highlighting text editor."
+msgstr ""
+
+#: IPython.core.ultratb:10 of
+msgid "Installation instructions for ColorTB::"
+msgstr ""
+
+#: IPython.core.ultratb:15 of
+msgid "**VerboseTB**"
+msgstr ""
+
+#: IPython.core.ultratb:17 of
+msgid ""
+"I've also included a port of Ka-Ping Yee's \"cgitb.py\" that produces all"
+" kinds of useful info when a traceback occurs.  Ping originally had it "
+"spit out HTML and intended it for CGI programmers, but why should they "
+"have all the fun?  I altered it to spit out colored text to the terminal."
+"  It's a bit overwhelming, but kind of neat, and maybe useful for long-"
+"running programs that you believe are bug-free.  If a crash *does* occur "
+"in that type of program you want details. Give it a shot--you'll love it "
+"or you'll hate it."
+msgstr ""
+
+#: IPython.core.ultratb:27 of
+msgid ""
+"The Verbose mode prints the variables currently visible where the "
+"exception happened (shortening their strings if too long). This can "
+"potentially be very slow, if you happen to have a huge data structure "
+"whose string representation is complex to compute. Your computer may "
+"appear to freeze for a while with cpu usage at 100%. If this occurs, you "
+"can cancel the traceback with Ctrl-C (maybe hitting it more than once)."
+msgstr ""
+
+#: IPython.core.ultratb:34 of
+msgid ""
+"If you encounter this kind of situation often, you may want to use the "
+"Verbose_novars mode instead of the regular Verbose, which avoids "
+"formatting variables (but otherwise includes the information and context "
+"given by Verbose)."
+msgstr ""
+
+#: IPython.core.ultratb:41 of
+msgid ""
+"The verbose mode print all variables in the stack, which means it can "
+"potentially leak sensitive information like access keys, or unencryted "
+"password."
+msgstr ""
+
+#: IPython.core.ultratb:45 of
+msgid "Installation instructions for VerboseTB::"
+msgstr ""
+
+#: IPython.core.ultratb:50 of
+msgid ""
+"Note:  Much of the code in this module was lifted verbatim from the "
+"standard library module 'traceback.py' and Ka-Ping Yee's 'cgitb.py'."
+msgstr ""
+
+#: IPython.core.ultratb:54 of
+msgid "Color schemes"
+msgstr ""
+
+#: IPython.core.ultratb:56 of
+msgid ""
+"The colors are defined in the class TBTools through the use of the "
+"ColorSchemeTable class. Currently the following exist:"
+msgstr ""
+
+#: IPython.core.ultratb:59 of
+msgid ""
+"NoColor: allows all of this module to be used in any terminal (the color "
+"escapes are just dummy blank strings)."
+msgstr ""
+
+#: IPython.core.ultratb:62 of
+msgid ""
+"Linux: is meant to look good in a terminal like the Linux console (black "
+"or very dark background)."
+msgstr ""
+
+#: IPython.core.ultratb:65 of
+msgid ""
+"LightBG: similar to Linux but swaps dark/light colors to be more readable"
+" in light background terminals."
+msgstr ""
+
+#: IPython.core.ultratb:68 of
+msgid ""
+"Neutral: a neutral color scheme that should be readable on both light and"
+" dark background"
+msgstr ""
+
+#: IPython.core.ultratb:71 of
+msgid ""
+"You can implement other color schemes easily, the syntax is fairly self-"
+"explanatory. Please send back new schemes you develop to the author for "
+"possible inclusion in future releases."
+msgstr ""
+
+#: IPython.core.ultratb:75 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.ultratb.rst:10
+msgid "7 Classes"
+msgstr ""
+
+#: IPython.core.ultratb.TBTools:1 of
+msgid "Bases: :class:`IPython.utils.colorable.Colorable`"
+msgstr ""
+
+#: IPython.core.ultratb.TBTools:1 of
+msgid "Basic tools used by all traceback printer classes."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:1
+#: IPython.core.ultratb.SyntaxTB.__init__:1
+#: IPython.core.ultratb.TBTools.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__
+#: IPython.core.ultratb.ListTB.get_exception_only
+#: IPython.core.ultratb.ListTB.show_exception_only
+#: IPython.core.ultratb.ListTB.structured_traceback
+#: IPython.core.ultratb.SyntaxTB.__init__
+#: IPython.core.ultratb.SyntaxTB.structured_traceback
+#: IPython.core.ultratb.TBTools.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:3
+#: IPython.core.ultratb.SyntaxTB.__init__:3
+#: IPython.core.ultratb.TBTools.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:7
+#: IPython.core.ultratb.SyntaxTB.__init__:7
+#: IPython.core.ultratb.TBTools.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:11
+#: IPython.core.ultratb.SyntaxTB.__init__:11
+#: IPython.core.ultratb.TBTools.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:12
+#: IPython.core.ultratb.SyntaxTB.__init__:12
+#: IPython.core.ultratb.TBTools.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.__init__:21
+#: IPython.core.ultratb.SyntaxTB.__init__:21
+#: IPython.core.ultratb.TBTools.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.color_toggle:1 of
+msgid "Toggle between the currently active color scheme and NoColor."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.ostream:1 of
+msgid "Output stream that exceptions are written to."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.ostream:3 of
+msgid "Valid values are:"
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.ostream:5 of
+msgid ""
+"None: the default, which means that IPython will dynamically resolve to "
+"sys.stdout.  This ensures compatibility with most tools, including "
+"Windows (where plain stdout doesn't recognize ANSI escapes)."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.ostream:9 of
+msgid "Any object with 'write' and 'flush' attributes."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.set_colors:1 of
+msgid "Shorthand access to the color table scheme selector method."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB.stb2text:1
+#: IPython.core.ultratb.SyntaxTB.stb2text:1
+#: IPython.core.ultratb.TBTools.stb2text:1 of
+msgid "Convert a structured traceback (a list) to a string."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.structured_traceback:1 of
+msgid "Return a list of traceback frames."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.structured_traceback:3 of
+msgid "Must be implemented by each class."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.text:1 of
+msgid "Return formatted traceback."
+msgstr ""
+
+#: IPython.core.ultratb.TBTools.text:3 of
+msgid "Subclasses may override this if they add extra arguments."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB:1 IPython.core.ultratb.VerboseTB:1 of
+msgid "Bases: :class:`IPython.core.ultratb.TBTools`"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB:1 of
+msgid "Print traceback information from a traceback list, with optional color."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB:3 of
+msgid ""
+"Calling requires 3 arguments: (etype, evalue, elist) as would be obtained"
+" by::"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB:12 of
+msgid ""
+"It can thus be used by programs which need to process the traceback "
+"before printing (such as console replacements based on the code module "
+"from the standard library)."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB:16 of
+msgid ""
+"Because they are meant to be called without a full traceback (only a "
+"list), instances of this class can't call the interactive pdb debugger."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.get_exception_only:1
+#: IPython.core.ultratb.ListTB.show_exception_only:1 of
+msgid "Only print the exception type and message, without a traceback."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:1
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:1 of
+msgid "Return a color formatted string with the traceback info."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:3
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:3 of
+msgid "Type of the exception raised."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:5
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:5 of
+msgid "Data stored in the exception"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:7
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:7 of
+msgid "List of frames, see class docstring for details."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:9
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:9 of
+msgid ""
+"Number of frames in the traceback to skip.  If not given, the instance "
+"value is used (set in constructor)."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback:12
+#: IPython.core.ultratb.SyntaxTB.structured_traceback:12 of
+msgid "Number of lines of context information to print."
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback
+#: IPython.core.ultratb.SyntaxTB.structured_traceback of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.ultratb.ListTB.structured_traceback
+#: IPython.core.ultratb.SyntaxTB.structured_traceback of
+msgid "Return type"
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB:1 of
+msgid ""
+"A port of Ka-Ping Yee's cgitb.py module that outputs color text instead "
+"of HTML.  Requires inspect and pydoc.  Crazy, man."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB:4 of
+msgid ""
+"Modified version which optionally strips the topmost entries from the "
+"traceback, to be used with alternate interpreters (because their own code"
+" would appear in the traceback)."
+msgstr ""
+
+#: IPython.core.ultratb.ColorTB.__init__:1
+#: IPython.core.ultratb.FormattedTB.__init__:1
+#: IPython.core.ultratb.VerboseTB.__init__:1 of
+msgid "Specify traceback offset, headers and color scheme."
+msgstr ""
+
+#: IPython.core.ultratb.ColorTB.__init__:3
+#: IPython.core.ultratb.FormattedTB.__init__:3
+#: IPython.core.ultratb.VerboseTB.__init__:3 of
+msgid ""
+"Define how many frames to drop from the tracebacks. Calling it with "
+"tb_offset=1 allows use of this handler in interpreters which will have "
+"their own code at the top of the traceback (VerboseTB will first remove "
+"that frame before printing the traceback info)."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.debugger:1 of
+msgid "Call up the pdb debugger if desired, always clean up the tb reference."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.debugger:4 of
+msgid "Keywords:"
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.debugger:6 of
+msgid ""
+"force(False): by default, this routine checks the instance call_pdb flag "
+"and does not actually invoke the debugger if the flag is false. The "
+"'force' option forces the debugger to activate even if the flag is false."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.debugger:11 of
+msgid ""
+"If the call_pdb flag is set, the pdb interactive debugger is invoked. In "
+"all cases, the self.tb reference to the current traceback is deleted to "
+"prevent lingering references which hamper memory management."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.debugger:16 of
+msgid ""
+"Note that each call to pdb() does an 'import readline', so if your app "
+"requires a special setup for the readline completers, you'll have to fix "
+"that by hand after invoking the exception handler."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.format_exception_as_a_whole:1 of
+msgid ""
+"Formats the header, traceback and exception message for a single "
+"exception."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.format_exception_as_a_whole:3 of
+msgid ""
+"This may be called multiple times by Python 3 exception chaining (PEP "
+"3134)."
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.format_record:1 of
+msgid "Format a single stack frame"
+msgstr ""
+
+#: IPython.core.ultratb.VerboseTB.format_records:1 of
+msgid "Format the stack frames of the traceback"
+msgstr ""
+
+#: IPython.core.ultratb.AutoFormattedTB.structured_traceback:1
+#: IPython.core.ultratb.FormattedTB.structured_traceback:1
+#: IPython.core.ultratb.VerboseTB.structured_traceback:1 of
+msgid "Return a nice text document describing the traceback."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB:1 of
+msgid ""
+"Bases: :class:`IPython.core.ultratb.VerboseTB`, "
+":class:`IPython.core.ultratb.ListTB`"
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB:1 of
+msgid "Subclass ListTB but allow calling with a traceback."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB:3 of
+msgid "It can thus be used as a sys.excepthook for Python > 2.1."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB:5 of
+msgid "Also adds 'Context' and 'Verbose' modes, not available in ListTB."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB:7 of
+msgid ""
+"Allows a tb_offset to be specified. This is useful for situations where "
+"one needs to remove a number of topmost frames from the traceback (such "
+"as occurs with python programs that themselves execute other python code,"
+" like Python shells)."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB.set_mode:1 of
+msgid "Switch to the desired mode."
+msgstr ""
+
+#: IPython.core.ultratb.FormattedTB.set_mode:3 of
+msgid "If mode is not specified, cycles through the available modes."
+msgstr ""
+
+#: IPython.core.ultratb.AutoFormattedTB:1 IPython.core.ultratb.ColorTB:1 of
+msgid "Bases: :class:`IPython.core.ultratb.FormattedTB`"
+msgstr ""
+
+#: IPython.core.ultratb.AutoFormattedTB:1 of
+msgid "A traceback printer which can be called on the fly."
+msgstr ""
+
+#: IPython.core.ultratb.AutoFormattedTB:3 of
+msgid "It will find out about exceptions by itself."
+msgstr ""
+
+#: IPython.core.ultratb.AutoFormattedTB:5 of
+msgid "A brief example::"
+msgstr ""
+
+#: IPython.core.ultratb.ColorTB:1 of
+msgid "Shorthand to initialize a FormattedTB in Linux colors mode."
+msgstr ""
+
+#: IPython.core.ultratb.SyntaxTB:1 of
+msgid "Bases: :class:`IPython.core.ultratb.ListTB`"
+msgstr ""
+
+#: IPython.core.ultratb.SyntaxTB:1 of
+msgid "Extension which holds some state: the last exception value"
+msgstr ""
+
+#: IPython.core.ultratb.SyntaxTB.clear_err_state:1 of
+msgid "Return the current error state and clear it"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.ultratb.rst:53
+msgid "10 Functions"
+msgstr ""
+
+#: IPython.core.ultratb.inspect_error:1 of
+msgid "Print a message about internal inspect errors."
+msgstr ""
+
+#: IPython.core.ultratb.inspect_error:3 of
+msgid "These are unfortunately quite common."
+msgstr ""
+
+#: IPython.core.ultratb.findsource:1 of
+msgid "Return the entire source file and starting line number for an object."
+msgstr ""
+
+#: IPython.core.ultratb.findsource:3 of
+msgid ""
+"The argument may be a module, class, method, function, traceback, frame, "
+"or code object.  The source code is returned as a list of all the lines "
+"in the file and the line number indexes a line in that list.  An IOError "
+"is raised if the source code cannot be retrieved."
+msgstr ""
+
+#: IPython.core.ultratb.findsource:8 of
+msgid "FIXED version with which we monkeypatch the stdlib to work around a bug."
+msgstr ""
+
+#: IPython.core.ultratb.getargs:1 of
+msgid "Get information about the arguments accepted by a code object."
+msgstr ""
+
+#: IPython.core.ultratb.getargs:3 of
+msgid ""
+"Three things are returned: (args, varargs, varkw), where 'args' is a list"
+" of argument names (possibly containing nested lists), and 'varargs' and "
+"'varkw' are the names of the * and ** arguments or None."
+msgstr ""
+
+#: IPython.core.ultratb.with_patch_inspect:1 of
+msgid ""
+"Deprecated since IPython 6.0 decorator for monkeypatching "
+"inspect.findsource"
+msgstr ""
+
+#: IPython.core.ultratb.fix_frame_records_filenames:1 of
+msgid "Try to fix the filenames in each record from inspect.getinnerframes()."
+msgstr ""
+
+#: IPython.core.ultratb.fix_frame_records_filenames:3 of
+msgid ""
+"Particularly, modules loaded from within zip files have useless filenames"
+" attached to their code object, and inspect.getinnerframes() just uses "
+"it."
+msgstr ""
+
+#: IPython.core.ultratb.find_recursion:1 of
+msgid "Identify the repeating stack frames from a RecursionError traceback"
+msgstr ""
+
+#: IPython.core.ultratb.find_recursion:3 of
+msgid "'records' is a list as returned by VerboseTB.get_records()"
+msgstr ""
+
+#: IPython.core.ultratb.find_recursion:5 of
+msgid "Returns (last_unique, repeat_length)"
+msgstr ""
+
+#: IPython.core.ultratb.text_repr:1 of
+msgid "Hopefully pretty robust repr equivalent."
+msgstr ""
+

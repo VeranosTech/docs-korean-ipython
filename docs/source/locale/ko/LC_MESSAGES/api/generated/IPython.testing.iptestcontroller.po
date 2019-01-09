@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptestcontroller.rst:4
+msgid "Module: :mod:`testing.iptestcontroller`"
+msgstr ""
+
+#: IPython.testing.iptestcontroller:1 of
+msgid "IPython Test Process Controller"
+msgstr ""
+
+#: IPython.testing.iptestcontroller:3 of
+msgid ""
+"This module runs one or more subprocesses which will actually run the "
+"IPython test suite."
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptestcontroller.rst:10
+msgid "3 Classes"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController:1 of
+msgid "Run tests in a subprocess"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.cleanup:1 of
+msgid "Kill process if it's still alive, and clean up temporary directories"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.cleanup_process:1 of
+msgid "Cleanup on exit by killing any leftover processes."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.cmd:1 of
+msgid "list, command line arguments to be executed"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.dirs:1 of
+msgid "list, TemporaryDirectory instances to clear up when the process finishes"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.env:1 of
+msgid "dict, extra environment variables to set for the subprocess"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.print_extra_info:1 of
+msgid "Print extra information about this test run."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.print_extra_info:3 of
+msgid ""
+"If we're running in parallel and showing the concise view, this is only "
+"called if the test group fails. Otherwise, it's called before the test "
+"group is started."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.print_extra_info:7 of
+msgid ""
+"The base implementation does nothing, but it can be overridden by "
+"subclasses."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.process:1 of
+msgid "subprocess.Popen instance"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.section:1 of
+msgid "str, IPython test suite to be executed."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController.setup:1
+#: IPython.testing.iptestcontroller.TestController.setup:1 of
+msgid "Create temporary directories etc."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController.setup:3
+#: IPython.testing.iptestcontroller.TestController.setup:3 of
+msgid ""
+"This is only called when we know the test group will be run. Things "
+"created here may be cleaned up by self.cleanup()."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.TestController.stdout:1 of
+msgid "str, process stdout+stderr"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController:1 of
+msgid "Bases: :class:`IPython.testing.iptestcontroller.TestController`"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController:1 of
+msgid "Run Python tests using IPython.testing.iptest"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController.__init__:1 of
+msgid "Create new test runner."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController.cleanup:1 of
+msgid ""
+"Make the non-accessible directory created in setup() accessible again, "
+"otherwise deleting the workingdir will fail."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.PyTestController.pycmd:1 of
+msgid "str, Python command to execute in subprocess"
+msgstr ""
+
+#: ../../source/api/generated/IPython.testing.iptestcontroller.rst:29
+msgid "7 Functions"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.prepare_controllers:1 of
+msgid ""
+"Returns two lists of TestController instances, those to run, and those "
+"not to run."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run:1 of
+msgid "Setup and run a test controller."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run:3 of
+msgid ""
+"If buffer_output is True, no output is displayed, to avoid it appearing "
+"interleaved. In this case, the caller is responsible for displaying test "
+"output on failure."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run of
+msgid "Returns"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run:7 of
+msgid ""
+"* **controller** (*TestController*) -- The same controller as passed in, "
+"as a convenience for using map() type   APIs. * **exitcode** (*int*) -- "
+"The exit code of the test subprocess. Non-zero indicates failure."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run:7 of
+msgid ""
+"**controller** (*TestController*) -- The same controller as passed in, as"
+" a convenience for using map() type APIs."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.do_run:9 of
+msgid ""
+"**exitcode** (*int*) -- The exit code of the test subprocess. Non-zero "
+"indicates failure."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.report:1 of
+msgid "Return a string with a summary report of test-related variables."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:1 of
+msgid "Run the entire IPython test suite by calling nose and trial."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:3 of
+msgid ""
+"This function constructs :class:`IPTester` instances for all IPython "
+"modules and package and then runs each of them.  This causes the modules "
+"and packages of IPython to be tested each in their own subprocess using "
+"nose."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:9 of
+msgid ""
+"Run only these sections of the test suite. If empty, run all the "
+"available sections."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:12 of
+msgid ""
+"Run the test suite in parallel, using n simultaneous processes. If None "
+"is passed, one process is used per CPU core. Default 1 (i.e. sequential)"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:15 of
+msgid "Include slow tests. By default, these tests aren't run."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:17 of
+msgid "Address:port to use when running the JS tests."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:19 of
+msgid "Produce Xunit XML output. This is written to multiple foo.xunit.xml files."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:21 of
+msgid ""
+"Measure code coverage from tests. True will store the raw coverage data, "
+"or pass 'html' or 'xml' to get reports."
+msgstr ""
+
+#: IPython.testing.iptestcontroller.run_iptestall:24 of
+msgid "Extra arguments to pass to the test subprocesses, e.g. '-v'"
+msgstr ""
+
+#: IPython.testing.iptestcontroller.default_options:1 of
+msgid ""
+"Get an argparse Namespace object with the default arguments, to pass to "
+":func:`run_iptestall`."
+msgstr ""
+

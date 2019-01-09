@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.compilerop.rst:4
+msgid "Module: :mod:`core.compilerop`"
+msgstr ""
+
+#: IPython.core.compilerop:1 of
+msgid "Compiler tools with improved interactive support."
+msgstr ""
+
+#: IPython.core.compilerop:3 of
+msgid ""
+"Provides compilation machinery similar to codeop, but with caching "
+"support so we can provide interactive tracebacks."
+msgstr ""
+
+#: IPython.core.compilerop:7 of
+msgid "Authors"
+msgstr ""
+
+#: IPython.core.compilerop:8 of
+msgid "Robert Kern"
+msgstr ""
+
+#: IPython.core.compilerop:9 of
+msgid "Fernando Perez"
+msgstr ""
+
+#: IPython.core.compilerop:10 of
+msgid "Thomas Kluyver"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.compilerop.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler:1 of
+msgid "Bases: :class:`codeop.Compile`"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler:1 of
+msgid "A compiler that caches code compiled from interactive statements."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.ast_parse:1 of
+msgid "Parse code to an AST with the current compiler flags active."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.ast_parse:3 of
+msgid ""
+"Arguments are exactly the same as ast.parse (in the standard library), "
+"and are passed to the built-in compile function."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:1 of
+msgid "Make a name for a block of code, and cache the code."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:3 of
+msgid "The Python source code to cache."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:5 of
+msgid ""
+"A number which forms part of the code's name. Used for the execution "
+"counter."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:9 of
+msgid ""
+"* *The name of the cached code (as a string). Pass this as the filename* "
+"* *argument to compilation, so that tracebacks are correctly hooked up.*"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:9 of
+msgid "*The name of the cached code (as a string). Pass this as the filename*"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.cache:10 of
+msgid "*argument to compilation, so that tracebacks are correctly hooked up.*"
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.compiler_flags:1 of
+msgid "Flags currently active in the compilation process."
+msgstr ""
+
+#: IPython.core.compilerop.CachingCompiler.reset_compiler_flags:1 of
+msgid "Reset compiler flags to default state."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.compilerop.rst:19
+msgid "2 Functions"
+msgstr ""
+
+#: IPython.core.compilerop.code_name:1 of
+msgid "Compute a (probably) unique name for code for caching."
+msgstr ""
+
+#: IPython.core.compilerop.code_name:3 of
+msgid "This now expects code to be unicode."
+msgstr ""
+
+#: IPython.core.compilerop.check_linecache_ipython:1 of
+msgid "Call linecache.checkcache() safely protecting our cached values."
+msgstr ""
+

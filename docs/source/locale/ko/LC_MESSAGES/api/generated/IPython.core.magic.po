@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic.rst:4
+msgid "Module: :mod:`core.magic`"
+msgstr ""
+
+#: IPython.core.magic:1 of
+msgid "Magic functions for InteractiveShell."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.core.magic.Bunch:1 IPython.core.magic.MagicAlias:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.magic.Magics:1 IPython.core.magic.MagicsManager:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager:1 of
+msgid "Object that handles all magic-related functionality for IPython."
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:1
+#: IPython.core.magic.MagicsManager.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__ IPython.core.magic.Magics.parse_options
+#: IPython.core.magic.MagicsManager.__init__
+#: IPython.core.magic.MagicsManager.register
+#: IPython.core.magic.MagicsManager.register_alias
+#: IPython.core.magic.MagicsManager.register_function
+#: IPython.core.magic.record_magic of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:3
+#: IPython.core.magic.MagicsManager.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:7
+#: IPython.core.magic.MagicsManager.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:11
+#: IPython.core.magic.MagicsManager.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:12
+#: IPython.core.magic.MagicsManager.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.magic.Magics.__init__:21
+#: IPython.core.magic.MagicsManager.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.auto_status:1 of
+msgid "Return descriptive string with automagic status."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.lsmagic:1 of
+msgid "Return a dict of currently available magic functions."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.lsmagic:3 of
+msgid ""
+"The return dict has the keys 'line' and 'cell', corresponding to the two "
+"types of magics we support.  Each value is a list of names."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.lsmagic_docs:1 of
+msgid "Return dict of documentation of magic functions."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.lsmagic_docs:3 of
+msgid ""
+"The return dict has the keys 'line' and 'cell', corresponding to the two "
+"types of magics we support. Each value is a dict keyed by magic name "
+"whose value is the function docstring. If a docstring is unavailable, the"
+" value of `missing` is used instead."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.lsmagic_docs:8 of
+msgid "If brief is True, only the first line of each docstring will be returned."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register:1 of
+msgid "Register one or more instances of Magics."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register:3 of
+#, python-format
+msgid ""
+"Take one or more classes or instances of classes that subclass the main "
+"`core.Magic` class, and register them with IPython to use the magic "
+"functions they provide.  The registration process will then ensure that "
+"any methods that have decorated to provide line and/or cell magics will "
+"be recognized with the `%x`/`%%x` syntax as a line/cell magic "
+"respectively."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register:10 of
+msgid ""
+"If classes are given, they will be instantiated with the default "
+"constructor.  If your classes need a custom constructor, you should "
+"instanitate them first and pass the instance."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register:14 of
+msgid "The provided arguments can be an arbitrary mix of classes and instances."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_alias:1 of
+msgid "Register an alias to a magic function."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_alias:3 of
+msgid ""
+"The alias is an instance of :class:`MagicAlias`, which holds the name and"
+" kind of the magic it should call. Binding is done at call time, so if "
+"the underlying magic function is changed the alias will call the new "
+"function."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_alias:8 of
+msgid "The name of the magic to be registered."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_alias:10 of
+msgid "The name of an existing magic."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_alias:12 of
+msgid "Kind of magic, one of 'line' or 'cell'"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:1 of
+msgid "Expose a standalone function as magic function for IPython."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:3 of
+msgid ""
+"This will create an IPython magic (line, cell or both) from a standalone "
+"function.  The functions should have the following signatures:"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:7 of
+msgid "For line magics: `def f(line)`"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:8 of
+msgid "For cell magics: `def f(line, cell)`"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:9 of
+msgid "For a function that does both: `def f(line, cell=None)`"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:11 of
+#, python-format
+msgid ""
+"In the latter case, the function will be called with `cell==None` when "
+"invoked as `%f`, and with cell as a string when invoked as `%%f`."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:14 of
+msgid "Function to be registered as a magic."
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:16 of
+msgid "Kind of magic, one of 'line', 'cell' or 'line_cell'"
+msgstr ""
+
+#: IPython.core.magic.MagicsManager.register_function:18 of
+msgid ""
+"If given, the name the magic will have in the IPython namespace.  By "
+"default, the name of the function itself is used."
+msgstr ""
+
+#: IPython.core.magic.Magics:1 of
+msgid "Base class for implementing magic functions."
+msgstr ""
+
+#: IPython.core.magic.Magics:3 of
+#, python-format
+msgid ""
+"Shell functions which can be reached as %function_name. All magic "
+"functions should accept a string, which they can parse for their own "
+"needs. This can make some functions easier to type, eg `%cd ../` vs. "
+"`%cd(\"../\")`"
+msgstr ""
+
+#: IPython.core.magic.Magics:8 of
+msgid ""
+"Classes providing magic functions need to subclass this class, and they "
+"MUST:"
+msgstr ""
+
+#: IPython.core.magic.Magics:11 of
+msgid ""
+"Use the method decorators `@line_magic` and `@cell_magic` to decorate "
+"individual methods as magic functions, AND"
+msgstr ""
+
+#: IPython.core.magic.Magics:14 of
+msgid ""
+"Use the class decorator `@magics_class` to ensure that the magic methods "
+"are properly registered at the instance level upon instance "
+"initialization."
+msgstr ""
+
+#: IPython.core.magic.Magics:18 of
+msgid "See :mod:`magic_functions` for examples of actual implementation classes."
+msgstr ""
+
+#: IPython.core.magic.Magics.arg_err:1 of
+msgid "Print docstring if incorrect arguments were passed"
+msgstr ""
+
+#: IPython.core.magic.Magics.default_option:1 of
+msgid "Make an entry in the options_table for fn, with value optstr"
+msgstr ""
+
+#: IPython.core.magic.Magics.format_latex:1 of
+msgid "Format a string for latex inclusion."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:1 of
+msgid "Parse options passed to an argument string."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:3 of
+msgid ""
+"The interface is similar to that of :func:`getopt.getopt`, but it returns"
+" a :class:`~IPython.utils.struct.Struct` with the options as keys and the"
+" stripped argument string still as a string."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:7 of
+msgid ""
+"arg_str is quoted as a true sys.argv vector by using shlex.split. This "
+"allows us to easily expand variables, glob files, quote arguments, etc."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:11 of
+msgid "The arguments to parse."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:13 of
+msgid "The options specification."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:15 of
+msgid ""
+"If given as 'list', the argument string is returned as a list (split on "
+"whitespace) instead of a string."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:18 of
+msgid ""
+"Put all option values in lists. Normally only options appearing more than"
+" once are put in a list."
+msgstr ""
+
+#: IPython.core.magic.Magics.parse_options:21 of
+msgid ""
+"Whether to split the input line in POSIX mode or not, as per the "
+"conventions outlined in the :mod:`shlex` module from the standard "
+"library."
+msgstr ""
+
+#: IPython.core.magic.MagicAlias:1 of
+msgid "An alias to another magic function."
+msgstr ""
+
+#: IPython.core.magic.MagicAlias:3 of
+msgid ""
+"An alias is determined by its magic name and magic kind. Lookup is done "
+"at call time, so if the underlying magic changes the alias will call the "
+"new function."
+msgstr ""
+
+#: IPython.core.magic.MagicAlias:7 of
+msgid ""
+"Use the :meth:`MagicsManager.register_alias` method or the `%alias_magic`"
+" magic function to create and register a new alias."
+msgstr ""
+
+#: IPython.core.magic.MagicAlias.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.magic.rst:35
+msgid "6 Functions"
+msgstr ""
+
+#: IPython.core.magic.on_off:1 of
+msgid "Return an ON/OFF string for a 1/0 input. Simple utility function."
+msgstr ""
+
+#: IPython.core.magic.compress_dhist:1 of
+msgid "Compress a directory history into a new one with at most 20 entries."
+msgstr ""
+
+#: IPython.core.magic.compress_dhist:3 of
+msgid ""
+"Return a new list made from the first and last 10 elements of dhist after"
+" removal of duplicates."
+msgstr ""
+
+#: IPython.core.magic.needs_local_scope:1 of
+msgid "Decorator to mark magic functions which need to local scope to run."
+msgstr ""
+
+#: IPython.core.magic.magics_class:1 of
+msgid "Class decorator for all subclasses of the main Magics class."
+msgstr ""
+
+#: IPython.core.magic.magics_class:3 of
+msgid ""
+"Any class that subclasses Magics *must* also apply this decorator, to "
+"ensure that all the methods that have been decorated as line/cell magics "
+"get correctly registered in the class instance.  This is necessary "
+"because when method decorators run, the class does not exist yet, so they"
+" temporarily store their information into a module global.  Application "
+"of this class decorator copies that global data to the class instance and"
+" clears the global."
+msgstr ""
+
+#: IPython.core.magic.magics_class:11 of
+msgid ""
+"Obviously, this mechanism is not thread-safe, which means that the "
+"*creation* of subclasses of Magic should only be done in a single-thread "
+"context.  Instantiation of the classes has no restrictions.  Given that "
+"these classes are typically created at IPython startup time and before "
+"user application code becomes active, in practice this should not pose "
+"any problems."
+msgstr ""
+
+#: IPython.core.magic.record_magic:1 of
+msgid "Utility function to store a function as a magic of a specific kind."
+msgstr ""
+
+#: IPython.core.magic.record_magic:3 of
+msgid "A dictionary with 'line' and 'cell' subdicts."
+msgstr ""
+
+#: IPython.core.magic.record_magic:5 of
+msgid "Kind of magic to be stored."
+msgstr ""
+
+#: IPython.core.magic.record_magic:7 of
+msgid "Key to store the magic as."
+msgstr ""
+
+#: IPython.core.magic.record_magic:9 of
+msgid "Callable object to store."
+msgstr ""
+
+#: IPython.core.magic.validate_type:1 of
+msgid "Ensure that the given magic_kind is valid."
+msgstr ""
+
+#: IPython.core.magic.validate_type:3 of
+msgid ""
+"Check that the given magic_kind is one of the accepted spec types (stored"
+" in the global `magic_spec`), raise ValueError otherwise."
+msgstr ""
+

@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.embed.rst:4
+msgid "Module: :mod:`terminal.embed`"
+msgstr ""
+
+#: IPython.terminal.embed:1 of
+msgid "An embedded IPython shell."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.embed.rst:10
+msgid "3 Classes"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics:1 of
+msgid "Bases: :class:`IPython.core.magic.Magics`"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.exit_raise:1 of
+#, python-format
+msgid "%exit_raise Make the current embedded kernel exit and raise and exception."
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.exit_raise:3 of
+msgid ""
+"This function sets an internal flag so that an embedded IPython will "
+"raise a `IPython.terminal.embed.KillEmbedded` Exception on exit, and then"
+" exit the current I. This is useful to permanently exit a loop that "
+"create IPython embed instance."
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:5 of
+msgid "%kill_embedded : deactivate for good the current embedded IPython"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:7 of
+msgid ""
+"This function (after asking for confirmation) sets an internal flag so "
+"that an embedded IPython will never activate again for the given call "
+"location. This is useful to permanently disable a shell that is being "
+"called inside a loop: once you've figured out what you needed from it, "
+"you may then kill it and the program will then continue to run without "
+"the interactive shell interfering again."
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:14 of
+msgid "Kill Instance Option:"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:16 of
+msgid ""
+"If for some reasons you need to kill the location where the instance is "
+"created and not called, for example if you create a single instance in "
+"one place and debug in many locations, you can use the ``--instance`` "
+"option to kill this specific instance. Like for the ``call location`` "
+"killing an \"instance\" should work even if it is recreated within a "
+"loop."
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:25 of
+msgid "This was the default behavior before IPython 5.2"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:29 of
+msgid "optional arguments:"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:28 of
+msgid "Kill instance instead of call location"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:29 of
+msgid "Also exit the current session"
+msgstr ""
+
+#: IPython.terminal.embed.EmbeddedMagics.kill_embedded:30 of
+msgid "Do not ask confirmation"
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed:1 of
+msgid "Bases: :class:`IPython.terminal.interactiveshell.TerminalInteractiveShell`"
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__
+#: IPython.terminal.embed.InteractiveShellEmbed.mainloop of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.init_sys_modules:1 of
+msgid "Explicitly overwrite :mod:`IPython.core.interactiveshell` to do nothing."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.mainloop:1 of
+msgid "Embeds IPython into a running python program."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.mainloop:3 of
+msgid ""
+"Working local namespace (a dict) and module (a module or similar object)."
+" If given as None, they are automatically taken from the scope where the "
+"shell was called, so that program variables become visible."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.mainloop:6 of
+msgid ""
+"How many levels in the stack to go to looking for namespaces (when "
+"local_ns or module is None). This allows an intermediate caller to make "
+"sure that this function gets the namespace from the intended level in the"
+" stack. By default (0) it will get its locals and globals from the "
+"immediate caller."
+msgstr ""
+
+#: IPython.terminal.embed.InteractiveShellEmbed.mainloop:12 of
+msgid ""
+"A bit field identifying the __future__ features that are enabled, as "
+"passed to the builtin :func:`compile` function. If given as None, they "
+"are automatically taken from the scope where the shell was called."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.embed.rst:27
+msgid "1 Function"
+msgstr ""
+
+#: IPython.terminal.embed.embed:1 of
+msgid "Call this to embed IPython at the current point in your program."
+msgstr ""
+
+#: IPython.terminal.embed.embed:3 of
+msgid ""
+"The first invocation of this will create an "
+":class:`InteractiveShellEmbed` instance and then call it.  Consecutive "
+"calls just call the already created instance."
+msgstr ""
+
+#: IPython.terminal.embed.embed:7 of
+msgid ""
+"If you don't want the kernel to initialize the namespace from the scope "
+"of the surrounding function, and/or you want to load full IPython "
+"configuration, you probably want `IPython.start_ipython()` instead."
+msgstr ""
+
+#: IPython.terminal.embed.embed:12 of
+msgid "Here is a simple example::"
+msgstr ""
+
+#: IPython.terminal.embed.embed:22 of
+msgid ""
+"Full customization can be done by passing a :class:`Config` in as the "
+"config argument."
+msgstr ""
+

@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.shortcuts.rst:4
+msgid "Module: :mod:`terminal.shortcuts`"
+msgstr ""
+
+#: IPython.terminal.shortcuts:1 of
+msgid ""
+"Module to define and register Terminal IPython shortcuts with "
+":mod:`prompt_toolkit`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.terminal.shortcuts.rst:10
+msgid "13 Functions"
+msgstr ""
+
+#: IPython.terminal.shortcuts.cursor_in_leading_ws:1 of
+msgid ""
+"Turn any callable into a Filter. The callable is supposed to not take any"
+" arguments."
+msgstr ""
+
+#: IPython.terminal.shortcuts.cursor_in_leading_ws:4 of
+msgid "This can be used as a decorator::"
+msgstr ""
+
+#: IPython.terminal.shortcuts.cursor_in_leading_ws of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.terminal.shortcuts.cursor_in_leading_ws:10 of
+msgid "Callable which takes no inputs and returns a boolean."
+msgstr ""
+
+#: IPython.terminal.shortcuts.previous_history_or_previous_completion:1 of
+msgid ""
+"Control-P in vi edit mode on readline is history next, unlike default "
+"prompt toolkit."
+msgstr ""
+
+#: IPython.terminal.shortcuts.previous_history_or_previous_completion:3 of
+msgid "If completer is open this still select previous completion."
+msgstr ""
+
+#: IPython.terminal.shortcuts.next_history_or_next_completion:1 of
+msgid ""
+"Control-N in vi edit mode on readline is history previous, unlike default"
+" prompt toolkit."
+msgstr ""
+
+#: IPython.terminal.shortcuts.next_history_or_next_completion:3 of
+msgid "If completer is open this still select next completion."
+msgstr ""
+
+#: IPython.terminal.shortcuts.force_exit:1 of
+msgid "Force exit (with a non-zero return value)"
+msgstr ""
+
+#: IPython.terminal.shortcuts.newline_with_copy_margin:1 of
+msgid "DEPRECATED since IPython 6.0"
+msgstr ""
+
+#: IPython.terminal.shortcuts.newline_with_copy_margin:3 of
+msgid "See :any:`newline_autoindent_outer` for a replacement."
+msgstr ""
+
+#: IPython.terminal.shortcuts.newline_with_copy_margin:5 of
+msgid ""
+"Preserve margin and cursor position when using Control-O to insert a "
+"newline in EMACS mode"
+msgstr ""
+

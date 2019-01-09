@@ -1,0 +1,1058 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/index.rst:5
+msgid "The IPython API"
+msgstr ""
+
+#: ../../source/api/index.rst
+msgid "Release"
+msgstr ""
+
+#: ../../source/api/index.rst:9
+msgid "|version|"
+msgstr ""
+
+#: ../../source/api/index.rst
+msgid "Date"
+msgstr ""
+
+#: ../../source/api/index.rst:10
+msgid "|today|"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython <IPython>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IPython: tools for interactive and parallel computing in Python."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.alias <IPython.core.alias>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "System command aliases."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.application <IPython.core.application>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "An application for IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.autocall <IPython.core.autocall>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Autocall capabilities for IPython.core."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.builtin_trap <IPython.core.builtin_trap>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A context manager for managing things injected into :mod:`builtins`."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.compilerop <IPython.core.compilerop>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Compiler tools with improved interactive support."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.completer <IPython.core.completer>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Completion for IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.completerlib <IPython.core.completerlib>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Implementations for various useful completers."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.crashhandler <IPython.core.crashhandler>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "sys.excepthook for IPython itself, leaves a detailed report on disk."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.debugger <IPython.core.debugger>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Pdb debugger class."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.error <IPython.core.error>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Global exception classes for IPython.core."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.events <IPython.core.events>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Infrastructure for registering and firing callbacks on application events."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.excolors <IPython.core.excolors>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Color schemes for exception handling code in IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.extensions <IPython.core.extensions>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A class for managing IPython extensions."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.formatters <IPython.core.formatters>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Display formatters."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.getipython <IPython.core.getipython>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Simple function to call to get the current InteractiveShell instance"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.history <IPython.core.history>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "History related magics and functionality"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.historyapp <IPython.core.historyapp>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "An application for managing IPython history."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.hooks <IPython.core.hooks>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Hooks for IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.inputsplitter <IPython.core.inputsplitter>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "DEPRECATED: Input handling and transformation machinery."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.inputtransformer <IPython.core.inputtransformer>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "DEPRECATED: Input transformer classes to support IPython special syntax."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.interactiveshell <IPython.core.interactiveshell>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Main IPython class."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.logger <IPython.core.logger>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Logger class for IPython's logging facilities."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.macro <IPython.core.macro>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Support for interactive macros in IPython"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.magic <IPython.core.magic>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Magic functions for InteractiveShell."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.magic_arguments <IPython.core.magic_arguments>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"A decorator-based method of constructing IPython magics with `argparse` "
+"option handling."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.oinspect <IPython.core.oinspect>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Tools for inspecting Python objects."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.page <IPython.core.page>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Paging capabilities for IPython.core"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.payload <IPython.core.payload>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Payload system for IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.payloadpage <IPython.core.payloadpage>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A payload based version of page."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.prefilter <IPython.core.prefilter>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Prefiltering components."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.profileapp <IPython.core.profileapp>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "An application for managing IPython profiles."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.profiledir <IPython.core.profiledir>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "An object for managing IPython profile directories."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.prompts <IPython.core.prompts>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Being removed"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.pylabtools <IPython.core.pylabtools>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Pylab (matplotlib) support utilities."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.shellapp <IPython.core.shellapp>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"A mixin for :class:`~IPython.core.application.Application` classes that "
+"launch InteractiveShell instances, load extensions, etc."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.splitinput <IPython.core.splitinput>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Simple utility for splitting user input."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.core.ultratb <IPython.core.ultratb>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Verbose and colourful traceback formatting."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.display <IPython.display>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Public API for display tools in IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.backgroundjobs <IPython.lib.backgroundjobs>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Manage background (threaded) jobs conveniently from an interactive shell."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.clipboard <IPython.lib.clipboard>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for accessing the platform's clipboard."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.deepreload <IPython.lib.deepreload>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Provides a reload() function that acts recursively."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.demo <IPython.lib.demo>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Module for interactive demos using IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.editorhooks <IPython.lib.editorhooks>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "'editor' hooks for common editors that work well with ipython"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.guisupport <IPython.lib.guisupport>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Support for creating GUI apps and starting event loops."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.inputhook <IPython.lib.inputhook>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Deprecated since IPython 5.0"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.latextools <IPython.lib.latextools>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Tools for handling LaTeX."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.lexers <IPython.lib.lexers>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Defines a variety of Pygments lexers for highlighting IPython code."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.pretty <IPython.lib.pretty>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Python advanced pretty printer."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.lib.security <IPython.lib.security>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Password generation for the IPython notebook."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.paths <IPython.paths>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Find files and directories which IPython uses."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.debugger <IPython.terminal.debugger>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.embed <IPython.terminal.embed>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "An embedded IPython shell."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+":obj:`IPython.terminal.interactiveshell "
+"<IPython.terminal.interactiveshell>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IPython terminal interface using prompt_toolkit"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.ipapp <IPython.terminal.ipapp>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"The :class:`~IPython.core.application.Application` object for the command"
+" line :command:`ipython` program."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.magics <IPython.terminal.magics>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Extra magics for terminal use."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.prompts <IPython.terminal.prompts>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Terminal input and output prompts."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.terminal.shortcuts <IPython.terminal.shortcuts>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"Module to define and register Terminal IPython shortcuts with "
+":mod:`prompt_toolkit`"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing <IPython.testing>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Testing support (tools to test IPython itself)."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.decorators <IPython.testing.decorators>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Decorators for labeling test objects."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.globalipapp <IPython.testing.globalipapp>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Global IPython app to support test running."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.iptest <IPython.testing.iptest>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IPython Test Suite Runner."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+":obj:`IPython.testing.iptestcontroller "
+"<IPython.testing.iptestcontroller>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IPython Test Process Controller"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.ipunittest <IPython.testing.ipunittest>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Experimental code for cleaner support of IPython syntax with unittest."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.skipdoctest <IPython.testing.skipdoctest>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Decorators marks that a doctest should be skipped."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.testing.tools <IPython.testing.tools>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Generic testing tools."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.PyColorize <IPython.utils.PyColorize>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Class and program to colorize python source code for ANSI terminals."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.capture <IPython.utils.capture>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IO capturing utilities."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.colorable <IPython.utils.colorable>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Color managing related utilities"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.coloransi <IPython.utils.coloransi>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Tools for coloring text in ANSI terminals."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.contexts <IPython.utils.contexts>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Miscellaneous context managers."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.data <IPython.utils.data>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for working with data structures like lists, dicts and tuples."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.decorators <IPython.utils.decorators>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Decorators that don't go anywhere else."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.dir2 <IPython.utils.dir2>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A fancy version of Python's builtin :func:`dir` function."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.encoding <IPython.utils.encoding>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for dealing with text encodings"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.frame <IPython.utils.frame>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for working with stack frames."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.generics <IPython.utils.generics>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Generic functions for extending IPython."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.importstring <IPython.utils.importstring>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A simple utility to import something by its string name."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.io <IPython.utils.io>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "IO related utilities."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.ipstruct <IPython.utils.ipstruct>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A dict subclass that supports attribute style access."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.module_paths <IPython.utils.module_paths>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utility functions for finding modules"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.openpy <IPython.utils.openpy>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"Tools to open .py files as Unicode, using the encoding specified within "
+"the file, as per PEP 263."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.path <IPython.utils.path>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for path handling."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.process <IPython.utils.process>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for working with external processes."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.rlineimpl <IPython.utils.rlineimpl>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.sentinel <IPython.utils.sentinel>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Sentinel class for constants with useful reprs"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.shimmodule <IPython.utils.shimmodule>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "A shim module for deprecated imports"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.strdispatch <IPython.utils.strdispatch>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "String dispatch class to match regexps and dispatch commands."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.sysinfo <IPython.utils.sysinfo>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"Utilities for getting information about IPython and the system it's "
+"running in."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.syspathcontext <IPython.utils.syspathcontext>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Context managers for adding things to sys.path temporarily."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.tempdir <IPython.utils.tempdir>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ""
+"This module contains classes - NamedFileInTemporaryDirectory, "
+"TemporaryWorkingDirectory."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.terminal <IPython.utils.terminal>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for working with terminals."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.text <IPython.utils.text>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for working with strings and text."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.timing <IPython.utils.timing>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for timing code execution."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.tokenutil <IPython.utils.tokenutil>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Token-related utilities"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.tz <IPython.utils.tz>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Timezone utilities"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.ulinecache <IPython.utils.ulinecache>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "This module has been deprecated since IPython 6.0."
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.version <IPython.utils.version>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Utilities for version comparison"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid ":obj:`IPython.utils.wildcard <IPython.utils.wildcard>`\\"
+msgstr ""
+
+#: ../../internal after padding
+#: source/api/generated/gen.txt:105:<autosummary>:1
+msgid "Support for wildcard pattern matching in object inspection."
+msgstr ""
+

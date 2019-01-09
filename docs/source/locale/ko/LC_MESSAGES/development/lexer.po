@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/development/lexer.rst:4
+msgid "New IPython Console Lexer"
+msgstr ""
+
+#: ../../source/development/lexer.rst:8
+msgid ""
+"The IPython console lexer has been rewritten and now supports tracebacks "
+"and customized input/output prompts. An entire suite of lexers is now "
+"available at :mod:`IPython.lib.lexers`. These include:"
+msgstr ""
+
+#: ../../source/development/lexer.rst:13
+msgid "IPythonLexer & IPython3Lexer"
+msgstr ""
+
+#: ../../source/development/lexer.rst:13
+msgid "Lexers for pure IPython (python + magic/shell commands)"
+msgstr ""
+
+#: ../../source/development/lexer.rst:18
+msgid "IPythonPartialTracebackLexer & IPythonTracebackLexer"
+msgstr ""
+
+#: ../../source/development/lexer.rst:16
+msgid ""
+"Supports 2.x and 3.x via the keyword `python3`. The partial traceback "
+"lexer reads everything but the Python code appearing in a traceback. The "
+"full lexer combines the partial lexer with an IPython lexer."
+msgstr ""
+
+#: ../../source/development/lexer.rst:22
+msgid "IPythonConsoleLexer"
+msgstr ""
+
+#: ../../source/development/lexer.rst:21
+msgid ""
+"A lexer for IPython console sessions, with support for tracebacks. "
+"Supports 2.x and 3.x via the keyword `python3`."
+msgstr ""
+
+#: ../../source/development/lexer.rst:27
+msgid "IPyLexer"
+msgstr ""
+
+#: ../../source/development/lexer.rst:25
+msgid ""
+"A friendly lexer which examines the first line of text and from it, "
+"decides whether to use an IPython lexer or an IPython console lexer. "
+"Supports 2.x and 3.x via the keyword `python3`."
+msgstr ""
+
+#: ../../source/development/lexer.rst:29
+msgid ""
+"Previously, the :class:`IPythonConsoleLexer` class was available at "
+":mod:`IPython.sphinxext.ipython_console_hightlight`.  It was inserted "
+"into Pygments' list of available lexers under the name `ipython`.  It "
+"should be mentioned that this name is inaccurate, since an IPython "
+"console session is not the same as IPython code (which itself is a "
+"superset of the Python language)."
+msgstr ""
+
+#: ../../source/development/lexer.rst:36
+msgid ""
+"Now, the Sphinx extension inserts two console lexers into Pygments' list "
+"of available lexers. Both are IPyLexer instances under the names: "
+"`ipython` and `ipython3`. Although the names can be confusing (as "
+"mentioned above), their continued use is, in part, to maintain backwards "
+"compatibility and to aid typical usage. If a project needs to make "
+"Pygments aware of more than just the IPyLexer class, then one should not "
+"make the IPyLexer class available under the name `ipython` and use `ipy` "
+"or some other non-conflicting value."
+msgstr ""
+
+#: ../../source/development/lexer.rst:44
+msgid "Code blocks such as:"
+msgstr ""
+
+#: ../../source/development/lexer.rst:53
+msgid ""
+"will continue to work as before, but now, they will also properly "
+"highlight tracebacks.  For pure IPython code, the same lexer will also "
+"work:"
+msgstr ""
+
+#: ../../source/development/lexer.rst:63
+msgid ""
+"Since the first line of the block did not begin with a standard IPython "
+"console prompt, the entire block is assumed to consist of IPython code "
+"instead."
+msgstr ""
+

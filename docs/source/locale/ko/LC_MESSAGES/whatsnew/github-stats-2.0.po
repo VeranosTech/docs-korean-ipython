@@ -1,0 +1,6493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:4
+msgid "Issues closed in the 2.x development cycle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:7
+msgid "Issues closed in 2.4.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:9
+msgid "GitHub stats for 2014/11/01 - 2015/01/30"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:13
+msgid ""
+"IPython 2.4.0 was released without a few of the backports listed below. "
+"2.4.1 has the correct patches intended for 2.4.0."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:16
+#: ../../source/whatsnew/github-stats-2.0.rst:74
+#: ../../source/whatsnew/github-stats-2.0.rst:125
+#: ../../source/whatsnew/github-stats-2.0.rst:192
+#: ../../source/whatsnew/github-stats-2.0.rst:378
+msgid ""
+"These lists are automatically generated, and may be incomplete or contain"
+" duplicates."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:18
+msgid "The following 7 authors contributed 35 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:20
+#: ../../source/whatsnew/github-stats-2.0.rst:78
+#: ../../source/whatsnew/github-stats-2.0.rst:130
+#: ../../source/whatsnew/github-stats-2.0.rst:198
+#: ../../source/whatsnew/github-stats-2.0.rst:391
+msgid "Benjamin Ragan-Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:21
+#: ../../source/whatsnew/github-stats-2.0.rst:397
+msgid "Carlos Cordoba"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:22
+msgid "Damon Allen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:23
+#: ../../source/whatsnew/github-stats-2.0.rst:81
+#: ../../source/whatsnew/github-stats-2.0.rst:210
+msgid "Jessica B. Hamrick"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:24
+msgid "Mateusz Paprocki"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:25
+msgid "Peter Würtz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:26
+#: ../../source/whatsnew/github-stats-2.0.rst:83
+#: ../../source/whatsnew/github-stats-2.0.rst:140
+#: ../../source/whatsnew/github-stats-2.0.rst:228
+#: ../../source/whatsnew/github-stats-2.0.rst:467
+msgid "Thomas Kluyver"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:28
+msgid ""
+"We closed 10 issues and merged 6 pull requests; this is the full list "
+"(generated with the script :file:`tools/github_stats.py`):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:32
+msgid "Pull Requests (10):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:34
+msgid ""
+":ghpull:`7106`: Changed the display order of rich output in the live "
+"notebook."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:35
+msgid ""
+":ghpull:`6878`: Update pygments monkeypatch for compatibility with "
+"Pygments 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:36
+msgid ":ghpull:`6778`: backport nbformat v4 to 2.x"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:37
+msgid ":ghpull:`6761`: object_info_reply field is oname, not name"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:38
+msgid ":ghpull:`6653`: Fix IPython.utils.ansispan() to ignore stray [0m"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:39
+msgid ":ghpull:`6706`: Correctly display prompt numbers that are ``None``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:40
+msgid ":ghpull:`6634`: don't use contains in SelectWidget item_query"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:41
+msgid ":ghpull:`6593`: note how to start the qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:42
+msgid ":ghpull:`6281`: more minor fixes to release scripts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:43
+msgid ":ghpull:`5458`: Add support for PyQt5."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:45
+msgid "Issues (6):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:47
+msgid ":ghissue:`7272`: qtconsole problems with pygments"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:48
+msgid ""
+":ghissue:`7049`: Cause TypeError: 'NoneType' object is not callable in "
+"qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:49
+msgid ":ghissue:`6877`: Qt console doesn't work with pygments 2.0rc1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:50
+msgid ":ghissue:`6689`: Problem with string containing two or more question marks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:51
+msgid ":ghissue:`6702`: Cell numbering after ``ClearOutput`` preprocessor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:52
+msgid ""
+":ghissue:`6633`: selectwidget doesn't display 1 as a selection choice "
+"when passed in as a member of values list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:56
+msgid "Issues closed in 2.3.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:58
+msgid "Just one bugfix: fixed bad CRCRLF line-endings in notebooks on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:60
+msgid "Pull Requests (1):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:62
+msgid ":ghpull:`6911`: don't use text mode in mkstemp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:64
+msgid "Issues (1):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:66
+msgid ":ghissue:`6599`: Notebook.ipynb CR+LF turned into CR+CR+LF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:70
+msgid "Issues closed in 2.3.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:72
+msgid "GitHub stats for 2014/08/06 - 2014/10/01"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:76
+msgid "The following 6 authors contributed 31 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:79
+#: ../../source/whatsnew/github-stats-2.0.rst:406
+msgid "David Hirschfeld"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:80
+msgid "Eric Firing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:82
+#: ../../source/whatsnew/github-stats-2.0.rst:136
+#: ../../source/whatsnew/github-stats-2.0.rst:213
+#: ../../source/whatsnew/github-stats-2.0.rst:438
+msgid "Matthias Bussonnier"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:85
+msgid ""
+"We closed 16 issues and merged 9 pull requests; this is the full list "
+"(generated with the script :file:`tools/github_stats.py`):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:89
+msgid "Pull Requests (16):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:91
+msgid ":ghpull:`6587`: support ``%matplotlib qt5`` and ``%matplotlib nbagg``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:92
+msgid ":ghpull:`6583`: Windows symlink test fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:93
+msgid ":ghpull:`6585`: fixes :ghissue:`6473`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:94
+msgid ":ghpull:`6581`: Properly mock winreg functions for test"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:95
+msgid ""
+":ghpull:`6556`: Use some more informative asserts in inprocess kernel "
+"tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:96
+msgid ":ghpull:`6514`: Fix for copying metadata flags"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:97
+msgid ":ghpull:`6453`: Copy file metadata in atomic save"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:98
+msgid ":ghpull:`6480`: only compare host:port in Websocket.check_origin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:99
+msgid ":ghpull:`6483`: Trim anchor link in heading cells, fixes :ghissue:`6324`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:100
+msgid ":ghpull:`6410`: Fix relative import in appnope"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:101
+msgid ":ghpull:`6395`: update mathjax CDN url in nbconvert template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:102
+msgid ":ghpull:`6269`: Implement atomic save"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:103
+msgid ":ghpull:`6374`: Rename ``abort_queues`` --> ``_abort_queues``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:104
+msgid ""
+":ghpull:`6321`: Use appnope in qt and wx gui support from the terminal; "
+"closes :ghissue:`6189`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:105
+msgid ":ghpull:`6318`: use write_error instead of get_error_html"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:106
+msgid ":ghpull:`6303`: Fix error message when failing to load a notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:108
+msgid "Issues (9):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:110
+msgid ":ghissue:`6057`: ``%matplotlib`` + qt5"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:111
+msgid ":ghissue:`6518`: Test failure in atomic save on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:112
+msgid ""
+":ghissue:`6473`: Switching between \"Raw Cell Format\" and \"Edit "
+"Metadata\" does not work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:113
+msgid ""
+":ghissue:`6405`: Creating a notebook should respect directory "
+"permissions; saving should respect prior permissions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:114
+msgid ":ghissue:`6324`: Anchors in Heading don't work."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:115
+msgid ":ghissue:`6409`: No module named '_dummy'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:116
+msgid ":ghissue:`6392`: Mathjax library link broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:117
+msgid ""
+":ghissue:`6329`: IPython Notebook Server URL now requires \"tree\" at the"
+" end of the URL? (version 2.2)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:118
+msgid ""
+":ghissue:`6189`: ipython console freezes for increasing no of seconds in "
+"%pylab mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:121
+msgid "Issues closed in 2.2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:123
+msgid "GitHub stats for 2014/05/21 - 2014/08/06 (tag: rel-2.1.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:127
+msgid "The following 13 authors contributed 36 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:129
+msgid "Adam Hodgen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:131
+msgid "Björn Grüning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:132
+msgid "Dara Adib"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:133
+msgid "Eric Galloway"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:134
+#: ../../source/whatsnew/github-stats-2.0.rst:212
+#: ../../source/whatsnew/github-stats-2.0.rst:424
+msgid "Jonathan Frederic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:135
+#: ../../source/whatsnew/github-stats-2.0.rst:432
+msgid "Kyle Kelley"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:137
+#: ../../source/whatsnew/github-stats-2.0.rst:220
+#: ../../source/whatsnew/github-stats-2.0.rst:445
+msgid "Paul Ivanov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:138
+msgid "Shayne Hodge"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:139
+msgid "Steven Anton"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:141
+msgid "Zahari"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:143
+msgid ""
+"We closed 23 issues and merged 11 pull requests; this is the full list "
+"(generated with the script :file:`tools/github_stats.py`):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:147
+msgid "Pull Requests (23):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:149
+msgid ":ghpull:`6279`: minor updates to release scripts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:150
+msgid ":ghpull:`6273`: Upgrade default mathjax version."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:151
+msgid ":ghpull:`6249`: always use HTTPS getting mathjax from CDN"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:152
+msgid ":ghpull:`6114`: update hmac signature comparison"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:153
+msgid ""
+":ghpull:`6195`: Close handle on new temporary files before returning "
+"filename"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:154
+msgid ":ghpull:`6143`: pin tornado to < 4 on travis js tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:155
+msgid ":ghpull:`6134`: remove rackcdn https workaround for mathjax cdn"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:156
+msgid ":ghpull:`6120`: Only allow iframe embedding on same origin."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:157
+msgid ":ghpull:`6117`: Remove / from route of TreeRedirectHandler."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:158
+msgid ":ghpull:`6105`: only set allow_origin_pat if defined"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:159
+msgid ":ghpull:`6102`: Add newline if missing to end of script magic cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:160
+msgid ":ghpull:`6077`: allow unicode keys in dicts in json_clean"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:161
+msgid ":ghpull:`6061`: make CORS configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:162
+msgid ":ghpull:`6081`: don’t modify dict keys while iterating through them"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:163
+msgid ":ghpull:`5803`: unify visual line handling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:164
+msgid ""
+":ghpull:`6005`: Changed right arrow key movement function to mirror left "
+"arrow key"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:165
+msgid ":ghpull:`6029`: add pickleutil.PICKLE_PROTOCOL"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:166
+msgid ":ghpull:`6003`: Set kernel_id before checking websocket"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:167
+msgid ":ghpull:`5994`: Fix ssh tunnel for Python3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:168
+msgid ":ghpull:`5973`: Do not create checkpoint_dir relative to current dir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:169
+msgid ":ghpull:`5933`: fix qt_loader import hook signature"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:170
+msgid ":ghpull:`5944`: Markdown rendering bug fix."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:171
+msgid ":ghpull:`5917`: use shutil.move instead of os.rename"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:173
+msgid "Issues (11):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:175
+msgid ""
+":ghissue:`6246`: Include MathJax by default or access the CDN over a "
+"secure connection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:176
+msgid ""
+":ghissue:`5525`: Websocket origin check fails when used with Apache WS "
+"proxy"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:177
+msgid ":ghissue:`5901`: 2 test failures in Python 3.4 in parallel group"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:178
+msgid ""
+":ghissue:`5926`: QT console: text selection cannot be made from left to "
+"right with keyboard"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:179
+msgid ":ghissue:`5998`: use_dill does not work in Python 3.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:180
+msgid ":ghissue:`5964`: Traceback on Qt console exit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:181
+msgid ":ghissue:`5787`: Error in Notebook-Generated latex (nbconvert)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:182
+msgid ":ghissue:`5950`: qtconsole truncates help"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:183
+msgid ":ghissue:`5943`: 2.x: notebook fails to load when using HTML comments"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:184
+msgid ":ghissue:`5932`: Qt ImportDenier Does Not Adhere to PEP302"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:185
+msgid ":ghissue:`5898`: OSError when moving configuration file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:188
+msgid "Issues closed in 2.1.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:190
+msgid "GitHub stats for 2014/04/02 - 2014/05/21 (since 2.0.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:194
+msgid "The following 35 authors contributed 145 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:196
+msgid "Adrian Price-Whelan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:197
+#: ../../source/whatsnew/github-stats-2.0.rst:389
+msgid "Aron Ahmadia"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:199
+msgid "Benjamin Schultz"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:200
+msgid "Björn Linse"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:201
+#: ../../source/whatsnew/github-stats-2.0.rst:393
+msgid "Blake Griffith"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:202
+#: ../../source/whatsnew/github-stats-2.0.rst:399
+msgid "chebee7i"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:203
+#: ../../source/whatsnew/github-stats-2.0.rst:403
+msgid "Damián Avila"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:204
+#: ../../source/whatsnew/github-stats-2.0.rst:405
+msgid "Dav Clark"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:205
+msgid "dexterdev"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:206
+msgid "Erik Tollerud"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:207
+msgid "Grzegorz Rożniecki"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:208
+#: ../../source/whatsnew/github-stats-2.0.rst:419
+msgid "Jakob Gager"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:209
+msgid "jdavidheiser"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:211
+msgid "Jim Garrison"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:214
+msgid "Maximilian Albert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:215
+msgid "Mohan Raj Rajamanickam"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:216
+msgid "ncornette"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:217
+msgid "Nikolay Koldunov"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:218
+msgid "Nile Geisinger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:219
+#: ../../source/whatsnew/github-stats-2.0.rst:443
+msgid "Pankaj Pandey"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:221
+msgid "Pierre Haessig"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:222
+msgid "Raffaele De Feo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:223
+msgid "Renaud Richardet"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:224
+msgid "Spencer Nelson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:225
+msgid "Steve Chan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:226
+msgid "sunny"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:227
+#: ../../source/whatsnew/github-stats-2.0.rst:462
+msgid "Susan Tan"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:229
+#: ../../source/whatsnew/github-stats-2.0.rst:471
+msgid "Yaroslav Halchenko"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:230
+#: ../../source/whatsnew/github-stats-2.0.rst:475
+msgid "zah"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:232
+msgid ""
+"We closed a total of 129 issues, 92 pull requests and 37 regular issues; "
+"this is the full list (generated with the script "
+":file:`tools/github_stats.py --milestone 2.1`):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:236
+msgid "Pull Requests (92):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:238
+msgid ":ghpull:`5871`: specify encoding in msgpack.unpackb"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:239
+msgid ":ghpull:`5869`: Catch more errors from clipboard access on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:240
+msgid ":ghpull:`5866`: Make test robust against differences in line endings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:241
+msgid ":ghpull:`5605`: Two cell toolbar fixes."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:242
+msgid ":ghpull:`5843`: remove Firefox-specific CSS workaround"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:243
+msgid ""
+":ghpull:`5845`: Pass Windows interrupt event to kernels as an environment"
+" variable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:244
+msgid ":ghpull:`5835`: fix typo in v2 convert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:245
+msgid ":ghpull:`5841`: Fix writing history with output to a file in Python 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:246
+msgid ":ghpull:`5842`: fix typo in nbconvert help"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:247
+msgid ":ghpull:`5846`: Fix typos in Cython example"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:248
+msgid ":ghpull:`5839`: Close graphics dev in finally clause"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:249
+msgid ":ghpull:`5837`: pass on install docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:250
+msgid ":ghpull:`5832`: Fixed example to work with python3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:251
+msgid ":ghpull:`5826`: allow notebook tour instantiation to fail"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:252
+msgid ":ghpull:`5560`: Minor expansion of Cython example"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:253
+msgid ":ghpull:`5818`: interpret any exception in getcallargs as not callable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:254
+msgid ":ghpull:`5816`: Add output to IPython directive when in verbatim mode."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:255
+msgid ":ghpull:`5822`: Don't overwrite widget description in interact"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:256
+msgid ""
+":ghpull:`5782`: Silence exception thrown by completer when dir() does not"
+" return a list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:257
+msgid ":ghpull:`5807`: Drop log level to info for Qt console shutdown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:258
+msgid ":ghpull:`5814`: Remove -i options from mv, rm and cp aliases"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:259
+msgid ":ghpull:`5812`: Fix application name when printing subcommand help."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:260
+msgid ":ghpull:`5804`: remove an inappropriate ``!``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:261
+msgid ":ghpull:`5805`: fix engine startup files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:262
+msgid ":ghpull:`5806`: Don't auto-move .config/ipython if symbolic link"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:263
+msgid ":ghpull:`5716`: Add booktabs package to latex base.tplx"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:264
+msgid ":ghpull:`5669`: allows threadsafe sys.stdout.flush from background threads"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:265
+msgid ":ghpull:`5668`: allow async output on the most recent request"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:266
+msgid ":ghpull:`5768`: fix cursor keys in long lines wrapped in markdown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:267
+#, python-format
+msgid ":ghpull:`5788`: run cells with ``silent=True`` in ``%run nb.ipynb``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:268
+msgid ":ghpull:`5715`: log all failed ajax API requests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:269
+msgid ":ghpull:`5769`: Don't urlescape the text that goes into a title tag"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:270
+msgid ":ghpull:`5762`: Fix check for pickling closures"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:271
+msgid ":ghpull:`5766`: View.map with empty sequence should return empty list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:272
+msgid ""
+":ghpull:`5758`: Applied bug fix: using fc and ec did not properly set the"
+" figure canvas ..."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:273
+msgid ""
+":ghpull:`5754`: Format command name into subcommand_description at run "
+"time, not import"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:274
+msgid ":ghpull:`5744`: Describe using PyPI/pip to distribute & install extensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:275
+msgid ":ghpull:`5712`: monkeypatch inspect.findsource only when we use it"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:276
+msgid ":ghpull:`5708`: create checkpoints dir in notebook subdirectories"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:277
+msgid ":ghpull:`5714`: log error message when API requests fail"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:278
+msgid ":ghpull:`5732`: Quick typo fix in nbformat/convert.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:279
+msgid ":ghpull:`5713`: Fix a NameError in IPython.parallel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:280
+msgid ":ghpull:`5704`: Update nbconvertapp.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:281
+msgid ":ghpull:`5534`: cleanup some ``pre`` css inheritance"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:282
+msgid ":ghpull:`5699`: don't use common names in require decorators"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:283
+msgid ""
+":ghpull:`5692`: Update notebook.rst fixing broken reference to notebook "
+"examples readme"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:284
+msgid ":ghpull:`5693`: Update parallel_intro.rst to fix a broken link to examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:285
+msgid ":ghpull:`5486`: disambiguate to location when no IPs can be determined"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:286
+msgid ":ghpull:`5574`: Remove the outdated keyboard shortcuts from notebook docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:287
+msgid ":ghpull:`5568`: Use ``__qualname__`` in pretty reprs for Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:288
+msgid ":ghpull:`5678`: Fix copy & paste error in docstring of ImageWidget class"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:289
+msgid ":ghpull:`5677`: Fix %bookmark -l for Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:290
+msgid ":ghpull:`5670`: nbconvert: Fix CWD imports"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:291
+msgid ":ghpull:`5647`: Mention git hooks in install documentation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:292
+msgid ":ghpull:`5671`: Fix blank slides issue in Reveal slideshow pdf export"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:293
+msgid ":ghpull:`5657`: use 'localhost' as default for the notebook server"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:294
+msgid ":ghpull:`5584`: more semantic icons"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:295
+msgid ":ghpull:`5594`: update components with marked-0.3.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:296
+msgid ":ghpull:`5500`: check for Python 3.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:297
+msgid ":ghpull:`5582`: reset readline after running PYTHONSTARTUP"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:298
+msgid ""
+":ghpull:`5630`: Fixed Issue :ghissue:`4012` Added Help menubar link to "
+"Github markdown doc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:299
+msgid ":ghpull:`5613`: Fixing bug :ghissue:`5607`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:300
+msgid ":ghpull:`5633`: Provide more help if lessc is not found."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:301
+msgid ":ghpull:`5620`: fixed a typo in IPython.core.formatters"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:302
+msgid ":ghpull:`5619`: Fix typo in storemagic module docstring"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:303
+msgid ":ghpull:`5592`: add missing ``browser`` to notebook_aliases list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:304
+msgid ":ghpull:`5506`: Fix ipconfig regex pattern"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:305
+msgid ":ghpull:`5581`: Fix rmagic for cells ending in comment."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:306
+msgid ":ghpull:`5576`: only process cr if it's found"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:307
+msgid ":ghpull:`5478`: Add git-hooks install script. Update README.md"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:308
+msgid ":ghpull:`5546`: do not shutdown notebook if 'n' is part of answer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:309
+msgid ""
+":ghpull:`5527`: Don't remove upload items from nav tree unless explicitly"
+" requested."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:310
+msgid ":ghpull:`5501`: remove inappropriate wheel tag override"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:311
+msgid ""
+":ghpull:`5548`: FileNotebookManager: Use shutil.move() instead of "
+"os.rename()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:312
+msgid ":ghpull:`5524`: never use ``for (var i in array)``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:313
+msgid ":ghpull:`5459`: Fix interact animation page jump FF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:314
+msgid ":ghpull:`5559`: Minor typo fix in \"Cython Magics.ipynb\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:315
+msgid ":ghpull:`5507`: Fix typo in interactive widgets examples index notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:316
+msgid ":ghpull:`5554`: Make HasTraits pickleable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:317
+msgid ":ghpull:`5535`: fix n^2 performance issue in coalesce_streams preprocessor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:318
+msgid ":ghpull:`5522`: fix iteration over Client"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:319
+msgid ":ghpull:`5488`: Added missing require and jquery from cdn."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:320
+msgid ""
+":ghpull:`5516`: ENH: list generated config files in generated, and rm "
+"them upon clean"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:321
+msgid ":ghpull:`5493`: made a minor fix to one of the widget examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:322
+msgid ":ghpull:`5512`: Update tooltips to refer to shift-tab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:323
+msgid ":ghpull:`5505`: Make backport_pr work on Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:324
+msgid ":ghpull:`5503`: check explicitly for 'dev' before adding the note to docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:325
+msgid ":ghpull:`5498`: use milestones to indicate backport"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:326
+msgid ":ghpull:`5492`: Polish whatsnew docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:327
+msgid ":ghpull:`5495`: Fix various broken things in docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:328
+msgid ":ghpull:`5496`: Exclude whatsnew/pr directory from docs builds"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:329
+msgid ":ghpull:`5489`: Fix required Python versions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:331
+msgid "Issues (37):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:333
+msgid ":ghissue:`5364`: Horizontal scrollbar hides cell's last line on Firefox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:334
+msgid ":ghissue:`5192`: horisontal scrollbar overlaps output or touches next cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:335
+msgid ":ghissue:`5840`: Third-party Windows kernels don't get interrupt signal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:336
+msgid ":ghissue:`2412`: print history to file using qtconsole and notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:337
+msgid ""
+":ghissue:`5703`: Notebook doesn't render with \"ask me every time\" "
+"cookie setting in Firefox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:338
+msgid ""
+":ghissue:`5817`: calling mock object in IPython 2.0.0 under Python 3.4.0 "
+"raises AttributeError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:339
+msgid ":ghissue:`5499`: Error running widgets nbconvert example"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:340
+msgid ":ghissue:`5654`: Broken links from ipython documentation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:341
+msgid ""
+":ghissue:`5019`: print in QT event callback doesn't show up in ipython "
+"notebook."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:342
+msgid ":ghissue:`5800`: Only last In prompt number set ?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:343
+msgid ""
+":ghissue:`5801`: startup_command specified in ipengine_config.py is not "
+"executed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:344
+msgid ":ghissue:`5690`: ipython 2.0.0 and pandoc 1.12.2.1 problem"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:345
+msgid ""
+":ghissue:`5408`: Add checking/flushing of background output from kernel "
+"in mainloop"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:346
+msgid ""
+":ghissue:`5407`: clearing message handlers on status=idle loses async "
+"output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:347
+msgid ""
+":ghissue:`5467`: Incorrect behavior of up/down keyboard arrows in code "
+"cells on wrapped lines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:348
+msgid ":ghissue:`3085`: nicer notebook error message when lacking permissions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:349
+msgid ":ghissue:`5765`: map_sync over empty list raises IndexError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:350
+msgid ""
+":ghissue:`5553`: Notebook matplotlib inline backend: can't set figure "
+"facecolor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:351
+msgid ""
+":ghissue:`5710`: inspect.findsource monkeypatch raises wrong exception "
+"for C extensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:352
+msgid ""
+":ghissue:`5706`: Multi-Directory notebooks overwrite each other's "
+"checkpoints"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:353
+msgid ":ghissue:`5698`: can't require a function named ``f``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:354
+msgid ":ghissue:`5569`: Keyboard shortcuts in documentation are out of date"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:355
+msgid ""
+":ghissue:`5566`: Function name printing should use ``__qualname__`` "
+"instead of ``__name__`` (Python 3)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:356
+msgid ":ghissue:`5676`: \"bookmark -l\" not working in ipython 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:357
+msgid ""
+":ghissue:`5555`: Differentiate more clearly between Notebooks and Folders"
+" in new UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:358
+msgid ":ghissue:`5590`: Marked double escape"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:359
+msgid ":ghissue:`5514`: import tab-complete fail with ipython 2.0 shell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:360
+msgid ":ghissue:`4012`: Notebook: link to markdown formatting reference"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:361
+msgid ":ghissue:`5611`: Typo in 'storemagic' documentation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:362
+msgid ":ghissue:`5589`: Kernel start fails when using --browser argument"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:363
+msgid ":ghissue:`5491`: Bug in Windows ipconfig ip address regular expression"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:364
+msgid ""
+":ghissue:`5579`: rmagic extension throws 'Error while parsing the "
+"string.' when last line is comment"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:365
+msgid ":ghissue:`5518`: Ipython2 will not open ipynb in example directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:366
+msgid ":ghissue:`5561`: New widget documentation has missing notebook link"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:367
+msgid ":ghissue:`5128`: Page jumping when output from widget interaction replaced"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:368
+msgid ":ghissue:`5519`: IPython.parallel.Client behavior as iterator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:369
+msgid ":ghissue:`5510`: Tab-completion for function argument list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:373
+msgid "Issues closed in 2.0.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:376
+msgid "GitHub stats for 2013/08/09 - 2014/04/01 (since 1.0.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:380
+msgid "The following 94 authors contributed 3949 commits."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:382
+msgid "Aaron Meurer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:383
+msgid "Abhinav Upadhyay"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:384
+msgid "Adam Riggall"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:385
+msgid "Alex Rudy"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:386
+msgid "Andrew Mark"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:387
+msgid "Angus Griffith"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:388
+msgid "Antony Lee"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:390
+msgid "Arun Persaud"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:392
+msgid "Bing Xia"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:394
+msgid "Bouke van der Bijl"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:395
+msgid "Bradley M. Froehle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:396
+msgid "Brian E. Granger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:398
+msgid "chapmanb"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:400
+msgid "Christoph Gohlke"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:401
+msgid "Christophe Pradal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:402
+msgid "Cyrille Rossant"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:404
+msgid "Daniel B. Vasquez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:407
+msgid "David P. Sanders"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:408
+msgid "David Wyde"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:409
+msgid "David Österberg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:410
+msgid "Doug Blank"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:411
+msgid "Dražen Lučanin"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:412
+msgid "epifanio"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:413
+msgid "Fernando Perez"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:414
+msgid "Gabriel Becker"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:415
+msgid "Geert Barentsen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:416
+msgid "Hans Meine"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:417
+msgid "Ingolf Becker"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:418
+msgid "Jake Vanderplas"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:420
+msgid "James Porter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:421
+msgid "Jason Grout"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:422
+msgid "Jeffrey Tratner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:423
+msgid "Jonah Graham"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:425
+msgid "Joris Van den Bossche"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:426
+msgid "Juergen Hasch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:427
+msgid "Julian Taylor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:428
+msgid "Katie Silverio"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:429
+msgid "Kevin Burke"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:430
+msgid "Kieran O'Mahony"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:431
+msgid "Konrad Hinsen"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:433
+msgid "Lawrence Fu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:434
+msgid "Marc Molla"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:435
+msgid "Martín Gaitán"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:436
+msgid "Matt Henderson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:437
+msgid "Matthew Brett"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:439
+msgid "Michael Droettboom"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:440
+msgid "Mike McKerns"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:441
+msgid "Nathan Goldbaum"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:442
+msgid "Pablo de Oliveira"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:444
+msgid "Pascal Schetelat"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:446
+msgid "Paul Moore"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:447
+msgid "Pere Vilas"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:448
+msgid "Peter Davis"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:449
+msgid "Philippe Mallet-Ladeira"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:450
+msgid "Preston Holmes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:451
+msgid "Puneeth Chaganti"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:452
+msgid "Richard Everson"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:453
+msgid "Roberto Bonvallet"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:454
+msgid "Samuel Ainsworth"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:455
+msgid "Sean Vig"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:456
+msgid "Shashi Gowda"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:457
+msgid "Skipper Seabold"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:458
+msgid "Stephan Rave"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:459
+msgid "Steve Fox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:460
+msgid "Steven Silvester"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:461
+msgid "stonebig"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:463
+msgid "Sylvain Corlay"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:464
+msgid "Takeshi Kanmae"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:465
+msgid "Ted Drain"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:466
+msgid "Thomas A Caswell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:468
+msgid "Théophile Studer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:469
+msgid "Volker Braun"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:470
+msgid "Wieland Hoffmann"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:472
+msgid "Yoval P."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:473
+msgid "Yung Siang Liau"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:474
+msgid "Zachary Sailer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:478
+msgid ""
+"We closed a total of 1121 issues, 687 pull requests and 434 regular "
+"issues; this is the full list (generated with the script "
+":file:`tools/github_stats.py`):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:482
+msgid "Pull Requests (687):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:484
+msgid ":ghpull:`5487`: remove weird unicode space in the new copyright header"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:485
+msgid ":ghpull:`5476`: For 2.0: Fix links in Notebook Help Menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:486
+msgid ":ghpull:`5337`: Examples reorganization"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:487
+msgid ":ghpull:`5436`: CodeMirror shortcuts in QuickHelp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:488
+msgid ":ghpull:`5444`: Fix numeric verification for Int and Float text widgets."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:489
+msgid ":ghpull:`5449`: Stretch keyboard shortcut dialog"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:490
+msgid ":ghpull:`5473`: Minor corrections of git-hooks setup instructions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:491
+msgid ":ghpull:`5471`: Add coding magic comment to nbconvert Python template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:492
+msgid ":ghpull:`5452`: print_figure returns unicode for svg"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:493
+msgid ":ghpull:`5450`: proposal: remove codename"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:494
+msgid ":ghpull:`5462`: DOC : fixed minor error in using topological sort"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:495
+msgid ":ghpull:`5463`: make spin_thread tests more forgiving of slow VMs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:496
+msgid ""
+":ghpull:`5464`: Fix starting notebook server with file/directory at "
+"command line."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:497
+msgid ":ghpull:`5453`: remove gitwash"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:498
+msgid ":ghpull:`5454`: Improve history API docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:499
+msgid ":ghpull:`5431`: update github_stats and gh_api for 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:500
+msgid ":ghpull:`5290`: Add dual mode JS tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:501
+msgid ""
+":ghpull:`5451`: check that a handler is actually registered in "
+"ShortcutManager.handles"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:502
+#, python-format
+msgid ":ghpull:`5447`: Add %%python2 cell magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:503
+msgid ":ghpull:`5439`: Point to the stable SymPy docs, not the dev docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:504
+msgid ":ghpull:`5437`: Install jquery-ui images"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:505
+msgid ":ghpull:`5434`: fix check for empty cells in rst template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:506
+msgid ":ghpull:`5432`: update links in notebook help menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:507
+msgid ":ghpull:`5435`: Update whatsnew (notebook tour)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:508
+msgid ":ghpull:`5433`: Document extraction of octave and R magics"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:509
+msgid ":ghpull:`5428`: Update COPYING.txt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:510
+msgid ""
+":ghpull:`5426`: Separate get_session_info between HistoryAccessor and "
+"HistoryManager"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:511
+msgid ":ghpull:`5419`: move prompts from margin to main column on small screens"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:512
+msgid ""
+":ghpull:`5430`: Make sure `element` is correct in the context of "
+"displayed JS"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:513
+msgid ":ghpull:`5396`: prevent saving of partially loaded notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:514
+msgid ":ghpull:`5429`: Fix tooltip pager feature"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:515
+msgid ":ghpull:`5330`: Updates to shell reference doc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:516
+msgid ":ghpull:`5404`: Fix broken accordion widget"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:517
+msgid ":ghpull:`5339`: Don't use fork to start the notebook in js tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:518
+msgid ":ghpull:`5320`: Fix for Tooltip & completer click focus bug."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:519
+msgid ":ghpull:`5421`: Move configuration of Python test controllers into setup()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:520
+msgid ":ghpull:`5418`: fix typo in ssh launcher send_file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:521
+msgid ":ghpull:`5403`: remove alt-- shortcut"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:522
+msgid ":ghpull:`5389`: better log message in deprecated files/ redirect"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:523
+msgid ""
+":ghpull:`5333`: Fix filenbmanager.list_dirs fails for Windows user "
+"profile directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:524
+msgid ":ghpull:`5390`: finish PR #5333"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:525
+msgid ":ghpull:`5326`: Some gardening on iptest result reporting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:526
+msgid ":ghpull:`5375`: remove unnecessary onload hack from mathjax macro"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:527
+msgid ":ghpull:`5368`: Flexbox classes specificity fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:528
+msgid ":ghpull:`5331`: fix raw_input CSS"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:529
+msgid ":ghpull:`5395`: urlencode images for rst files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:530
+msgid ":ghpull:`5049`: update quickhelp on adding and removing shortcuts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:531
+msgid ":ghpull:`5391`: Fix Gecko (Netscape) keyboard handling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:532
+msgid ":ghpull:`5387`: Respect '\\r' characters in nbconvert."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:533
+msgid ":ghpull:`5399`: Revert PR #5388"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:534
+msgid ""
+":ghpull:`5388`: Suppress output even when a comment follows ;. Fixes "
+"#4525."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:535
+msgid ":ghpull:`5394`: nbconvert doc update"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:536
+msgid ":ghpull:`5359`: do not install less sources"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:537
+msgid ":ghpull:`5346`: give hint on where to find custom.js"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:538
+msgid ":ghpull:`5357`: catch exception in copystat"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:539
+msgid ":ghpull:`5380`: Remove DefineShortVerb... line from latex base template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:540
+msgid ":ghpull:`5376`: elide long containers in pretty"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:541
+msgid ":ghpull:`5310`: remove raw cell placeholder on focus, closes #5238"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:542
+msgid ":ghpull:`5332`: semantic names for indicator icons"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:543
+msgid ":ghpull:`5386`: Fix import of socketserver on Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:544
+msgid ":ghpull:`5360`: remove some redundant font-family: monospace"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:545
+msgid ":ghpull:`5379`: don't instantiate Application just for default logger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:546
+msgid ":ghpull:`5372`: Don't autoclose strings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:547
+msgid ":ghpull:`5296`: unify keyboard shortcut and codemirror interaction"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:548
+msgid ":ghpull:`5349`: Make Hub.registration_timeout configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:549
+msgid ":ghpull:`5340`: install bootstrap-tour css"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:550
+msgid ":ghpull:`5335`: Update docstring for deepreload module"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:551
+msgid ""
+":ghpull:`5321`: Improve assignment regex to match more tuple unpacking "
+"syntax"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:552
+msgid ":ghpull:`5325`: add NotebookNotary to NotebookApp's class list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:553
+msgid ":ghpull:`5313`: avoid loading preprocessors twice"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:554
+msgid ":ghpull:`5308`: fix HTML capitalization in Highlight2HTML"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:555
+msgid ":ghpull:`5295`: OutputArea.append_type functions are not prototype methods"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:556
+msgid ":ghpull:`5318`: Fix local import of select_figure_formats"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:557
+msgid ":ghpull:`5300`: Fix NameError: name '_rl' is not defined"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:558
+msgid ":ghpull:`5292`: focus next cell on shift+enter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:559
+msgid ":ghpull:`5291`: debug occasional error in test_queue_status"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:560
+msgid ":ghpull:`5289`: Finishing up #5274 (widget paths fixes)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:561
+msgid ":ghpull:`5232`: Make nbconvert html full output like notebook's html."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:562
+msgid ":ghpull:`5288`: Correct initial state of kernel status indicator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:563
+msgid ":ghpull:`5253`: display any output from this session in terminal console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:564
+msgid ""
+":ghpull:`4802`: Tour of the notebook UI (was UI elements inline with "
+"highlighting)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:565
+msgid ":ghpull:`5285`: Update signature presentation in pinfo classes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:566
+msgid ":ghpull:`5268`: Refactoring Notebook.command_mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:567
+msgid ":ghpull:`5226`: Don't run PYTHONSTARTUP file if a file or code is passed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:568
+msgid ":ghpull:`5283`: Remove Widget.closed attribute"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:569
+msgid ":ghpull:`5279`: nbconvert: Make sure node is atleast version 0.9.12"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:570
+msgid ":ghpull:`5281`: fix a typo introduced by a rebased PR"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:571
+msgid ":ghpull:`5280`: append Firefox overflow-x fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:572
+msgid ":ghpull:`5277`: check that PIL can save JPEG to BytesIO"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:573
+msgid ":ghpull:`5044`: Store timestamps for modules to autoreload"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:574
+msgid ":ghpull:`5278`: Update whatsnew doc from pr files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:575
+msgid ":ghpull:`5276`: Fix kernel restart in case connection file is deleted."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:576
+msgid ""
+":ghpull:`5272`: allow highlighting language to be set from notebook "
+"metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:577
+msgid ":ghpull:`5158`: log refusal to serve hidden directories"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:578
+msgid ":ghpull:`5188`: New events system"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:579
+msgid ":ghpull:`5265`: Missing class def for TimeoutError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:580
+msgid ":ghpull:`5267`: normalize unicode in notebook API tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:581
+msgid ":ghpull:`5076`: Refactor keyboard handling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:582
+msgid ":ghpull:`5241`: Add some tests for utils"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:583
+msgid ":ghpull:`5261`: Don't allow edit mode up arrow to continue past index == 0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:584
+msgid ":ghpull:`5223`: use on-load event to trigger resizable images"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:585
+msgid ":ghpull:`5252`: make one strptime call at import of jsonutil"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:586
+msgid ":ghpull:`5153`: Dashboard sorting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:587
+msgid ":ghpull:`5169`: Allow custom header"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:588
+msgid ":ghpull:`5242`: clear _reply_content cache before using it"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:589
+msgid ":ghpull:`5194`: require latex titles to be ascii"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:590
+msgid ":ghpull:`5244`: try to avoid EADDRINUSE errors on travis"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:591
+msgid ":ghpull:`5245`: support extracted output in HTML template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:592
+msgid ":ghpull:`5209`: make input_area css generic to cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:593
+msgid ":ghpull:`5246`: less %pylab, more cowbell!"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:594
+#, python-format
+msgid ":ghpull:`4895`: Improvements to %run completions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:595
+msgid ":ghpull:`5243`: Add Javscript to base display priority list."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:596
+msgid ":ghpull:`5175`: Audit .html() calls take #2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:597
+msgid ":ghpull:`5146`: Dual mode bug fixes."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:598
+msgid ":ghpull:`5207`: Children fire event"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:599
+msgid ":ghpull:`5215`: Dashboard \"Running\" Tab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:600
+msgid ":ghpull:`5240`: Remove unused IPython.nbconvert.utils.console module"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:601
+msgid ":ghpull:`5239`: Fix exclusion of tests directories from coverage reports"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:602
+msgid ":ghpull:`5203`: capture some logging/warning output in some tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:603
+msgid ":ghpull:`5216`: fixup positional arg handling in notebook app"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:604
+msgid ":ghpull:`5229`: get _ipython_display_ method safely"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:605
+msgid ""
+":ghpull:`5234`: DOC : modified docs is HasTraits.traits and "
+"HasTraits.class_traits"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:606
+msgid ":ghpull:`5221`: Change widget children List to Tuple."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:607
+msgid ":ghpull:`5231`: don't forget base_url when updating address bar in rename"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:608
+msgid ":ghpull:`5173`: Moved widget files into static/widgets/*"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:609
+msgid ""
+":ghpull:`5222`: Unset PYTHONWARNINGS envvar before running subprocess "
+"tests."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:610
+msgid ""
+":ghpull:`5172`: Prevent page breaks when printing notebooks via print-"
+"view."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:611
+msgid ":ghpull:`4985`: Add automatic Closebrackets function to Codemirror."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:612
+msgid ""
+":ghpull:`5220`: Make traitlets notify check more robust against classes "
+"redefining equality and bool"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:613
+msgid ""
+":ghpull:`5197`: If there is an error comparing traitlet values when "
+"setting a trait, default to go ahead and notify of the new value."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:614
+msgid ":ghpull:`5210`: fix pyreadline import in rlineimpl"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:615
+msgid ":ghpull:`5212`: Wrap nbconvert Markdown/Heading cells in live divs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:616
+msgid ":ghpull:`5200`: Allow to pass option to jinja env"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:617
+msgid ":ghpull:`5202`: handle nodejs executable on debian"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:618
+msgid ":ghpull:`5112`: band-aid for completion"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:619
+msgid ":ghpull:`5187`: handle missing output metadata in nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:620
+msgid ":ghpull:`5181`: use gnureadline on OS X"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:621
+msgid ":ghpull:`5136`: set default value from signature defaults in interact"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:622
+msgid ":ghpull:`5132`: remove application/pdf->pdf transform in javascript"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:623
+msgid ":ghpull:`5116`: reorganize who knows what about paths"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:624
+msgid ":ghpull:`5165`: Don't introspect __call__ for simple callables"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:625
+msgid ":ghpull:`5170`: Added msg_throttle sync=True widget traitlet"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:626
+msgid ":ghpull:`5191`: Translate markdown link to rst"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:627
+msgid ":ghpull:`5037`: FF Fix: alignment and scale of text widget"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:628
+msgid ":ghpull:`5179`: remove websocket url"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:629
+msgid ":ghpull:`5110`: add InlineBackend.print_figure_kwargs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:630
+msgid ":ghpull:`5147`: Some template URL changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:631
+msgid ":ghpull:`5100`: remove base_kernel_url"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:632
+msgid ":ghpull:`5163`: Simplify implementation of TemporaryWorkingDirectory."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:633
+msgid ":ghpull:`5166`: remove mktemp usage"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:634
+msgid ":ghpull:`5133`: don't use combine option on ucs package"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:635
+msgid ":ghpull:`5089`: Remove legacy azure nbmanager"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:636
+msgid ":ghpull:`5159`: remove append_json reference"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:637
+msgid ":ghpull:`5095`: handle image size metadata in nbconvert html"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:638
+msgid ":ghpull:`5156`: fix IPython typo, closes #5155"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:639
+msgid ":ghpull:`5150`: fix a link that was broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:640
+msgid ":ghpull:`5114`: use non-breaking space for button with no description"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:641
+msgid ":ghpull:`4778`: add APIs for installing notebook extensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:642
+msgid ""
+":ghpull:`5125`: Fix the display of functions with keyword-only arguments "
+"on Python 3."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:643
+msgid ":ghpull:`5097`: minor notebook logging changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:644
+msgid ":ghpull:`5047`: only validate package_data when it might be used"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:645
+msgid ":ghpull:`5121`: fix remove event in KeyboardManager.register_events"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:646
+msgid ":ghpull:`5119`: Removed 'list' view from Variable Inspector example"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:647
+msgid ":ghpull:`4925`: Notebook manager api fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:648
+msgid ":ghpull:`4996`: require print_method to be a bound method"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:649
+msgid ":ghpull:`5108`: require specifying the version for gh-pages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:650
+msgid ":ghpull:`5111`: Minor typo in docstring of IPython.parallel DirectView"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:651
+msgid ":ghpull:`5098`: mostly debugging changes for IPython.parallel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:652
+msgid ":ghpull:`5087`: trust cells with no output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:653
+msgid ":ghpull:`5059`: Fix incorrect `Patch` logic in widget code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:654
+msgid ":ghpull:`5075`: More flexible box model fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:655
+msgid ""
+":ghpull:`5091`: Provide logging messages in ipcluster log when engine or "
+"controllers fail to start"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:656
+msgid ""
+":ghpull:`5090`: Print a warning when iptest is run from the IPython "
+"source directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:657
+msgid ":ghpull:`5077`: flush replies when entering an eventloop"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:658
+msgid ":ghpull:`5055`: Minimal changes to import IPython from IronPython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:659
+msgid ":ghpull:`5078`: Updating JS tests README.md"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:660
+msgid ""
+":ghpull:`5083`: don't create js test directories unless they are being "
+"used"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:661
+msgid ":ghpull:`5062`: adjust some events in nb_roundtrip"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:662
+msgid ":ghpull:`5043`: various unicode / url fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:663
+msgid ":ghpull:`5066`: remove (almost) all mentions of pylab from our examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:664
+msgid ":ghpull:`4977`: ensure scp destination directories exist (with mkdir -p)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:665
+msgid ":ghpull:`5053`: Move&rename JS tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:666
+msgid ":ghpull:`5067`: show traceback in widget handlers"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:667
+msgid ""
+":ghpull:`4920`: Adding PDFFormatter and kernel side handling of PDF "
+"display data"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:668
+msgid ":ghpull:`5048`: Add edit/command mode indicator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:669
+msgid ":ghpull:`5061`: make execute button in menu bar match shift-enter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:670
+msgid ":ghpull:`5052`: Add q to toggle the pager."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:671
+msgid ":ghpull:`5070`: fix flex: auto"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:672
+msgid ":ghpull:`5065`: Add example of using annotations in interact"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:673
+msgid ":ghpull:`5063`: another pass on Interact example notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:674
+msgid ":ghpull:`5051`: FF Fix: code cell missing hscroll (2)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:675
+msgid ":ghpull:`4960`: Interact/Interactive for widget"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:676
+msgid ":ghpull:`5045`: Clear timeout in multi-press keyboard shortcuts."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:677
+msgid ":ghpull:`5060`: Change 'bind' to 'link'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:678
+msgid ":ghpull:`5039`: Expose kernel_info method on inprocess kernel client"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:679
+msgid ":ghpull:`5058`: Fix iopubwatcher.py example script."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:680
+msgid ":ghpull:`5035`: FF Fix: code cell missing hscroll"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:681
+msgid ":ghpull:`5040`: Polishing some docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:682
+msgid ":ghpull:`5001`: Add directory navigation to dashboard"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:683
+msgid ":ghpull:`5042`: Remove duplicated Channel ABC classes."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:684
+msgid ":ghpull:`5036`: FF Fix: ext link icon same line as link text in help menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:685
+msgid ":ghpull:`4975`: setup.py changes for 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:686
+msgid ":ghpull:`4774`: emit event on appended element on dom"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:687
+msgid ":ghpull:`5023`: Widgets- add ability to pack and unpack arrays on JS side."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:688
+msgid ":ghpull:`5003`: Fix pretty reprs of super() objects"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:689
+msgid ":ghpull:`4974`: make paste focus the pasted cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:690
+msgid ":ghpull:`5012`: Make `SelectionWidget.values` a dict"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:691
+msgid ":ghpull:`5018`: Prevent 'iptest IPython' from trying to run."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:692
+msgid ":ghpull:`5025`: citation2latex filter (using HTMLParser)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:693
+msgid ":ghpull:`5027`: pin lessc to 1.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:694
+msgid ":ghpull:`4952`: Widget test inconsistencies"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:695
+msgid ":ghpull:`5014`: Fix command mode & popup view bug"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:696
+msgid ":ghpull:`4842`: more subtle kernel indicator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:697
+msgid ":ghpull:`5017`: Add notebook examples link to help menu."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:698
+msgid ":ghpull:`5015`: don't write cell.trusted to disk"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:699
+msgid ":ghpull:`5007`: Update whatsnew doc from PR files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:700
+msgid ":ghpull:`5010`: Fixes for widget alignment in FF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:701
+msgid ":ghpull:`4901`: Add a convenience class to sync traitlet attributes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:702
+msgid ":ghpull:`5008`: updated explanation of 'pyin' messages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:703
+msgid ":ghpull:`5004`: Fix widget vslider spacing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:704
+msgid ":ghpull:`4933`: Small Widget inconsistency fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:705
+msgid ":ghpull:`4979`: add versioning notes to small message spec changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:706
+msgid ":ghpull:`4893`: add font-awesome 3.2.1"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:707
+msgid ":ghpull:`4982`: Live readout for slider widgets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:708
+msgid ":ghpull:`4813`: make help menu a template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:709
+msgid ":ghpull:`4939`: Embed qtconsole docs (continued)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:710
+msgid ":ghpull:`4964`: remove shift-= merge keyboard shortcut"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:711
+msgid ":ghpull:`4504`: Allow input transformers to raise SyntaxError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:712
+msgid ":ghpull:`4929`: Fixing various modal/focus related bugs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:713
+msgid ":ghpull:`4971`: Fixing issues with js tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:714
+msgid ""
+":ghpull:`4972`: Work around problem in doctest discovery in Python 3.4 "
+"with PyQt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:715
+msgid ":ghpull:`4937`: pickle arrays with dtype=object"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:716
+msgid ":ghpull:`4934`: `ipython profile create` respects `--ipython-dir`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:717
+msgid ":ghpull:`4954`: generate unicode filename"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:718
+msgid ":ghpull:`4845`: Add Origin Checking."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:719
+msgid ":ghpull:`4916`: Fine tuning the behavior of the modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:720
+msgid ":ghpull:`4966`: Ignore sys.argv for NotebookNotary in tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:721
+msgid ":ghpull:`4967`: Fix typo in warning about web socket being closed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:722
+msgid ":ghpull:`4965`: Remove mention of iplogger from setup.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:723
+msgid ":ghpull:`4962`: Fixed typos in quick-help text"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:724
+msgid ":ghpull:`4953`: add utils.wait_for_idle in js tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:725
+msgid ""
+":ghpull:`4870`: ipython_directive, report except/warn in block and add "
+":okexcept: :okwarning: options to suppress"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:726
+msgid ":ghpull:`4662`: Menu cleanup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:727
+msgid ":ghpull:`4824`: sign notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:728
+msgid ":ghpull:`4943`: Docs shotgun 4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:729
+#, python-format
+msgid ":ghpull:`4848`: avoid import of nearby temporary with %edit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:730
+msgid ":ghpull:`4950`: Two fixes for file upload related bugs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:731
+msgid ":ghpull:`4927`: there shouldn't be a 'files/' prefix in FileLink[s]"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:732
+msgid ":ghpull:`4928`: use importlib.machinery when available"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:733
+msgid ":ghpull:`4949`: Remove the docscrape modules, which are part of numpydoc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:734
+msgid ":ghpull:`4849`: Various unicode fixes (mostly on Windows)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:735
+msgid ":ghpull:`4932`: always point py3compat.input to builtin_mod.input"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:736
+msgid ""
+":ghpull:`4807`: Correct handling of ansi colour codes when nbconverting "
+"to latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:737
+msgid ":ghpull:`4922`: Python nbconvert output shouldn't have output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:738
+msgid ":ghpull:`4912`: Skip some Windows io failures"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:739
+msgid ":ghpull:`4919`: flush output before showing tracebacks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:740
+msgid ":ghpull:`4915`: ZMQCompleter inherits from IPCompleter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:741
+msgid ":ghpull:`4890`: better cleanup channel FDs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:742
+msgid ":ghpull:`4880`: set profile name from profile_dir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:743
+msgid ":ghpull:`4853`: fix setting image height/width from metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:744
+msgid ":ghpull:`4786`: Reduce spacing of heading cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:745
+msgid ":ghpull:`4680`: Minimal pandoc version warning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:746
+msgid ":ghpull:`4908`: detect builtin docstrings in oinspect"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:747
+msgid ":ghpull:`4911`: Don't use `python -m package` on Windows Python 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:748
+msgid ""
+":ghpull:`4909`: sort dictionary keys before comparison, ordering is not "
+"guaranteed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:749
+msgid ":ghpull:`4374`: IPEP 23: Backbone.js Widgets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:750
+msgid ":ghpull:`4903`: use https for all embeds"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:751
+msgid ":ghpull:`4894`: Shortcut changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:752
+msgid ":ghpull:`4897`: More detailed documentation about kernel_cmd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:753
+msgid ""
+":ghpull:`4891`: Squash a few Sphinx warnings from nbconvert.utils.lexers "
+"docstrings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:754
+msgid ":ghpull:`4679`: JPG compression for inline pylab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:755
+msgid ":ghpull:`4708`: Fix indent and center"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:756
+msgid ":ghpull:`4789`: fix IPython.embed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:757
+msgid ":ghpull:`4655`: prefer marked to pandoc for markdown2html"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:758
+msgid ":ghpull:`4876`: don't show tooltip if object is not found"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:759
+msgid ":ghpull:`4873`: use 'combine' option to ucs package"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:760
+msgid ":ghpull:`4732`: Accents in notebook names and in command-line (nbconvert)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:761
+msgid ":ghpull:`4867`: Update URL for Lawrence Hall of Science webcam image"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:762
+msgid ":ghpull:`4868`: Static path fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:763
+msgid ":ghpull:`4858`: fix tb_offset when running a file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:764
+msgid ":ghpull:`4826`: some $.html( -> $.text("
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:765
+msgid ":ghpull:`4847`: add js kernel_info request"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:766
+msgid ":ghpull:`4832`: allow NotImplementedError in formatters"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:767
+msgid ":ghpull:`4803`: BUG: fix cython magic support in ipython_directive"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:768
+msgid ":ghpull:`4865`: `build` listed twice in .gitignore. Removing one."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:769
+msgid ":ghpull:`4851`: fix tooltip token regex for single-character names"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:770
+msgid ":ghpull:`4846`: Remove some leftover traces of irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:771
+msgid ":ghpull:`4820`: fix regex for cleaning old logs with ipcluster"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:772
+msgid ":ghpull:`4844`: adjustments to notebook app logging"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:773
+msgid ":ghpull:`4840`: Error in Session.send_raw()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:774
+msgid ":ghpull:`4819`: update CodeMirror to 3.21"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:775
+msgid ":ghpull:`4823`: Minor fixes for typos/inconsistencies in parallel docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:776
+msgid ":ghpull:`4811`: document code mirror tab and shift-tab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:777
+msgid ":ghpull:`4795`: merge reveal templates"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:778
+msgid ":ghpull:`4796`: update components"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:779
+msgid ""
+":ghpull:`4806`: Correct order of packages for unicode in nbconvert to "
+"LaTeX"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:780
+msgid ":ghpull:`4800`: Qt frontend: Handle 'aborted' prompt replies."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:781
+msgid ":ghpull:`4794`: Compatibility fix for Python3 (Issue #4783 )"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:782
+msgid ":ghpull:`4799`: minor js test fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:783
+msgid ":ghpull:`4788`: warn when notebook is started in pylab mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:784
+msgid ":ghpull:`4772`: Notebook server info files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:785
+msgid ":ghpull:`4797`: be conservative about kernel_info implementation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:786
+msgid ":ghpull:`4787`: non-python kernels run python code with qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:787
+msgid ":ghpull:`4565`: various display type validations"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:788
+msgid ":ghpull:`4703`: Math macro in jinja templates."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:789
+msgid ""
+":ghpull:`4781`: Fix \"Source\" text for the \"Other Syntax\" section of "
+"the \"Typesetting Math\" notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:790
+msgid ":ghpull:`4776`: Manually document py3compat module."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:791
+msgid ":ghpull:`4533`: propagate display metadata to all mimetypes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:792
+msgid ":ghpull:`4785`: Replacing a for-in loop by an index loop on an array"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:793
+msgid ":ghpull:`4780`: Updating CSS for UI example."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:794
+msgid ":ghpull:`3605`: Modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:795
+msgid ":ghpull:`4758`: Python 3.4 fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:796
+msgid ":ghpull:`4735`: add some HTML error pages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:797
+msgid ":ghpull:`4775`: Update whatsnew doc from PR files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:798
+msgid ":ghpull:`4760`: Make examples and docs more Python 3 aware"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:799
+msgid ""
+":ghpull:`4773`: Don't wait forever for notebook server to launch/die for "
+"tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:800
+msgid ""
+":ghpull:`4768`: Qt console: Fix _prompt_pos accounting on timer flush "
+"output."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:801
+msgid ":ghpull:`4727`: Remove Nbconvert template loading magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:802
+msgid ":ghpull:`4763`: Set numpydoc options to produce fewer Sphinx warnings."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:803
+msgid ":ghpull:`4770`: always define aliases, even if empty"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:804
+msgid ":ghpull:`4766`: add `python -m` entry points for everything"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:805
+msgid ":ghpull:`4767`: remove manpages for irunner, iplogger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:806
+msgid ":ghpull:`4751`: Added --post-serve explanation into the nbconvert docs."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:807
+msgid ":ghpull:`4762`: whitelist alphanumeric characters for cookie_name"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:808
+msgid ":ghpull:`4625`: Deprecate %profile magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:809
+msgid ":ghpull:`4745`: warn on failed formatter calls"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:810
+msgid ":ghpull:`4746`: remove redundant cls alias on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:811
+msgid ":ghpull:`4749`: Fix bug in determination of public ips."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:812
+msgid ":ghpull:`4715`: restore use of tornado static_url in templates"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:813
+msgid ":ghpull:`4748`: fix race condition in profiledir creation."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:814
+msgid ":ghpull:`4720`: never use ssh multiplexer in tunnels"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:815
+msgid ""
+":ghpull:`4658`: Bug fix for #4643: Regex object needs to be reset between"
+" calls in toolt..."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:816
+msgid ":ghpull:`4561`: Add Formatter.pop(type)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:817
+msgid ":ghpull:`4712`: Docs shotgun 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:818
+msgid ":ghpull:`4713`: Fix saving kernel history in Python 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:819
+msgid ":ghpull:`4744`: don't use lazily-evaluated rc.ids in wait_for_idle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:820
+#, python-format
+msgid ":ghpull:`4740`: %env can't set variables"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:821
+msgid ":ghpull:`4737`: check every link when detecting virutalenv"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:822
+msgid ":ghpull:`4738`: don't inject help into user_ns"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:823
+msgid ""
+":ghpull:`4739`: skip html nbconvert tests when their dependencies are "
+"missing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:824
+msgid ""
+":ghpull:`4730`: Fix stripping continuation prompts when copying from Qt "
+"console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:825
+msgid ":ghpull:`4725`: Doc fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:826
+msgid ":ghpull:`4656`: Nbconvert HTTP service"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:827
+msgid ":ghpull:`4710`: make @interactive decorator friendlier with dill"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:828
+msgid ""
+":ghpull:`4722`: allow purging local results as long as they are not "
+"outstanding"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:829
+msgid ":ghpull:`4549`: Updated IPython console lexers."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:830
+msgid ":ghpull:`4570`: Update IPython directive"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:831
+msgid ":ghpull:`4719`: Fix comment typo in prefilter.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:832
+msgid ":ghpull:`4575`: make sure to encode URL components for API requests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:833
+msgid ":ghpull:`4718`: Fixed typo in displaypub"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:834
+msgid ":ghpull:`4716`: Remove input_prefilter hook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:835
+msgid ":ghpull:`4691`: survive failure to bind to localhost in zmq.iostream"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:836
+msgid ":ghpull:`4696`: don't do anything if add_anchor fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:837
+msgid ":ghpull:`4711`: some typos in the docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:838
+msgid ":ghpull:`4700`: use if main block in entry points"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:839
+msgid ":ghpull:`4692`: setup.py symlink improvements"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:840
+msgid ":ghpull:`4265`: JSON configuration file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:841
+msgid ":ghpull:`4505`: Nbconvert latex markdown images2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:842
+msgid ":ghpull:`4608`: transparent background match ... all colors"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:843
+msgid ":ghpull:`4678`: allow ipython console to handle text/plain display"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:844
+msgid ":ghpull:`4706`: remove irunner, iplogger"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:845
+msgid ""
+":ghpull:`4701`: Delete an old dictionary available for selecting the "
+"aligment of text."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:846
+msgid ":ghpull:`4702`: Making reveal font-size a relative unit."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:847
+#, python-format
+msgid ":ghpull:`4649`: added a quiet option to %cpaste to suppress output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:848
+msgid ":ghpull:`4690`: Option to spew subprocess streams during tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:849
+msgid ":ghpull:`4688`: Fixed various typos in docstrings."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:850
+msgid ":ghpull:`4645`: CasperJs utility functions."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:851
+msgid ":ghpull:`4670`: Stop bundling the numpydoc Sphinx extension"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:852
+msgid ":ghpull:`4675`: common IPython prefix for ModIndex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:853
+msgid ":ghpull:`4672`: Remove unused 'attic' module"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:854
+msgid ":ghpull:`4671`: Fix docstrings in utils.text"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:855
+msgid ":ghpull:`4669`: add missing help strings to HistoryManager configurables"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:856
+msgid ":ghpull:`4668`: Make non-ASCII docstring unicode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:857
+msgid ":ghpull:`4650`: added a note about sharing of nbconvert tempates"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:858
+msgid ":ghpull:`4646`: Fixing various output related things:"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:859
+msgid ":ghpull:`4665`: check for libedit in readline on OS X"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:860
+msgid ":ghpull:`4606`: Make running PYTHONSTARTUP optional"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:861
+msgid ""
+":ghpull:`4654`: Fixing left padding of text cells to match that of code "
+"cells."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:862
+msgid ":ghpull:`4306`: add raw_mimetype metadata to raw cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:863
+msgid ""
+":ghpull:`4576`: Tighten up the vertical spacing on cells and make the "
+"padding of cells more consistent"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:864
+msgid ":ghpull:`4353`: Don't reset the readline completer after each prompt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:865
+msgid ":ghpull:`4567`: Adding prompt area to non-CodeCells to indent content."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:866
+msgid ""
+":ghpull:`4446`: Use SVG plots in OctaveMagic by default due to lack of "
+"Ghostscript on Windows Octave"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:867
+msgid ":ghpull:`4613`: remove configurable.created"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:868
+msgid ":ghpull:`4631`: Use argument lists for command help tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:869
+msgid ""
+":ghpull:`4633`: Modifies test_get_long_path_name_winr32() to allow for "
+"long path names in temp dir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:870
+msgid ":ghpull:`4642`: Allow docs to build without PyQt installed."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:871
+msgid ":ghpull:`4641`: Don't check for wx in the test suite."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:872
+msgid ":ghpull:`4622`: make QtConsole Lexer configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:873
+msgid ":ghpull:`4594`: Fixed #2923 Move Save Away from Cut in toolbar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:874
+msgid ":ghpull:`4593`: don't interfere with set_next_input contents in qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:875
+msgid ":ghpull:`4640`: Support matplotlib's Gtk3 backend in --pylab mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:876
+msgid ":ghpull:`4639`: Minor import fix to get qtconsole with --pylab=qt working"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:877
+msgid ":ghpull:`4637`: Fixed typo in links.txt."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:878
+msgid ":ghpull:`4634`: Fix nbrun in notebooks with non-code cells."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:879
+msgid ":ghpull:`4632`: Restore the ability to run tests from a function."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:880
+msgid ":ghpull:`4624`: Fix crash when $EDITOR is non-ASCII"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:881
+msgid ":ghpull:`4453`: Play nice with App Nap"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:882
+msgid ":ghpull:`4541`: relax ipconfig matching on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:883
+msgid ":ghpull:`4552`: add pickleutil.use_dill"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:884
+msgid ":ghpull:`4590`: Font awesome for IPython slides"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:885
+msgid ":ghpull:`4589`: Inherit the width of pre code inside the input code cells."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:886
+msgid ":ghpull:`4588`: Update reveal.js CDN to 2.5.0."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:887
+msgid ":ghpull:`4569`: store cell toolbar preset in notebook metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:888
+msgid ":ghpull:`4609`: Fix bytes regex for Python 3."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:889
+msgid ":ghpull:`4581`: Writing unicode to stdout"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:890
+msgid ":ghpull:`4591`: Documenting codemirror shorcuts."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:891
+msgid ":ghpull:`4607`: Tutorial doc should link to user config intro"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:892
+msgid ":ghpull:`4601`: test that rename fails with 409 if it would clobber"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:893
+msgid ":ghpull:`4599`: re-cast int/float subclasses to int/float in json_clean"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:894
+msgid ":ghpull:`4542`: new `ipython history clear` subcommand"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:895
+msgid ":ghpull:`4568`: don't use lazily-evaluated rc.ids in wait_for_idle"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:896
+msgid ":ghpull:`4572`: DOC: %profile docstring should reference %prun"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:897
+msgid ":ghpull:`4571`: no longer need 3 suffix on travis, tox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:898
+msgid ":ghpull:`4566`: Fixing cell_type in CodeCell constructor."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:899
+msgid ":ghpull:`4563`: Specify encoding for reading notebook file."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:900
+#, python-format
+msgid ":ghpull:`4452`: support notebooks in %run"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:901
+msgid ":ghpull:`4546`: fix warning condition on notebook startup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:902
+msgid ":ghpull:`4540`: Apidocs3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:903
+msgid ":ghpull:`4553`: Fix Python 3 handling of urllib"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:904
+msgid ":ghpull:`4543`: make hiding of initial namespace optional"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:905
+msgid ":ghpull:`4517`: send shutdown_request on exit of `ipython console`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:906
+msgid ":ghpull:`4528`: improvements to bash completion"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:907
+msgid ":ghpull:`4532`: Hide dynamically defined metaclass base from Sphinx."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:908
+msgid ":ghpull:`4515`: Spring Cleaning, and  Load speedup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:909
+msgid ":ghpull:`4529`: note routing identities needed for input requests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:910
+#, python-format
+msgid ":ghpull:`4514`: allow restart in `%run -d`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:911
+msgid ":ghpull:`4527`: add redirect for 1.0-style 'files/' prefix links"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:912
+msgid ":ghpull:`4526`: Allow unicode arguments to passwd_check on Python 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:913
+msgid ":ghpull:`4403`: Global highlight language selection."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:914
+msgid ":ghpull:`4250`: outputarea.js: Wrap inline SVGs inside an iframe"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:915
+msgid ":ghpull:`4521`: Read wav files in binary mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:916
+msgid ":ghpull:`4444`: Css cleaning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:917
+msgid ":ghpull:`4523`: Use username and password for MongoDB on ShiningPanda"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:918
+msgid ":ghpull:`4510`: Update whatsnew from PR files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:919
+msgid ":ghpull:`4441`: add `setup.py jsversion`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:920
+msgid ":ghpull:`4518`: Fix for race condition in url file decoding."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:921
+msgid ""
+":ghpull:`4497`: don't automatically unpack datetime objects in the "
+"message spec"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:922
+msgid ":ghpull:`4506`: wait for empty queues as well as load-balanced tasks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:923
+msgid ":ghpull:`4492`: Configuration docs refresh"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:924
+msgid ":ghpull:`4508`: Fix some uses of map() in Qt console completion code."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:925
+msgid ":ghpull:`4498`: Daemon StreamCapturer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:926
+msgid ":ghpull:`4499`: Skip clipboard test on unix systems if headless."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:927
+msgid ":ghpull:`4460`: Better clipboard handling, esp. with pywin32"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:928
+msgid ":ghpull:`4496`: Pass nbformat object to write call to save .py script"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:929
+msgid ":ghpull:`4466`: various pandoc latex fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:930
+msgid ":ghpull:`4473`: Setup for Python 2/3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:931
+msgid ":ghpull:`4459`: protect against broken repr in lib.pretty"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:932
+msgid ":ghpull:`4457`: Use ~/.ipython as default config directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:933
+msgid ":ghpull:`4489`: check realpath of env in init_virtualenv"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:934
+msgid ":ghpull:`4490`: fix possible race condition in test_await_data"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:935
+msgid ""
+":ghpull:`4476`: Fix: Remove space added by display(JavaScript) on page "
+"reload"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:936
+msgid ":ghpull:`4398`: [Notebook] Deactivate tooltip on tab by default."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:937
+msgid ":ghpull:`4480`: Docs shotgun 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:938
+msgid ":ghpull:`4488`: fix typo in message spec doc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:939
+msgid ":ghpull:`4479`: yet another JS race condition fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:940
+msgid ":ghpull:`4477`: Allow incremental builds of the html_noapi docs target"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:941
+msgid ":ghpull:`4470`: Various Config object cleanups"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:942
+msgid ":ghpull:`4410`: make close-and-halt work on new tabs in Chrome"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:943
+msgid ":ghpull:`4469`: Python 3 & getcwdu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:944
+msgid ":ghpull:`4451`: fix: allow JS test to run after shutdown test"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:945
+msgid ":ghpull:`4456`: Simplify StreamCapturer for subprocess testing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:946
+msgid ":ghpull:`4464`: Correct description for Bytes traitlet type"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:947
+msgid ":ghpull:`4465`: Clean up MANIFEST.in"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:948
+msgid ":ghpull:`4461`: Correct TypeError message in svg2pdf"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:949
+msgid ":ghpull:`4458`: use signalstatus if exit status is undefined"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:950
+msgid ":ghpull:`4438`: Single codebase Python 3 support (again)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:951
+msgid ""
+":ghpull:`4198`: Version conversion, support for X to Y even if Y < X "
+"(nbformat)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:952
+msgid ":ghpull:`4415`: More tooltips in the Notebook menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:953
+msgid ":ghpull:`4450`: remove monkey patch for older versions of tornado"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:954
+msgid ":ghpull:`4423`: Fix progress bar and scrolling bug."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:955
+msgid ":ghpull:`4435`: raise 404 on not found static file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:956
+msgid ":ghpull:`4442`: fix and add shim for change introduce by #4195"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:957
+msgid ""
+":ghpull:`4436`: allow `require(\"nbextensions/extname\")` to load from "
+"IPYTHONDIR/nbextensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:958
+msgid ":ghpull:`4437`: don't compute etags in static file handlers"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:959
+msgid ":ghpull:`4427`: notebooks should always have one checkpoint"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:960
+msgid ":ghpull:`4425`: fix js pythonisme"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:961
+msgid ":ghpull:`4195`: IPEP 21:  widget messages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:962
+msgid ":ghpull:`4434`: Fix broken link for Dive Into Python."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:963
+msgid ":ghpull:`4428`: bump minimum tornado version to 3.1.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:964
+msgid ":ghpull:`4302`: Add an Audio display class"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:965
+msgid ":ghpull:`4285`: Notebook javascript test suite using CasperJS"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:966
+msgid ":ghpull:`4420`: Allow checking for backports via milestone"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:967
+msgid ":ghpull:`4426`: set kernel cwd to notebook's directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:968
+msgid ":ghpull:`4389`: By default, Magics inherit from Configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:969
+msgid ""
+":ghpull:`4393`: Capture output from subprocs during test, and display on "
+"failure"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:970
+msgid ":ghpull:`4419`: define InlineBackend configurable in its own file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:971
+msgid ":ghpull:`4303`: Multidirectory support for the Notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:972
+msgid ""
+":ghpull:`4371`: Restored ipython profile locate dir and fixed typo. "
+"(Fixes #3708)."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:973
+msgid ":ghpull:`4414`: Specify unicode type properly in rmagic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:974
+msgid ":ghpull:`4413`: don't instantiate IPython shell as class attr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:975
+msgid ":ghpull:`4400`: Remove 5s wait on inactivity on GUI inputhook loops"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:976
+msgid ":ghpull:`4412`: Fix traitlet _notify_trait by-ref issue"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:977
+msgid ":ghpull:`4378`: split adds new cell above, rather than below"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:978
+msgid ""
+":ghpull:`4405`: Bring display of builtin types and functions in line with"
+" Py 2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:979
+msgid ":ghpull:`4367`: clean up of documentation files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:980
+msgid ":ghpull:`4401`: Provide a name of the HistorySavingThread"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:981
+msgid ":ghpull:`4384`: fix menubar height measurement"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:982
+msgid ":ghpull:`4377`: fix tooltip cancel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:983
+msgid ":ghpull:`4293`: Factorise code in tooltip for julia monkeypatching"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:984
+msgid ":ghpull:`4292`: improve js-completer logic."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:985
+msgid ""
+":ghpull:`4363`: set_next_input: keep only last input when repeatedly "
+"called in a single cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:986
+msgid ":ghpull:`4382`: Use safe_hasattr in dir2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:987
+msgid ":ghpull:`4379`: fix (CTRL-M -) shortcut for splitting cell in FF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:988
+msgid ":ghpull:`4380`: Test and fixes for localinterfaces"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:989
+msgid ""
+":ghpull:`4372`: Don't assume that SyntaxTB is always called with a "
+"SyntaxError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:990
+msgid ""
+":ghpull:`4342`: Return value directly from the try block and avoid a "
+"variable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:991
+msgid ":ghpull:`4154`: Center LaTeX and figures in markdown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:992
+#, python-format
+msgid ":ghpull:`4311`: %load -s to load specific functions or classes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:993
+msgid ":ghpull:`4350`: WinHPC launcher fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:994
+msgid ""
+":ghpull:`4345`: Make irunner compatible with upcoming pexpect 3.0 "
+"interface"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:995
+msgid ":ghpull:`4276`: Support container methods in config"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:996
+msgid ""
+":ghpull:`4359`: test_pylabtools also needs to modify "
+"matplotlib.rcParamsOrig"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:997
+msgid ":ghpull:`4355`: remove hardcoded box-orient"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:998
+msgid ":ghpull:`4333`: Add Edit Notebook Metadata to Edit menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:999
+msgid ":ghpull:`4349`: Script to update What's New file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1000
+msgid ":ghpull:`4348`: Call PDF viewer after latex compiling (nbconvert)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1001
+msgid ":ghpull:`4346`: getpass() on Windows & Python 2 needs bytes prompt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1002
+msgid ":ghpull:`4304`: use netifaces for faster IPython.utils.localinterfaces"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1003
+msgid ":ghpull:`4305`: Add even more ways to populate localinterfaces"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1004
+msgid ":ghpull:`4313`: remove strip_math_space"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1005
+msgid ":ghpull:`4325`: Some changes to improve readability."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1006
+msgid ""
+":ghpull:`4281`: Adjust tab completion widget if too close to bottom of "
+"page."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1007
+msgid ":ghpull:`4347`: Remove pycolor script"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1008
+msgid ""
+":ghpull:`4322`: Scroll to the top after change of slides in the IPython "
+"slides"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1009
+msgid ""
+":ghpull:`4289`: Fix scrolling output (not working post clear_output "
+"changes)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1010
+msgid ":ghpull:`4343`: Make parameters for kernel start method more general"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1011
+msgid ":ghpull:`4237`: Keywords should shadow magic functions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1012
+msgid ":ghpull:`4338`: adjust default value of level in sync_imports"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1013
+msgid ":ghpull:`4328`: Remove unused loop variable."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1014
+msgid ":ghpull:`4340`: fix mathjax download url to new GitHub format"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1015
+msgid ""
+":ghpull:`4336`: use simple replacement rather than string formatting in "
+"format_kernel_cmd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1016
+msgid ":ghpull:`4264`: catch unicode error listing profiles"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1017
+msgid ":ghpull:`4314`: catch EACCES when binding notebook app"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1018
+msgid ":ghpull:`4324`: Remove commented addthis toolbar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1019
+msgid ":ghpull:`4327`: Use the with statement to open a file."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1020
+msgid ":ghpull:`4318`: fix initial sys.path"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1021
+msgid ""
+":ghpull:`4315`: Explicitly state what version of Pandoc is supported in "
+"docs/install"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1022
+msgid ":ghpull:`4316`: underscore missing on notebook_p4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1023
+msgid ":ghpull:`4295`: Implement boundary option for load magic (#1093)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1024
+msgid ":ghpull:`4300`: traits defauts are strings not object"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1025
+msgid ":ghpull:`4297`: Remove an unreachable return statement."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1026
+msgid ":ghpull:`4260`: Use subprocess for system_raw"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1027
+msgid ":ghpull:`4277`: add nbextensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1028
+msgid ":ghpull:`4294`: don't require tornado 3 in `--post serve`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1029
+msgid ":ghpull:`4270`: adjust Scheduler timeout logic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1030
+msgid ":ghpull:`4278`: add `-a` to easy_install command in libedit warning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1031
+msgid ":ghpull:`4282`: Enable automatic line breaks in MathJax."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1032
+msgid ":ghpull:`4279`: Fixing line-height of list items in tree view."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1033
+msgid ":ghpull:`4253`: fixes #4039."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1034
+#, python-format
+msgid ":ghpull:`4131`: Add module's name argument in %%cython magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1035
+msgid ""
+":ghpull:`4269`: Add mathletters option and longtable package to "
+"latex_base.tplx"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1036
+msgid ""
+":ghpull:`4230`: Switch correctly to the user's default matplotlib backend"
+" after inline."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1037
+msgid ":ghpull:`4271`: Hopefully fix ordering of output on ShiningPanda"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1038
+msgid ":ghpull:`4239`: more informative error message for bad serialization"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1039
+msgid ":ghpull:`4263`: Fix excludes for IPython.testing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1040
+msgid ":ghpull:`4112`: nbconvert: Latex template refactor"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1041
+msgid ""
+":ghpull:`4261`: Fixing a formatting error in the custom display example "
+"notebook."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1042
+msgid ":ghpull:`4259`: Fix Windows test exclusions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1043
+msgid ":ghpull:`4229`: Clear_output: Animation & widget related changes."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1044
+msgid ":ghpull:`4151`: Refactor alias machinery"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1045
+msgid ":ghpull:`4153`: make timeit return an object that contains values"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1046
+msgid ":ghpull:`4258`: to-backport label is now 1.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1047
+msgid ":ghpull:`4242`: Allow passing extra arguments to iptest through for nose"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1048
+msgid ":ghpull:`4257`: fix unicode argv parsing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1049
+msgid ""
+":ghpull:`4166`: avoid executing code in utils.localinterfaces at import "
+"time"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1050
+msgid ":ghpull:`4214`: engine ID metadata should be unicode, not bytes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1051
+msgid ":ghpull:`4232`: no highlight if no language specified"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1052
+msgid ":ghpull:`4218`: Fix display of SyntaxError when .py file is modified"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1053
+msgid ":ghpull:`4207`: add `setup.py css` command"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1054
+msgid ":ghpull:`4224`: clear previous callbacks on execute"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1055
+msgid ":ghpull:`4180`: Iptest refactoring"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1056
+msgid ":ghpull:`4105`: JS output area misaligned"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1057
+msgid ":ghpull:`4220`: Various improvements to docs formatting"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1058
+msgid ":ghpull:`4187`: Select adequate highlighter for cell magic languages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1059
+msgid ":ghpull:`4228`: update -dev docs to reflect latest stable version"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1060
+msgid ":ghpull:`4219`: Drop bundled argparse"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1061
+msgid ":ghpull:`3851`: Adds an explicit newline for pretty-printing."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1062
+msgid ":ghpull:`3622`: Drop fakemodule"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1063
+msgid ":ghpull:`4080`: change default behavior of database task storage"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1064
+msgid ":ghpull:`4197`: enable cython highlight in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1065
+msgid ":ghpull:`4225`: Updated docstring for core.display.Image"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1066
+msgid ":ghpull:`4175`: nbconvert: Jinjaless exporter base"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1067
+msgid ":ghpull:`4208`: Added a lightweight \"htmlcore\" Makefile entry"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1068
+msgid ":ghpull:`4209`: Magic doc fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1069
+msgid ":ghpull:`4217`: avoid importing numpy at the module level"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1070
+msgid ":ghpull:`4213`: fixed dead link in examples/notebooks readme to Part 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1071
+msgid ":ghpull:`4183`: ESC should be handled by CM if tooltip is not on"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1072
+msgid ":ghpull:`4193`: Update for #3549: Append Firefox overflow-x fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1073
+msgid ""
+":ghpull:`4205`: use TextIOWrapper when communicating with pandoc "
+"subprocess"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1074
+msgid ""
+":ghpull:`4204`: remove some extraneous print statements from "
+"IPython.parallel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1075
+msgid ":ghpull:`4201`: HeadingCells cannot be split or merged"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1076
+msgid ":ghpull:`4048`: finish up speaker-notes PR"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1077
+msgid ":ghpull:`4079`: trigger `Kernel.status_started` after websockets open"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1078
+msgid ":ghpull:`4186`: moved DummyMod to proper namespace to enable dill pickling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1079
+msgid ""
+":ghpull:`4190`: update version-check message in setup.py and "
+"IPython.__init__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1080
+msgid ":ghpull:`4188`: Allow user_ns trait to be None"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1081
+msgid ":ghpull:`4189`: always fire LOCAL_IPS.extend(PUBLIC_IPS)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1082
+msgid ":ghpull:`4174`: various issues in markdown and rst templates"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1083
+msgid ":ghpull:`4178`: add missing data_javascript"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1084
+msgid ":ghpull:`4168`: Py3 failing tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1085
+msgid ""
+":ghpull:`4181`: nbconvert: Fix, sphinx template not removing new lines "
+"from headers"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1086
+msgid ":ghpull:`4043`: don't 'restore_bytes' in from_JSON"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1087
+msgid ":ghpull:`4149`: reuse more kernels in kernel tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1088
+msgid ":ghpull:`4163`: Fix for incorrect default encoding on Windows."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1089
+msgid ":ghpull:`4136`: catch javascript errors in any output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1090
+msgid ":ghpull:`4171`: add nbconvert config file when creating profiles"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1091
+msgid ""
+":ghpull:`4172`: add ability to check what PRs should be backported in "
+"backport_pr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1092
+msgid ":ghpull:`4167`: --fast flag for test suite!"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1093
+msgid ":ghpull:`4125`: Basic exercise of `ipython [subcommand] -h` and help-all"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1094
+msgid ""
+":ghpull:`4085`: nbconvert: Fix sphinx preprocessor date format string for"
+" Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1095
+msgid ":ghpull:`4159`: don't split `.cell` and `div.cell` CSS"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1096
+msgid ":ghpull:`4165`: Remove use of parametric tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1097
+msgid ""
+":ghpull:`4158`: generate choices for `--gui` configurable from real "
+"mapping"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1098
+msgid ":ghpull:`4083`: Implement a better check for hidden values for %who etc."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1099
+msgid ":ghpull:`4147`: Reference notebook examples, fixes #4146."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1100
+msgid ":ghpull:`4065`: do not include specific css in embedable one"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1101
+msgid ""
+":ghpull:`4092`: nbconvert: Fix for unicode html headers, Windows + Python"
+" 2.x"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1102
+msgid ":ghpull:`4074`: close Client sockets if connection fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1103
+msgid ":ghpull:`4064`: Store default codemirror mode in only 1 place"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1104
+msgid ":ghpull:`4104`: Add way to install MathJax to a particular profile"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1105
+msgid ":ghpull:`4161`: Select name when renaming a notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1106
+msgid ":ghpull:`4160`: Add quotes around \".[notebook]\" in readme"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1107
+msgid ""
+":ghpull:`4144`: help_end transformer shouldn't pick up ? in multiline "
+"string"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1108
+msgid ":ghpull:`4090`: Add LaTeX citation handling to nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1109
+msgid ":ghpull:`4143`: update example custom.js"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1110
+msgid ":ghpull:`4142`: DOC: unwrap openssl line in public_server doc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1111
+msgid ":ghpull:`4126`: update tox.ini"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1112
+msgid ":ghpull:`4141`: add files with a separate `add` call in backport_pr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1113
+msgid ":ghpull:`4137`: Restore autorestore option for storemagic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1114
+msgid ":ghpull:`4098`: pass profile-dir instead of profile name to Kernel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1115
+msgid ":ghpull:`4120`: support `input` in Python 2 kernels"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1116
+msgid ""
+":ghpull:`4088`: nbconvert: Fix coalescestreams line with incorrect "
+"nesting causing strange behavior"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1117
+msgid ""
+":ghpull:`4060`: only strip continuation prompts if regular prompts seen "
+"first"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1118
+msgid ""
+":ghpull:`4132`: Fixed name error bug in function safe_unicode in module "
+"py3compat."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1119
+msgid ":ghpull:`4121`: move test_kernel from IPython.zmq to IPython.kernel"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1120
+msgid ""
+":ghpull:`4118`: ZMQ heartbeat channel: catch EINTR exceptions and "
+"continue."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1121
+msgid ":ghpull:`4070`: New changes should go into pr/ folder"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1122
+msgid ":ghpull:`4054`: use unicode for HTML export"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1123
+msgid ":ghpull:`4106`: fix a couple of default block values"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1124
+msgid ":ghpull:`4107`: update parallel magic tests with capture_output API"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1125
+msgid ":ghpull:`4102`: Fix clashes between debugger tests and coverage.py"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1126
+msgid ":ghpull:`4115`: Update docs on declaring a magic function"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1127
+msgid ":ghpull:`4101`: restore accidentally removed EngineError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1128
+msgid ":ghpull:`4096`: minor docs changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1129
+msgid ":ghpull:`4094`: Update target branch before backporting PR"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1130
+msgid ":ghpull:`4069`: Drop monkeypatch for pre-1.0 nose"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1131
+msgid ""
+":ghpull:`4056`: respect `pylab_import_all` when `--pylab` specified at "
+"the command-line"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1132
+msgid ":ghpull:`4091`: Make Qt console banner configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1133
+msgid ":ghpull:`4086`: fix missing errno import"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1134
+msgid ":ghpull:`4084`: Use msvcrt.getwch() for Windows pager."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1135
+msgid ":ghpull:`4073`: rename ``post_processors`` submodule to ``postprocessors``"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1136
+msgid ":ghpull:`4075`: Update supported Python versions in tools/test_pr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1137
+msgid ":ghpull:`4068`: minor bug fix, define 'cell' in dialog.js."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1138
+msgid ":ghpull:`4044`: rename call methods to transform and postprocess"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1139
+msgid ""
+":ghpull:`3744`: capture rich output as well as stdout/err in "
+"capture_output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1140
+msgid ":ghpull:`3969`: \"use strict\" in most (if not all) our javascript"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1141
+msgid ":ghpull:`4030`: exclude `.git` in MANIFEST.in"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1142
+msgid ":ghpull:`4047`: Use istype() when checking if canned object is a dict"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1143
+msgid ":ghpull:`4031`: don't close_fds on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1144
+msgid ":ghpull:`4029`: bson.Binary moved"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1145
+msgid ":ghpull:`3883`: skip test on unix when x11 not available"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1146
+msgid ":ghpull:`3863`: Added working speaker notes for slides."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1147
+msgid ""
+":ghpull:`4035`: Fixed custom jinja2 templates being ignored when setting "
+"template_path"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1148
+msgid ":ghpull:`4002`: Drop Python 2.6 and 3.2"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1149
+msgid ":ghpull:`4026`: small doc fix in nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1150
+msgid ":ghpull:`4016`: Fix IPython.start_* functions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1151
+msgid ":ghpull:`4021`: Fix parallel.client.View map() on numpy arrays"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1152
+msgid ":ghpull:`4022`: DOC: fix links to matplotlib, notebook docs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1153
+msgid ":ghpull:`4018`: Fix warning when running IPython.kernel tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1154
+#, python-format
+msgid ""
+":ghpull:`4017`: Add REPL-like printing of final/return value to %%R cell "
+"magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1155
+msgid ":ghpull:`4019`: Test skipping without unicode paths"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1156
+#, python-format
+msgid ":ghpull:`4008`: Transform code before %prun/%%prun runs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1157
+msgid ":ghpull:`4014`: Fix typo in ipapp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1158
+msgid ""
+":ghpull:`3997`: DOC: typos + rewording in examples/notebooks/Cell "
+"Magics.ipynb"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1159
+msgid ":ghpull:`3914`: nbconvert: Transformer tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1160
+msgid ":ghpull:`3987`: get files list in backport_pr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1161
+msgid ":ghpull:`3923`: nbconvert: Writer tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1162
+msgid ":ghpull:`3974`: nbconvert: Fix app tests on Window7 w/ Python 3.3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1163
+msgid ":ghpull:`3937`: make tab visible in codemirror and light red background"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1164
+msgid ":ghpull:`3933`: nbconvert: Post-processor tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1165
+msgid ":ghpull:`3978`: fix `--existing` with non-localhost IP"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1166
+msgid ":ghpull:`3939`: minor checkpoint cleanup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1167
+#, python-format
+msgid ":ghpull:`3955`: complete on % for magic in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1168
+msgid ":ghpull:`3981`: BF: fix nbconert rst input prompt spacing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1169
+msgid ":ghpull:`3960`: Don't make sphinx a dependency for importing nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1170
+msgid ":ghpull:`3973`: logging.Formatter is not new-style in 2.6"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1172
+msgid "Issues (434):"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1174
+msgid ":ghissue:`5476`: For 2.0: Fix links in Notebook Help Menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1175
+msgid ":ghissue:`5337`: Examples reorganization"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1176
+msgid ":ghissue:`5436`: CodeMirror shortcuts in QuickHelp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1177
+msgid ":ghissue:`5444`: Fix numeric verification for Int and Float text widgets."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1178
+msgid ":ghissue:`5443`: Int and Float Widgets don't allow negative signs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1179
+msgid ":ghissue:`5449`: Stretch keyboard shortcut dialog"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1180
+msgid ":ghissue:`5471`: Add coding magic comment to nbconvert Python template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1181
+msgid ":ghissue:`5470`: UTF-8 Issue When Converting Notebook to a Script."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1182
+msgid ":ghissue:`5369`: FormatterWarning for SVG matplotlib output in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1183
+msgid ":ghissue:`5460`: Can't start the notebook server specifying a notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1184
+msgid ":ghissue:`2918`: CodeMirror related issues."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1185
+msgid ":ghissue:`5431`: update github_stats and gh_api for 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1186
+msgid ":ghissue:`4887`: Add tests for modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1187
+msgid ":ghissue:`5290`: Add dual mode JS tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1188
+msgid ":ghissue:`5448`: Cmd+/ shortcut doesn't work in IPython master"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1189
+#, python-format
+msgid ":ghissue:`5447`: Add %%python2 cell magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1190
+msgid ""
+":ghissue:`5442`: Make a \"python2\" alias or rename the \"python\"cell "
+"magic."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1191
+msgid ":ghissue:`2495`: non-ascii characters in the path"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1192
+msgid ":ghissue:`4554`: dictDB: Exception due to str to datetime comparission"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1193
+msgid ":ghissue:`5006`: Comm code is not run in the same context as notebook code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1194
+msgid ":ghissue:`5118`: Weird interact behavior"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1195
+msgid ":ghissue:`5401`: Empty code cells in nbconvert rst output cause problems"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1196
+msgid ":ghissue:`5434`: fix check for empty cells in rst template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1197
+msgid ":ghissue:`4944`: Trouble finding ipynb path in Windows 8"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1198
+msgid ":ghissue:`4605`: Change the url of Editor Shorcuts in the notebook menu."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1199
+msgid ":ghissue:`5425`: Update COPYING.txt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1200
+msgid ":ghissue:`5348`: BUG: HistoryAccessor.get_session_info(0) - exception"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1201
+msgid ":ghissue:`5293`: Javascript(\"element.append()\") looks broken."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1202
+msgid ":ghissue:`5363`: Disable saving if notebook has stopped loading"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1203
+msgid ":ghissue:`5189`: Tooltip pager mode is broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1204
+msgid ":ghissue:`5330`: Updates to shell reference doc"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1205
+msgid ":ghissue:`5397`: Accordion widget broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1206
+msgid ":ghissue:`5106`: Flexbox CSS specificity bugs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1207
+msgid ":ghissue:`5297`: tooltip triggers focus bug"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1208
+msgid ""
+":ghissue:`5417`: scp checking for existence of directories: directory "
+"names are incorrect"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1209
+msgid ":ghissue:`5302`: Parallel engine registration fails for slow engines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1210
+msgid ""
+":ghissue:`5334`: notebook's split-cell shortcut dangerous / incompatible "
+"with Neo layout (for instance)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1211
+msgid ":ghissue:`5324`: Style of `raw_input` UI is off in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1212
+msgid ""
+":ghissue:`5350`: Converting notebooks with spaces in their names to RST "
+"gives broken images"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1213
+msgid ":ghissue:`5049`: update quickhelp on adding and removing shortcuts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1214
+msgid ""
+":ghissue:`4941`: Eliminating display of intermediate stages in progress "
+"bars"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1215
+msgid ":ghissue:`5345`: nbconvert to markdown does not use backticks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1216
+msgid ":ghissue:`5357`: catch exception in copystat"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1217
+msgid ":ghissue:`5351`: Notebook saving fails on smb share"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1218
+msgid ":ghissue:`4946`: TeX produced cannot be converted to PDF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1219
+msgid ":ghissue:`5347`: pretty print list too slow"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1220
+msgid ""
+":ghissue:`5238`: Raw cell placeholder is not removed when you edit the "
+"cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1221
+msgid ":ghissue:`5382`: Qtconsole doesn't run in Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1222
+msgid ""
+":ghissue:`5378`: Unexpected and new conflict between PyFileConfigLoader "
+"and IPythonQtConsoleApp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1223
+msgid ""
+":ghissue:`4945`: Heading/cells positioning problem and cell output "
+"wrapping"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1224
+msgid ":ghissue:`5084`: Consistent approach for HTML/JS output on nbviewer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1225
+msgid ":ghissue:`4902`: print preview does not work, custom.css not found"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1226
+msgid ":ghissue:`5336`: TypeError in bootstrap-tour.min.js"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1227
+msgid ":ghissue:`5303`: Changed Hub.registration_timeout to be a config input."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1228
+msgid ":ghissue:`995`: Paste-able mode in terminal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1229
+msgid ":ghissue:`5305`: Tuple unpacking for shell escape"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1230
+msgid ":ghissue:`5232`: Make nbconvert html full output like notebook's html."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1231
+msgid ":ghissue:`5224`: Audit nbconvert HTML output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1232
+msgid ":ghissue:`5253`: display any output from this session in terminal console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1233
+msgid ":ghissue:`5251`: ipython console ignoring some stream messages?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1234
+msgid ""
+":ghissue:`4802`: Tour of the notebook UI (was UI elements inline with "
+"highlighting)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1235
+msgid ""
+":ghissue:`5103`: Moving Constructor definition to the top like a Function"
+" definition"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1236
+msgid ":ghissue:`5264`: Test failures on master with Anaconda"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1237
+msgid ""
+":ghissue:`4833`: Serve /usr/share/javascript at /_sysassets/javascript/ "
+"in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1238
+msgid ":ghissue:`5071`: Prevent %pylab from clobbering interactive"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1239
+msgid ":ghissue:`5282`: Exception in widget __del__ methods in Python 3.4."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1240
+msgid ":ghissue:`5280`: append Firefox overflow-x fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1241
+msgid ":ghissue:`5120`: append Firefox overflow-x fix, again"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1242
+msgid ":ghissue:`4127`: autoreload shouldn't rely on .pyc modification times"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1243
+msgid ""
+":ghissue:`5272`: allow highlighting language to be set from notebook "
+"metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1244
+msgid ":ghissue:`5050`: Notebook cells truncated with Firefox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1245
+msgid ":ghissue:`4839`: Error in Session.send_raw()"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1246
+msgid ":ghissue:`5188`: New events system"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1247
+msgid ":ghissue:`5076`: Refactor keyboard handling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1248
+msgid ""
+":ghissue:`4886`: Refactor and consolidate different keyboard logic in "
+"JavaScript code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1249
+msgid ""
+":ghissue:`5002`: the green cell border moving forever in Chrome, when "
+"there are many code cells."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1250
+msgid ":ghissue:`5259`: Codemirror still active in command mode"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1251
+msgid ":ghissue:`5219`: Output images appear as small thumbnails (Notebook)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1252
+msgid ":ghissue:`4829`: Not able to connect qtconsole in Windows 8"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1253
+msgid ":ghissue:`5152`: Hide __pycache__ in dashboard directory list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1254
+msgid ":ghissue:`5151`: Case-insesitive sort for dashboard list"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1255
+msgid ":ghissue:`4603`: Warn when overwriting a notebook with upload"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1256
+#, python-format
+msgid ":ghissue:`4895`: Improvements to %run completions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1257
+#, python-format
+msgid ":ghissue:`3459`: Filename completion when run script with %run"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1258
+msgid ":ghissue:`5225`: Add JavaScript to nbconvert HTML display priority"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1259
+msgid ":ghissue:`5034`: Audit the places where we call `.html(something)`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1260
+msgid ":ghissue:`5094`: Dancing cells in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1261
+msgid ":ghissue:`4999`: Notebook focus effects"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1262
+msgid ""
+":ghissue:`5149`: Clicking on a TextBoxWidget in FF completely breaks dual"
+" mode."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1263
+msgid ":ghissue:`5207`: Children fire event"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1264
+msgid ":ghissue:`5227`: display_method of objects with custom __getattr__"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1265
+msgid ""
+":ghissue:`5236`: Cursor keys do not work to leave Markdown cell while "
+"it's being edited"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1266
+msgid ":ghissue:`5205`: Use CTuple traitlet for Widget children"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1267
+msgid ":ghissue:`5230`: notebook rename does not respect url prefix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1268
+msgid ":ghissue:`5218`: Test failures with Python 3 and enabled warnings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1269
+msgid ""
+":ghissue:`5115`: Page Breaks for Print Preview Broken by display: flex - "
+"Simple CSS Fix"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1270
+msgid ":ghissue:`5024`: Make nbconvert HTML output smart about page breaking"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1271
+msgid ":ghissue:`4985`: Add automatic Closebrackets function to Codemirror."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1272
+msgid ":ghissue:`5184`: print '\\xa' crashes the interactive shell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1273
+msgid ":ghissue:`5214`: Downloading notebook as Python (.py) fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1274
+msgid ""
+":ghissue:`5211`: AttributeError: 'module' object has no attribute "
+"'_outputfile'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1275
+msgid ""
+":ghissue:`5206`: [CSS?] Inconsistencies in nbconvert divs and IPython "
+"Notebook divs?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1276
+msgid ":ghissue:`5201`: node != nodejs within Debian packages"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1277
+msgid ":ghissue:`5112`: band-aid for completion"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1278
+msgid ":ghissue:`4860`: Completer As-You-Type Broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1279
+msgid ":ghissue:`5116`: reorganize who knows what about paths"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1280
+msgid ":ghissue:`4973`: Adding security.js with 1st attempt at is_safe"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1281
+msgid ":ghissue:`5164`: test_oinspect.test_calltip_builtin failure with python3.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1282
+msgid ":ghissue:`5127`: Widgets: skip intermediate callbacks during throttling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1283
+msgid ":ghissue:`5013`: Widget alignment differs between FF and Chrome"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1284
+msgid ":ghissue:`5141`: tornado error static file"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1285
+msgid ":ghissue:`5160`: TemporaryWorkingDirectory incompatible with python3.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1286
+msgid ":ghissue:`5140`: WIP: %kernels magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1287
+msgid ":ghissue:`4987`: Widget lifecycle problems"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1288
+msgid ":ghissue:`5129`: UCS package break latex export on non-ascii"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1289
+msgid ""
+":ghissue:`4986`: Cell horizontal scrollbar is missing in FF but not in "
+"Chrome"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1290
+msgid ":ghissue:`4685`: nbconvert ignores image size metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1291
+msgid ":ghissue:`5155`: Notebook logout button does not work (source typo)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1292
+msgid ":ghissue:`2678`: Ctrl-m keyboard shortcut clash on Chrome OS"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1293
+msgid ":ghissue:`5113`: ButtonWidget without caption wrong height."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1294
+msgid ":ghissue:`4778`: add APIs for installing notebook extensions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1295
+msgid ":ghissue:`5046`: python setup.py failed vs git submodule update worked"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1296
+msgid ":ghissue:`4925`: Notebook manager api fixes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1297
+msgid ":ghissue:`5073`: Cannot align widgets horizontally in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1298
+msgid ":ghissue:`4996`: require print_method to be a bound method"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1299
+msgid ""
+":ghissue:`4990`: _repr_html_ exception reporting corner case when using "
+"type(foo)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1300
+msgid ""
+":ghissue:`5099`: Notebook: Changing base_project_url results in failed "
+"WebSockets call"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1301
+msgid ":ghissue:`5096`: Client.map is not fault tolerant"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1302
+msgid ":ghissue:`4997`: Inconsistent %matplotlib qt behavior"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1303
+msgid ":ghissue:`5041`: Remove more .html(...) calls."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1304
+msgid ":ghissue:`5078`: Updating JS tests README.md"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1305
+msgid ":ghissue:`4977`: ensure scp destination directories exist (with mkdir -p)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1306
+msgid ":ghissue:`3411`: ipython parallel: scp failure."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1307
+msgid ""
+":ghissue:`5064`: Errors during interact display at the terminal, not "
+"anywhere in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1308
+msgid ":ghissue:`4921`: Add PDF formatter and handling"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1309
+msgid ""
+":ghissue:`4920`: Adding PDFFormatter and kernel side handling of PDF "
+"display data"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1310
+msgid ":ghissue:`5048`: Add edit/command mode indicator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1311
+msgid ":ghissue:`4889`: Add UI element for indicating command/edit modes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1312
+msgid ":ghissue:`5052`: Add q to toggle the pager."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1313
+msgid ":ghissue:`5000`: Closing pager with keyboard in modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1314
+msgid ":ghissue:`5069`: Box model changes broke the Keyboard Shortcuts help modal"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1315
+msgid ":ghissue:`4960`: Interact/Interactive for widget"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1316
+msgid ":ghissue:`4883`: Implement interact/interactive for widgets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1317
+msgid ":ghissue:`5038`: Fix multiple press keyboard events"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1318
+msgid ""
+":ghissue:`5054`: UnicodeDecodeError: 'ascii' codec can't decode byte 0xc6"
+" in position 1: ordinal not in range(128)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1319
+msgid ""
+":ghissue:`5031`: Bug during integration of IPython console in Qt "
+"application"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1320
+msgid ":ghissue:`5057`: iopubwatcher.py example is broken."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1321
+msgid ":ghissue:`4747`: Add event for output_area adding an output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1322
+msgid ":ghissue:`5001`: Add directory navigation to dashboard"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1323
+msgid ":ghissue:`5016`: Help menu external-link icons break layout in FF"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1324
+msgid ":ghissue:`4885`: Modal UI behavior changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1325
+msgid ":ghissue:`5009`: notebook signatures don't work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1326
+msgid ":ghissue:`4975`: setup.py changes for 2.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1327
+msgid ":ghissue:`4774`: emit event on appended element on dom"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1328
+msgid ":ghissue:`5020`: Python Lists translated to javascript objects in widgets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1329
+msgid ":ghissue:`5003`: Fix pretty reprs of super() objects"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1330
+msgid ":ghissue:`5012`: Make `SelectionWidget.values` a dict"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1331
+msgid ""
+":ghissue:`4961`: Bug when constructing a selection widget with both "
+"values and labels"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1332
+msgid ""
+":ghissue:`4283`: A `<` in a markdown cell strips cell content when "
+"converting to latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1333
+msgid ":ghissue:`4006`: iptest IPython broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1334
+msgid ":ghissue:`4251`: & escaped to &amp; in tex ?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1335
+msgid ":ghissue:`5027`: pin lessc to 1.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1336
+msgid ":ghissue:`4323`: Take 2: citation2latex filter (using HTMLParser)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1337
+msgid ""
+":ghissue:`4196`: Printing notebook from browser gives 1-page truncated "
+"output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1338
+msgid ":ghissue:`4842`: more subtle kernel indicator"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1339
+msgid ":ghissue:`4057`: No path to notebook examples from Help menu"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1340
+msgid ":ghissue:`5015`: don't write cell.trusted to disk"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1341
+msgid ":ghissue:`4617`: Changed url link in Help dropdown menu."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1342
+msgid ":ghissue:`4976`: Container widget layout broken on Firefox"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1343
+msgid ":ghissue:`4981`: Vertical slider layout broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1344
+msgid ":ghissue:`4793`: Message spec changes related to `clear_output`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1345
+msgid ":ghissue:`4982`: Live readout for slider widgets"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1346
+msgid ":ghissue:`4813`: make help menu a template"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1347
+msgid ":ghissue:`4989`: Filename tab completion completely broken"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1348
+msgid ":ghissue:`1380`: Tab should insert 4 spaces in # comment lines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1349
+msgid ":ghissue:`2888`: spaces vs tabs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1350
+msgid ":ghissue:`1193`: Allow resizing figures in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1351
+msgid ":ghissue:`4504`: Allow input transformers to raise SyntaxError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1352
+msgid ":ghissue:`4697`: Problems with height after toggling header and toolbar..."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1353
+msgid ":ghissue:`4951`: TextWidget to code cell command mode bug."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1354
+msgid ""
+":ghissue:`4809`: Arbitrary scrolling (jumping) in clicks in modal UI for "
+"notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1355
+msgid ":ghissue:`4971`: Fixing issues with js tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1356
+msgid ""
+":ghissue:`4972`: Work around problem in doctest discovery in Python 3.4 "
+"with PyQt"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1357
+msgid ":ghissue:`4892`: IPython.qt test failure with python3.4"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1358
+msgid ":ghissue:`4863`: BUG: cannot create an OBJECT array from memory buffer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1359
+msgid ":ghissue:`4704`: Subcommand `profile` ignores --ipython-dir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1360
+msgid ":ghissue:`4845`: Add Origin Checking."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1361
+msgid ""
+":ghissue:`4870`: ipython_directive, report except/warn in block and add "
+":okexcept: :okwarning: options to suppress"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1362
+msgid ":ghissue:`4956`: Shift-Enter does not move to next cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1363
+msgid ":ghissue:`4662`: Menu cleanup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1364
+msgid ":ghissue:`4824`: sign notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1365
+#, python-format
+msgid ":ghissue:`4848`: avoid import of nearby temporary with %edit"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1366
+#, python-format
+msgid ":ghissue:`4731`: %edit files mistakenly import modules in /tmp"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1367
+msgid ":ghissue:`4950`: Two fixes for file upload related bugs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1368
+msgid ":ghissue:`4871`: Notebook upload fails after Delete"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1369
+msgid ":ghissue:`4825`: File Upload URL set incorrectly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1370
+msgid ""
+":ghissue:`3867`: display.FileLinks should work in the exported html "
+"verion of a notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1371
+msgid ":ghissue:`4948`: reveal: ipython css overrides reveal themes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1372
+msgid ":ghissue:`4947`: reveal: slides that are too big?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1373
+msgid ":ghissue:`4051`: Test failures with Python 3 and enabled warnings"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1374
+msgid ":ghissue:`3633`: outstanding issues over in ipython/nbconvert repo"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1375
+msgid ":ghissue:`4087`: Sympy printing in the example notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1376
+msgid ":ghissue:`4627`: Document various QtConsole embedding approaches."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1377
+msgid ":ghissue:`4849`: Various unicode fixes (mostly on Windows)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1378
+msgid ":ghissue:`3653`: autocompletion in \"from package import <tab>\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1379
+msgid ":ghissue:`4583`: overwrite? prompt gets EOFError in 2 process"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1380
+msgid ""
+":ghissue:`4807`: Correct handling of ansi colour codes when nbconverting "
+"to latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1381
+msgid ":ghissue:`4611`: Document how to compile .less files in dev docs."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1382
+msgid ""
+":ghissue:`4618`: \"Editor Shortcuts\" link is broken in help menu "
+"dropdown notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1383
+msgid ":ghissue:`4522`: DeprecationWarning: the sets module is deprecated"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1384
+msgid ""
+":ghissue:`4368`: No symlink from ipython to ipython3 when inside a "
+"python3 virtualenv"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1385
+msgid ":ghissue:`4234`: Math without $$ doesn't show up when converted to slides"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1386
+msgid ":ghissue:`4194`: config.TerminalIPythonApp.nosep does not work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1387
+msgid ":ghissue:`1491`: prefilter not called for multi-line notebook cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1388
+msgid ":ghissue:`4001`: Windows IPython executable /scripts/ipython not working"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1389
+msgid ":ghissue:`3959`: think more carefully about text wrapping in nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1390
+msgid ":ghissue:`4907`: Test for traceback depth fails on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1391
+msgid ":ghissue:`4906`: Test for IPython.embed() fails on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1392
+msgid ":ghissue:`4912`: Skip some Windows io failures"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1393
+msgid ""
+":ghissue:`3700`: stdout/stderr should be flushed printing exception "
+"output..."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1394
+msgid ":ghissue:`1181`: greedy completer bug in terminal console"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1395
+msgid ""
+":ghissue:`2032`: check for a few places we should be using "
+"DEFAULT_ENCODING"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1396
+msgid ""
+":ghissue:`4882`: Too many files open when starting and stopping kernel "
+"repeatedly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1397
+msgid ":ghissue:`4880`: set profile name from profile_dir"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1398
+msgid ""
+":ghissue:`4238`: parallel.Client() not using profile that notebook was "
+"run with?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1399
+msgid ":ghissue:`4853`: fix setting image height/width from metadata"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1400
+msgid ":ghissue:`4786`: Reduce spacing of heading cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1401
+msgid ":ghissue:`4680`: Minimal pandoc version warning"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1402
+msgid ""
+":ghissue:`3707`: nbconvert: Remove IPython magic commands from "
+"--format=\"python\" output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1403
+msgid ":ghissue:`4130`: PDF figures as links from png or svg figures"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1404
+msgid ":ghissue:`3919`: Allow --profile to be passed a dir."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1405
+msgid ":ghissue:`2136`: Handle hard newlines in pretty printer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1406
+msgid ""
+":ghissue:`4790`: Notebook modal UI: \"merge cell below\" key binding, "
+"`shift+=`, does not work with some keyboard layouts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1407
+msgid ":ghissue:`4884`: Keyboard shortcut changes"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1408
+msgid ":ghissue:`1184`: slow handling of keyboard input"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1409
+msgid ":ghissue:`4913`: Mathjax, Markdown, tex, env* and italic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1410
+msgid ":ghissue:`3972`: nbconvert: Template output testing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1411
+msgid ":ghissue:`4903`: use https for all embeds"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1412
+msgid ":ghissue:`4874`: --debug does not work if you set .kernel_cmd"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1413
+msgid ":ghissue:`4679`: JPG compression for inline pylab"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1414
+msgid ":ghissue:`4708`: Fix indent and center"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1415
+msgid ":ghissue:`4789`: fix IPython.embed"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1416
+msgid ""
+":ghissue:`4759`: Application._load_config_files log parameter default "
+"fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1417
+msgid ":ghissue:`3153`: docs / file menu: explain how to exit the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1418
+msgid ""
+":ghissue:`4791`: Did updates to ipython_directive bork support for cython"
+" magic snippets?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1419
+msgid ""
+":ghissue:`4385`: \"Part 4 - Markdown Cells.ipynb\" nbviewer example seems"
+" not well referenced in current online documentation page "
+"https://ipython.org/ipython-doc/stable/interactive/notebook.htm"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1420
+msgid ":ghissue:`4655`: prefer marked to pandoc for markdown2html"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1421
+msgid ":ghissue:`3441`: Fix focus related problems in the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1422
+msgid ""
+":ghissue:`3402`: Feature Request: Save As (latex, html,..etc) as a menu "
+"option in Notebook rather than explicit need to invoke nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1423
+msgid ":ghissue:`3224`: Revisit layout of notebook area"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1424
+msgid ""
+":ghissue:`2746`: rerunning a cell with long output (exception) scrolls to"
+" much (html notebook)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1425
+msgid ""
+":ghissue:`2667`: can't save opened notebook if accidentally delete the "
+"notebook in the dashboard"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1426
+msgid ":ghissue:`3026`: Reporting errors from _repr_<type>_ methods"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1427
+msgid ":ghissue:`1844`: Notebook does not exist and permalinks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1428
+msgid ""
+":ghissue:`2450`: [closed PR] Prevent jumping of window to input when "
+"output is clicked."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1429
+msgid ""
+":ghissue:`3166`: IPEP 16: Notebook multi directory dashboard and URL "
+"mapping"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1430
+msgid ":ghissue:`3691`: Slight misalignment of Notebook menu bar with focus box"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1431
+msgid ""
+":ghissue:`4875`: Empty tooltip with `object_found = false` still being "
+"shown"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1432
+msgid ""
+":ghissue:`4432`: The SSL cert for the MathJax CDN is invalid and URL is "
+"not protocol agnostic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1433
+msgid ":ghissue:`2633`: Help text should leave current cell active"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1434
+msgid ":ghissue:`3976`: DOC: Pandas link on the notebook help menu?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1435
+msgid ":ghissue:`4082`: /new handler redirect cached by browser"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1436
+msgid ":ghissue:`4298`: Slow ipython --pylab and ipython notebook startup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1437
+#, python-format
+msgid ":ghissue:`4545`: %store magic not working"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1438
+msgid ":ghissue:`4610`: toolbar UI enhancements"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1439
+msgid ":ghissue:`4782`: New modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1440
+msgid ":ghissue:`4732`: Accents in notebook names and in command-line (nbconvert)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1441
+msgid ":ghissue:`4752`: link broken in docs/examples"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1442
+msgid ""
+":ghissue:`4835`: running ipython on python files adds an extra traceback "
+"frame"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1443
+msgid ""
+":ghissue:`4792`: repr_html exception warning on qtconsole with pandas  "
+"#4745"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1444
+msgid ":ghissue:`4834`: function tooltip issues"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1445
+msgid ""
+":ghissue:`4808`: Docstrings in Notebook not displayed properly and "
+"introspection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1446
+msgid ":ghissue:`4846`: Remove some leftover traces of irunner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1447
+msgid ":ghissue:`4810`: ipcluster bug in clean_logs flag"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1448
+msgid ":ghissue:`4812`: update CodeMirror for the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1449
+msgid ":ghissue:`671`: add migration guide for old IPython config"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1450
+msgid ":ghissue:`4783`: ipython 2dev  under windows / (win)python 3.3 experiment"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1451
+msgid ":ghissue:`4772`: Notebook server info files"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1452
+msgid ":ghissue:`4765`: missing build script for highlight.js"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1453
+msgid ":ghissue:`4787`: non-python kernels run python code with qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1454
+msgid ":ghissue:`4703`: Math macro in jinja templates."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1455
+msgid ":ghissue:`4595`: ipython notebook XSS vulnerable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1456
+msgid ":ghissue:`4776`: Manually document py3compat module."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1457
+msgid ":ghissue:`4686`: For-in loop on an array in cell.js"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1458
+msgid ":ghissue:`3605`: Modal UI"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1459
+msgid ":ghissue:`4769`: Ipython 2.0 will not startup on py27 on windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1460
+msgid ":ghissue:`4482`: reveal.js converter not including CDN by default?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1461
+msgid ":ghissue:`4761`: ipv6 address triggers cookie exception"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1462
+msgid ":ghissue:`4580`: rename or remove %profile magic"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1463
+msgid ":ghissue:`4643`: Docstring does not open properly"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1464
+msgid ":ghissue:`4714`: Static URLs are not auto-versioned"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1465
+msgid ":ghissue:`2573`: document code mirror keyboard shortcuts"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1466
+msgid ":ghissue:`4717`: hang in parallel.Client when using SSHAgent"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1467
+msgid ":ghissue:`4544`: Clarify the requirement for pyreadline on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1468
+msgid ":ghissue:`3451`: revisit REST /new handler to avoid systematic crawling."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1469
+msgid ":ghissue:`2922`: File => Save as '.py' saves magic as code"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1470
+msgid ""
+":ghissue:`4728`: Copy/Paste stripping broken in version > 0.13.x in "
+"QTConsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1471
+msgid ""
+":ghissue:`4539`: Nbconvert: Latex to PDF conversion fails on notebooks "
+"with accented letters"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1472
+msgid ":ghissue:`4721`: purge_results with jobid crashing - looking for insight"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1473
+msgid ""
+":ghissue:`4620`: Notebook with ? in title defies autosave, renaming and "
+"deletion."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1474
+msgid ":ghissue:`4574`: Hash character in notebook name breaks a lot of things"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1475
+msgid ":ghissue:`4709`: input_prefilter hook not called"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1476
+msgid ":ghissue:`1680`: qtconsole should support --no-banner and custom banner"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1477
+msgid ":ghissue:`4689`: IOStream IP address configurable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1478
+msgid ""
+":ghissue:`4698`: Missing \"if __name__ == '__main__':\" check in "
+"/usr/bin/ipython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1479
+msgid ""
+":ghissue:`4191`: NBConvert: markdown inline and locally referenced files "
+"have incorrect file location for latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1480
+#, python-format
+msgid ":ghissue:`2865`: %%!? does not display the shell execute docstring"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1481
+msgid ":ghissue:`1551`: Notebook should be saved before printing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1482
+msgid ":ghissue:`4612`: remove `Configurable.created` ?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1483
+msgid ":ghissue:`4629`: Lots of tests fail due to space in sys.executable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1484
+msgid ":ghissue:`4644`: Fixed URLs for notebooks"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1485
+msgid ""
+":ghissue:`4621`: IPython 1.1.0 Qtconsole syntax highlighting highlights "
+"python 2 only built-ins when using python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1486
+msgid ""
+":ghissue:`2923`: Move Delete Button Away from Save Button in the HTML "
+"notebook toolbar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1487
+msgid ":ghissue:`4615`: UnicodeDecodeError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1488
+msgid ":ghissue:`4431`: ipython slow in os x mavericks?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1489
+msgid ""
+":ghissue:`4538`: DOC: document how to change ipcontroller-engine.json in "
+"case controller was started with --ip=\"*\""
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1490
+msgid ":ghissue:`4551`: Serialize methods and closures"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1491
+msgid ":ghissue:`4081`: [Nbconvert][reveal] link to font awesome ?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1492
+msgid ""
+":ghissue:`4602`: \"ipcluster stop\" fails after \"ipcluster start "
+"--daemonize\" using python3.3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1493
+msgid ""
+":ghissue:`4578`: NBconvert fails with unicode errors when `--stdout` and "
+"file redirection is specified and HTML entities are present"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1494
+msgid ""
+":ghissue:`4600`: Renaming new notebook to an exist name silently deletes "
+"the old one"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1495
+msgid ""
+":ghissue:`4598`: Qtconsole docstring pop-up fails on method containing "
+"defaulted enum argument"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1496
+msgid ":ghissue:`951`: Remove Tornado monkeypatch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1497
+msgid ":ghissue:`4564`: Notebook save failure"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1498
+msgid ":ghissue:`4562`: nbconvert: Default encoding problem on OS X"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1499
+msgid ":ghissue:`1675`: add file_to_run=file.ipynb capability to the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1500
+msgid ":ghissue:`4516`: `ipython console` doesn't send a `shutdown_request`"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1501
+msgid ":ghissue:`3043`: can't restart pdb session in ipython"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1502
+msgid ":ghissue:`4524`: Fix bug with non ascii passwords in notebook login"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1503
+msgid ":ghissue:`1866`: problems rendering an SVG?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1504
+msgid ""
+":ghissue:`4520`: unicode error when trying Audio('data/Bach Cello Suite "
+"#3.wav')"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1505
+msgid ""
+":ghissue:`4493`: Qtconsole cannot print an ISO8601 date at nanosecond "
+"precision"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1506
+msgid ":ghissue:`4502`: intermittent parallel test failure test_purge_everything"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1507
+msgid ""
+":ghissue:`4495`: firefox 25.0: notebooks report \"Notebook save failed\","
+" .py script save fails, but .ipynb save succeeds"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1508
+msgid ":ghissue:`4245`: nbconvert latex: code highlighting causes error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1509
+msgid ""
+":ghissue:`4486`: Test for whether inside virtualenv does not work if "
+"directory is symlinked"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1510
+msgid ":ghissue:`4485`: Incorrect info in \"Messaging in IPython\" documentation."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1511
+msgid ":ghissue:`4447`: Ipcontroller broken in current HEAD on windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1512
+msgid ":ghissue:`4241`: Audio display object"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1513
+msgid ":ghissue:`4463`: Error on empty c.Session.key"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1514
+msgid ""
+":ghissue:`4454`: UnicodeDecodeError when starting Ipython notebook on a "
+"directory containing a file with a non-ascii character"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1515
+msgid ""
+":ghissue:`3801`: Autocompletion: Fix issue #3723 -- ordering of "
+"completions for magic commands and variables with same name"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1516
+msgid ":ghissue:`3723`: Code completion: 'matplotlib' and '%matplotlib'"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1517
+msgid ":ghissue:`4396`: Always checkpoint al least once ?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1518
+msgid ":ghissue:`2524`: [Notebook] Clear kernel queue"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1519
+msgid ":ghissue:`2292`: Client side tests for the notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1520
+msgid ":ghissue:`4424`: Dealing with images in multidirectory environment"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1521
+msgid ":ghissue:`4388`: Make writing configurable magics easier"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1522
+msgid ":ghissue:`852`: Notebook should be saved before downloading"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1523
+msgid ":ghissue:`3708`: ipython profile locate should also work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1524
+msgid ":ghissue:`1349`: `?` may generate hundreds of cell"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1525
+msgid ""
+":ghissue:`4381`: Using hasattr for trait_names instead of just looking "
+"for it directly/using __dir__?"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1526
+msgid ":ghissue:`4361`: Crash Ultratraceback/ session history"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1527
+msgid ""
+":ghissue:`3044`: IPython notebook autocomplete for filename string "
+"converts multiple spaces to a single space"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1528
+msgid ":ghissue:`3346`: Up arrow history search shows duplicates in Qtconsole"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1529
+msgid ""
+":ghissue:`3496`: Fix import errors when running tests from the source "
+"directory"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1530
+msgid ""
+":ghissue:`4114`: If default profile doesn't exist, can't install mathjax "
+"to any location"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1531
+msgid ":ghissue:`4335`: TestPylabSwitch.test_qt fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1532
+msgid ":ghissue:`4291`: serve like option for nbconvert --to latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1533
+msgid ""
+":ghissue:`1824`: Exception before prompting for password during ssh "
+"connection"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1534
+msgid ""
+":ghissue:`4309`: Error in nbconvert - closing </code> tag is not inserted"
+" in HTML under some circumstances"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1535
+msgid ":ghissue:`4351`: /parallel/apps/launcher.py error"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1536
+msgid ":ghissue:`3603`: Upcoming issues with nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1537
+msgid ":ghissue:`4296`: sync_imports() fails in python 3.3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1538
+msgid ":ghissue:`4339`: local mathjax install doesn't work"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1539
+msgid ""
+":ghissue:`4334`: NotebookApp.webapp_settings static_url_prefix causes "
+"crash"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1540
+msgid ""
+":ghissue:`4308`: Error when use \"ipython notebook\" in win7 64 with "
+"python2.7.3 64."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1541
+msgid ":ghissue:`4317`: Relative imports broken in the notebook (Windows)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1542
+msgid ""
+":ghissue:`3658`: Saving Notebook clears \"Kernel Busy\" status from the "
+"page and titlebar"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1543
+msgid ":ghissue:`4312`: Link broken on ipython-doc stable"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1544
+#, python-format
+msgid ":ghissue:`1093`: Add boundary options to %load"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1545
+msgid ":ghissue:`3619`: Multi-dir webservice design"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1546
+msgid ""
+":ghissue:`4299`: Nbconvert, default_preprocessors to list of dotted name "
+"not list of obj"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1547
+msgid ":ghissue:`3210`: IPython.parallel tests seem to hang on ShiningPanda"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1548
+msgid ":ghissue:`4280`: MathJax Automatic Line Breaking"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1549
+msgid ":ghissue:`4039`: Celltoolbar example issue"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1550
+msgid ":ghissue:`4247`: nbconvert --to latex: error when converting greek letter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1551
+#, python-format
+msgid ""
+":ghissue:`4273`: %%capture not capturing rich objects like plots (IPython"
+" 1.1.0)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1552
+msgid ":ghissue:`3866`: Vertical offsets in LaTeX output for nbconvert"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1553
+msgid ":ghissue:`3631`: xkcd mode for the IPython notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1554
+msgid ":ghissue:`4243`: Test exclusions not working on Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1555
+msgid ":ghissue:`4256`: IPython no longer handles unicode file names"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1556
+msgid ":ghissue:`3656`: Audio displayobject"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1557
+msgid ":ghissue:`4223`: Double output on Ctrl-enter-enter"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1558
+#, python-format
+msgid ""
+":ghissue:`4184`: nbconvert: use r pygmentize backend when highlighting "
+"\"%%R\" cells"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1559
+msgid ":ghissue:`3851`: Adds an explicit newline for pretty-printing."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1560
+msgid ":ghissue:`3622`: Drop fakemodule"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1561
+msgid ""
+":ghissue:`4122`: Nbconvert [windows]: Inconsistent line endings in "
+"markdown cells exported to latex"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1562
+msgid ":ghissue:`3819`: nbconvert add extra blank line to code block on Windows."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1563
+msgid ""
+":ghissue:`4203`: remove spurious print statement from parallel annoted "
+"functions"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1564
+msgid ""
+":ghissue:`4200`: Notebook: merging a heading cell and markdown cell "
+"cannot be undone"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1565
+msgid ":ghissue:`3747`: ipynb -> ipynb transformer"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1566
+msgid ":ghissue:`4024`: nbconvert markdown issues"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1567
+msgid ""
+":ghissue:`3903`: on Windows, 'ipython3 nbconvert "
+"\"C:/blabla/first_try.ipynb\" --to slides' gives an unexpected result, "
+"and '--post serve' fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1568
+msgid ":ghissue:`4095`: Catch js error in append html in stream/pyerr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1569
+msgid ":ghissue:`1880`: Add parallelism to test_pr"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1570
+msgid ""
+":ghissue:`4085`: nbconvert: Fix sphinx preprocessor date format string "
+"for Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1571
+msgid ":ghissue:`4156`: Specifying --gui=tk at the command line"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1572
+msgid ""
+":ghissue:`4146`: Having to prepend 'files/' to markdown image paths is "
+"confusing"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1573
+msgid ""
+":ghissue:`3818`: nbconvert can't handle Heading with Chinese characters "
+"on Japanese Windows OS."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1574
+msgid ""
+":ghissue:`4134`: multi-line parser fails on ''' in comment, qtconsole and"
+" notebook."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1575
+msgid ":ghissue:`3998`: sample custom.js needs to be updated"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1576
+msgid ":ghissue:`4078`: StoreMagic.autorestore not working in 1.0.0"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1577
+msgid ":ghissue:`3990`: Buitlin `input` doesn't work over zmq"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1578
+msgid ":ghissue:`4015`: nbconvert fails to convert all the content of a notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1579
+msgid ":ghissue:`4059`: Issues with Ellipsis literal in Python 3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1580
+msgid ""
+":ghissue:`2310`: \"ZMQError: Interrupted system call\" from "
+"RichIPythonWidget"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1581
+msgid ":ghissue:`3807`: qtconsole ipython 0.13.2 - html/xhtml export fails"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1582
+msgid ":ghissue:`4103`: Wrong default argument of DirectView.clear"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1583
+msgid ""
+":ghissue:`4100`: parallel.client.client references undefined "
+"error.EngineError"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1584
+msgid ":ghissue:`484`: Drop nosepatch"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1585
+msgid ":ghissue:`3350`: Added longlist support in ipdb."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1586
+msgid ":ghissue:`1591`: Keying 'q' doesn't quit the interactive help in Wins7"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1587
+msgid ":ghissue:`40`: The tests in test_process fail under Windows"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1588
+msgid ""
+":ghissue:`3744`: capture rich output as well as stdout/err in "
+"capture_output"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1589
+#, python-format
+msgid ":ghissue:`3742`: %%capture to grab rich display outputs"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1590
+msgid ":ghissue:`3863`: Added working speaker notes for slides."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1591
+msgid ":ghissue:`4013`: Iptest fails in dual python installation"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1592
+msgid ":ghissue:`4005`: IPython.start_kernel doesn't work."
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1593
+msgid ":ghissue:`4020`: IPython parallel map fails on numpy arrays"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1594
+msgid ":ghissue:`3914`: nbconvert: Transformer tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1595
+msgid ":ghissue:`3923`: nbconvert: Writer tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1596
+msgid ":ghissue:`3945`: nbconvert: commandline tests fail Win7x64 Py3.3"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1597
+msgid ":ghissue:`3937`: make tab visible in codemirror and light red background"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1598
+msgid ":ghissue:`3935`: No feedback for mixed tabs and spaces"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1599
+msgid ":ghissue:`3933`: nbconvert: Post-processor tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1600
+msgid ":ghissue:`3977`: unable to complete remote connections for two-process"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1601
+msgid ":ghissue:`3939`: minor checkpoint cleanup"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1602
+#, python-format
+msgid ":ghissue:`3955`: complete on % for magic in notebook"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1603
+msgid ":ghissue:`3954`: all magics should be listed when completing on %"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1604
+msgid ":ghissue:`3980`: nbconvert rst output lacks needed blank lines"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1605
+msgid ""
+":ghissue:`3968`: TypeError: super() argument 1 must be type, not classobj"
+" (Python 2.6.6)"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1606
+msgid ":ghissue:`3880`: nbconvert: R&D remaining tests"
+msgstr ""
+
+#: ../../source/whatsnew/github-stats-2.0.rst:1607
+msgid ":ghissue:`2440`: IPEP 4: Python 3 Compatibility"
+msgstr ""
+

@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.demo.rst:4
+msgid "Module: :mod:`lib.demo`"
+msgstr ""
+
+#: IPython.lib.demo:1 of
+msgid "Module for interactive demos using IPython."
+msgstr ""
+
+#: IPython.lib.demo:3 of
+msgid ""
+"This module implements a few classes for running Python scripts "
+"interactively in IPython for demonstrations.  With very simple markup (a "
+"few tags in comments), you can control points where the script stops "
+"executing and returns control to IPython."
+msgstr ""
+
+#: IPython.lib.demo:10 of
+msgid "Provided classes"
+msgstr ""
+
+#: IPython.lib.demo:12 of
+msgid "The classes are (see their docstrings for further details):"
+msgstr ""
+
+#: IPython.lib.demo:14 of
+msgid "Demo: pure python demos"
+msgstr ""
+
+#: IPython.lib.demo:16 of
+msgid ""
+"IPythonDemo: demos with input to be processed by IPython as if it had "
+"been typed interactively (so magics work, as well as any other special "
+"syntax you may have added via input prefilters)."
+msgstr ""
+
+#: IPython.lib.demo:20 of
+msgid ""
+"LineDemo: single-line version of the Demo class.  These demos are "
+"executed one line at a time, and require no markup."
+msgstr ""
+
+#: IPython.lib.demo:23 of
+msgid ""
+"IPythonLineDemo: IPython version of the LineDemo class (the demo is "
+"executed a line at a time, but processed via IPython)."
+msgstr ""
+
+#: IPython.lib.demo:26 of
+msgid ""
+"ClearMixin: mixin to make Demo classes with less visual clutter.  It "
+"declares an empty marquee and a pre_cmd that clears the screen before "
+"each block (see Subclassing below)."
+msgstr ""
+
+#: IPython.lib.demo:30 of
+msgid ""
+"ClearDemo, ClearIPDemo: mixin-enabled versions of the Demo and "
+"IPythonDemo classes."
+msgstr ""
+
+#: IPython.lib.demo:33 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: IPython.lib.demo:39 of
+msgid "Subclassing"
+msgstr ""
+
+#: IPython.lib.demo:41 of
+msgid ""
+"The classes here all include a few methods meant to make customization by"
+" subclassing more convenient.  Their docstrings below have some more "
+"details:"
+msgstr ""
+
+#: IPython.lib.demo:44 of
+msgid ""
+"highlight(): format every block and optionally highlight comments and "
+"docstring content."
+msgstr ""
+
+#: IPython.lib.demo:47 of
+msgid ""
+"marquee(): generates a marquee to provide visible on-screen markers at "
+"each block start and end."
+msgstr ""
+
+#: IPython.lib.demo:50 of
+msgid "pre_cmd(): run right before the execution of each block."
+msgstr ""
+
+#: IPython.lib.demo:52 of
+msgid ""
+"post_cmd(): run right after the execution of each block.  If the block "
+"raises an exception, this is NOT called."
+msgstr ""
+
+#: IPython.lib.demo:57 of
+msgid "Operation"
+msgstr ""
+
+#: IPython.lib.demo:59 of
+msgid ""
+"The file is run in its own empty namespace (though you can pass it a "
+"string of arguments as if in a command line environment, and it will see "
+"those as sys.argv).  But at each stop, the global IPython namespace is "
+"updated with the current internal demo namespace, so you can work "
+"interactively with the data accumulated so far."
+msgstr ""
+
+#: IPython.lib.demo:65 of
+msgid ""
+"By default, each block of code is printed (with syntax highlighting) "
+"before executing it and you have to confirm execution.  This is intended "
+"to show the code to an audience first so you can discuss it, and only "
+"proceed with execution once you agree.  There are a few tags which allow "
+"you to modify this behavior."
+msgstr ""
+
+#: IPython.lib.demo:71 of
+msgid "The supported tags are:"
+msgstr ""
+
+#: IPython.lib.demo:73 of
+msgid "# <demo> stop"
+msgstr ""
+
+#: IPython.lib.demo:75 of
+msgid ""
+"Defines block boundaries, the points where IPython stops execution of the"
+" file and returns to the interactive prompt."
+msgstr ""
+
+#: IPython.lib.demo:78 of
+msgid ""
+"You can optionally mark the stop tag with extra dashes before and after "
+"the word 'stop', to help visually distinguish the blocks in a text "
+"editor:"
+msgstr ""
+
+#: IPython.lib.demo:81 of
+msgid "# <demo> --- stop ---"
+msgstr ""
+
+#: IPython.lib.demo:84 of
+msgid "# <demo> silent"
+msgstr ""
+
+#: IPython.lib.demo:86 of
+msgid ""
+"Make a block execute silently (and hence automatically).  Typically used "
+"in cases where you have some boilerplate or initialization code which you"
+" need executed but do not want to be seen in the demo."
+msgstr ""
+
+#: IPython.lib.demo:90 of
+msgid "# <demo> auto"
+msgstr ""
+
+#: IPython.lib.demo:92 of
+msgid ""
+"Make a block execute automatically, but still being printed.  Useful for "
+"simple code which does not warrant discussion, since it avoids the extra "
+"manual confirmation."
+msgstr ""
+
+#: IPython.lib.demo:96 of
+msgid "# <demo> auto_all"
+msgstr ""
+
+#: IPython.lib.demo:98 of
+msgid ""
+"This tag can _only_ be in the first block, and if given it overrides the "
+"individual auto tags to make the whole demo fully automatic (no block "
+"asks for confirmation).  It can also be given at creation time (or the "
+"attribute set later) to override what's in the file."
+msgstr ""
+
+#: IPython.lib.demo:103 of
+#, python-format
+msgid ""
+"While _any_ python file can be run as a Demo instance, if there are no "
+"stop tags the whole file will run in a single block (no different that "
+"calling first %pycat and then %run).  The minimal markup to make this "
+"useful is to place a set of stop tags; the other tags are only there to "
+"let you fine-tune the execution."
+msgstr ""
+
+#: IPython.lib.demo:109 of
+msgid ""
+"This is probably best explained with the simple example file below.  You "
+"can copy this into a file named ex_demo.py, and try running it via::"
+msgstr ""
+
+#: IPython.lib.demo:116 of
+msgid ""
+"Each time you call the demo object, it runs the next block.  The demo "
+"object has a few useful methods for navigation, like again(), edit(), "
+"jump(), seek() and back().  It can be reset for a new run via reset() or "
+"reloaded from disk (in case you've edited the source) via reload().  See "
+"their docstrings below."
+msgstr ""
+
+#: IPython.lib.demo:121 of
+msgid ""
+"Note: To make this simpler to explore, a file called \"demo-"
+"exercizer.py\" has been added to the \"docs/examples/core\" directory.  "
+"Just cd to this directory in an IPython session, and type::"
+msgstr ""
+
+#: IPython.lib.demo:127 of
+msgid "and then follow the directions."
+msgstr ""
+
+#: IPython.lib.demo:130 of
+msgid "Example"
+msgstr ""
+
+#: IPython.lib.demo:131 of
+msgid "The following is a very simple example of a valid demo file."
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.demo.rst:10
+msgid "8 Classes"
+msgstr ""
+
+#: IPython.lib.demo.DemoError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:1 IPython.lib.demo.Demo:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:1 of
+msgid "Make a new demo object.  To run the demo, simply call the object."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:3 of
+msgid ""
+"See the module docstring for full details and an example (you can use "
+"IPython.Demo? in IPython to see it)."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:6 of
+msgid "Inputs:"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:9 of
+msgid "src is either a file, or file-like object, or a"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:9 of
+msgid "string that can be resolved to a filename."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:11 of
+msgid "Optional inputs:"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:13 of
+msgid ""
+"title: a string to use as the demo name.  Of most use when the demo you "
+"are making comes from an object that has no filename, or if you want an "
+"alternate denotation distinct from the filename."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:17 of
+msgid ""
+"arg_str(''): a string of arguments, internally converted to a list just "
+"like sys.argv, so the demo script can see a similar environment."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:21 of
+msgid ""
+"auto_all(None): global flag to run all blocks automatically without "
+"confirmation.  This attribute overrides the block-level tags and applies "
+"to the whole demo.  It is an attribute of the object, and can be changed "
+"at runtime simply by reassigning it to a boolean value."
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:27 of
+msgid ""
+"format_rst(False): a bool to enable comments and doc strings formatting "
+"with pygments rst lexer"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:30 of
+msgid ""
+"formatter('terminal'): a string of pygments formatter name to be used. "
+"Useful values for terminals: terminal, terminal256, terminal16m"
+msgstr ""
+
+#: IPython.lib.demo.Demo.__init__:34 of
+msgid "style('default'): a string of pygments style name to be used."
+msgstr ""
+
+#: IPython.lib.demo.Demo.again:1 of
+msgid "Move the seek pointer back one block and re-execute."
+msgstr ""
+
+#: IPython.lib.demo.Demo.back:1 of
+msgid "Move the seek pointer back num blocks (default is 1)."
+msgstr ""
+
+#: IPython.lib.demo.Demo.edit:1 of
+msgid "Edit a block."
+msgstr ""
+
+#: IPython.lib.demo.Demo.edit:3 of
+msgid "If no number is given, use the last block executed."
+msgstr ""
+
+#: IPython.lib.demo.Demo.edit:5 of
+msgid ""
+"This edits the in-memory copy of the demo, it does NOT modify the "
+"original source file.  If you want to do that, simply open the file in an"
+" editor and use reload() when you make changes to the file.  This method "
+"is meant to let you change a block during a demonstration for explanatory"
+" purposes, without damaging your original script."
+msgstr ""
+
+#: IPython.lib.demo.Demo.fload:1 of
+msgid "Load file object."
+msgstr ""
+
+#: IPython.lib.demo.Demo.highlight:1 of
+msgid "Method called on each block to highlight it content"
+msgstr ""
+
+#: IPython.lib.demo.Demo.jump:1 of
+msgid "Jump a given number of blocks relative to the current one."
+msgstr ""
+
+#: IPython.lib.demo.Demo.jump:3 of
+msgid "The offset can be positive or negative, defaults to 1."
+msgstr ""
+
+#: IPython.lib.demo.Demo.marquee:1 of
+msgid "Return the input string centered in a 'marquee'."
+msgstr ""
+
+#: IPython.lib.demo.Demo.post_cmd:1 of
+msgid "Method called after executing each block."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin.pre_cmd:1 IPython.lib.demo.Demo.pre_cmd:1 of
+msgid "Method called before executing each block."
+msgstr ""
+
+#: IPython.lib.demo.Demo.reload:1 IPython.lib.demo.LineDemo.reload:1 of
+msgid "Reload source from disk and initialize state."
+msgstr ""
+
+#: IPython.lib.demo.Demo.reset:1 of
+msgid "Reset the namespace and seek pointer to restart the demo"
+msgstr ""
+
+#: IPython.lib.demo.Demo.run_cell:1 IPython.lib.demo.IPythonDemo.run_cell:1 of
+msgid "Execute a string with one or more lines of code"
+msgstr ""
+
+#: IPython.lib.demo.Demo.seek:1 of
+msgid "Move the current seek pointer to the given block."
+msgstr ""
+
+#: IPython.lib.demo.Demo.seek:3 of
+msgid ""
+"You can use negative indices to seek from the end, with identical "
+"semantics to those of Python lists."
+msgstr ""
+
+#: IPython.lib.demo.Demo.show:1 of
+msgid "Show a single block on screen"
+msgstr ""
+
+#: IPython.lib.demo.Demo.show_all:1 of
+msgid "Show entire demo on screen, block by block"
+msgstr ""
+
+#: IPython.lib.demo.IPythonDemo:1 IPython.lib.demo.LineDemo:1 of
+msgid "Bases: :class:`IPython.lib.demo.Demo`"
+msgstr ""
+
+#: IPython.lib.demo.IPythonDemo:1 of
+msgid "Class for interactive demos with IPython's input processing applied."
+msgstr ""
+
+#: IPython.lib.demo.IPythonDemo:3 of
+msgid ""
+"This subclasses Demo, but instead of executing each block by the Python "
+"interpreter (via exec), it actually calls IPython on it, so that any "
+"input filters which may be in place are applied to the input block."
+msgstr ""
+
+#: IPython.lib.demo.IPythonDemo:7 of
+msgid ""
+"If you have an interactive environment which exposes special input "
+"processing, you can use this class instead to write demo scripts which "
+"operate exactly as if you had typed them interactively.  The default Demo"
+" class requires the input to be valid, pure Python code."
+msgstr ""
+
+#: IPython.lib.demo.LineDemo:1 of
+msgid "Demo where each line is executed as a separate block."
+msgstr ""
+
+#: IPython.lib.demo.LineDemo:3 of
+msgid "The input script should be valid Python code."
+msgstr ""
+
+#: IPython.lib.demo.LineDemo:5 of
+msgid ""
+"This class doesn't require any markup at all, and it's meant for simple "
+"scripts (with no nesting or any kind of indentation) which consist of "
+"multiple lines of input to be executed, one at a time, as if they had "
+"been typed in the interactive prompt."
+msgstr ""
+
+#: IPython.lib.demo.LineDemo:10 of
+msgid ""
+"Note: the input can not have *any* indentation, which means that only "
+"single-lines of input are accepted, not even function definitions are "
+"valid."
+msgstr ""
+
+#: IPython.lib.demo.IPythonLineDemo:1 of
+msgid ""
+"Bases: :class:`IPython.lib.demo.IPythonDemo`, "
+":class:`IPython.lib.demo.LineDemo`"
+msgstr ""
+
+#: IPython.lib.demo.IPythonLineDemo:1 of
+msgid "Variant of the LineDemo class whose input is processed by IPython."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:1 of
+msgid "Use this mixin to make Demo classes with less visual clutter."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:3 of
+msgid ""
+"Demos using this mixin will clear the screen before every block and use "
+"blank marquees."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:6 of
+msgid ""
+"Note that in order for the methods defined here to actually override "
+"those of the classes it's mixed with, it must go /first/ in the "
+"inheritance tree.  For example:"
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:10 of
+msgid "class ClearIPDemo(ClearMixin,IPythonDemo): pass"
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin:12 of
+msgid "will provide an IPythonDemo class with the mixin's features."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin.marquee:1 of
+msgid "Blank marquee that returns '' no matter what the input."
+msgstr ""
+
+#: IPython.lib.demo.ClearMixin.pre_cmd:3 of
+msgid "This one simply clears the screen."
+msgstr ""
+
+#: IPython.lib.demo.ClearDemo:1 of
+msgid ""
+"Bases: :class:`IPython.lib.demo.ClearMixin`, "
+":class:`IPython.lib.demo.Demo`"
+msgstr ""
+
+#: IPython.lib.demo.ClearIPDemo:1 of
+msgid ""
+"Bases: :class:`IPython.lib.demo.ClearMixin`, "
+":class:`IPython.lib.demo.IPythonDemo`"
+msgstr ""
+
+#: ../../source/api/generated/IPython.lib.demo.rst:47
+msgid "1 Function"
+msgstr ""
+

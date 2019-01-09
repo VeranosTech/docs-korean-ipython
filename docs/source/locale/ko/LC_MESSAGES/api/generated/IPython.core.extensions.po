@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.extensions.rst:4
+msgid "Module: :mod:`core.extensions`"
+msgstr ""
+
+#: IPython.core.extensions:1 of
+msgid "A class for managing IPython extensions."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.extensions.rst:10
+msgid "1 Class"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:1 of
+msgid "A class to manage IPython extensions."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:3 of
+msgid ""
+"An IPython extension is an importable Python module that has a function "
+"with the signature::"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:9 of
+msgid ""
+"This function is called after your extension is imported and the "
+"currently active :class:`InteractiveShell` instance is passed as the only"
+" argument.  You can do anything you want with IPython at that point, "
+"including defining new magic and aliases, adding new components, etc."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:15 of
+msgid ""
+"You can also optionally define an "
+":func:`unload_ipython_extension(ipython)` function, which will be called "
+"if the user unloads or reloads the extension. The extension manager will "
+"only call :func:`load_ipython_extension` again if the extension is "
+"reloaded."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager:20 of
+msgid ""
+"You can put your extension modules anywhere you want, as long as they can"
+" be imported by Python's standard import mechanism.  However, to make it "
+"easy to write extensions, you can also put your extensions in "
+"``os.path.join(self.ipython_dir, 'extensions')``.  This directory is "
+"added to ``sys.path`` automatically."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.install_extension:1 of
+msgid "Deprecated."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.load_extension:1 of
+msgid "Load an IPython extension by its module name."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.load_extension:3 of
+msgid ""
+"Returns the string \"already loaded\" if the extension is already loaded,"
+" \"no load function\" if the module doesn't have a load_ipython_extension"
+" function, or None if it succeeded."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.reload_extension:1 of
+msgid "Reload an IPython extension by calling reload."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.reload_extension:3 of
+msgid ""
+"If the module has not been loaded before, "
+":meth:`InteractiveShell.load_extension` is called. Otherwise "
+":func:`reload` is called and then the :func:`load_ipython_extension` "
+"function of the module, if it exists is called."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.unload_extension:1 of
+msgid "Unload an IPython extension by its module name."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.unload_extension:3 of
+msgid ""
+"This function looks up the extension's name in ``sys.modules`` and simply"
+" calls ``mod.unload_ipython_extension(self)``."
+msgstr ""
+
+#: IPython.core.extensions.ExtensionManager.unload_extension:6 of
+msgid ""
+"Returns the string \"no unload function\" if the extension doesn't define"
+" a function to unload itself, \"not loaded\" if the extension isn't "
+"loaded, otherwise None."
+msgstr ""
+

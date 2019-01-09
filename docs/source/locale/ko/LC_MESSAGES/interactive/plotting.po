@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:4
+msgid "Rich Outputs"
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:6
+msgid ""
+"One of the main feature of IPython when used as a kernel is its ability "
+"to show rich output. This means that object that can be representing as "
+"image, sounds, animation, (etc...) can be shown this way if the frontend "
+"support it."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:10
+msgid ""
+"In order for this to be possible, you need to use the ``display()`` "
+"function, that should be available by default on IPython 5.4+ and 6.1+, "
+"or that you can import with ``from IPython.display import display``. Then"
+" use ``display(<your object>)`` instead of ``print()``, and if possible "
+"your object will be displayed with a richer representation. In the "
+"terminal of course, there won't be much difference as object are most of "
+"the time represented by text, but in notebook and similar interface you "
+"will get richer outputs."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:20
+msgid "Plotting"
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:24
+msgid ""
+"Starting with IPython 5.0 and matplotlib 2.0 you can avoid the use of "
+"IPython's specific magic and use "
+"``matplotlib.pyplot.ion()``/``matplotlib.pyplot.ioff()`` which have the "
+"advantages of working outside of IPython as well."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:30
+msgid ""
+"One major feature of the IPython kernel is the ability to display plots "
+"that are the output of running code cells. The IPython kernel is designed"
+" to work seamlessly with the matplotlib_ plotting library to provide this"
+" functionality."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:34
+msgid ""
+"To set this up, before any plotting or import of matplotlib is performed "
+"you must execute the ``%matplotlib``  :ref:`magic command "
+"<magics_explained>`. This performs the necessary behind-the-scenes setup "
+"for IPython to work correctly hand in hand with ``matplotlib``; it does "
+"*not*, however, actually execute any Python ``import`` commands, that is,"
+" no names are added to the namespace."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:40
+msgid ""
+"If the ``%matplotlib`` magic is called without an argument, the output of"
+" a plotting command is displayed using the default ``matplotlib`` backend"
+" in a separate window. Alternatively, the backend can be explicitly "
+"requested using, for example::"
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:47
+msgid ""
+"A particularly interesting backend, provided by IPython, is the "
+"``inline`` backend.  This is available only for the Jupyter Notebook and "
+"the Jupyter QtConsole.  It can be invoked as follows::"
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:53
+msgid ""
+"With this backend, the output of plotting commands is displayed *inline* "
+"within frontends like the Jupyter notebook, directly below the code cell "
+"that produced it. The resulting plots will then also be stored in the "
+"notebook document."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:59
+msgid "`Plotting with Matplotlib`_  example notebook"
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:62
+msgid ""
+"The matplotlib_ library also ships with ``%matplotlib notebook`` command "
+"that allows interactive figures if your environment allows it."
+msgstr ""
+
+#: ../../source/interactive/plotting.rst:65
+msgid "See the matplotlib_ documentation for more information."
+msgstr ""
+

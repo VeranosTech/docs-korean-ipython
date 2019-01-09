@@ -1,0 +1,510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/coredev/index.rst:5
+msgid "Guide for IPython core Developers"
+msgstr ""
+
+#: ../../source/coredev/index.rst:7
+msgid ""
+"This guide documents the development of IPython itself.  Alternatively, "
+"developers of third party tools and libraries that use IPython should see"
+" the :doc:`../development/index`."
+msgstr ""
+
+#: ../../source/coredev/index.rst:12
+msgid "For instructions on how to make a developer install see :ref:`devinstall`."
+msgstr ""
+
+#: ../../source/coredev/index.rst:15
+msgid "Backporting Pull requests"
+msgstr ""
+
+#: ../../source/coredev/index.rst:17
+msgid ""
+"All pull requests should usually be made against ``master``, if a Pull "
+"Request need to be backported to an earlier release; then it should be "
+"tagged with the correct ``milestone``."
+msgstr ""
+
+#: ../../source/coredev/index.rst:21
+msgid ""
+"If you tag a pull request with a milestone **before** merging the pull "
+"request, and the base ref is ``master``, then our backport bot should "
+"automatically create a corresponding pull-request that backport on the "
+"correct branch."
+msgstr ""
+
+#: ../../source/coredev/index.rst:25
+msgid ""
+"If you have write access to the IPython repository you can also just "
+"mention the **backport bot** to do the work for you. The bot is evolving "
+"so instructions may be different. At the time of this writing you can "
+"use::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:31
+msgid ""
+"The bot will attempt to backport the current pull-request and issue a PR "
+"if possible."
+msgstr ""
+
+#: ../../source/coredev/index.rst:36
+msgid ""
+"The ``@`` and ``[bot]`` when mentioning the bot should be optional and "
+"can be omitted."
+msgstr ""
+
+#: ../../source/coredev/index.rst:39
+msgid ""
+"If the pull request cannot be automatically backported, the bot should "
+"tell you so on the PR and apply a \"Need manual backport\" tag to the "
+"origin PR."
+msgstr ""
+
+#: ../../source/coredev/index.rst:44
+msgid "Backport with ghpro"
+msgstr ""
+
+#: ../../source/coredev/index.rst:46
+msgid ""
+"We can also use `ghpro <https://pypi.python.org/pypi/ghpro>`_ to "
+"automatically list and apply the PR on other branches. For example:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:71
+msgid "IPython release process"
+msgstr ""
+
+#: ../../source/coredev/index.rst:73
+msgid ""
+"This document contains the process that is used to create an IPython "
+"release."
+msgstr ""
+
+#: ../../source/coredev/index.rst:75
+msgid ""
+"Conveniently, the ``release`` script in the ``tools`` directory of the "
+"``IPython`` repository automates most of the release process. This "
+"document serves as a handy reminder and checklist for the release "
+"manager."
+msgstr ""
+
+#: ../../source/coredev/index.rst:79
+msgid ""
+"During the release process, you might need the extra following "
+"dependencies:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:81
+msgid "``keyring`` to access your GitHub authentication tokens"
+msgstr ""
+
+#: ../../source/coredev/index.rst:82
+msgid "``graphviz`` to generate some graphs in the documentation"
+msgstr ""
+
+#: ../../source/coredev/index.rst:83
+msgid "``ghpro`` to generate the stats"
+msgstr ""
+
+#: ../../source/coredev/index.rst:85
+msgid "Make sure you have all the required dependencies to run the tests as well."
+msgstr ""
+
+#: ../../source/coredev/index.rst:89
+msgid "1. Set Environment variables"
+msgstr ""
+
+#: ../../source/coredev/index.rst:91
+msgid ""
+"Set environment variables to document previous release tag, current "
+"release milestone, current release version, and git tag."
+msgstr ""
+
+#: ../../source/coredev/index.rst:94
+msgid ""
+"These variables may be used later to copy/paste as answers to the script "
+"questions instead of typing the appropriate command when the time comes. "
+"These variables are not used by the scripts directly; therefore, there is"
+" no need to ``export`` them. The format for bash is as follows, but note "
+"that these values are just an example valid only for the 5.0 release; "
+"you'll need to update them for the release you are actually making::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:108
+msgid "2. Create GitHub stats and finish release note"
+msgstr ""
+
+#: ../../source/coredev/index.rst:112
+msgid "This step is optional if making a Beta or RC release."
+msgstr ""
+
+#: ../../source/coredev/index.rst:116
+msgid ""
+"Before generating the GitHub stats, verify that all closed issues and "
+"pull requests have `appropriate milestones "
+"<https://github.com/ipython/ipython/wiki/Dev:-GitHub-"
+"workflow#milestones>`_. `This search "
+"<https://github.com/ipython/ipython/issues?q=is%3Aclosed+no%3Amilestone+is%3Aissue>`_"
+" should return no results before creating the GitHub stats."
+msgstr ""
+
+#: ../../source/coredev/index.rst:123
+msgid "If a major release:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:125
+msgid "merge any pull request notes into what's new::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:129
+msgid ""
+"update ``docs/source/whatsnew/development.rst``, to ensure it covers the "
+"major release features"
+msgstr ""
+
+#: ../../source/coredev/index.rst:132
+msgid ""
+"move the contents of ``development.rst`` to ``versionX.rst`` where ``X`` "
+"is the numerical release version"
+msgstr ""
+
+#: ../../source/coredev/index.rst:135
+msgid "generate summary of GitHub contributions, which can be done with::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:139
+msgid ""
+"which may need some manual cleanup of ``stats.rst``. Add the cleaned "
+"``stats.rst`` results to ``docs/source/whatsnew/github-stats-X.rst`` "
+"where ``X`` is the numerical release version (don't forget to add it to "
+"the git repository as well). If creating a major release, make a new "
+"``github-stats-X.rst`` file; if creating a minor release, the content "
+"from ``stats.rst`` may simply be added to the top of an existing "
+"``github-stats-X.rst`` file."
+msgstr ""
+
+#: ../../source/coredev/index.rst:147
+msgid ""
+"Edit ``docs/source/whatsnew/index.rst`` to list the new ``github-"
+"stats-X`` file you just created."
+msgstr ""
+
+#: ../../source/coredev/index.rst:150
+msgid ""
+"You do not need to temporarily remove the first entry called "
+"``development``, nor re-add it after the release, it will automatically "
+"be hidden when releasing a stable version of IPython (if "
+"``_version_extra`` in ``release.py`` is an empty string."
+msgstr ""
+
+#: ../../source/coredev/index.rst:155
+msgid ""
+"Make sure that the stats file has a header or it won't be rendered in the"
+" final documentation."
+msgstr ""
+
+#: ../../source/coredev/index.rst:158
+msgid "To find duplicates and update `.mailmap`, use::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:162
+msgid ""
+"If a minor release you might need to do some of the above points "
+"manually, and forward port the changes."
+msgstr ""
+
+#: ../../source/coredev/index.rst:166
+msgid "3. Make sure the repository is clean"
+msgstr ""
+
+#: ../../source/coredev/index.rst:178
+msgid "of any file that could be problematic."
+msgstr ""
+
+#: ../../source/coredev/index.rst:169
+msgid "Remove all non-tracked files with:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:175
+msgid ""
+"This will ask for confirmation before removing all untracked files. Make "
+"sure the ``dist/`` folder is clean to avoid any stale builds from "
+"previous build attempts."
+msgstr ""
+
+#: ../../source/coredev/index.rst:181
+msgid "4. Update the release version number"
+msgstr ""
+
+#: ../../source/coredev/index.rst:183
+msgid "Edit ``IPython/core/release.py`` to have the current version."
+msgstr ""
+
+#: ../../source/coredev/index.rst:185
+msgid ""
+"in particular, update version number and ``_version_extra`` content in "
+"``IPython/core/release.py``."
+msgstr ""
+
+#: ../../source/coredev/index.rst:188
+msgid ""
+"Step 5 will validate your changes automatically, but you might still want"
+" to make sure the version number matches pep440."
+msgstr ""
+
+#: ../../source/coredev/index.rst:191
+msgid ""
+"In particular, ``rc`` and ``beta`` are not separated by ``.`` or the "
+"``sdist`` and ``bdist`` will appear as different releases. For example, a"
+" valid version number for a release candidate (rc) release is: "
+"``1.3rc1``. Notice that there is no separator between the '3' and the "
+"'r'. Check the environment variable ``$VERSION`` as well."
+msgstr ""
+
+#: ../../source/coredev/index.rst:197
+msgid ""
+"You will likely just have to modify/comment/uncomment one of the lines "
+"setting ``_version_extra``"
+msgstr ""
+
+#: ../../source/coredev/index.rst:202
+msgid "5. Run the `tools/build_release` script"
+msgstr ""
+
+#: ../../source/coredev/index.rst:204
+msgid ""
+"Running ``tools/build_release`` does all the file checking and building "
+"that the real release script will do. This makes test installations, "
+"checks that the build procedure runs OK, and tests other steps in the "
+"release process."
+msgstr ""
+
+#: ../../source/coredev/index.rst:208
+msgid ""
+"The ``build_release`` script will in particular verify that the version "
+"number match PEP 440, in order to avoid surprise at the time of build "
+"upload."
+msgstr ""
+
+#: ../../source/coredev/index.rst:211
+msgid "We encourage creating a test build of the docs as well."
+msgstr ""
+
+#: ../../source/coredev/index.rst:214
+msgid "6. Create and push the new tag"
+msgstr ""
+
+#: ../../source/coredev/index.rst:216
+msgid "Commit the changes to release.py::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:221 ../../source/coredev/index.rst:228
+#: ../../source/coredev/index.rst:236
+msgid "(omit the ``-S`` if you are no signing the package)"
+msgstr ""
+
+#: ../../source/coredev/index.rst:223
+msgid "Create and push the tag::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:230
+msgid ""
+"Update release.py back to ``x.y-dev`` or ``x.y-maint``, and re-add the "
+"``development`` entry in ``docs/source/whatsnew/index.rst`` and push::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:238
+msgid "Now checkout the tag we just made::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:243
+msgid "7. Run the release script"
+msgstr ""
+
+#: ../../source/coredev/index.rst:245
+msgid ""
+"Run the ``release`` script, this step requires having a current wheel, "
+"Python >=3.4 and Python 2.7.::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:250
+msgid ""
+"This makes the tarballs and wheels, and puts them under the ``dist/`` "
+"folder. Be sure to test the ``wheels``  and the ``sdist`` locally before "
+"uploading them to PyPI. We do not use an universal wheel as each wheel "
+"installs an ``ipython2`` or ``ipython3`` script, depending on the version"
+" of Python it is built for. Using an universal wheel would prevent this."
+msgstr ""
+
+#: ../../source/coredev/index.rst:256
+msgid "Use the following to actually upload the result of the build::"
+msgstr ""
+
+#: ../../source/coredev/index.rst:260
+msgid "It should posts them to ``archive.ipython.org`` and to PyPI."
+msgstr ""
+
+#: ../../source/coredev/index.rst:262
+msgid ""
+"PyPI/Warehouse will automatically hide previous releases. If you are "
+"uploading a non-stable version, make sure to log-in to PyPI and un-hide "
+"previous version."
+msgstr ""
+
+#: ../../source/coredev/index.rst:267
+msgid "8. Draft a short release announcement"
+msgstr ""
+
+#: ../../source/coredev/index.rst:269
+msgid "The announcement should include:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:271
+msgid "release highlights"
+msgstr ""
+
+#: ../../source/coredev/index.rst:272
+msgid ""
+"a link to the html version of the *What's new* section of the "
+"documentation"
+msgstr ""
+
+#: ../../source/coredev/index.rst:273
+msgid "a link to upgrade or installation tips (if necessary)"
+msgstr ""
+
+#: ../../source/coredev/index.rst:275
+msgid ""
+"Post the announcement to the mailing list and or blog, and link from "
+"Twitter."
+msgstr ""
+
+#: ../../source/coredev/index.rst:279
+msgid "If you are doing a RC or Beta, you can likely skip the next steps."
+msgstr ""
+
+#: ../../source/coredev/index.rst:282
+msgid "9. Update milestones on GitHub"
+msgstr ""
+
+#: ../../source/coredev/index.rst:284
+msgid "These steps will bring milestones up to date:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:286
+msgid "close the just released milestone"
+msgstr ""
+
+#: ../../source/coredev/index.rst:287
+msgid ""
+"open a new milestone for the next release (x, y+1), if the milestone "
+"doesn't exist already"
+msgstr ""
+
+#: ../../source/coredev/index.rst:291
+msgid "10. Update the IPython website"
+msgstr ""
+
+#: ../../source/coredev/index.rst:293
+msgid "The IPython website should document the new release:"
+msgstr ""
+
+#: ../../source/coredev/index.rst:295
+msgid "add release announcement (news, announcements)"
+msgstr ""
+
+#: ../../source/coredev/index.rst:296
+msgid "update current version and download links"
+msgstr ""
+
+#: ../../source/coredev/index.rst:297
+msgid "update links on the documentation page (especially if a major release)"
+msgstr ""
+
+#: ../../source/coredev/index.rst:300
+msgid "11. Update readthedocs"
+msgstr ""
+
+#: ../../source/coredev/index.rst:302
+msgid ""
+"Make sure to update readthedocs and set the latest tag as stable, as well"
+" as checking that previous release is still building under its own tag."
+msgstr ""
+
+#: ../../source/coredev/index.rst:306
+msgid "12. Update the Conda-Forge feedstock"
+msgstr ""
+
+#: ../../source/coredev/index.rst:308
+msgid ""
+"Follow the instructions on `the repository <https://github.com/conda-"
+"forge/ipython-feedstock>`_"
+msgstr ""
+
+#: ../../source/coredev/index.rst:311
+msgid "13. Celebrate!"
+msgstr ""
+
+#: ../../source/coredev/index.rst:313
+msgid ""
+"Celebrate the release and please thank the contributors for their work. "
+"Great job!"
+msgstr ""
+
+#: ../../source/coredev/index.rst:319
+msgid "Old Documentation"
+msgstr ""
+
+#: ../../source/coredev/index.rst:321
+msgid ""
+"Out of date documentation is still available and have been kept for "
+"archival purposes."
+msgstr ""
+
+#: ../../source/coredev/index.rst:325
+msgid ""
+"Developers documentation used to be on the IPython wiki, but are now out "
+"of date. The wiki is though still available for historical reasons: `Old "
+"IPython GitHub Wiki.  "
+"<https://github.com/ipython/ipython/wiki/Dev:-Index>`_"
+msgstr ""
+

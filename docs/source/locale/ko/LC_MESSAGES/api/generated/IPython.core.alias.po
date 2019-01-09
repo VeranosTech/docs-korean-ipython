@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.alias.rst:4
+msgid "Module: :mod:`core.alias`"
+msgstr ""
+
+#: IPython.core.alias:1 of
+msgid "System command aliases."
+msgstr ""
+
+#: IPython.core.alias:3 of
+msgid "Authors:"
+msgstr ""
+
+#: IPython.core.alias:5 of
+msgid "Fernando Perez"
+msgstr ""
+
+#: IPython.core.alias:6 of
+msgid "Brian Granger"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.alias.rst:10
+msgid "4 Classes"
+msgstr ""
+
+#: IPython.core.alias.AliasError:1 of
+msgid "Bases: :class:`Exception`"
+msgstr ""
+
+#: IPython.core.alias.InvalidAliasError:1 of
+msgid "Bases: :class:`IPython.core.alias.AliasError`"
+msgstr ""
+
+#: IPython.core.alias.Alias:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.alias.Alias:1 of
+msgid "Callable object storing the details of one alias."
+msgstr ""
+
+#: IPython.core.alias.Alias:3 of
+msgid "Instances are registered as magic functions to allow use of aliases."
+msgstr ""
+
+#: IPython.core.alias.Alias.__init__:1 of
+msgid "Initialize self.  See help(type(self)) for accurate signature."
+msgstr ""
+
+#: IPython.core.alias.Alias.validate:1 of
+msgid "Validate the alias, and return the number of arguments."
+msgstr ""
+
+#: IPython.core.alias.AliasManager:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:1 of
+msgid "Create a configurable given a config config."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__ of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:3 of
+msgid ""
+"If this is empty, default values are used. If config is a :class:`Config`"
+" instance, it will be used to configure the instance."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:7 of
+msgid "The parent Configurable instance of this object."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:11 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:12 of
+msgid ""
+"Subclasses of Configurable must call the :meth:`__init__` method of "
+":class:`Configurable` *before* doing anything else and using "
+":func:`super`::"
+msgstr ""
+
+#: IPython.core.alias.AliasManager.__init__:21 of
+msgid "This ensures that instances will be configured properly."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.define_alias:1 of
+msgid "Define a new alias after validating it."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.define_alias:3 of
+msgid "This will raise an :exc:`AliasError` if there are validation problems."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.get_alias:1 of
+msgid "Return an alias, or None if no alias by that name exists."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.is_alias:1 of
+msgid "Return whether or not a given name has been defined as an alias"
+msgstr ""
+
+#: IPython.core.alias.AliasManager.retrieve_alias:1 of
+msgid "Retrieve the command to which an alias expands."
+msgstr ""
+
+#: IPython.core.alias.AliasManager.soft_define_alias:1 of
+msgid "Define an alias, but don't raise on an AliasError."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.alias.rst:33
+msgid "1 Function"
+msgstr ""
+
+#: IPython.core.alias.default_aliases:1 of
+msgid "Return list of shell aliases to auto-define."
+msgstr ""
+

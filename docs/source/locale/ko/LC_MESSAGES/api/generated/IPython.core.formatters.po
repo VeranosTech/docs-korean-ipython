@@ -1,0 +1,666 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.formatters.rst:4
+msgid "Module: :mod:`core.formatters`"
+msgstr ""
+
+#: IPython.core.formatters:1 of
+msgid "Display formatters."
+msgstr ""
+
+#: IPython.core.formatters:3 of
+msgid "Inheritance diagram:"
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.formatters.rst:10
+msgid "16 Classes"
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:1
+#: IPython.core.formatters.DisplayFormatter:1 of
+msgid "Bases: :class:`traitlets.config.configurable.Configurable`"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:1
+#: IPython.core.formatters.format_display_data:1 of
+msgid "Return a format data dict for an object."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:3
+#: IPython.core.formatters.format_display_data:3 of
+msgid "By default all format types will be computed."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:5 of
+msgid "The following MIME types are usually implemented:"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:7 of
+msgid "text/plain"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:8 of
+msgid "text/html"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:9 of
+msgid "text/markdown"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:10 of
+msgid "text/latex"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:11 of
+msgid "application/json"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:12 of
+msgid "application/javascript"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:13 of
+msgid "application/pdf"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:14 of
+msgid "image/png"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:15 of
+msgid "image/jpeg"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:16 of
+msgid "image/svg+xml"
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type
+#: IPython.core.formatters.BaseFormatter.for_type_by_name
+#: IPython.core.formatters.BaseFormatter.lookup
+#: IPython.core.formatters.BaseFormatter.lookup_by_type
+#: IPython.core.formatters.BaseFormatter.pop
+#: IPython.core.formatters.DisplayFormatter.format
+#: IPython.core.formatters.format_display_data of
+msgid "Parameters"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:18
+#: IPython.core.formatters.format_display_data:5 of
+msgid "The Python object whose format data will be computed."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:20 of
+msgid ""
+"A list of format type strings (MIME types) to include in the format data "
+"dict. If this is set *only* the format types included in this list will "
+"be computed."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:24 of
+msgid ""
+"A list of format type string (MIME types) to exclude in the format data "
+"dict. If this is set all format types will be computed, except for those "
+"included in this argument. Mimetypes present in exclude will take "
+"precedence over the ones in include"
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type
+#: IPython.core.formatters.BaseFormatter.for_type_by_name
+#: IPython.core.formatters.BaseFormatter.lookup
+#: IPython.core.formatters.BaseFormatter.lookup_by_type
+#: IPython.core.formatters.BaseFormatter.pop
+#: IPython.core.formatters.DisplayFormatter.format
+#: IPython.core.formatters.format_display_data of
+msgid "Returns"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:30 of
+msgid ""
+"**(format_dict, metadata_dict)** -- format_dict is a dictionary of "
+"key/value pairs, one of each format that was generated for the object. "
+"The keys are the format types, which will usually be MIME type strings "
+"and the values and JSON'able data structure containing the raw data for "
+"the representation in that format.  metadata_dict is a dictionary of "
+"metadata about each mime-type output. Its keys will be a strict subset of"
+" the keys in format_dict."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:30 of
+msgid ""
+"**(format_dict, metadata_dict)** -- format_dict is a dictionary of "
+"key/value pairs, one of each format that was generated for the object. "
+"The keys are the format types, which will usually be MIME type strings "
+"and the values and JSON'able data structure containing the raw data for "
+"the representation in that format."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:36 of
+msgid ""
+"metadata_dict is a dictionary of metadata about each mime-type output. "
+"Its keys will be a strict subset of the keys in format_dict."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type
+#: IPython.core.formatters.BaseFormatter.for_type_by_name
+#: IPython.core.formatters.BaseFormatter.lookup
+#: IPython.core.formatters.BaseFormatter.lookup_by_type
+#: IPython.core.formatters.BaseFormatter.pop
+#: IPython.core.formatters.DisplayFormatter.format of
+msgid "Return type"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:41 of
+msgid "Notes"
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format:42 of
+msgid ""
+"If an object implement `_repr_mimebundle_` as well as various `_repr_*_`,"
+" the data returned by `_repr_mimebundle_` will take precedence and the "
+"corresponding `_repr_*_` for this mimetype will not be called."
+msgstr ""
+
+#: IPython.core.formatters.DisplayFormatter.format_types:1 of
+msgid "Return the format types (MIME types) of the active formatters."
+msgstr ""
+
+#: IPython.core.formatters.FormatterWarning:1 of
+msgid "Bases: :class:`UserWarning`"
+msgstr ""
+
+#: IPython.core.formatters.FormatterWarning:1 of
+msgid "Warning class for errors in formatters"
+msgstr ""
+
+#: IPython.core.formatters.FormatterABC:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: IPython.core.formatters.FormatterABC:1 of
+msgid "Abstract base class for Formatters."
+msgstr ""
+
+#: IPython.core.formatters.FormatterABC:3 of
+msgid ""
+"A formatter is a callable class that is responsible for computing the raw"
+" format data for a particular format type (MIME type). For example, an "
+"HTML formatter would have a format type of `text/html` and would return "
+"the HTML representation of the object when called."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:1 of
+msgid "A base formatter class that is configurable."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:3 of
+msgid ""
+"This formatter should usually be used as the base class of all "
+"formatters. It is a traited :class:`Configurable` class and includes an "
+"extensible API for users to determine how their objects are formatted. "
+"The following logic is used to find a function to format an given object."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:8 of
+msgid ""
+"The object is introspected to see if it has a method with the name "
+":attr:`print_method`. If is does, that object is passed to that method "
+"for formatting."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:11 of
+msgid ""
+"If no print method is found, three internal dictionaries are consulted to"
+" find print method: :attr:`singleton_printers`, :attr:`type_printers` and"
+" :attr:`deferred_printers`."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:15 of
+msgid ""
+"Users should use these dictionaries to register functions that will be "
+"used to compute the format data for their objects (if those objects don't"
+" have the special print methods). The easiest way of using these "
+"dictionaries is through the :meth:`for_type` and :meth:`for_type_by_name`"
+" methods."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter:21 of
+msgid ""
+"If no function/callable is found to compute the format data, ``None`` is "
+"returned and this format type is not used."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:1 of
+msgid "Add a format function for a given type."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:3 of
+msgid "The class of the object that will be formatted using `func`."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:5 of
+msgid ""
+"A callable for computing the format data. `func` will be called with the "
+"object to be formatted, and will return the raw data in this formatter's "
+"format. Subclasses may use a different call signature for the `func` "
+"argument.  If `func` is None or not specified, there will be no change, "
+"only returning the current value."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:5
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:9 of
+msgid ""
+"A callable for computing the format data. `func` will be called with the "
+"object to be formatted, and will return the raw data in this formatter's "
+"format. Subclasses may use a different call signature for the `func` "
+"argument."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:11 of
+msgid ""
+"If `func` is None or not specified, there will be no change, only "
+"returning the current value."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type:15
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:19 of
+msgid ""
+"**oldfunc** -- The currently registered callable. If you are registering "
+"a new formatter, this will be the previous value (to enable restoring "
+"later)."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:1 of
+msgid ""
+"Add a format function for a type specified by the full dotted module and "
+"name of the type, rather than the type of the object."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:4 of
+msgid "The full dotted name of the module the type is defined in, like ``numpy``."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:7 of
+msgid "The name of the type (the class name), like ``dtype``"
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:9 of
+msgid ""
+"A callable for computing the format data. `func` will be called with the "
+"object to be formatted, and will return the raw data in this formatter's "
+"format. Subclasses may use a different call signature for the `func` "
+"argument.  If `func` is None or unspecified, there will be no change, "
+"only returning the current value."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.for_type_by_name:15 of
+msgid ""
+"If `func` is None or unspecified, there will be no change, only returning"
+" the current value."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.lookup:1 of
+msgid "Look up the formatter for a given instance."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.lookup:6
+#: IPython.core.formatters.BaseFormatter.lookup_by_type:6 of
+msgid "**f** -- The registered formatting callable for the type."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.lookup
+#: IPython.core.formatters.BaseFormatter.lookup_by_type
+#: IPython.core.formatters.BaseFormatter.pop of
+msgid "raises"
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.lookup:9
+#: IPython.core.formatters.BaseFormatter.lookup_by_type:9 of
+msgid "KeyError if the type has not been registered."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.lookup_by_type:1 of
+msgid "Look up the registered formatter for a type."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.pop:1 of
+msgid "Pop a formatter for the given type."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.pop:5 of
+msgid "value to be returned if no formatter is registered for typ."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.pop:8 of
+msgid "**obj** -- The last registered object for the type."
+msgstr ""
+
+#: IPython.core.formatters.BaseFormatter.pop:11 of
+msgid "KeyError if the type is not registered and default is not specified."
+msgstr ""
+
+#: IPython.core.formatters.HTMLFormatter:1
+#: IPython.core.formatters.IPythonDisplayFormatter:1
+#: IPython.core.formatters.JPEGFormatter:1
+#: IPython.core.formatters.JSONFormatter:1
+#: IPython.core.formatters.JavascriptFormatter:1
+#: IPython.core.formatters.LatexFormatter:1
+#: IPython.core.formatters.MarkdownFormatter:1
+#: IPython.core.formatters.MimeBundleFormatter:1
+#: IPython.core.formatters.PDFFormatter:1
+#: IPython.core.formatters.PNGFormatter:1
+#: IPython.core.formatters.PlainTextFormatter:1
+#: IPython.core.formatters.SVGFormatter:1 of
+msgid "Bases: :class:`IPython.core.formatters.BaseFormatter`"
+msgstr ""
+
+#: IPython.core.formatters.PlainTextFormatter:1 of
+msgid "The default pretty-printer."
+msgstr ""
+
+#: IPython.core.formatters.PlainTextFormatter:3 of
+msgid ""
+"This uses :mod:`IPython.lib.pretty` to compute the format data of the "
+"object. If the object cannot be pretty printed, :func:`repr` is used. See"
+" the documentation of :mod:`IPython.lib.pretty` for details on how to "
+"write pretty printers.  Here is a simple example::"
+msgstr ""
+
+#: IPython.core.formatters.HTMLFormatter:1 of
+msgid "An HTML formatter."
+msgstr ""
+
+#: IPython.core.formatters.HTMLFormatter:3 of
+msgid ""
+"To define the callables that compute the HTML representation of your "
+"objects, define a :meth:`_repr_html_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.HTMLFormatter:8 of
+msgid ""
+"The return value of this formatter should be a valid HTML snippet that "
+"could be injected into an existing DOM. It should *not* include the "
+"```<html>`` or ```<body>`` tags."
+msgstr ""
+
+#: IPython.core.formatters.MarkdownFormatter:1 of
+msgid "A Markdown formatter."
+msgstr ""
+
+#: IPython.core.formatters.MarkdownFormatter:3 of
+msgid ""
+"To define the callables that compute the Markdown representation of your "
+"objects, define a :meth:`_repr_markdown_` method or use the "
+":meth:`for_type` or :meth:`for_type_by_name` methods to register "
+"functions that handle this."
+msgstr ""
+
+#: IPython.core.formatters.MarkdownFormatter:8 of
+msgid "The return value of this formatter should be a valid Markdown."
+msgstr ""
+
+#: IPython.core.formatters.SVGFormatter:1 of
+msgid "An SVG formatter."
+msgstr ""
+
+#: IPython.core.formatters.SVGFormatter:3 of
+msgid ""
+"To define the callables that compute the SVG representation of your "
+"objects, define a :meth:`_repr_svg_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.SVGFormatter:8 of
+msgid ""
+"The return value of this formatter should be valid SVG enclosed in "
+"```<svg>``` tags, that could be injected into an existing DOM. It should "
+"*not* include the ```<html>`` or ```<body>`` tags."
+msgstr ""
+
+#: IPython.core.formatters.PNGFormatter:1 of
+msgid "A PNG formatter."
+msgstr ""
+
+#: IPython.core.formatters.PNGFormatter:3 of
+msgid ""
+"To define the callables that compute the PNG representation of your "
+"objects, define a :meth:`_repr_png_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.PNGFormatter:8 of
+msgid ""
+"The return value of this formatter should be raw PNG data, *not* base64 "
+"encoded."
+msgstr ""
+
+#: IPython.core.formatters.JPEGFormatter:1 of
+msgid "A JPEG formatter."
+msgstr ""
+
+#: IPython.core.formatters.JPEGFormatter:3 of
+msgid ""
+"To define the callables that compute the JPEG representation of your "
+"objects, define a :meth:`_repr_jpeg_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.JPEGFormatter:8 of
+msgid ""
+"The return value of this formatter should be raw JPEG data, *not* base64 "
+"encoded."
+msgstr ""
+
+#: IPython.core.formatters.LatexFormatter:1 of
+msgid "A LaTeX formatter."
+msgstr ""
+
+#: IPython.core.formatters.LatexFormatter:3 of
+msgid ""
+"To define the callables that compute the LaTeX representation of your "
+"objects, define a :meth:`_repr_latex_` method or use the :meth:`for_type`"
+" or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.LatexFormatter:8 of
+msgid ""
+"The return value of this formatter should be a valid LaTeX equation, "
+"enclosed in either ```$```, ```$$``` or another LaTeX equation "
+"environment."
+msgstr ""
+
+#: IPython.core.formatters.JSONFormatter:1 of
+msgid "A JSON string formatter."
+msgstr ""
+
+#: IPython.core.formatters.JSONFormatter:3 of
+msgid ""
+"To define the callables that compute the JSONable representation of your "
+"objects, define a :meth:`_repr_json_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.JSONFormatter:8 of
+msgid ""
+"The return value of this formatter should be a JSONable list or dict. "
+"JSON scalars (None, number, string) are not allowed, only dict or list "
+"containers."
+msgstr ""
+
+#: IPython.core.formatters.JavascriptFormatter:1 of
+msgid "A Javascript formatter."
+msgstr ""
+
+#: IPython.core.formatters.JavascriptFormatter:3 of
+msgid ""
+"To define the callables that compute the Javascript representation of "
+"your objects, define a :meth:`_repr_javascript_` method or use the "
+":meth:`for_type` or :meth:`for_type_by_name` methods to register "
+"functions that handle this."
+msgstr ""
+
+#: IPython.core.formatters.JavascriptFormatter:8 of
+msgid ""
+"The return value of this formatter should be valid Javascript code and "
+"should *not* be enclosed in ```<script>``` tags."
+msgstr ""
+
+#: IPython.core.formatters.PDFFormatter:1 of
+msgid "A PDF formatter."
+msgstr ""
+
+#: IPython.core.formatters.PDFFormatter:3 of
+msgid ""
+"To define the callables that compute the PDF representation of your "
+"objects, define a :meth:`_repr_pdf_` method or use the :meth:`for_type` "
+"or :meth:`for_type_by_name` methods to register functions that handle "
+"this."
+msgstr ""
+
+#: IPython.core.formatters.PDFFormatter:8 of
+msgid ""
+"The return value of this formatter should be raw PDF data, *not* base64 "
+"encoded."
+msgstr ""
+
+#: IPython.core.formatters.IPythonDisplayFormatter:1 of
+msgid "An escape-hatch Formatter for objects that know how to display themselves."
+msgstr ""
+
+#: IPython.core.formatters.IPythonDisplayFormatter:3 of
+msgid ""
+"To define the callables that compute the representation of your objects, "
+"define a :meth:`_ipython_display_` method or use the :meth:`for_type` or "
+":meth:`for_type_by_name` methods to register functions that handle this. "
+"Unlike mime-type displays, this method should not return anything, "
+"instead calling any appropriate display methods itself."
+msgstr ""
+
+#: IPython.core.formatters.IPythonDisplayFormatter:9 of
+msgid ""
+"This display formatter has highest priority. If it fires, no other "
+"display formatter will be called."
+msgstr ""
+
+#: IPython.core.formatters.IPythonDisplayFormatter:12 of
+msgid ""
+"Prior to IPython 6.1, `_ipython_display_` was the only way to display "
+"custom mime-types without registering a new Formatter."
+msgstr ""
+
+#: IPython.core.formatters.IPythonDisplayFormatter:15 of
+msgid ""
+"IPython 6.1 introduces `_repr_mimebundle_` for displaying custom mime-"
+"types, so `_ipython_display_` should only be used for objects that "
+"require unusual display patterns, such as multiple display calls."
+msgstr ""
+
+#: IPython.core.formatters.MimeBundleFormatter:1 of
+msgid "A Formatter for arbitrary mime-types."
+msgstr ""
+
+#: IPython.core.formatters.MimeBundleFormatter:3 of
+msgid ""
+"Unlike other `_repr_<mimetype>_` methods, `_repr_mimebundle_` should "
+"return mime-bundle data, either the mime-keyed `data` dictionary or the "
+"tuple `(data, metadata)`. Any mime-type is valid."
+msgstr ""
+
+#: IPython.core.formatters.MimeBundleFormatter:8 of
+msgid ""
+"To define the callables that compute the mime-bundle representation of "
+"your objects, define a :meth:`_repr_mimebundle_` method or use the "
+":meth:`for_type` or :meth:`for_type_by_name` methods to register "
+"functions that handle this."
+msgstr ""
+
+#: ../../source/api/generated/IPython.core.formatters.rst:77
+msgid "2 Functions"
+msgstr ""
+
+#: IPython.core.formatters.catch_format_error:1 of
+msgid "show traceback on failed format call"
+msgstr ""
+
+#: IPython.core.formatters.format_display_data:8 of
+msgid ""
+"* **format_dict** (*dict*) -- A dictionary of key/value pairs, one or "
+"each format that was   generated for the object. The keys are the format "
+"types, which   will usually be MIME type strings and the values and "
+"JSON'able   data structure containing the raw data for the representation"
+" in   that format. * **include** (*list or tuple, optional*) -- A list of"
+" format type strings (MIME types) to include in the   format data dict. "
+"If this is set *only* the format types included   in this list will be "
+"computed. * **exclude** (*list or tuple, optional*) -- A list of format "
+"type string (MIME types) to exclue in the format   data dict. If this is "
+"set all format types will be computed,   except for those included in "
+"this argument."
+msgstr ""
+
+#: IPython.core.formatters.format_display_data:8 of
+msgid ""
+"**format_dict** (*dict*) -- A dictionary of key/value pairs, one or each "
+"format that was generated for the object. The keys are the format types, "
+"which will usually be MIME type strings and the values and JSON'able data"
+" structure containing the raw data for the representation in that format."
+msgstr ""
+
+#: IPython.core.formatters.format_display_data:13 of
+msgid ""
+"**include** (*list or tuple, optional*) -- A list of format type strings "
+"(MIME types) to include in the format data dict. If this is set *only* "
+"the format types included in this list will be computed."
+msgstr ""
+
+#: IPython.core.formatters.format_display_data:16 of
+msgid ""
+"**exclude** (*list or tuple, optional*) -- A list of format type string "
+"(MIME types) to exclue in the format data dict. If this is set all format"
+" types will be computed, except for those included in this argument."
+msgstr ""
+

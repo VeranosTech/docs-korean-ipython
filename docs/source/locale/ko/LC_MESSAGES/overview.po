@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The IPython Development Team
+# This file is distributed under the same license as the IPython package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IPython 7.3.0.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 11:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../<rst_prolog>:4
+msgid ""
+"This documentation covers a development version of IPython. The "
+"development version may differ significantly from the latest stable "
+"release."
+msgstr ""
+
+#: ../../<rst_prolog>:9
+msgid ""
+"This documentation covers IPython versions 6.0 and higher. Beginning with"
+" version 6.0, IPython stopped supporting compatibility with Python "
+"versions lower than 3.3 including all versions of Python 2.7."
+msgstr ""
+
+#: ../../<rst_prolog>:13
+msgid ""
+"If you are looking for an IPython version compatible with Python 2.7, "
+"please use the IPython 5.x LTS release and refer to its documentation "
+"(LTS is the long term support release)."
+msgstr ""
+
+#: ../../source/overview.rst:5
+msgid "Overview"
+msgstr ""
+
+#: ../../source/overview.rst:7
+msgid ""
+"One of Python's most useful features is its interactive interpreter. It "
+"allows for very fast testing of ideas without the overhead of creating "
+"test files as is typical in most programming languages. However, the "
+"interpreter supplied with the standard Python distribution is somewhat "
+"limited for extended interactive use."
+msgstr ""
+
+#: ../../source/overview.rst:13
+msgid ""
+"The goal of IPython is to create a comprehensive environment for "
+"interactive and exploratory computing.  To support this goal, IPython has"
+" three main components:"
+msgstr ""
+
+#: ../../source/overview.rst:17
+msgid "An enhanced interactive Python shell."
+msgstr ""
+
+#: ../../source/overview.rst:19
+msgid ""
+"A decoupled :ref:`two-process communication model <ipythonzmq>`, which "
+"allows for multiple clients to connect to a computation kernel, most "
+"notably the web-based notebook provided with `Jupyter "
+"<https://jupyter.org>`_."
+msgstr ""
+
+#: ../../source/overview.rst:23
+msgid ""
+"An architecture for interactive parallel computing now part of the "
+"`ipyparallel` package."
+msgstr ""
+
+#: ../../source/overview.rst:26
+msgid "All of IPython is open source (released under the revised BSD license)."
+msgstr ""
+
+#: ../../source/overview.rst:29
+msgid "Enhanced interactive Python shell"
+msgstr ""
+
+#: ../../source/overview.rst:31
+msgid ""
+"IPython's interactive shell (:command:`ipython`), has the following "
+"goals, amongst others:"
+msgstr ""
+
+#: ../../source/overview.rst:34
+msgid ""
+"Provide an interactive shell superior to Python's default. IPython has "
+"many features for tab-completion, object introspection, system shell "
+"access, command history retrieval across sessions, and its own special "
+"command system for adding functionality when working interactively. It "
+"tries to be a very efficient environment both for Python code development"
+" and for exploration of problems using Python objects (in situations like"
+" data analysis)."
+msgstr ""
+
+#: ../../source/overview.rst:42
+msgid ""
+"Serve as an embeddable, ready to use interpreter for your own programs. "
+"An interactive IPython shell can be started with a single call from "
+"inside another program, providing access to the current namespace. This "
+"can be very useful both for debugging purposes and for situations where a"
+" blend of batch-processing and interactive exploration are needed."
+msgstr ""
+
+#: ../../source/overview.rst:48
+msgid ""
+"Offer a flexible framework which can be used as the base environment for "
+"working with other systems, with Python as the underlying bridge "
+"language. Specifically scientific environments like Mathematica, IDL and "
+"Matlab inspired its design, but similar ideas can be useful in many "
+"fields."
+msgstr ""
+
+#: ../../source/overview.rst:54
+msgid ""
+"Allow interactive testing of threaded graphical toolkits. IPython has "
+"support for interactive, non-blocking control of GTK, Qt, WX, GLUT, and "
+"OS X applications via special threading flags. The normal Python shell "
+"can only do this for Tkinter applications."
+msgstr ""
+
+#: ../../source/overview.rst:60
+msgid "Main features of the interactive shell"
+msgstr ""
+
+#: ../../source/overview.rst:62
+msgid ""
+"Dynamic object introspection. One can access docstrings, function "
+"definition prototypes, source code, source files and other details of any"
+" object accessible to the interpreter with a single keystroke (:samp:`?`,"
+" and using :samp:`??` provides additional detail)."
+msgstr ""
+
+#: ../../source/overview.rst:67
+msgid ""
+"Searching through modules and namespaces with :samp:`*` wildcards, both "
+"when using the :samp:`?` system and via the :samp:`%psearch` command."
+msgstr ""
+
+#: ../../source/overview.rst:70
+msgid ""
+"Completion in the local namespace, by typing :kbd:`TAB` at the prompt. "
+"This works for keywords, modules, methods, variables and files in the "
+"current directory. This is supported via the ``prompt_toolkit`` library. "
+"Custom completers can be implemented easily for different purposes "
+"(system commands, magic arguments etc.)"
+msgstr ""
+
+#: ../../source/overview.rst:76
+msgid ""
+"Numbered input/output prompts with command history (persistent across "
+"sessions and tied to each profile), full searching in this history and "
+"caching of all input and output."
+msgstr ""
+
+#: ../../source/overview.rst:80
+#, python-format
+msgid ""
+"User-extensible 'magic' commands. A set of commands prefixed with "
+":samp:`%`  or :samp:`%%` is available for controlling IPython itself and "
+"provides directory control, namespace information and many aliases to "
+"common system shell commands."
+msgstr ""
+
+#: ../../source/overview.rst:85
+msgid "Alias facility for defining your own system aliases."
+msgstr ""
+
+#: ../../source/overview.rst:87
+msgid ""
+"Complete system shell access. Lines starting with :samp:`!` are passed "
+"directly to the system shell, and using :samp:`!!` or :samp:`var = !cmd` "
+"captures shell output into python variables for further use."
+msgstr ""
+
+#: ../../source/overview.rst:91
+msgid ""
+"The ability to expand python variables when calling the system shell. In "
+"a shell command, any python variable prefixed with :samp:`$` is expanded."
+" A double :samp:`$$` allows passing a literal :samp:`$` to the shell (for"
+" access to shell and environment variables like :envvar:`PATH`)."
+msgstr ""
+
+#: ../../source/overview.rst:96
+#, python-format
+msgid ""
+"Filesystem navigation, via a magic :samp:`%cd` command, along with a "
+"persistent bookmark system (using :samp:`%bookmark`) for fast access to "
+"frequently visited directories."
+msgstr ""
+
+#: ../../source/overview.rst:100
+#, python-format
+msgid ""
+"A lightweight persistence framework via the :samp:`%store` command, which"
+" allows you to save arbitrary Python variables. These get restored when "
+"you run the :samp:`%store -r` command."
+msgstr ""
+
+#: ../../source/overview.rst:104
+msgid ""
+"Automatic indentation and highlighting of code as you type (through the "
+"`prompt_toolkit` library)."
+msgstr ""
+
+#: ../../source/overview.rst:107
+#, python-format
+msgid ""
+"Macro system for quickly re-executing multiple lines of previous input "
+"with a single name via the :samp:`%macro` command. Macros can be stored "
+"persistently via :samp:`%store` and edited via :samp:`%edit`."
+msgstr ""
+
+#: ../../source/overview.rst:111
+msgid ""
+"Session logging (you can then later use these logs as code in your "
+"programs). Logs can optionally timestamp all input, and also store "
+"session output (marked as comments, so the log remains valid Python "
+"source code)."
+msgstr ""
+
+#: ../../source/overview.rst:116
+msgid ""
+"Session restoring: logs can be replayed to restore a previous session to "
+"the state where you left it."
+msgstr ""
+
+#: ../../source/overview.rst:119
+msgid ""
+"Verbose and colored exception traceback printouts. Easier to parse "
+"visually, and in verbose mode they produce a lot of useful debugging "
+"information (basically a terminal version of the cgitb module)."
+msgstr ""
+
+#: ../../source/overview.rst:124
+msgid ""
+"Auto-parentheses via the :samp:`%autocall` command: callable objects can "
+"be executed without parentheses: :samp:`sin 3` is automatically converted"
+" to :samp:`sin(3)`"
+msgstr ""
+
+#: ../../source/overview.rst:128
+msgid ""
+"Auto-quoting: using :samp:`,`, or :samp:`;` as the first character forces"
+" auto-quoting of the rest of the line: :samp:`,my_function a b` becomes "
+"automatically :samp:`my_function(\"a\",\"b\")`, while :samp:`;my_function"
+" a b` becomes :samp:`my_function(\"a b\")`."
+msgstr ""
+
+#: ../../source/overview.rst:133
+msgid ""
+"Extensible input syntax. You can define filters that pre-process user "
+"input to simplify input in special situations. This allows for example "
+"pasting multi-line code fragments which start with :samp:`>>>` or "
+":samp:`...` such as those from other python sessions or the standard "
+"Python documentation."
+msgstr ""
+
+#: ../../source/overview.rst:139
+msgid ""
+"Flexible :ref:`configuration system <config_overview>`. It uses a "
+"configuration file which allows permanent setting of all command-line "
+"options, module loading, code and file execution. The system allows "
+"recursive file inclusion, so you can have a base file with defaults and "
+"layers which load other customizations for particular projects."
+msgstr ""
+
+#: ../../source/overview.rst:145
+msgid ""
+"Embeddable. You can call IPython as a python shell inside your own python"
+" programs. This can be used both for debugging code or for providing "
+"interactive abilities to your programs with knowledge about the local "
+"namespaces (very useful in debugging and data analysis situations)."
+msgstr ""
+
+#: ../../source/overview.rst:151
+#, python-format
+msgid ""
+"Easy debugger access. You can set IPython to call up an enhanced version "
+"of the Python debugger (pdb) every time there is an uncaught exception. "
+"This drops you inside the code which triggered the exception with all the"
+" data live and it is possible to navigate the stack to rapidly isolate "
+"the source of a bug. The :samp:`%run` magic command (with the :samp:`-d` "
+"option) can run any script under pdb's control, automatically setting "
+"initial breakpoints for you.  This version of pdb has IPython-specific "
+"improvements, including tab-completion and traceback coloring support. "
+"For even easier debugger access, try :samp:`%debug` after seeing an "
+"exception."
+msgstr ""
+
+#: ../../source/overview.rst:161
+#, python-format
+msgid ""
+"Profiler support. You can run single statements (similar to "
+":samp:`profile.run()`) or complete programs under the profiler's control."
+" While this is possible with standard cProfile or profile modules, "
+"IPython wraps this functionality with magic commands (see :samp:`%prun` "
+"and :samp:`%run -p`) convenient for rapid interactive work."
+msgstr ""
+
+#: ../../source/overview.rst:167
+msgid ""
+"Simple timing information. You can use the :samp:`%timeit` command to get"
+" the execution time of a Python statement or expression. This machinery "
+"is intelligent enough to do more repetitions for commands that finish "
+"very quickly in order to get a better estimate of their running time."
+msgstr ""
+
+#: ../../source/overview.rst:182
+#, python-format
+msgid ""
+"To get the timing information for more than one expression, use the "
+":samp:`%%timeit` cell magic command."
+msgstr ""
+
+#: ../../source/overview.rst:186
+#, python-format
+msgid ""
+"Doctest support. The special :samp:`%doctest_mode` command toggles a mode"
+" to use doctest-compatible prompts, so you can use IPython sessions as "
+"doctest code. By default, IPython also allows you to paste existing "
+"doctests, and strips out the leading :samp:`>>>` and :samp:`...` prompts "
+"in them."
+msgstr ""
+
+#: ../../source/overview.rst:195
+msgid "Decoupled two-process model"
+msgstr ""
+
+#: ../../source/overview.rst:197
+msgid ""
+"IPython has abstracted and extended the notion of a traditional *Read-"
+"Evaluate-Print Loop* (REPL) environment by decoupling the *evaluation* "
+"into its own process. We call this process a **kernel**: it receives "
+"execution instructions from clients and communicates the results back to "
+"them."
+msgstr ""
+
+#: ../../source/overview.rst:202
+msgid ""
+"This decoupling allows us to have several clients connected to the same "
+"kernel, and even allows clients and kernels to live on different "
+"machines. With the exclusion of the traditional single process terminal-"
+"based IPython (what you start if you run ``ipython`` without any "
+"subcommands), all other IPython machinery uses this two-process model. "
+"Most of this is now part of the `Jupyter` project, which includes "
+"``jupyter console``,  ``jupyter qtconsole``, and ``jupyter notebook``."
+msgstr ""
+
+#: ../../source/overview.rst:210
+#, python-format
+msgid ""
+"As an example, this means that when you start ``jupyter qtconsole``, "
+"you're really starting two processes, a kernel and a Qt-based client "
+"which can send commands to and receive results from that kernel. If there"
+" is already a kernel running that you want to connect to, you can pass "
+"the  ``--existing`` flag which will skip initiating a new kernel and "
+"connect to the most recent kernel, instead. To connect to a specific "
+"kernel once you have several kernels running, use the ``%connect_info`` "
+"magic to get the unique connection file, which will be something like "
+"``--existing kernel-19732.json`` but with different numbers which "
+"correspond to the Process ID of the kernel."
+msgstr ""
+
+#: ../../source/overview.rst:220
+msgid ""
+"You can read more about using `jupyter qtconsole "
+"<https://jupyter.org/qtconsole/>`_, and `jupyter notebook <http"
+"://jupyter-notebook.readthedocs.io/en/latest/>`_. There is also a "
+":ref:`message spec <messaging>` which documents the protocol for "
+"communication between kernels and clients."
+msgstr ""
+
+#: ../../source/overview.rst:229
+msgid "`Frontend/Kernel Model`_ example notebook"
+msgstr ""
+
+#: ../../source/overview.rst:233
+msgid "Interactive parallel computing"
+msgstr ""
+
+#: ../../source/overview.rst:236
+msgid ""
+"This functionality is optional and now part of the `ipyparallel "
+"<http://ipyparallel.readthedocs.io/>`_ project."
+msgstr ""
+
+#: ../../source/overview.rst:240
+msgid "Portability and Python requirements"
+msgstr ""
+
+#: ../../source/overview.rst:242
+msgid ""
+"Version 7.0+ supports Python 3.4 and higher. Versions 6.x support Python "
+"3.3 and higher. Versions 2.0 to 5.x work with Python 2.7.x releases and "
+"Python 3.3 and higher. Version 1.0 additionally worked with Python 2.6 "
+"and 3.2. Version 0.12 was the first version to fully support Python 3."
+msgstr ""
+
+#: ../../source/overview.rst:248
+msgid "IPython is known to work on the following operating systems:"
+msgstr ""
+
+#: ../../source/overview.rst:250
+msgid "Linux"
+msgstr ""
+
+#: ../../source/overview.rst:251
+msgid "Most other Unix-like OSs (AIX, Solaris, BSD, etc.)"
+msgstr ""
+
+#: ../../source/overview.rst:252
+msgid "Mac OS X"
+msgstr ""
+
+#: ../../source/overview.rst:253
+msgid "Windows (CygWin, XP, Vista, etc.)"
+msgstr ""
+
+#: ../../source/overview.rst:255
+msgid ""
+"See :ref:`here <install_index>` for instructions on how to install "
+"IPython."
+msgstr ""
+
