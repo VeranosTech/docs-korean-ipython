@@ -1,0 +1,50 @@
+.. AUTO-GENERATED FILE -- DO NOT EDIT!
+
+Module: :mod:`testing.iptestcontroller`
+=======================================
+.. automodule:: IPython.testing.iptestcontroller
+
+.. currentmodule:: IPython.testing.iptestcontroller
+
+3 Classes
+---------
+
+.. autoclass:: TimeoutExpired
+  :members:
+  :show-inheritance:
+
+.. autoclass:: TestController
+  :members:
+  :show-inheritance:
+
+  .. automethod:: __init__
+
+.. autoclass:: PyTestController
+  :members:
+  :show-inheritance:
+
+  .. automethod:: __init__
+
+7 Functions
+-----------
+
+.. autofunction:: IPython.testing.iptestcontroller.popen_wait
+
+
+.. autofunction:: IPython.testing.iptestcontroller.prepare_controllers
+
+
+.. autofunction:: IPython.testing.iptestcontroller.do_run
+
+
+.. autofunction:: IPython.testing.iptestcontroller.report
+
+
+.. autofunction:: IPython.testing.iptestcontroller.run_iptestall
+
+
+.. autofunction:: IPython.testing.iptestcontroller.default_options
+
+
+.. autofunction:: IPython.testing.iptestcontroller.main
+

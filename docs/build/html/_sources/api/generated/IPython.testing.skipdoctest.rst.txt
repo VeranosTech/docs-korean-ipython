@@ -1,0 +1,19 @@
+.. AUTO-GENERATED FILE -- DO NOT EDIT!
+
+Module: :mod:`testing.skipdoctest`
+==================================
+.. automodule:: IPython.testing.skipdoctest
+
+.. currentmodule:: IPython.testing.skipdoctest
+
+3 Functions
+-----------
+
+.. autofunction:: IPython.testing.skipdoctest.skip_doctest
+
+
+.. autofunction:: IPython.testing.skipdoctest.skip_doctest_py3
+
+
+.. autofunction:: IPython.testing.skipdoctest.skip_doctest_py2
+
